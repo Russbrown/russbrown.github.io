@@ -2,10 +2,20 @@
 
 .header {
 	width: 100%;
+	border-bottom: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+
+	.title {
+		margin-bottom: 0;
+		font-size: 2em;
+	}
 
 	.title a {
 		text-decoration: none;
 	}
 
-	border-bottom: 1px solid #dedede;
+	.subheader {
+		font-size: 1.2em;
+		margin-top: 0;
+	}
 }

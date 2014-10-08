@@ -1,31 +1,40 @@
 // typography
 
-h1, h2, h3, h4, h5, h6 {
-	color: #181818;
-	font-family: 'Lato', sans-serif;
-	font-weight: normal; 
+body {
+  font-size: 0.875em;
+  line-height: 1.428571429em;
+  margin: 0 auto;
+	font-family: 'PT Sans', sans-serif;}
+h1 {
+  font-size: 5.857142857em;
+  line-height: 1.219512195em;
+  margin-top: 0.48780488em;
+  margin-bottom: 0.24390244em;
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight: 700;
 }
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { 
-	font-size: 35px; 
-	line-height: 50px; 
-	margin-bottom: 14px;
+h2 {
+  font-size: 3.214285714em;
+  line-height: 1.333333332em;
+  margin-top: 0.88888889em;
+  margin-bottom: 0.44444444em;
 }
-h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-h5 { font-size: 17px; line-height: 24px; }
-h6 { font-size: 14px; line-height: 21px; }
-.subheader { color: #777; }
-
-p { margin: 0 0 20px 0; }
-p img { margin: 0; }
-p.lead { font-size: 21px; line-height: 27px; color: #777;  }
-
-em { font-style: italic; }
-strong { font-weight: bold; color: #333; }
-small { font-size: 80%; }
+h3 {
+  font-size: 1.785714286em;
+  line-height: 1.6em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.428571429em;
+  margin-top: 1.42857143em;
+  margin-bottom: 1.42857143em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.42857143em;
+  margin-bottom: 1.42857143em;
+}
 
 /*	@font-face {
 	    font-family: 'FontName';
