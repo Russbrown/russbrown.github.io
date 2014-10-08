@@ -1,0 +1,26 @@
+// grid
+
+
+
+// one
+.one-of-four {
+	width: 80%;
+	margin-left: 10%;
+}
+
+@media screen and (min-width: 500px) {
+	// two
+	.one-of-four {
+		width: 47%;
+		margin-left: 2%;
+	}
+}
+
+
+@media screen and (min-width: 800px) {
+	// four 
+	.one-of-four {
+		width: 20%;
+		margin-left: 4%;
+	}
+}
