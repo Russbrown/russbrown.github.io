@@ -52,7 +52,7 @@ body {
   font-size: 0.875em;
   line-height: 1.428571429em;
   margin: 0 auto;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h1 {
   line-height: 1.219512195em;
   margin-top: 0.48780488em;
   margin-bottom: 0.24390244em;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
 }
 
@@ -88,6 +88,10 @@ h4 {
 p, ul, ol, pre, table, blockquote {
   margin-top: 1.42857143em;
   margin-bottom: 1.42857143em;
+}
+
+em {
+  font-style: italic;
 }
 
 /*	@font-face {

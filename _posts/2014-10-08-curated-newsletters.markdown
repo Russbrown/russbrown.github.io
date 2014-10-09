@@ -15,6 +15,8 @@ Curation is a human task, it's what makes these newsletters so valuable. All the
 
 So this made me think it would have to be a human task of sifting through the newsletters and picking out the best bits. Perhaps it would be a service where you chose the newsletters you were signed up to and the system then produced a newsletter based on the best bits of the newsletters you had signed up to.
 
+Would my best bits necessarily be everyone elses best bits? Whether whats interesting from these newsletters is unique to me or more universal is something you'd only find out by trying it. 
+
 This then lead me on to the moral aspect of this. These fantastic newsletters I'm looking to compile take an enormous amount of reading, scanning and, well, curating to get them to my inbox every week. Is it a bit disresepctful to then take that great (free!) work and refine it again to create a new service to people?
 
 Whether this is a service people would appreciate or one that is completely despicable, I still can't decide.
