@@ -241,8 +241,10 @@ input::-moz-focus-inner {
 }
 
 .site {
-  width: 64em;
+  max-width: 64em;
+  width: 100%;
   margin: 4em auto;
+  padding: 2em;
 }
 
 #home {
