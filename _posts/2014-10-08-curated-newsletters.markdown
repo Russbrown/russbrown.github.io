@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Curated Newsletter of Curated Newsletters"
-date:   2014-10-09 09:00:00
+date:   2014-10-08 09:00:00
 categories: ideas
 ---
 
