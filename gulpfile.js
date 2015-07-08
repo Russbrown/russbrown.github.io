@@ -2,14 +2,7 @@ var gulp = require('gulp'),
     sass = require('gulp-ruby-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-minify-css'),
-    jshint = require('gulp-jshint'),
-    uglify = require('gulp-uglify'),
-    imagemin = require('gulp-imagemin'),
-    rename = require('gulp-rename'),
-    clean = require('gulp-clean'),
-    concat = require('gulp-concat'),
-    notify = require('gulp-notify'),
-    cache = require('gulp-cache');
+    notify = require('gulp-notify');
 
 
 gulp.task('styles', function() {
@@ -52,7 +45,7 @@ gulp.task('watch', function() {
   // gulp.watch('assets/js/**/*.js', ['scripts']);
 
   // Watch image files
-  gulp.watch('images/**/*', ['images']);
+  // gulp.watch('images/**/*', ['images']);
 
 });
 
