@@ -1,0 +1,38 @@
+.cv-container {
+	padding-top: 60px;
+
+	.col4 {
+		width: 21%;
+		float: left;
+		margin-right: 4%;
+	}
+
+	h4 {
+		font-size: 1em;
+		font-weight: bold;
+	}
+}
+
+.cv-footer {
+
+	h1 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.site .cv-container .col4 {
+		width: 46%;
+		margin-right: 4%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.site .cv-container .col4 {
+		width: 100%;
+	}
+
+}
