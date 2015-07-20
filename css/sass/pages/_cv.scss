@@ -13,8 +13,36 @@
 	}
 }
 
+.goals {
+	margin: 1em 0;
+	padding: 1em 0;
+}
+
+.goals:first-child {
+	border-top: 1px solid #dedede;
+	padding-top: 2em;
+}
+
+.goals-success {
+	color: #39B24E !important;
+}
+
+.goals-fail {
+	color: #B22B45 !important;
+}
+
+.goals-title {
+	margin-top: 0;
+	margin-bottom: 0;		
+}
+
 .cv-footer {
-	text-align: center;
+
+	.contact {
+		text-align: center;
+		padding-top: 1em;
+		border-top: 1px solid #dedede;
+	}
 
 	h1 {
 		margin-bottom: 0;
