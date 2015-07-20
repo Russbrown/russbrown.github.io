@@ -4,10 +4,15 @@
 	width: 100%;
 	border-bottom: 1px solid #dedede;
 	border-top: 1px solid #dedede;
+	text-align: center;
 
 	.title {
 		margin-bottom: 0;
-		font-size: 2em;
+		margin-top: 0;
+		font-family: $header-font;
+		font-size: 7em;
+		font-weight: normal;
+		
 	}
 
 	.title a {
