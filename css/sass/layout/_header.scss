@@ -9,10 +9,10 @@
 	.title {
 		margin-bottom: 0;
 		margin-top: 0;
-		font-family: $header-font;
+		font-family: $pre-load-header-font;
 		font-size: 7em;
 		font-weight: normal;
-		
+		text-transform: uppercase;
 	}
 
 	.title a {
@@ -23,4 +23,8 @@
 		font-size: 1.2em;
 		margin-top: 0;
 	}
+}
+
+.wf-muncieregular-n4-active .header .title {
+	font-family: $header-font;
 }
