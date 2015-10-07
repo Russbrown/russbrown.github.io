@@ -41,7 +41,7 @@ $(document).ready(function () {
         context.fillText("#Birmingham", 25, 100);
     };
 
-    imageObj.src = '/img/hiring.jpg';
+    imageObj.src = '/img/hiring1.jpg';
 
 	function downloadCanvas(link, canvasId, filename) {
 	    link.href = document.getElementById(canvasId).toDataURL();
