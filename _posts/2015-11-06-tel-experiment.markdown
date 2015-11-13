@@ -12,3 +12,11 @@ categories: HTML5
 <h3>With link tags</h3>
 
 <p>To make a booking, call <a href="tel:+07846490543">07846490543</a>
+
+<h3>With +44 in the href</h3>
+
+<p>To make a booking, call <a href="tel:+44 07846490543">+44 07846490543</a>
+
+<h3>With weird extra characters in the href</h3>
+
+<p>To make a booking, call <a href="tel:+44//-- 07846490543">+44//-- 07846490543</a>
