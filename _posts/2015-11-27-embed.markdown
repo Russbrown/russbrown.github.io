@@ -7,16 +7,7 @@ categories: experiments
 
 <h4>The code</h4>
 
-<code><pre>
-
-<p>
-	<strong>Please include attribution to www.irwinmitchell.com with this graphic.</strong><br /><br />
-    <a href='http://www.irwinmitchell.com/medialibrary/IM%20COM/Home/Infographics/StayBrightInfographicV5.jpg'>
-    	<img src='http://www.irwinmitchell.com/medialibrary/IM%20COM/Home/Infographics/StayBrightInfographicV5.jpg' alt='Road Safety A-Z' width='700px' border='0' />
-    </a>
-</p>
-
-</pre></code>
+<h3>Share this Image On Your Site</h3><textarea onclick='this.focus();this.select()' style='width:540px;height:100px'><p><strong>Please include attribution to www.irwinmitchell.com with this graphic.</strong><br /><br /><a href='http://www.irwinmitchell.com/medialibrary/IM%20COM/Home/Infographics/StayBrightInfographicV5.jpg'><img src='http://www.irwinmitchell.com/medialibrary/IM%20COM/Home/Infographics/StayBrightInfographicV5.jpg' alt='Road Safety A-Z' width='700px' border='0' /></a></p></textarea>
 
 <hr>
 
