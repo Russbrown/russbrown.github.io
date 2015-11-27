@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Embed Code"
+date:   2015-11-27 09:00:00
+categories: experiments
+---
+
+<h4>The code</h4>
+
+<code><pre>
+
+<p>
+	<strong>Please include attribution to www.irwinmitchell.com with this graphic.</strong><br /><br />
+    <a href='http://www.irwinmitchell.com/medialibrary/IM%20COM/Home/Infographics/StayBrightInfographicV5.jpg'>
+    	<img src='http://www.irwinmitchell.com/medialibrary/IM%20COM/Home/Infographics/StayBrightInfographicV5.jpg' alt='Road Safety A-Z' width='700px' border='0' />
+    </a>
+</p>
+
+</pre></code>
+
+<hr>
+
+<h4>The output:</h4>
+
+<p>
+	<strong>Please include attribution to www.irwinmitchell.com with this graphic.</strong><br /><br />
+    <a href='http://www.irwinmitchell.com/medialibrary/IM%20COM/Home/Infographics/StayBrightInfographicV5.jpg'>
+    	<img src='http://www.irwinmitchell.com/medialibrary/IM%20COM/Home/Infographics/StayBrightInfographicV5.jpg' alt='Road Safety A-Z' width='700px' border='0' />
+    </a>
+</p>
