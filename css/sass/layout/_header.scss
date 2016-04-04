@@ -9,7 +9,7 @@
 	.title {
 		margin-bottom: 0;
 		margin-top: 0;
-		font-family: $pre-load-header-font;
+		font-family: $header-font;
 		font-size: 7em;
 		font-weight: normal;
 		text-transform: uppercase;
@@ -23,8 +23,4 @@
 		font-size: 1.2em;
 		margin-top: 0;
 	}
-}
-
-.wf-muncieregular-n4-active .header .title {
-	font-family: $header-font;
 }

@@ -1,0 +1,535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"office",
+				"office__hours"
+			],
+			[
+				"grid",
+				"grid__wrapper	(office-child.html)"
+			],
+			[
+				"info",
+				"info__body"
+			],
+			[
+				"run",
+				"runAnimation"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"video",
+				"videoUrl	(pls.html)"
+			],
+			[
+				"vid",
+				"vidUrl"
+			],
+			[
+				"toggle",
+				"toggleAllComplete"
+			],
+			[
+				"rem",
+				"remaining"
+			],
+			[
+				"question",
+				"question__progress"
+			],
+			[
+				"question__",
+				"question__progress	(index.html)"
+			],
+			[
+				"questio",
+				"question__progress"
+			],
+			[
+				"modal--",
+				"modal--fact"
+			],
+			[
+				"ques",
+				"question__title"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"shorten",
+				"shortenCrumbs"
+			],
+			[
+				"last",
+				"lastCrumbWidth"
+			],
+			[
+				"reviews__",
+				"reviews__old-compatible"
+			],
+			[
+				"search",
+				"search__offices"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"parent",
+				"parentWidth"
+			],
+			[
+				"total",
+				"totalDivWidth"
+			],
+			[
+				"scroll",
+				"scrollPosition"
+			],
+			[
+				"scrol",
+				"scrollHeight"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"swipe",
+				"swipeone"
+			],
+			[
+				"carousel",
+				"carousel__staff"
+			],
+			[
+				"prelo",
+				"preload__spinner"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/pattern-lib/_includes/header.html",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/base/_vars.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/_JEKYLL__base.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/css/main.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/info-block.md",
+		"/Applications/MAMP/htdocs/pattern-lib/pattern-lib.sublime-project",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_info-block.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/office-child.html",
+		"/Applications/MAMP/htdocs/jigsaw-build/office.html",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_offices.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/base/_vars.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_buttons.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_modal.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/_config.yml",
+		"/Applications/MAMP/htdocs/pattern-lib/js/pattern-library-ui.js",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/_JEKYLL__syntax-highlighting.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/_JEKYLL__layout.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/_includes/head.html",
+		"/Applications/MAMP/htdocs/pattern-lib/_includes/footer.html",
+		"/Applications/MAMP/htdocs/pattern-lib/_layouts/page.html",
+		"/Applications/MAMP/htdocs/pattern-lib/index.html",
+		"/Applications/MAMP/htdocs/pattern-lib/js/shCore.js",
+		"/Applications/MAMP/htdocs/pattern-lib/_layouts/post.html",
+		"/Applications/MAMP/htdocs/jigsaw-build/index.html",
+		"/Applications/MAMP/htdocs/jigsaw-build/css/styles.css",
+		"/Applications/MAMP/htdocs/jigsaw-build/gruntfile.js",
+		"/Applications/MAMP/htdocs/jigsaw-build/js/ui-scripts.js",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/carousels/_owl__carousels.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/package.json",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_reviews.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/styles.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/_layouts/default.html",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/base/_reset.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/base/_typography.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/_layout.scss",
+		"/Applications/MAMP/htdocs/pattern-lib/css/IM-style.css",
+		"/Applications/MAMP/htdocs/pattern-lib/_sass/_typography.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/base/_base.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_variant-testing.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/hero-images/pls/hero-images__pls.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_related-services.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_key-contacts.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_charities.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_bls-testimonials.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_lity.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_related-information.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_share-bar.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_services-list.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_news.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_animate.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_find-lawyer.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_nav.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_toggle-content.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_exec-summary.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_section-hero.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_validation.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_twitter.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_case-studies-body-content.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_breadcrumb.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_footer.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_header.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_faqs.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_awards.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_stories-clients.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_cta.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_searches.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_funnels.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_intro.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_hero-search.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/layout/_forms.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/base/_typography.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/styles.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_lightbox.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/js/plugins.js",
+		"/Applications/MAMP/htdocs/jigsaw-build/pls.html",
+		"/Applications/MAMP/htdocs/Backbone/index.html",
+		"/Applications/MAMP/htdocs/Backbone/js/app.js",
+		"/Applications/MAMP/htdocs/Backbone/css/style.css",
+		"/Users/russell/Desktop/freedom.svg",
+		"/Applications/MAMP/htdocs/last-pick/application/config/database.php",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/base/_oocs-mixins.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/carousels/_owl.theme.default.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/_searches-test.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/scss/layout/_grid.scss",
+		"/Applications/MAMP/htdocs/jigsaw-build/bls-service.html",
+		"/Applications/MAMP/htdocs/jigsaw-build/js/addthis-scripts-for-UI-scripts.js",
+		"/Applications/MAMP/htdocs/jigsaw-build/pls-service.html",
+		"/Applications/MAMP/htdocs/jigsaw-build/js/jquery.appear.js",
+		"/Applications/MAMP/htdocs/pattern-lib/css/demo.css",
+		"/Applications/MAMP/htdocs/pattern-lib/_posts/2016-01-21-welcome-to-jekyll.markdown",
+		"/Applications/MAMP/htdocs/pattern-lib/typography.md",
+		"/Users/russell/Desktop/emails",
+		"/Applications/MAMP/htdocs/Backbone/js/views/todos.js",
+		"/Applications/MAMP/htdocs/Backbone/jquery.min.js",
+		"/Users/russell/Downloads/jquery-2.1.4.min.js",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/js/main.js",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/components/_buttons.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/components/_modal.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/img/chats.png",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/public/css/critical.css",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/base/_reset.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/main.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/components/_questions.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/base/_typography.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/layout/_header.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/components/_quiz-panels.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/vendors/_fontawesome.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/css/normalize.css",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/base/_grid.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/base/_reset.css",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/gruntfile.js",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/components/_overlay.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/.gitignore",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/helpers/_variables.scss",
+		"/Applications/MAMP/htdocs/PowerhouseQuiz/sass/pages/_home.scss",
+		"/Applications/MAMP/htdocs/PatientLawyers/scss/styles.scss",
+		"/Applications/MAMP/htdocs/PatientLawyers/index.html",
+		"/Applications/MAMP/htdocs/PatientLawyers/scss/_header.scss",
+		"/Applications/MAMP/htdocs/PatientLawyers/scss/_typography.scss",
+		"/Applications/MAMP/htdocs/PatientLawyers/scss/_vars.scss",
+		"/Applications/MAMP/htdocs/PatientLawyers/scss/_content.scss",
+		"/Applications/MAMP/htdocs/PatientLawyers/scss/_forms.scss",
+		"/Applications/MAMP/htdocs/PatientLawyers/scss/_footer.scss",
+		"/Applications/MAMP/htdocs/PatientLawyers/gruntfile.js",
+		"/Applications/MAMP/htdocs/jigsaw-build/bls.html",
+		"/Applications/MAMP/htdocs/Ecard/sass/components/_panel9.scss",
+		"/Applications/MAMP/htdocs/Ecard/sass/components/_splash.scss",
+		"/Applications/MAMP/htdocs/Ecard/sass/components/_panelUI.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/pattern-lib",
+			"/Applications/MAMP/htdocs/jigsaw-build",
+			"/Applications/MAMP/htdocs/jigsaw-build/scss",
+			"/Applications/MAMP/htdocs/pattern-lib/_sass",
+			"/Applications/MAMP/htdocs/pattrn-lib/_sass",
+			"/Applications/MAMP/htdocs/jigsaw-build/",
+			"/Applications/MAMP/htdocs/jigsaw-build/scss",
+			"/Applications/MAMP/htdocs/jigsaw-build",
+			"/Applications/MAMP/htdocs/ecard,<open folders>",
+			"/Applications/MAMP/htdocs/ecard",
+			"/Applications/MAMP/htdocs/jigsaw-build/scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gradient",
+			"button",
+			" modal__wrapper",
+			"()",
+			"library",
+			"@extend",
+			"review-title--large",
+			".trustpilot__details__wrapper",
+			".trustpilot",
+			"cf",
+			"clearfix",
+			"include",
+			"--proto",
+			"include",
+			"placeholder",
+			"modal-wrapper",
+			"modal",
+			"static",
+			"iframe",
+			"7px",
+			"office",
+			"span",
+			"</li>",
+			"												",
+			"offices",
+			"last-desktop",
+			"box-shadow",
+			"border-radius",
+			"nav",
+			"//@include",
+			"'],",
+			"blockquote",
+			"youtube",
+			"owl-item",
+			"modal__paragraph",
+			".modal__header",
+			".modal--fact .modal__header",
+			"'.modal'",
+			".modal",
+			"toggler",
+			".modal",
+			"again",
+			"			$('.modal').addClass('modal--wrong');",
+			"$('.modal').addClass('modal--correct');",
+			"modal__paragraph",
+			"modal",
+			"</tr>",
+			"/li>",
+			"<li",
+			"</ol>",
+			"<ol class=\"answers\">",
+			";\n",
+			"10",
+			"met",
+			"albert-bold",
+			"18px",
+			"snow-bottom",
+			"6_scene",
+			"src=\"img",
+			"img",
+			"swimaction1",
+			"swimaction",
+			"Read More",
+			"16px",
+			"center",
+			"clock",
+			"-webkit-",
+			"keyframes",
+			"path",
+			"bottom",
+			"0",
+			"19",
+			"800px",
+			"128px",
+			"%;\n",
+			"30px",
+			"bbb",
+			"breadcrumb",
+			"lity-active",
+			"lity",
+			".ani--all",
+			"trustpilot",
+			"trustpilo",
+			"border-radius",
+			".border-radius",
+			"border-radius",
+			"1s",
+			"transition",
+			"validate",
+			"validate__message--error",
+			"placeholder",
+			"totalDivWidth",
+			"	// work out how wide the parent breadcrumb is\n		var parentWidth = $('.breadcrumb').width();\n		console.log('breadcrumb total width is ' + parentWidth);\n\n		// work out how wide the individual crumbs are\n		var totalDivWidth = 0;\n		var padding = 36;\n		$('.breadcrumb ul li').each(function(i){\n			console.log( 'individual div width is ' + $(this).width() + ' + padding (and a bit of margin) which is ' + padding + \" giving us \" + ($(this).width() + padding) );\n			eachDivWidth = $(this).width() + padding;\n			totalDivWidth = totalDivWidth + eachDivWidth;\n		})\n\n		// total the crumbs up\n		console.log('total div width is ' + totalDivWidth);",
+			");\n",
+			"swipe",
+			"up",
+			"fa-check-square-o",
+			"logo a",
+			"opacity",
+			"waypoints",
+			"\");\n",
+			"#owl-carousel__staff",
+			"#owl-carousel__staff ",
+			".swipe",
+			"swipe",
+			"staff",
+			"footer",
+			"owl-carousel__media",
+			">>>>>>>",
+			"spin",
+			"carousel",
+			"owl",
+			"owl-item",
+			"logo a",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true
+}
