@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+ <!--[if IE 7]>    <html class="oldie ie7" lang="en"> <![endif]-->
+ <!--[if IE 8]>    <html class="oldie ie8" lang="en"> <![endif]-->
+ <!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
+ <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 		<title>Nav Prototype</title>
+
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 		<meta name="apple-mobile-web-app-capable" content="yes" />
+ 		<meta http-equiv="cleartype" content="on">
+
+ 		<!--[if lt IE 9]>
+ 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ 		<![endif]-->
+
+    <script src="//use.fonticons.com/e0fc0cfd.js"></script>
+ 		<link rel="stylesheet" href="css/styles.css">
+
+ 		<link rel="shortcut icon" href="#" type="image/x-icon">
+ 		<link rel="shortcut icon" sizes="120x120" href="#">
+ 		<link rel="shortcut icon" sizes="152x152" href="#">
+ 		<link rel="apple-touch-icon" sizes="57x57" href="#">
+ 		<link rel="apple-touch-icon" sizes="60x60" href="#">
+ 		<link rel="apple-touch-icon" sizes="72x72" href="#">
+ 		<link rel="apple-touch-icon" sizes="76x76" href="#">
+ 		<link rel="apple-touch-icon" sizes="114x114" href="#">
+ 		<link rel="apple-touch-icon" sizes="120x120" href="#">
+ 		<link rel="apple-touch-icon" sizes="144x144" href="#">
+ 		<link rel="apple-touch-icon" sizes="152x152" href="#">
+
+		 <script src="https://use.fontawesome.com/fbf43eea5b.js"></script>
+
+ 	</head>
+
+ 	<body>
+
+  <form action="">
+
+    <div class="modal__call-back">
+      <h3>Request a call back</h3>
+      <a href="#" id="modal__call-back__close">Close</a>
+    </div>
+
+		<header>
+		  <img src="images/im-logo-full.svg" alt="">
+		</header>
+		
+		<nav class="nav grid__container grid__container--full" role="navigation">
+
+          <ul class="nav__container" data-index="item-root">
+
+            <div class="nav__search" aria-hidden="true" tabindex="-1">
+              <input type="search" placeholder="How can we help you?">
+              <input type="submit" value="">
+            </div>
+
+            <ul class="nav__actions">
+              <li><a href="#" id="js-nav__mobile__search"><i class="fa fa-search" aria-hidden="true" title="Show and hide the search function"></i>Search</a></li>
+              <li><a href="#" id="js-nav__mobile__phone"><i class="fa fa-phone" aria-hidden="true" title="Show and hide the call options"></i>Call</a></li>
+              <li><a href="#" id="js-nav__mobile__menu"><i class="fa fa-reorder" aria-hidden="true" title="Show and hide the navigation menu"></i>Menu</a></li>
+            </ul>
+            
+            <div class="nav__call" aria-hidden="true" tabindex="-1">
+              <p>Call us on</p>
+              <p><a href="tel:03701500100" class="nav__call__phone-number"><i class="fa fa-phone" aria-hidden="true"></i>0370 1500 100</a></p>
+              <a href="#" id="nav__call__call-back">Or request a call back</a>
+            </div>
+
+            <div class="nav__sub-nav" data-level="0">
+              <a href="#" title="Back Menu Button" class="nav__sub-nav__back js-sub-nav__back" tabindex="2">Back</a>
+              <a href="#" class="nav__sub-nav__home nav__sub-nav__home--is-active js-sub-nav__home">Home</a>
+            </div>
+
+            <ul class="nav__home" tabindex="1">
+				<i class="fa fa-home nav__home-icon"></i>							
+				<li class="nav__home-text">Home</li>
+			</ul>
+
+			<li class="nav--has-child" data-index="item-1a" data-division="personal"><a href="/personal" title="Personal" tabindex="2">Personal</a>
+				<ul>
+					<li class="item-1a-2a" data-index="item-1a-2a"><a href="/personal/court-of-protection-powers-of-attorney" title="Court Of Protection ">Personal Home </a></li>
+				
+					<li class="nav--has-child" data-index="item-1a-2b"><a href="/personal/court-of-protection-powers-of-attorney" title="Court Of Protection ">Court Of Protection </a>
+						<ul>
+							<li><a href="#">Court Of Protection Home</a></li>
+							<li><a href="#">Court Of Protection Deputyship</a></li>
+							<li><a href="#">Frequently Asked Questions</a></li>
+							<li><a href="#">Personal Injury Trusts</a></li>
+							<li><a href="#">Powers Of Attorney</a></li>
+							<li><a href="#">Powers Of Attorney Disputes</a></li>
+							<li><a href="#">Statutory Wills And Trusts</a></li>
+						</ul>
+					</li>
+													
+					<li class="nav--has-child" data-index="item-1a-2c" ><a href="/personal/crime-and-investigations" title="Crime &amp;amp; Investigations">Crime &amp; Investigations</a>
+						<ul>
+							<li><a>Crime & Investigations Home</a></li>
+							<li><a>Crime</a></li>
+							<li><a>Financial Crime</a></li>
+							<li><a>Motoring Offences Legal Advice</a></li>
+							<li><a>Regulatory Investigations & Enforcement</a></li>
+						</ul>					
+					</li>
+		
+					<li class="nav--has-child" data-index="item-1a-2d" ><a href="/personal/divorce-family-law"  title="Divorce &amp;amp; Family">Divorce &amp; Family</a>
+						<ul>
+							<li><a>Divorce & Family Home</a></li>
+							<li><a>Civil Partnerships & Same-Sex Marriage</a></li>
+							<li><a>Child Abduction</a></li>
+							<li><a>Divorce & Relationship Breakdown</a></li>
+							<li><a>Domestic Violence</a></li>
+							<li><a>Pre-Marital Agreements</a></li>
+							<li><a>Services For Unmarried Couples & Families</a></li>
+						</ul>					
+					</li>
+					
+					<li class="nav--has-child" data-index="item-1a-2e" ><a href="/personal/employment" title="Employment &amp;amp; Work">Employment &amp; Work</a>
+						<ul>
+							<li><a>Employment & Work Home</a></li>
+							<li><a>Employment Disputes</a></li>
+						</ul>
+					</li>
+						
+					<li class="nav--has-child" data-index="item-1a-2f" ><a href="/personal/home-and-property" title="Home &amp;amp; Property">Home &amp; Property</a>
+						<ul>
+							<li><a href="/personal/home-and-property" id="imcommaincontainer_0_ctl03_level1Repeater_ctl01_level2Repeater_ctl05_level3Repeater_ctl00_level3LandingPageLink" title="Home &amp;amp; Property Home">Home &amp; Property Home</a></li>
+						
+							<li><a title="Buying A New Home" href="/personal/home-and-property/buying-a-new-home">Buying A New Home</a></li>
+						
+							<li><a title="Buying A Property" href="/personal/home-and-property/buying-a-property">Buying A Property</a></li>
+						
+							<li><a title="Buy To Let" href="/personal/home-and-property/buy-to-let">Buy To Let</a></li>
+						
+							<li><a title="First Registration Of Land &amp; Property" href="/personal/home-and-property/first-registration-of-land">First Registration Of Land &amp; Property</a></li>
+						
+							<li><a title="Leasehold Enfranchisement" href="/personal/home-and-property/leasehold-enfranchisement">Leasehold Enfranchisement</a></li>
+						
+							<li><a title="Matrimonial &amp; Civil Partnership Transfers" href="/personal/home-and-property/matrimonial-and-civil-partnership-transfers">Matrimonial &amp; Civil Partnership Transfers</a></li>
+						
+							<li><a title="Mortgage Fraud" href="/personal/home-and-property/mortgage-fraud">Mortgage Fraud</a></li>
+						
+							<li><a title="Probate Sales &amp; Transfers" href="/personal/home-and-property/probate-sales-and-transfers">Probate Sales &amp; Transfers</a></li>
+						
+							<li><a title="Releasing Equity" href="/personal/home-and-property/releasing-equity">Releasing Equity</a></li>
+						
+							<li><a title="Relocation" href="/personal/home-and-property/relocation">Relocation</a></li>
+						
+							<li><a title="Remortgaging" href="/personal/home-and-property/remortgaging">Remortgaging</a></li>
+						
+							<li><a title="Selling Your Home" href="/personal/home-and-property/selling-your-home">Selling Your Home</a></li>
+						
+							<li><a title="Shared Ownership" href="/personal/home-and-property/shared-ownership">Shared Ownership</a></li>
+						
+							<li><a title="Transfer Of Equity" href="/personal/home-and-property/transfer-of-equity">Transfer Of Equity</a></li>
+                        </ul>
+					</li>
+												
+					<li class="nav--has-child" data-index="item-1a-2g" ><a href="/personal/international-services" title="International">International</a>
+						<ul>
+							<li><a href="/personal/international-services" title="International Home">International Home</a></li>
+						
+							<li><a title="Accident &amp; Illness Abroad Claims " href="/personal/international-services/international-personal-injury">Accident &amp; Illness Abroad Claims </a></li>
+						
+							<li><a title="Extradition &amp; Mutual Assistance" href="/personal/international-services/extradition-mutual-assistance">Extradition &amp; Mutual Assistance</a></li>
+						
+							<li><a title="International Corporate &amp; Financial Crime" href="/personal/international-services/international-corporate-financial-crime">International Corporate &amp; Financial Crime</a></li>
+						
+							<li><a title="International Disputes" href="/personal/international-services/international-disputes">International Disputes</a></li>
+						
+							<li><a title="International Family Law" href="/personal/international-services/international-family-law">International Family Law</a></li>
+						
+							<li><a title="International Regulatory Investigations &amp; Enforcement" href="/personal/international-services/international-regulatory-investigations-enforcement">International Regulatory Investigations &amp; Enforcement</a></li>
+                        </ul>
+					</li>
+					
+					<li><a href="/personal/legal-health-check" title="Legal Health Check">Legal Health Check</a></li>
+				
+					<li class="nav--has-child" data-index="item-1a-2i" ><a href="/personal/medical-negligence" title="Medical Negligence">Medical Negligence</a>
+						<ul>
+							<li><a href="/personal/medical-negligence" title="Medical Negligence Claims Home">Medical Negligence Claims Home</a></li>
+						
+							<li><a title="Birth Injury Claims" href="/personal/medical-negligence/birth-injury-claims">Birth Injury Claims</a></li>
+						
+							<li><a title="Cancer Misdiagnosis Claims" href="/personal/medical-negligence/cancer-claims">Cancer Misdiagnosis Claims</a></li>
+						
+							<li><a title="Cauda Equina Syndrome Claims" href="/personal/medical-negligence/cauda-equina-syndrome-claims">Cauda Equina Syndrome Claims</a></li>
+						
+							<li><a title="Cerebral Palsy Claims" href="/personal/medical-negligence/cerebral-palsy-claims">Cerebral Palsy Claims</a></li>
+						
+							<li><a title="Cosmetic Surgery Claims" href="/personal/medical-negligence/cosmetic-surgery">Cosmetic Surgery Claims</a></li>
+						
+							<li><a title="Defective Medical Products, Drugs or Medicines Claims" href="/personal/medical-negligence/defective-medical-products-drugs-or-medicines-claims">Defective Medical Products, Drugs or Medicines Claims</a></li>
+						
+							<li><a title="Dental Negligence Claims" href="/personal/medical-negligence/dental-negligence-claims">Dental Negligence Claims</a></li>
+						
+							<li><a title="Diabetes Claims" href="/personal/medical-negligence/diabetes-claims">Diabetes Claims</a></li>
+						
+							<li><a title="Fatal Medical Negligence Claims &amp; Inquests" href="/personal/medical-negligence/fatal-claims-and-inquests">Fatal Medical Negligence Claims &amp; Inquests</a></li>
+						
+							<li><a title="GP Negligence Claims" href="/personal/medical-negligence/gp-community-health-claims">GP Negligence Claims</a></li>
+						
+							<li><a title="Hospital Negligence Claims" href="/personal/medical-negligence/hospital-negligence-claims">Hospital Negligence Claims</a></li>
+						
+							<li><a title="Medical Negligence Compensation Guide" href="/personal/medical-negligence/medical-negligence-compensation-guide">Medical Negligence Compensation Guide</a></li>
+						
+							<li><a title="Meningitis Misdiagnosis Claims" href="/personal/medical-negligence/meningitis-misdiagnosis-claims">Meningitis Misdiagnosis Claims</a></li>
+						
+							<li><a title="Mental Health Negligence Claims" href="/personal/medical-negligence/mental-health-claims">Mental Health Negligence Claims</a></li>
+						
+							<li><a title="Misdiagnosis Claims" href="/personal/medical-negligence/misdiagnosis-claims">Misdiagnosis Claims</a></li>
+						
+							<li><a title="No Win No Fee Medical Negligence Claims" href="/personal/medical-negligence/no-win-no-fee-medical-negligence-claims">No Win No Fee Medical Negligence Claims</a></li>
+						
+							<li><a title="Pregnancy &amp; Gynaecology Injury Claims" href="/personal/medical-negligence/pregnancy-and-gynaecology-injury-claims">Pregnancy &amp; Gynaecology Injury Claims</a></li>
+						
+							<li><a title="Sepsis Negligence Claims" href="/personal/medical-negligence/sepsis-negligence-claims">Sepsis Negligence Claims</a></li>
+						
+							<li><a title="Stroke Misdiagnosis Claims" href="/personal/medical-negligence/stroke-misdiagnosis-claims">Stroke Misdiagnosis Claims</a></li>
+						
+							<li><a title="Surgery Claims" href="/personal/medical-negligence/surgery-claims">Surgery Claims</a></li>
+                        </ul>				
+					</li>
+							
+					<li class="nav--has-child" data-index="item-1a-2j" ><a href="/personal/money-and-tax" title="Money &amp;amp; Tax">Money &amp; Tax</a>
+						<ul>
+							<li><a href="/personal/money-and-tax" title="Money &amp;amp; Tax Home">Money &amp; Tax Home</a></li>
+						
+							<li><a title="Insolvency" href="/personal/money-and-tax/insolvency">Insolvency</a></li>
+						
+							<li><a title="Investment Services" href="/personal/money-and-tax/investment-services">Investment Services</a></li>
+						
+							<li><a title="Personal Injury Trusts" href="/personal/money-and-tax/personal-injury-trusts">Personal Injury Trusts</a></li>
+						
+							<li><a title="Professional Negligence" href="/personal/money-and-tax/professional-negligence">Professional Negligence</a></li>
+						
+							<li><a title="Tax and Trusts" href="/personal/money-and-tax/tax-and-trusts">Tax and Trusts</a></li>
+						
+							<li><a title="Tax Investigations" href="/personal/money-and-tax/tax-investigations">Tax Investigations</a></li>
+						
+							<li><a title="Tax Return Preparation" href="/personal/money-and-tax/tax-return-preparation">Tax Return Preparation</a></li>     
+                        </ul>					
+					</li>
+						
+					<li class="nav--has-child" data-index="item-1a-2k" ><a href="/personal/personal-injury-compensation" title="Personal Injury Compensation">Personal Injury Compensation</a>
+						<ul>
+							<li><a href="/personal/personal-injury-compensation" title="Personal Injury Claims Home">Personal Injury Claims Home</a></li>
+						
+							<li><a title="Accidents &amp; Illness Abroad" href="/personal/personal-injury-compensation/accidents-and-illness-abroad">Accidents &amp; Illness Abroad</a></li>
+						
+							<li><a title="Air, Rail &amp; Sea Related Claims" href="/personal/personal-injury-compensation/air-rail-and-sea-related-claims">Air, Rail &amp; Sea Related Claims</a></li>
+						
+							<li><a title="Asbestos &amp; Mesothelioma Claims" href="/personal/personal-injury-compensation/asbestos-and-mesothelioma-claims">Asbestos &amp; Mesothelioma Claims</a></li>
+						
+							<li><a title="Defective Product Claims" href="/personal/personal-injury-compensation/defective-product-claims">Defective Product Claims</a></li>
+						
+							<li><a title="Group Claims" href="/personal/personal-injury-compensation/group-claims">Group Claims</a></li>
+						
+							<li><a title="Military Injury Claims" href="/personal/personal-injury-compensation/military-injury-claims">Military Injury Claims</a></li>
+						
+							<li><a title="Neglect, Abuse &amp; Criminal Injury Claims" href="/personal/personal-injury-compensation/neglect-abuse-criminal-injury-claims">Neglect, Abuse &amp; Criminal Injury Claims</a></li>
+						
+							<li><a title="No Win No Fee Personal Injury Claims" href="/personal/personal-injury-compensation/no-win-no-fee-personal-injury-claims">No Win No Fee Personal Injury Claims</a></li>
+						
+							<li><a title="Other Accident &amp; Illness Claims" href="/personal/personal-injury-compensation/other-accident-injury-claims">Other Accident &amp; Illness Claims</a></li>
+						
+							<li><a title="Our Campaigns" href="/personal/personal-injury-compensation/our-campaigns">Our Campaigns</a></li>
+						
+							<li><a title="Rehabilitation &amp; Medical Care" href="/personal/personal-injury-compensation/rehabilitation">Rehabilitation &amp; Medical Care</a></li>
+						
+							<li><a title="Road Traffic Accident Compensation Claims" href="/personal/personal-injury-compensation/road-traffic-accident-compensation-claims">Road Traffic Accident Compensation Claims</a></li>
+						
+							<li><a title="Serious Injury Claims" href="/personal/personal-injury-compensation/serious-injury">Serious Injury Claims</a></li>
+						
+							<li><a title="Support Services" href="/personal/personal-injury-compensation/support-services">Support Services</a></li>
+						
+							<li><a title="Work Accident &amp; Illness Claims" href="/personal/personal-injury-compensation/work-accident-illness-compensation-claims">Work Accident &amp; Illness Claims</a></li>        
+                        </ul>					
+					</li>
+							
+					<li class="nav--has-child" data-index="item-1a-2l" ><a href="/personal/protecting-your-rights" title="Protecting Your Rights">Protecting Your Rights</a>
+						<ul>
+							<li><a href="/personal/protecting-your-rights" title="Protecting Your Rights Home">Protecting Your Rights Home</a></li>
+						
+							<li><a title="Claims Against The Police" href="/personal/protecting-your-rights/claims-against-the-police">Claims Against The Police</a></li>
+						
+							<li><a title="Environmental Law" href="/personal/protecting-your-rights/environmental-law">Environmental Law</a></li>
+						
+							<li><a title="Health &amp; Social Care Law" href="/personal/protecting-your-rights/social-healthcare-law">Health &amp; Social Care Law</a></li>
+						
+							<li><a title="Human Rights" href="/personal/protecting-your-rights/human-rights">Human Rights</a></li>
+						
+							<li><a title="Judicial Review" href="/personal/protecting-your-rights/judicial-review">Judicial Review</a></li>
+						
+							<li><a title="Motoring Offences Legal Advice" href="/personal/protecting-your-rights/motoring-offences">Motoring Offences Legal Advice</a></li>
+						
+							<li><a title="Phone Hacking" href="/personal/protecting-your-rights/phone-hacking">Phone Hacking</a></li>
+						
+							<li><a title="Professional Regulation &amp; Discipline" href="/personal/protecting-your-rights/professional-regulation-and-discipline">Professional Regulation &amp; Discipline</a></li>
+						
+							<li><a title="Resolving Disputes" href="/personal/protecting-your-rights/resolving-disputes">Resolving Disputes</a></li>
+                        </ul>
+					</li>
+				
+					<li class="nav--has-child" data-index="item-1a-2m" ><a href="/personal/wills-and-estates" title="Wills &amp;amp; Estates">Wills &amp; Estates</a>
+						<ul>
+							<li><a href="/personal/wills-and-estates" title="Wills &amp;amp; Estates Home">Wills &amp; Estates Home</a></li>
+						
+							<li><a title="Contesting A Will" href="/personal/wills-and-estates/contesting-a-will">Contesting A Will</a></li>
+						
+							<li><a title="Defending A Will" href="/personal/wills-and-estates/defending-a-will">Defending A Will</a></li>
+						
+							<li><a title="Dealing With An Estate" href="/personal/wills-and-estates/dealing-with-an-estate">Dealing With An Estate</a></li>
+						
+							<li><a title="Powers Of Attorney" href="/personal/wills-and-estates/powers-of-attorney">Powers Of Attorney</a></li>
+						
+							<li><a title="Wills" href="/personal/wills-and-estates/wills">Wills</a></li>
+                        </ul>					
+					</li>	
+
+				</ul>
+			</li>
+	
+			<li class="nav--has-child" data-index="item-1b" data-division="wealth"><a href="/private" title="Private Wealth" tabindex="3">Private Wealth</a>
+				<ul>
+					<li data-index="item-1b-2a"><a href="#" title="#">Private Wealth Home </a></li>
+					<li data-index="item-1b-2b"><a href="#" title="#">Safeguarding Your Wealth </a></li>
+					<li data-index="item-1b-2c"><a href="#" title="#">Enhancing Your Wealth </a></li>
+					<li data-index="item-1b-2d"><a href="#" title="#">Supporting Your Business Interests </a></li>
+				</ul>
+			</li>	
+					
+			<li class="nav--has-child" data-index="item-1c" data-division="business"><a href="/business"" title="Business" tabindex="4">Business</a>
+				<ul>
+					<li data-index="item-1c-1a"><a href="/business" title="Business Home">Business Home</a></li>
+			
+					<li class="nav--has-child" data-index="item-1c-1b"><a href="/business/banking-and-finance" title="Banking &amp;amp; Finance">Banking &amp; Finance</a>
+						<ul>
+							<li><a href="/business/banking-and-finance" title="Banking &amp;amp; Finance Home">Banking &amp; Finance Home</a></li>
+						
+							<li><a title="Corporate Banking" href="/business/banking-and-finance/corporate-banking">Corporate Banking</a></li>
+						
+							<li><a title="Funds" href="/business/banking-and-finance/funds">Funds</a></li>
+						
+							<li><a title="Leveraged &amp; Acquisition Finance" href="/business/banking-and-finance/leveraged-and-acquisition-finance">Leveraged &amp; Acquisition Finance</a></li>
+						
+							<li><a title="Real Estate Finance And Secured Lending" href="/business/banking-and-finance/real-estate-finance">Real Estate Finance And Secured Lending</a></li>
+						
+							<li><a title="Receivables Finance &amp; Asset Based Lending" href="/business/banking-and-finance/receivables-finance-and-asset-based-lending">Receivables Finance &amp; Asset Based Lending</a></li>
+						
+							<li><a title="Supplier Finance" href="/business/banking-and-finance/supplier-finance">Supplier Finance</a></li>
+                        </ul>						
+					</li>
+				
+					<li class="nav--has-child" data-index="item-1c-1c"><a href="/business/commercial" title="Commercial">Commercial</a>
+						<ul>
+							<li><a href="/business/commercial" title="Commercial Home">Commercial Home</a></li>
+						
+							<li><a title="Commercial Contracts" href="/business/commercial/commercial-contracts">Commercial Contracts</a></li>
+						
+							<li><a title="Competition &amp; State Aid" href="/business/commercial/competition-and-state-aid">Competition &amp; State Aid</a></li>
+						
+							<li><a title="Public Procurement" href="/business/commercial/public-procurement">Public Procurement</a></li>
+						
+							<li><a title="Sourcing" href="/business/commercial/sourcing">Sourcing</a></li>       
+                        </ul>					
+					</li>
+						
+					<li class="nav--has-child" data-index="item-1c-1d"><a href="/business/commercial-litigation-and-dispute-resolution" title="Commercial Litigation &amp;amp; Dispute Resolution">Commercial Litigation &amp; Dispute Resolution</a>
+						<ul>
+							<li><a href="/business/commercial-litigation-and-dispute-resolution" title="Commercial Litigation &amp;amp; Dispute Resolution Home">Commercial Litigation &amp; Dispute Resolution Home</a></li>
+						
+							<li><a title="Banking &amp; Finance Litigation" href="/business/commercial-litigation-and-dispute-resolution/banking-and-finance-litigation">Banking &amp; Finance Litigation</a></li>
+						
+							<li><a title="Commercial Judicial Review" href="/business/commercial-litigation-and-dispute-resolution/commercial-judicial-review">Commercial Judicial Review</a></li>
+						
+							<li><a title="Commercial Litigation" href="/business/commercial-litigation-and-dispute-resolution/commercial-and-contractual-disputes">Commercial Litigation</a></li>
+						
+							<li><a title="Defamation, Harassment &amp; Privacy" href="/business/commercial-litigation-and-dispute-resolution/defamation-harassment-and-privacy">Defamation, Harassment &amp; Privacy</a></li>
+						
+							<li><a title="Professional Negligence" href="/business/commercial-litigation-and-dispute-resolution/professional-negligence">Professional Negligence</a></li>
+						</ul>
+					</li>
+					
+					<li class="nav--has-child" data-index="item-1c-1e"><a href="/business/commoditised-services" title="Commoditised Services">Commoditised Services</a>
+						<ul>
+							<li class="mobile-menu-landing-link"><a href="/business/commoditised-services" title="Commoditised Services Home">Commoditised Services Home</a></li>
+						
+							<li><a title="Banks &amp; Financial Institutions" href="/business/commoditised-services/banks-and-financial-institutions">Banks &amp; Financial Institutions</a></li>
+						
+							<li><a title="Insurers" href="/business/commoditised-services/insurers">Insurers</a></li>
+						
+							<li><a title="Other Sectors" href="/business/commoditised-services/other-sectors">Other Sectors</a></li>
+						
+							<li><a title="Products &amp; Services" href="/business/commoditised-services/products-and-services">Products &amp; Services</a></li>
+						
+							<li><a title="Why Irwin Mitchell?" href="/business/commoditised-services/why-irwin-mitchell">Why Irwin Mitchell?</a></li>
+						</ul>					
+					</li>
+					
+					<li class="nav--has-child" data-index="item-1c-1f"><a href="/business/construction-and-infrastructure" title="Construction, Engineering &amp;amp; Infrastructure">Construction, Engineering &amp; Infrastructure</a>
+						<ul>
+                            <li><a href="/business/construction-and-infrastructure" title="Construction, Engineering &amp;amp; Infrastructure Home">Construction, Engineering &amp; Infrastructure Home</a></li>
+
+                            <li><a title="Construction Disputes" href="/business/construction-and-infrastructure/construction-disputes">Construction Disputes</a></li>
+                        </ul>					
+					</li>
+			
+					<li class="nav--has-child" data-index="item-1c-1g"><a href="/business/corporate" title="Corporate">Corporate</a>
+						<ul>
+							<li><a href="/business/corporate" title="Corporate Home">Corporate Home</a></li>
+						
+							<li><a title="Corporate Advisory" href="/business/corporate/corporate-advisory">Corporate Advisory</a></li>
+						
+							<li><a title="Equity Capital Markets" href="/business/corporate/equity-capital-markets">Equity Capital Markets</a></li>
+						
+							<li><a title="Mergers &amp; Acquisitions (M&amp;A)" href="/business/corporate/mergers-acquisitions-m-a">Mergers &amp; Acquisitions (M&amp;A)</a></li>
+						
+							<li><a title="Venture Capital &amp; Private Equity" href="/business/corporate/private-equity">Venture Capital &amp; Private Equity</a></li>
+                        </ul>				
+					</li>
+						
+					<li class="nav--has-child" data-index="item-1c-1h"><a href="/business/criminal-and-regulatory-investigations" title="Criminal &amp;amp; Regulatory Investigations">Criminal &amp; Regulatory Investigations</a>
+						<ul>
+							<li><a href="/business/criminal-and-regulatory-investigations" title="Criminal &amp;amp; Regulatory Investigations Home">Criminal &amp; Regulatory Investigations Home</a></li>
+						
+							<li><a title="Anti-Bribery &amp; Corruption" href="/business/criminal-and-regulatory-investigations/anti-bribery-and-corruption">Anti-Bribery &amp; Corruption</a></li>
+						
+							<li><a title="Insider Trading &amp; Market Abuse" href="/business/criminal-and-regulatory-investigations/insider-trading-and-market-abuse">Insider Trading &amp; Market Abuse</a></li>
+						
+							<li><a title="Internal Investigations" href="/business/criminal-and-regulatory-investigations/internal-investigations">Internal Investigations</a></li>
+						
+							<li><a title="Road Transport &amp; Operator Compliance" href="/business/criminal-and-regulatory-investigations/road-transport-and-operator-compliance">Road Transport &amp; Operator Compliance</a></li>
+						
+							<li><a title="Serious Fraud &amp; Business Crime" href="/business/criminal-and-regulatory-investigations/serious-fraud-and-business-crime">Serious Fraud &amp; Business Crime</a></li>
+                        </ul>					
+					</li>
+								
+					<li class="nav--has-child" data-index="item-1c-1i"><a href="/business/employment-law" title="Employment Law">Employment Law</a>
+						<ul>
+                            <li><a href="/business/employment-law" title="Employment Law Home">Employment Law Home</a></li>
+                            
+							<li><a title="Business Immigration" href="/business/employment-law/business-immigration">Business Immigration</a></li>
+						
+							<li><a title="Employment &amp; HR Training" href="/business/employment-law/employment-and-hr-training">Employment &amp; HR Training</a></li>
+						
+							<li><a title="IM Educate" href="/business/employment-law/imeducate">IM Educate</a></li>
+						
+							<li><a title="IMhrplus" href="/business/employment-law/imhrplus">IMhrplus</a></li>
+						
+							<li><a title="IM Protect" href="/business/employment-law/improtect">IM Protect</a></li>
+						
+							<li><a title="Restructuring &amp; TUPE" href="/business/employment-law/restructuring-and-tupe">Restructuring &amp; TUPE</a></li>
+						
+							<li><a title="Transactions &amp; TUPE" href="/business/employment-law/transactions-and-tupe">Transactions &amp; TUPE</a></li>
+                        </ul>					
+					</li>
+						
+					<li class="nav--has-child" data-index="item-1c-1j"><a href="/business/environment-and-safety" title="Environment &amp;amp; Safety">Environment &amp; Safety</a>
+						<ul>
+							<li><a href="/business/environment-and-safety" title="Environment &amp;amp; Safety Home">Environment &amp; Safety Home</a></li>
+						
+							<li><a title="Environmental Regulation" href="/business/environment-and-safety/environmental-regulation">Environmental Regulation</a></li>
+						
+							<li><a title="Food Safety &amp; Environmental Health" href="/business/environment-and-safety/food-safety-and-environmental-health">Food Safety &amp; Environmental Health</a></li>
+						
+							<li><a title="Health &amp; Safety" href="/business/environment-and-safety/health-and-safety">Health &amp; Safety</a></li>
+                        </ul>					
+					</li>
+							
+					<li class="nav--has-child" data-index="item-1c-1k"><a href="/business/financial-services-regulation" title="Financial Services Regulation">Financial Services Regulation</a>
+						<ul>
+							<li><a href="/business/financial-services-regulation" title="Financial Services Regulation Home">Financial Services Regulation Home</a></li>
+						
+							<li><a title="FCA Investigations &amp; Enforcement" href="/business/financial-services-regulation/fca-investigations-and-enforcement">FCA Investigations &amp; Enforcement</a></li>
+						
+							<li><a title="Financial Advice &amp; Regulatory Compliance" href="/business/financial-services-regulation/financial-advice-and-regulatory-compliance">Financial Advice &amp; Regulatory Compliance</a></li>          
+                        </ul>					
+					</li>
+					
+					<li><a href="/business/information-technology" title="Information Technology">Information Technology</a></li>				
+			
+					<li><a href="/business/intellectual-property" title="Intellectual Property">Intellectual Property</a></li>
+						
+					<li><a href="/business/international" title="International">International</a></li>		
+			
+					<li><a href="/business/pensions" title="Pensions">Pensions</a></li>
+				
+					<li><a href="/business/planning" title="Planning">Planning</a></li>
+				
+					<li class="nav--has-child" data-index="item-1c-1q"><a href="/business/property-litigation" title="Property Litigation">Property Litigation</a>
+						<ul>
+							<li><a href="/business/property-litigation" title="Property Litigation Home">Property Litigation Home</a></li>
+						
+							<li><a title="Commercial Property Litigation" href="/business/property-litigation/commercial-property-litigation">Commercial Property Litigation</a></li>
+						
+							<li><a title="Residential Property Litigation" href="/business/property-litigation/residential-property-litigation">Residential Property Litigation</a></li>
+                        </ul>				
+					</li>
+					
+					<li><a href="/business/real-estate" title="Real Estate">Real Estate</a></li>
+				
+					<li><a href="/business/restructuring-and-insolvency" title="Restructuring &amp;amp; Insolvency">Restructuring &amp; Insolvency</a></li>
+						
+					<li><a href="/business/small-and-medium-enterprises" title="Small &amp;amp; Medium Enterprises">Small &amp; Medium Enterprises</a></li>
+						
+					<li><a href="/business/tax" title="Tax">Tax</a></li>
+				</ul>
+			</li>
+				
+			<li data-index="item-1d" ><a href="/our-people" title="Our People" tabindex="5">Our People</a></li>
+				
+			<li class="nav--has-child" data-index="item-1e" data-division="group"><a href="/our-offices" title="Offices" tabindex="6">Offices</a>
+				<ul>
+					<li><a href="/our-offices" title="Offices Home">Offices Home</a></li>
+				
+					<li><a href="/our-offices/united-kingdom/birmingham" title="Birmingham">Birmingham</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/bristol" title="Bristol">Bristol</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/cambridge" title="Cambridge">Cambridge</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/glasgow" title="Glasgow">Glasgow</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/leeds" title="Leeds">Leeds</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/london" title="London">London</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/manchester" title="Manchester">Manchester</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/middlesbrough" title="Middlesbrough">Middlesbrough</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/newcastle" title="Newcastle">Newcastle</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/sheffield" title="Sheffield">Sheffield</a></li>
+					
+					<li><a href="/our-offices/united-kingdom/southampton" title="Southampton">Southampton</a></li>
+				</ul>
+			</li>
+												
+			<li class="nav--has-child" data-index="item-1f" data-division="group"><a href="/about-us" title="About Us" tabindex="7">About Us</a>
+				<ul>
+					<li><a href="/about-us" title="About Us Home">About Us Home</a></li>
+			
+					<li><a href="/about-us/awards" title="Awards">Awards</a></li>
+						
+					<li><a href="/about-us/client-care" title="Client Care">Client Care</a></li>
+						
+					<li><a href="/about-us/complaints-procedure" title="Complaints Procedure">Complaints Procedure</a></li>
+						
+					<li><a href="/about-us/international" title="International">International</a></li>
+						
+					<li><a href="/about-us/key-contacts" title="Key Contacts">Key Contacts</a></li>
+						
+					<li><a href="/about-us/key-facts" title="Key Facts">Key Facts</a></li>
+						
+					<li><a href="/about-us/newsletters" title="Newsletters">Newsletters</a></li>
+					
+					<li><a href="/about-us/our-structure" title="Our Structure">Our Structure</a></li>
+			
+					<li><a href="/about-us/publications" title="Publications">Publications</a></li>
+			
+					<li><a href="/about-us/stay-informed" title="Stay Informed">Stay Informed</a></li>
+			
+					<li><a href="/about-us/social-responsibility" title="Social Responsibility">Social Responsibility</a></li>
+			
+					<li><a href="/about-us/ways-to-pay" title="Ways To Pay">Ways To Pay</a></li>
+				</ul>
+			</li>
+												
+			<li class="nav--has-child" data-index="item-1g" data-division="group"><a href="/newsandmedia" title="News &amp;amp; Media" tabindex="8">News &amp; Media</a>
+				<ul>
+					<li><a href="/newsandmedia" title="News &amp;amp; Media Home">News &amp; Media Home</a></li>
+			
+					<li><a href="/newsandmedia/press-team-contacts" title="Press Team Contacts">Press Team Contacts</a></li>
+				
+					<li><a href="/newsandmedia/media-experts" title="Media Experts">Media Experts</a></li>                    
+				</ul>
+			</li>
+	
+			<li class="nav--has-child" data-index="item-1h" data-division="group"><a href="/recruitment" title="Recruitment" tabindex="9">Recruitment</a>
+				<ul>
+					<li><a href="/recruitment" title="Recruitment Home">Recruitment Home</a></li>
+			
+					<li><a href="/recruitment/about-irwin-mitchell" title="About Irwin Mitchell">About Irwin Mitchell</a></li>
+						
+					<li><a href="/recruitment/current-vacancies" title="Current Vacancies">Current Vacancies</a></li>
+						
+					<li><a href="/recruitment/employee-benefits" title="Employee Benefits">Employee Benefits</a></li>
+						
+					<li><a href="/recruitment/faqs" title="FAQs">FAQs</a></li>
+					
+					<li><a href="/recruitment/graduate-recruitment" title="Graduate Recruitment">Graduate Recruitment</a></li>
+						
+					<li><a href="/recruitment/learning-and-development" title="Learning And Development">Learning And Development</a></li>
+						
+					<li><a href="/recruitment/legal-areas" title="Legal Areas">Legal Areas</a></li>			
+			
+					<li><a href="/recruitment/our-non-legal-areas" title="Our Non-Legal Areas">Our Non-Legal Areas</a></li>
+						
+					<li><a href="/recruitment/people-profiles" class="lv2" title="People Profiles">People Profiles</a></li>
+				
+					<li><a href="/recruitment/recruitment-agencies" title="Recruitment Agencies">Recruitment Agencies</a></li>
+				
+					<li><a href="/recruitment/why-choose-us" title="Why Choose Us?">Why Choose Us?</a></li>
+				</ul>
+			</li>					
+
+			<li data-index="item-1i"><a href="/contact-us" title="Contact" tabindex="10">Contact</a></li>
+
+          </ul> <!-- end nav__container -->
+
+        </nav>
+
+ 		<script src="//code.jquery.com/jquery-1.12.4.min.js"></script> <!-- Latest jQuery Library -->
+ 		<script src="js/navigation.js"></script>
+		<script src="js/modernizr-custom.js"></script>
+		<script src="js/hoverIntent.js"></script>
+
+  </form>
+
+ 	</body>
+
+ </html>

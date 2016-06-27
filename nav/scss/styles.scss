@@ -1,0 +1,528 @@
+/////////////////////////////////
+// PROTOTYPE STYLES
+/////////////////////////////////
+
+
+@import "../../../scss/base/reset";
+
+*, *:after, *:before { box-sizing: border-box; }
+
+@font-face {
+	font-family: "albert-reg";
+	src: url("../../../css/fs-albert/Regular/FSAlbertWeb-Regular.eot"); /* IE9 */
+	src: url("../../../css/fs-albert/Regular/FSAlbertWeb-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("../../../css/fs-albert/Regular/FSAlbertWeb-Regular.woff") format("woff"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "albert-bold";
+	src: url("../../../css/fs-albert/Regular/FSAlbertWeb-Bold.eot"); /* IE9 */
+	src: url("../../../css/fs-albert/Bold/FSAlbertWeb-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("../../../css/fs-albert/Bold/FSAlbertWeb-Bold.woff") format("woff"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	font-size: 20px;
+	font-family: "albert-reg", sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	padding: 1.5rem 1.75rem;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#af1367+0,702e75+100 */
+	background: #af1367; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #af1367 0%, #702e75 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #af1367 0%,#702e75 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #af1367 0%,#702e75 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af1367', endColorstr='#702e75',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+  	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+	color: white;
+	transition: all 0.25s ease-in-out;
+	&.active {
+		// padding: 0.75rem 1.75rem;
+		img {
+			height: 30px;
+			width: auto;
+			transition: all 0.25s ease-in-out;
+		}
+	}
+}
+
+
+/////////////////////////////////
+// NAV STYLES
+/////////////////////////////////
+
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+// New nav big screen mode
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+
+@media (min-width: 800px) {
+	//////////////////////////
+	// first level
+	//////////////////////////
+	.nav {
+		background: #333;
+
+		&__search,
+		&__actions,
+		&__call,
+		&__sub-nav {
+			display: none;
+		}
+
+		&__home {
+			font-size: 28px;
+			color: #fff;
+			&-icon {
+				top: 12px;
+				position: relative;
+			}
+		}
+		//////////////////////////
+		// first level
+		//////////////////////////
+		&__container {
+			height: 53px;
+			width: 100%;
+			max-width: 1100px;
+			margin: 0 auto;
+			position: relative;
+			li {
+				display: none;
+			}
+			> li {
+				display: block;
+				font-size: 18px;
+				line-height: 53px;
+				text-align: center;
+				padding: 0 10px;
+				a {
+					color: #fff;
+					text-decoration: none;
+				}
+				
+			}
+			.flexbox & {
+				display: flex;
+				justify-content: space-between;	
+			}
+			.no-flexbox & {
+				display: table;
+				> li {
+					display: table-cell;
+				}
+			}
+			//////////////////////////
+			// second level
+			//////////////////////////		
+			> .has-hovered {
+				background: #fff;
+				a {
+					color: #333;
+				}
+				> ul {
+					position: absolute;
+					top: 53px;
+					left: 0;
+					width: 100%;
+					background: #fff;
+					color: #333;
+					overflow: hidden;
+					z-index: 3;
+					> li {
+						display: block;
+						width: 30%;
+						text-align: left;
+						padding-left: 1em;
+						background: #fff;
+						z-index: 3;
+						a {
+							color: #333;
+						}
+					}
+					.has-hovered {
+						background: #333;
+						color: #fff;
+						a {
+							color: #fff;
+						}		
+						//////////////////////////
+						// third level
+						//////////////////////////
+						> ul {
+							right: 0;
+							> li {
+								display: block;
+								color: #333;
+								padding-left: 1em;
+								&:first-child {
+									position: absolute;
+									top: 0;
+									width: 100%;
+									background: #333;
+									
+									a {
+										color: #fff;
+									}
+								}
+								a {
+									color: #333;
+								}
+								&:hover {
+									background: #333;
+									color: #fff;
+									a {
+										color: #fff;
+									}
+								}
+							}
+						}									
+					}
+				}
+			}
+			> li > ul > li > ul {
+				position: absolute;
+				top: 0;
+				right: 200%;
+				width: 70%;
+				height: 100%;
+				-webkit-column-count: 2;
+				-moz-column-count: 2;
+				column-count: 2;
+				-webkit-column-rule: 1px dotted #ddd;
+				-moz-column-rule: 1px dotted #ddd;
+				column-rule: 1px dotted #ddd;
+				padding-top: 53px;
+				z-index: -3;
+				background: #fff;
+			}
+		}
+	}
+}
+
+
+
+
+.flex-item:nth-child(1) {
+	order: 0;
+	flex: 0 1 auto;
+	align-self: auto;
+}
+
+// Modal for call back
+
+.modal__call-back {
+	height: 100%;
+	width: 100%;
+	background: #e3e3e3;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+	display: none;
+}
+
+/////////////////////////////////
+// NAV COMPONENT -- Mobile
+/////////////////////////////////
+
+@media (max-width: 799px) {
+	
+	.nav {
+		width: 100%;
+		transition: all 0.25s ease-in-out;
+		@media (max-width: 400px) { font-size: 0.9rem; }
+		z-index: 100; // override header (99)
+
+		&__actions {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			background: #e3e3e3;
+			> li {
+				list-style-type: none;
+				flex-grow: 1;
+				text-align: center;
+				a {
+					position: relative;
+					padding: 0.75rem 0 0.6rem 0; 
+					display: block;
+					color: white;
+					background: #333;
+					text-decoration: none;
+					border-right: 1px solid rgba(255,255,255,0.075);
+					transition: all ease-in-out 0.25s;
+					-webkit-tap-highlight-color: rgba(0,0,0,0); //  Remove nasty default Mobile iOS grey effect on active states
+					&.active {
+						background: #E3E3E3;
+						color: darken(#e3e3e3, 40%);
+						border-right: 2px solid #e3e3e3;
+					}
+					i.fa {
+						margin: 0 0.25rem 0 0;
+						@media (max-width: 350px) { margin: 0 0 0.25rem 0; }
+					}
+				}
+			}
+		}
+
+		&__sub-nav,
+		&__container > li,
+		&__home,
+		&__icon--close,
+		&__text-icon--close  {
+			display: none;
+		}
+
+		&__search {
+			background: #e3e3e3;
+			padding: 0.75rem;
+			position: relative;
+			display: none;
+			input[type="search"] {
+				width: 100%;
+				-webkit-appearance: none;
+				border-radius: 0;
+				border: none;
+				background: none;
+				color: #333;
+				font-family: "albert-reg", sans-serif;
+				font-size: 1rem;
+				&::-webkit-input-placeholder { color: #333; }
+				&:-moz-placeholder { /* Firefox 18- */ color: #333; }
+				&::-moz-placeholder {  /* Firefox 19+ */ color: #333; }
+				&:-ms-input-placeholder { color: #333; }
+				&:focus { outline: none; }
+			}
+			input[type="submit"] {
+				-webkit-appearance: none;
+				position: absolute;
+				outline: 0;
+				border: 0;
+				right: 2rem;
+				top: 0.75rem;
+				background: rgba(1,1,1,0.0) url("../images/mobile-nav__search.svg") no-repeat center center;
+				width: 1.25rem;
+				height: 1.25rem;
+				cursor: pointer;
+				&:active { background-color: white; }
+			}
+		}
+
+		&__call {
+			background: #e3e3e3;
+			padding: 0.75rem;
+			text-align: center;
+			display: none;
+			position: relative;
+			a {
+				display: inline-block;
+				color: #333;
+				text-decoration: underline;
+				padding: 0.25rem;
+				&:active { background: white; }
+				&.nav__call__phone-number {
+					font-size: 35px;
+					font-size: 1.5rem;
+					padding: 0.5rem;
+					font-family: "albert-bold";
+					i.fa { margin-right: 0.25rem; }
+				}
+			}
+			li {
+				display: flex;
+				align-items: center;
+				a {
+					width: 100%;
+					color: #333;
+				}
+			}
+		}
+
+		&__mobile__container {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+			overflow: scroll;
+			opacity: 0;
+			.nav__sub-nav { // maybe this could be refactored, I kept the descendent selector to easily show sub-nav in the mobile container and hide when out of it. But is probably more specific than it needs to be.
+				display: block;
+				padding: 1em 1.5em;
+				color: #fff;
+				background: #333;
+				border-bottom: 1px solid rgba(255,255,255,0.15);
+				border-top: 1px solid rgba(255,255,255, 0.075);
+				a {
+					text-decoration: none;
+					color: #fff;
+				}
+			}
+			a:focus {
+				outline: none;
+				text-decoration: underline;
+			}
+			> li {
+				padding: 1em 1.5em;
+				position: relative;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+			}
+			> [data-division="personal"]:active {
+				background: #AF1367;
+				a {
+					color: #fff;
+					background: none;
+				}
+			}
+			> [data-division="business"]:active {
+				background: #015E99;
+				a {
+					color: #fff;
+					background: none;
+				}
+			}
+			> [data-division="wealth"]:active {
+				background: #00243D;
+				a {
+					color: #fff;
+					background: none;
+				}
+			}
+			> [data-division="group"]:active {
+				background: #e3e3e3;
+				a {
+					background: none;
+				}
+			}
+			.level-0 a {
+				color: #333;
+				text-decoration: none;
+			}
+			.level-1 a, 
+			.level-2 a	{
+				color: #333;
+				text-decoration: none;				 
+			}
+			> li li {
+				display: none;
+			}
+		}
+
+		&__mobile__container[data-division="personal"] {
+			.level-1,
+			.level-2 {
+				background: #AF1367;
+				border-bottom: 1px solid rgba(255,255,255,0.15);
+				&:active {
+					background: #961158;
+				}
+				a {
+					color: #fff;
+					text-decoration: none;
+				}
+				&.nav--has-child:after {
+					color: #fff;
+				}
+			}
+		}
+
+		&__mobile__container[data-division="wealth"] {
+			.level-1,
+			.level-2 {
+				background: #00243D;
+				border-bottom: 1px solid rgba(255,255,255,0.15);
+				&:active {
+					background: #01101A;
+				}
+				a {
+					color: #fff;
+					text-decoration: none;
+				}
+				&.nav--has-child:after {
+					color: #fff;
+				}
+			}
+		}
+
+		&__mobile__container[data-division="business"] {
+			.level-1,
+			.level-2 {
+				background: #015E99;
+				border-bottom: 1px solid rgba(255,255,255,0.15);
+				&:active {
+					background: #014E7D;
+				}
+				a {
+					color: #fff;
+					text-decoration: none;
+				}
+				&.nav--has-child:after {
+					color: #fff;
+				}
+			}
+		}
+
+		&--has-child:after {
+			content: "\f105";
+			font-family: "fontAwesome";
+			font-size: 1.4em;
+			position: absolute;
+			top: .55em;
+			right: 1.2em;
+			color: #333;
+		}
+
+		&__sub-nav:active {
+			background: #fff;
+			& a {
+				color: #111;
+			}
+		}
+
+		&__sub-nav__back {
+			display: none;
+			&--is-active {
+				display: block;
+				position: relative;
+				padding-left: 1em;
+				&:before {
+					content: "\f104";
+					font-family: "fontAwesome";
+					font-size: 1.4em;
+					color: #fff;
+					position: absolute;
+					top: -.15em;
+					left: 0;
+					color: #ccc;
+				}
+			}
+		}
+
+		&__sub-nav__home {
+			display: none;
+			&--is-active {
+				display: block;
+			}
+		}
+	}
+
+}
