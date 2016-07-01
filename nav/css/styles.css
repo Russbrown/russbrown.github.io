@@ -459,11 +459,15 @@ header.active img {
   .nav__mobile__container .level-0 a {
     color: #333;
     text-decoration: none;
+    width: 100%;
+    display: block;
   }
   .nav__mobile__container .level-1 a,
   .nav__mobile__container .level-2 a {
     color: #333;
     text-decoration: none;
+    width: 100%;
+    display: block;
   }
   .nav__mobile__container > li li {
     display: none;
@@ -481,6 +485,8 @@ header.active img {
   .nav__mobile__container[data-division="personal"] .level-2 a {
     color: #fff;
     text-decoration: none;
+    width: 100%;
+    display: block;
   }
   .nav__mobile__container[data-division="personal"] .level-1.nav--has-child:after,
   .nav__mobile__container[data-division="personal"] .level-2.nav--has-child:after {
@@ -499,6 +505,8 @@ header.active img {
   .nav__mobile__container[data-division="wealth"] .level-2 a {
     color: #fff;
     text-decoration: none;
+    width: 100%;
+    display: block;
   }
   .nav__mobile__container[data-division="wealth"] .level-1.nav--has-child:after,
   .nav__mobile__container[data-division="wealth"] .level-2.nav--has-child:after {
@@ -517,6 +525,8 @@ header.active img {
   .nav__mobile__container[data-division="business"] .level-2 a {
     color: #fff;
     text-decoration: none;
+    width: 100%;
+    display: block;
   }
   .nav__mobile__container[data-division="business"] .level-1.nav--has-child:after,
   .nav__mobile__container[data-division="business"] .level-2.nav--has-child:after {
