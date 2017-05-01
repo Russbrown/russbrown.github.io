@@ -2,7 +2,16 @@
 
 .header {
 	width: 100%;
-	border-bottom: 6px solid #646360;
+
+	&__links {
+		border-top: 6px solid #646360;
+		padding-top: 1rem;
+	}
+
+	&__links a {
+		color: #646360;
+		text-decoration: none;
+	}
 
 	.title a {
 		text-decoration: none;

@@ -14,7 +14,7 @@ Here are some initial ideas I had for how it would look:
 
 I was going after that hipster look HARD as I saw the readership being designers and creatives like me. I decided to dial the hipster level back a little bit in the end and went with some classic hip Futura. I was sold on the vivid green though and thought this would be a useful eye catcher for the brand as I attempted to grab people's attention. Some people love it, some... not so much. I see this colour being used more sparingly as it matures.
 
-I built out a quick and dirty version in a couple of days using my [trusty wordpress starter theme](http://underscores.me/) from Automattic. Only two pages; an index page and an article page. I then set about improving and adding features as I went on.
+I built out a quick and dirty version in a couple of days using my [trusty wordpress starter theme](http://underscores.me/) from Automattic. Only two pages; an index page and an article page. I then set about improving and adding features as I went on. fancy a poke around? [The code is here.](https://github.com/Russbrown/the_product)
 
 For a slightly more detailed run through of the first month of [The Product](http://www.theprdct.com) you can read my [medium article here](https://medium.com/@therusstler/zero-to-hero-image-launching-the-product-487153da2d62#.muuawbx3p). As well as a slightly more technical article here [on improving speed](https://medium.com/@therusstler/speeding-up-theprdct-com-14a7a865735#.oqn9brb23).
 
