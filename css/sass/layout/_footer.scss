@@ -1,2 +1,18 @@
 // Footer
 
+footer {
+    background: $dark-grey;
+    color: $light-grey;
+	width: 100%;
+}
+
+.footer-inner {
+	max-width: 45rem;
+	margin: 0 auto;
+    width: 100%;
+    padding: 2rem;
+
+    a {
+        color: $light-grey;
+    }
+}
