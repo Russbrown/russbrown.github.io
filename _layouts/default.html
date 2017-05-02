@@ -15,7 +15,10 @@
         <!-- lob the css in here when dev done -->
 	      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/e450c906-0838-49ab-a244-b7410b740b05.css"/>
-
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script>
+          window.sr = ScrollReveal();
+        </script>
     </head>
     <body>
 
@@ -52,6 +55,10 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
+    </script>
+
+    <script>
+      sr.reveal('.reveal');
     </script>
 
     <script src="/js/prism.js" defer></script>
