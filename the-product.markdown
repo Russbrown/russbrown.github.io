@@ -5,7 +5,7 @@ title: Russ Brown / Web Designer
 
 <h2>The Product</h2>
 
-The Product features in-depth interviews with entrepreneurs, designers and engineers from the North of England. I've had the pleasure of talking with loads of great people, from world class craftsmen like [Will Ferraby](http://www.theprdct.com/will-ferraby) to creative entrepreneurs like [Elizabeth Shassere](http://www.theprdct.com/elizabeth-shassere). I've learned a lot about why and how they do what they go about creating products, and hopefully been able to present this back in a way that offers genuine insight into what it's like to build a business.
+The Product features in-depth interviews with entrepreneurs, designers and engineers from the North of England. I've had the pleasure of talking with loads of great people, from world class craftsmen like [Will Ferraby](http://www.theprdct.com/will-ferraby) to creative entrepreneurs like [Elizabeth Shassere](http://www.theprdct.com/elizabeth-shassere). I've learned a lot about why and how they go about creating products, and hopefully been able to present this back in a way that offers some useful insights for others.
 
 The idea for [The Product](http://www.theprdct.com) came from noticing the groundswell of talented people, ideas and startups in the North of England and a fascination with those stories. The only stories I saw being told were those at the very top of the tree. It's my belief that there are a lot more interesting stories out there from people who haven't completed a million pound acquisition or IPO.
 
