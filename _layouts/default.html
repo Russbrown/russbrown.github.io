@@ -34,7 +34,9 @@
             </div>
           </div>
 
-          {{ content }}
+          <div class="site__content reveal">
+            {{ content }}
+          </div>
 
         </div>
     </body>
@@ -58,9 +60,9 @@
     </script>
 
     <script>
-      sr.reveal('.reveal');
+      sr.reveal('.reveal', {viewFactor: 0.1});
     </script>
 
-    <script src="/js/prism.js" defer></script>
+    <!--<script src="/js/prism.js" defer></script>-->
 
 </html>
