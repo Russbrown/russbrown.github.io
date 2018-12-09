@@ -1,16 +1,6 @@
 .site {
-	max-width: 36rem;
+	max-width: 1800px;
 	width: 100%;
 	margin: 0 auto;
-	padding: 2rem;
-
-	img {
-		width: 100%;
-	}
-}
-
-@media screen and (min-width: 800px) {
-	.site {
-		margin: 2rem auto;
-	}
+	padding: 3rem;
 }

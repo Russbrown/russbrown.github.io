@@ -1,20 +1,26 @@
 // header
 
 .header {
-	width: 100%;
+    display: block;
+    height: 25vh;
 
-	&__links {
-		border-top: 6px solid #646360;
-		padding-top: 1rem;
-	}
+    &__title {
+        font-size: 45px;
+        line-height: 40px;
+        font-family: $header-font;
+        margin-bottom: 1rem;
 
-	&__links a {
-		color: #646360;
-		text-decoration: none;
-	}
+        a {
+            text-decoration: none;
+        }
+    }
 
-	.title a {
-		text-decoration: none;
-		color: #646360;
-	}
+    &__links {
+
+        a {
+            font-size: 2rem;
+            text-decoration: none;
+            margin-right: .5rem;
+        }
+    }
 }

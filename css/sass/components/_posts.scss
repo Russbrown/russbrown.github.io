@@ -1,54 +1,66 @@
-.project-card__wrapper {
-	width: 100%;
-}
+.post {
 
-.project-card--one {
-	background: url('../../img/one.jpg') no-repeat;
-}
-
-.project-card--two {
-	background: url('../../img/two.jpg') no-repeat;
-}
-
-.project-card--three {
-	background: url('../../img/three.jpg') no-repeat center center;
-}
-
-.project-card--four {
-	background: url('../../img/four.jpg') no-repeat r;
-}
-
-.project-card {
-	width: 100%;
-	float: left;
-	min-height: 400px;
-	padding: 1rem;
-	color: #eee;
-	text-decoration: none;
-	margin-bottom: 1.4rem;
-	font-family: $header-font;
-}
-
-.project-card:hover {
-	color: #ddd;
-}
-
-.project-card:visited {
-	color: #eee;
-}
-
-@media screen and (min-width: 800px) {
-
-	.project-card {
-		width: 48%;
+	&__summary {
+		padding: 2rem;		
+		border-radius: 1rem;
+		box-shadow: 0 0 51px rgba(0,0,0,0.4);
+		margin-bottom: 2rem;
+		line-height: 1.6rem;
 	}
 
-	.project-card:nth-of-type(odd) {
-		margin-right: 2%;
+	&__title {
+		font-size: 1.8rem;
+		line-height: 2rem;
+		text-decoration: none;
+		margin-bottom: 1.4rem;
+		margin-top: .5rem;
+		display: block;
+		font-family: $header-font;
 	}
 
-	.project-card:nth-of-type(even) {
-		margin-left: 2%;
+	&__type {
+		text-transform: uppercase;
+		opacity: 0.7;
+	}
+
+	&__intro {
+		margin-bottom: 1rem;
+	}
+
+	&--blogpost {
+		background: #0c2a3a;
+		color: #e8bbd7;
+
+		&__title {
+			color: #e8bbd7;
+		}
+	}
+
+	&--casestudy {
+		background: #d3bbc9;
+		color: #0c2a3a;
+
+		&__title {
+			color: #0c2a3a;
+		}
+	}
+
+	&--bookreview {
+		background: #aa2a30;
+		color: #d4bbc9 ;
+
+		&__title {
+			color: #d4bbc9 ;
+		}
+	}
+
+	&--sideproject {
+		background: #2e1c2d;
+		color: #d4bbc9 ;
+
+		&__title {
+			color: #d4bbc9 ;
+		}
 	}
 
 }

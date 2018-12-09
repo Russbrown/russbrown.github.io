@@ -1,4 +1,5 @@
-name: Russ Brown
+name: Russ
+name2: Brown
 exclude: [node_modules]
 # Build settings
 markdown: kramdown

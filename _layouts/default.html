@@ -8,62 +8,37 @@
 
         <!-- Dev mode CSS -->
          <link rel="stylesheet" href="/css/main.min.css"> 
-         <link rel="stylesheet" href="/css/syntax.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui"/>
 
         <!-- lob the css in here when dev done -->
 	      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-        <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/e450c906-0838-49ab-a244-b7410b740b05.css"/>
-        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-        <script>
-          window.sr = ScrollReveal();
-        </script>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro" rel="stylesheet">
     </head>
     <body>
 
         <div class="site cf">
           <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <h1 class="header__title">
+              <a href="/">
+                {{ site.name }} <br>
+                {{ site.name2 }}
+              </a>
+            
+            </h1>
             <div class="header__links">
-              <a href="https://www.linkedin.com/in/therusstler/" class="fa fa-linkedin-square"></a>
-              <a href="https://twitter.com/therusstler" class="fa fa-twitter-square"></a>
-              <a href="https://www.behance.net/poa02rbea43" class="fa fa-behance-square"></a>
-              <a href="https://github.com/Russbrown" class="fa fa-github-square"></a>
               <a href="https://dribbble.com/Therusstler" class="fa fa-dribbble"></a>
+              <a href="https://www.linkedin.com/in/therusstler/" class="fa fa-linkedin-square"></a>
+              <a href="https://twitter.com/therusstler" class="fa fa-twitter-square"></a>            
             </div>
           </div>
 
-          <div class="site__content reveal">
+          <div class="site__content">
             {{ content }}
           </div>
 
         </div>
 
     </body>
-
-    <footer>
-      <div class="footer-inner">Thanks for looking 🍻</div>
-    </footer>
-
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-55571871-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-
-    <script>
-      sr.reveal('.reveal', {viewFactor: 0.01});
-    </script>
-
-    <!--<script src="/js/prism.js" defer></script>-->
 
 </html>

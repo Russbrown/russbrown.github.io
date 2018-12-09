@@ -1,28 +1,18 @@
 // typography
 
-html,body {
-  font-size: 24px;
+html,
+body {
+  font-size: 12px;
   line-height: 1.4rem;
   margin: 0 auto;
 	font-family: $font;
-  background: #F5F6EC;
-  color: #646360;
-  -webkit-font-smoothing: antialiased;
+  color: #cfbbca;
+  background-color: #05131a;
+  background-size: cover;
 }
 
-h1 {
-  font-size: 3.4rem;
-  line-height: 3.4rem;
-  margin-bottom: .7rem;
- 	font-family: $header-font;
-}
-
-h2 {
-  font-size: 2rem;
-  line-height: 2.4rem;
-  margin-bottom: 1.4rem;
-  margin-top: 1.4rem;
- 	font-family: $header-font;
+a {
+  color: inherit;
 }
 
 p {
