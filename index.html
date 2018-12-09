@@ -6,7 +6,7 @@ title: Russ Brown
 <ul class="grid">
 {% for post in site.posts %}
 	{% if post.url %}
-		<li class="grid__cell 1/3">
+		<li class="grid__cell 1/2--handheld-and-up 1/3--lap-and-up ">
 			<div class='post__summary post--{{ post.type | remove: " "}}'>
 				<div class="post__type">{{ post.type }}</div>
 				<a href="{{ post.url }}" class="post__title">{{ post.title }}</a>
