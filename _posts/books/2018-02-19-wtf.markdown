@@ -1,0 +1,9 @@
+---
+layout: post
+title:  WTF?
+author:  Tim O'Reilly
+date:   2018-02-19
+categories: books
+type: book
+img: https://images.gr-assets.com/books/1502106956l/34017076.jpg
+---

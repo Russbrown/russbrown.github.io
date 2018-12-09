@@ -1,0 +1,9 @@
+---
+layout: post
+title:  One Way
+author:  S.J. Morden
+date:   2018-08-28
+categories: books
+type: book
+img: https://images.gr-assets.com/books/1517325773l/38256448.jpg
+---

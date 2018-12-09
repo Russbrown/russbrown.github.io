@@ -1,0 +1,10 @@
+---
+layout: post
+title:  Bad Blood
+author: John Carreyrou
+date:   2018-09-29
+categories: books
+type: book
+img: https://images.gr-assets.com/books/1525180824l/37976541.jpg
+---
+

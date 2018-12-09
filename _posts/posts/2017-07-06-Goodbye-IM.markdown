@@ -2,7 +2,7 @@
 layout: post
 title:  "Goodbye Irwin Mitchell"
 date:   2017-07-06 
-categories: general
+categories: posts
 type: blog post
 intro: Today is my last day at Irwin Mitchell after 2 years. I think it's worth reflecting on my time here as my role went through a lot of changes. I certainly made some mistakes along the way but I also grew creatively, learned a lot and got to work with some brilliant colleagues.
 ---

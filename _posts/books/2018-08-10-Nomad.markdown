@@ -1,0 +1,9 @@
+---
+layout: post
+title:  Nomad
+author: Alan Partridge
+date:   2018-08-10
+categories: books
+type: book
+img: https://images.gr-assets.com/books/1469102435l/31188362.jpg
+---

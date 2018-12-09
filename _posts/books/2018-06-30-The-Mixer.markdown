@@ -1,0 +1,9 @@
+---
+layout: post
+title:  The Mixer
+author: Michael Cox
+date:   2018-06-30
+categories: books
+type: book
+img: https://images.gr-assets.com/books/1491027966l/34746655.jpg
+---

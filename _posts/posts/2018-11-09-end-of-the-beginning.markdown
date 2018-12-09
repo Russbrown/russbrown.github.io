@@ -2,7 +2,7 @@
 layout: post
 title:  "The end of the beginning"
 date:   2018-11-09
-categories: general
+categories: posts
 type: blog post
 intro: The end has finished and the messy middle begins.
 ---

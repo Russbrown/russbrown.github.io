@@ -26,3 +26,10 @@ em {
 strong {
   font-weight: bold;
 }
+
+h1 {
+  font-size: 45px;
+  line-height: 40px;
+  font-family: $header-font;
+  margin-bottom: 1rem;
+}
