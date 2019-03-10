@@ -8,8 +8,6 @@ intro: From notebooks to web apps and back again.
 ---
 
 
-Notebooks and #PlanYourDay
-
 I'm a big fan of notebooks. Proper, big gsm notebooks with glossy finishes and elaborate sections for recording your goals, failures and life lessons. All bound up in eye-rollingly hip linen and finished off with a couple of coloured fabric bookmarks that dangle down like your Nan's shredded doylies after the cats had them. That's just the kind of hopelessly far gone consumer I am.
 
 It was through this mild and harmless obsession I discovered a particular journal which devoted a fair few pages at the start to eulogising about the importance of planning your working day. I also happened to read Cal Newport's "Deep Work" around this time which is equally gushing about the value of this practice. So after a bit of skepticism I started to do it.  
