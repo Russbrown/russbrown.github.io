@@ -18,7 +18,7 @@ First thing in the morning when I sit down to work I  draw out a timeline of the
 
 After a few weeks of doing this, I began to wonder if there was a better and easier way to do it. And, in the story of our times, wondered if I could improve it by making it 'digital'.
 
-After a few hours in Sketch and a few more in VSCode I'd made a little website that allowed me to plan my day and keep track of long term goals without resorting to scraping graphite on to pulped wood. (It's here.)[https://planyourday.cc/]
+After a few hours in Sketch and a few more in VSCode I'd made a little website that allowed me to plan my day and keep track of long term goals without resorting to scraping graphite on to pulped wood. [It's here.](https://planyourday.cc/)
 
 The problem of course is that I started to miss the feeling of flicking through my notebook and seeing my past day's work. I missed the fancy paper, the linen, the ability to sketch, to doodle, to practice my completely illegible handwriting. 
 
