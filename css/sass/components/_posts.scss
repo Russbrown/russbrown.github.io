@@ -2,11 +2,9 @@
 
 	&__summary {
 		padding: 2rem;		
-		border-radius: 1rem;
-		box-shadow: 0 0 51px rgba(0,0,0,0.4);
-		margin-bottom: 2rem;
+		border-radius: 10px;
 		line-height: 1.6rem;
-		background:#151d21;
+		border: 1px solid #2f2f2f;
 	}
 
 	&__title {
@@ -18,6 +16,16 @@
 		display: block;
 		font-family: $header-font;
 		color: #BFBFBF;
+	}
+
+	&__meta {
+		font-family: $font;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	&__single {
+		max-width: 48rem;
 	}
 
 	&__type {
@@ -42,4 +50,20 @@
 		font-size: .77rem;
 	}
 
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-auto-rows: 1fr;
+  	grid-column-gap: 2rem;
+	grid-row-gap: 2rem;
+	
+	@media screen and (min-width: 42rem) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media screen and (min-width: 71rem) {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }
