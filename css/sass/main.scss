@@ -4,17 +4,19 @@
 
 @import 'helpers/mixins';
 
+@import 'helpers/utilities';
+
 @import 'base/reset';
 
 @import 'base/typography';
-
-@import 'base/grid';
 
 @import 'components/buttons';
 
 @import 'components/navigation';
 
 @import 'components/posts';
+
+@import 'components/work';
 
 @import 'layout/wrapper';
 
@@ -23,6 +25,8 @@
 @import 'layout/header';
 
 @import 'layout/forms';
+
+@import 'layout/grid';
 
 /* apply a natural box layout model to all elements */
 *, *:before, *:after {

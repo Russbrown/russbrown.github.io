@@ -2,13 +2,18 @@
 
 html,
 body {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.6rem;
   margin: 0 auto;
 	font-family: $font;
   color: #cfbbca;
   background-color: #05131a;
   background-size: cover;
+  -webkit-font-smoothing: antialiased;
+
+  @media screen and (min-width: 48em) {
+    font-size: 14px;
+  }
 }
 
 a {

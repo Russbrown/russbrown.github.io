@@ -6,6 +6,7 @@
 		box-shadow: 0 0 51px rgba(0,0,0,0.4);
 		margin-bottom: 2rem;
 		line-height: 1.6rem;
+		background:#151d21;
 	}
 
 	&__title {
@@ -16,11 +17,14 @@
 		margin-top: .5rem;
 		display: block;
 		font-family: $header-font;
+		color: #BFBFBF;
 	}
 
 	&__type {
 		text-transform: uppercase;
-		opacity: 0.7;
+		letter-spacing: 2px;
+		font-size: .77rem;
+		color: #BFBFBF;
 	}
 
 	&__img {
@@ -29,50 +33,13 @@
 
 	&__intro {
 		margin-bottom: 1rem;
+		color: #BFBFBF;
+		font-size: 1rem;
 	}
 
-	&--blogpost {
-		background: #0c2a3a;
-		color: #e8bbd7;
-
-		&__title {
-			color: #e8bbd7;
-		}
-	}
-
-	&--casestudy {
-		background: #d3bbc9;
-		color: #0c2a3a;
-
-		&__title {
-			color: #0c2a3a;
-		}
-	}
-
-	&--bookreview {
-		background: #aa2a30;
-		color: #d4bbc9 ;
-
-		&__title {
-			color: #d4bbc9 ;
-		}
-	}
-
-	&--sideproject {
-		background: #2e1c2d;
-		color: #d4bbc9 ;
-
-		&__title {
-			color: #d4bbc9 ;
-		}
-	}
-
-	&--single {
-		max-width: 600px;
-
-		img {
-			width: 100%;
-		}
+	&__date {
+		color: #BFBFBF;
+		font-size: .77rem;
 	}
 
 }

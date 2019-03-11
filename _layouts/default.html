@@ -11,26 +11,40 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui"/>
 
-        <!-- lob the css in here when dev done -->
 	      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro" rel="stylesheet">
+        <script type="text/javascript" src="//fast.fonts.net/jsapi/e450c906-0838-49ab-a244-b7410b740b05.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     </head>
     <body>
 
         <div class="site cf">
-          <div class="header">
-            <h1 class="header__title">
-              <a href="/">
-                {{ site.name }} <br>
-                {{ site.name2 }}
-              </a>
-            
-            </h1>
-            <div class="header__links">
-              <a href="http://therusstler.dribbble.com/" class="fa fa-dribbble"></a>
-              <a href="https://www.linkedin.com/in/therusstler/" class="fa fa-linkedin-square"></a>
-              <a href="https://twitter.com/therusstler" class="fa fa-twitter-square"></a>            
+          <div class="header row">
+            <div class="col-xs-6 col-sm-8 col-md-6 col-lg-6">
+                <h1 class="header__title"><a href="/">{{ site.name }}</a></h1>
             </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6">
+                <div class="header__nav">
+                    <a href="/work">Work</a>
+                    <a href="/">Blog</a>
+                  </div>
+            </div>
+            
+            <div class="col-xs-12">
+                <div class="header__strapline">UX Designer & Developer</div>
+            </div>
+
+            <div class="col-xs-12">
+                <div class="header__links">
+                    <a href="http://therusstler.dribbble.com/" class="fa fa-dribbble"></a>
+                    <a href="https://www.linkedin.com/in/therusstler/" class="fa fa-linkedin-square"></a>
+                    <a href="https://twitter.com/therusstler" class="fa fa-twitter-square"></a>            
+                  </div>
+            </div>
+            
+
+
+
           </div>
 
           <div class="site__content">
