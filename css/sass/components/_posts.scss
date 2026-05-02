@@ -285,15 +285,29 @@
 .grid {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	grid-auto-rows: 1fr;
+	grid-auto-rows: auto;
+	align-items: start;
   	grid-column-gap: 2rem;
 	grid-row-gap: 2rem;
-	
+
 	@media screen and (min-width: 42rem) {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
 	@media screen and (min-width: 71rem) {
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	&--feed {
+		.album__art,
+		.project__img,
+		.project__placeholder {
+			aspect-ratio: 16 / 9;
+		}
+
+		.project__card {
+			border-color: #3a5265;
+			box-shadow: 0 0 0 1px rgba(100, 180, 220, 0.04);
+		}
 	}
 }

@@ -5,7 +5,7 @@ title: Russ Brown
 
 {% assign feed = site.categories.making | concat: site.categories.music | sort: "date" | reverse %}
 
-<ul class="grid">
+<ul class="grid grid--feed">
 {% for post in feed %}
   {% if post.categories contains 'music' %}
     <li>
