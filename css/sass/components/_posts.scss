@@ -153,6 +153,135 @@
 
 }
 
+.project {
+
+	&__card {
+		border: 1px solid #2f2f2f;
+		border-radius: 10px;
+		overflow: hidden;
+		display: block;
+		text-decoration: none;
+		color: inherit;
+
+		&:hover .project__title {
+			color: #fff;
+		}
+	}
+
+	&__img {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		object-fit: cover;
+		display: block;
+	}
+
+	&__placeholder {
+		aspect-ratio: 16 / 9;
+		background: linear-gradient(135deg, #0a1e28 0%, #0f2d3d 60%, #0d3347 100%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-bottom: 1px solid #2f2f2f;
+
+		&--large {
+			aspect-ratio: 16 / 9;
+			border-radius: 10px;
+			margin-bottom: 1.5rem;
+		}
+	}
+
+	&__placeholder-type {
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		font-size: .77rem;
+		color: #3a6070;
+	}
+
+	&__info {
+		padding: 1.2rem;
+	}
+
+	&__type {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: .77rem;
+		color: #707070;
+		margin-bottom: .4rem;
+	}
+
+	&__title {
+		font-family: $header-font;
+		font-size: 1.2rem;
+		color: #BFBFBF;
+		line-height: 1.4;
+		margin-bottom: .6rem;
+		margin-top: 0;
+
+		&--large {
+			font-size: 2rem;
+			line-height: 1.2;
+			margin-bottom: .5rem;
+			margin-top: .3rem;
+		}
+	}
+
+	&__blurb {
+		font-size: .88rem;
+		color: #707070;
+		line-height: 1.5rem;
+	}
+
+	&__external-link {
+		display: inline-block;
+		font-size: .77rem;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: #707070;
+		text-decoration: none;
+		margin-top: .5rem;
+
+		&:hover {
+			color: #BFBFBF;
+		}
+	}
+
+	&__single {
+		max-width: 56rem;
+
+		@media screen and (min-width: 42rem) {
+			display: grid;
+			grid-template-columns: 280px 1fr;
+			grid-template-rows: auto 1fr;
+			gap: 0 2.5rem;
+		}
+	}
+
+	&__single-img {
+		width: 100%;
+		border-radius: 10px;
+		margin-bottom: 1.5rem;
+
+		@media screen and (min-width: 42rem) {
+			max-width: 100%;
+			margin-bottom: 0;
+			grid-row: 1 / 3;
+		}
+	}
+
+	&__single-meta {
+		margin-bottom: 1rem;
+
+		@media screen and (min-width: 42rem) {
+			align-self: end;
+		}
+	}
+
+	&__single-body {
+		margin-top: 0;
+	}
+
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);

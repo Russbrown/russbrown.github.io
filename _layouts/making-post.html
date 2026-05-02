@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="project__single">
+  {% if page.img %}
+    <img src="{{ page.img }}" class="project__single-img" alt="{{ page.title }}" />
+  {% else %}
+    <div class="project__placeholder project__placeholder--large">
+      {% if page.type %}<span class="project__placeholder-type">{{ page.type }}</span>{% endif %}
+    </div>
+  {% endif %}
+  <div class="project__single-meta">
+    {% if page.type %}<div class="project__type">{{ page.type }}</div>{% endif %}
+    <h2 class="project__title project__title--large">{{ page.title }}</h2>
+    {% if page.link %}
+      <a href="{{ page.link }}" class="project__external-link" target="_blank" rel="noopener">View project &rarr;</a>
+    {% endif %}
+  </div>
+  <div class="project__single-body">
+    {{ content }}
+  </div>
+</div>
