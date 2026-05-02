@@ -52,6 +52,14 @@
 
 }
 
+.feed__tag {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .65rem;
+	color: #505050;
+	margin-bottom: .3rem;
+}
+
 .album {
 
 	&__card {

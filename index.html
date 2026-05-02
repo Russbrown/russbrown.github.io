@@ -12,6 +12,7 @@ title: Russ Brown
       <a href="{{ post.url }}" class="album__card">
         <img src="{{ post.img }}" class="album__art" alt="{{ post.title }}" />
         <div class="album__info">
+          <div class="feed__tag">listening</div>
           <div class="album__artist">{{ post.artist }}</div>
           <div class="album__title">{{ post.title }}</div>
           <div class="album__blurb">{{ post.excerpt }}</div>
@@ -33,7 +34,7 @@ title: Russ Brown
           </div>
         {% endif %}
         <div class="project__info">
-          {% if post.type %}<div class="project__type">{{ post.type }}</div>{% endif %}
+          <div class="feed__tag">CD32</div>
           <div class="project__title">{{ post.title }}</div>
           <div class="project__blurb">{{ post.excerpt }}</div>
         </div>
