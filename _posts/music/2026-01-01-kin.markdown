@@ -1,0 +1,11 @@
+---
+layout: album
+title: "Kin"
+artist: KMRU
+year: 2026
+date: 2026-01-01
+categories: music
+img: https://f4.bcbits.com/img/a1657520922_10.jpg
+---
+
+Soaring synths from the ambient magician KMRU.
