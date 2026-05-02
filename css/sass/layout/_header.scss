@@ -23,15 +23,23 @@
         margin-bottom: 0rem;
         color: #707070;
         text-transform: uppercase;
-        letter-spacing: 2px; 
+        letter-spacing: 1px;
         text-align: right;
         line-height: 2rem;
+        white-space: nowrap;
 
         a {
             text-decoration: none;
-            margin-left: 2rem;
-        }  
-   
+            margin-left: 1rem;
+        }
+
+        @media screen and (min-width: 48em) {
+            letter-spacing: 2px;
+
+            a {
+                margin-left: 2rem;
+            }
+        }
     }
 
     &__strapline {
