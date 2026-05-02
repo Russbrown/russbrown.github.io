@@ -116,21 +116,39 @@
 	}
 
 	&__single {
-		max-width: 32rem;
+		max-width: 56rem;
+
+		@media screen and (min-width: 42rem) {
+			display: grid;
+			grid-template-columns: 220px 1fr;
+			grid-template-rows: auto 1fr;
+			gap: 0 2.5rem;
+		}
 	}
 
 	&__single-art {
 		width: 100%;
+		max-width: 220px;
 		border-radius: 10px;
 		margin-bottom: 1.5rem;
+
+		@media screen and (min-width: 42rem) {
+			max-width: 100%;
+			margin-bottom: 0;
+			grid-row: 1 / 3;
+		}
 	}
 
 	&__single-meta {
-		margin-bottom: 1.5rem;
+		margin-bottom: 1rem;
+
+		@media screen and (min-width: 42rem) {
+			align-self: end;
+		}
 	}
 
 	&__single-body {
-		margin-top: 1.5rem;
+		margin-top: 0;
 	}
 
 }
