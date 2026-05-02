@@ -1,0 +1,13 @@
+---
+layout: making-post
+title: "Left"
+artist: CD32
+type: music
+year: 2026
+date: 2026-04-20
+categories: making
+img: https://f4.bcbits.com/img/a4131400886_5.jpg
+link: https://cd32.bandcamp.com/album/left
+---
+
+Five tracks made with an Arturia Microfreak and Ableton in a home studio.
