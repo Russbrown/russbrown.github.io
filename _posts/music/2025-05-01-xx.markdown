@@ -1,0 +1,11 @@
+---
+layout: album
+title: "xx"
+artist: The xx
+year: 2009
+date: 2025-05-01
+categories: music
+img: https://upload.wikimedia.org/wikipedia/en/1/1b/The_xx_-_xx.jpg
+---
+
+Sparse and intimate — space used as an instrument. The restraint is what makes it so affecting. Every note feels deliberate.

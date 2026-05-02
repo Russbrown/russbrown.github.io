@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="album__single">
+  <img src="{{ page.img }}" class="album__single-art" alt="{{ page.title }} by {{ page.artist }}" />
+  <div class="album__single-meta">
+    <div class="album__artist">{{ page.artist }}</div>
+    <h2 class="album__title album__title--large">{{ page.title }}</h2>
+    {% if page.year %}<div class="album__year">{{ page.year }}</div>{% endif %}
+  </div>
+  <div class="album__single-body">
+    {{ content }}
+  </div>
+</div>
