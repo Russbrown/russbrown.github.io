@@ -3,44 +3,29 @@ layout: default
 title: Russ Brown
 ---
 
-{% assign feed = site.categories.making | concat: site.categories.music | sort: "date" | reverse %}
+{% assign feed = site.categories.making | sort: "date" | reverse %}
 
 <ul class="grid grid--feed">
 {% for post in feed %}
-  {% if post.categories contains 'music' %}
-    <li>
-      <a href="{{ post.url }}" class="album__card">
-        <img src="{{ post.img }}" class="album__art" alt="{{ post.title }}" />
-        <div class="album__info">
-          <div class="feed__tag">Listening</div>
-          <div class="album__artist">{{ post.artist }}</div>
-          <div class="album__title">{{ post.title }}</div>
-          <div class="album__blurb">{{ post.excerpt }}</div>
-        </div>
-      </a>
-    </li>
-  {% elsif post.categories contains 'making' %}
-    <li>
-      {% if post.link %}
-        <a href="{{ post.link }}" class="project__card" target="_blank" rel="noopener">
+  <li>
+    {% if post.link %}
+      <a href="{{ post.link }}" class="project__card" target="_blank" rel="noopener">
+    {% else %}
+      <a href="{{ post.url }}" class="project__card">
+    {% endif %}
+      {% if post.img %}
+        <img src="{{ post.img }}" class="project__img" alt="{{ post.title }}" />
       {% else %}
-        <a href="{{ post.url }}" class="project__card">
-      {% endif %}
-        {% if post.img %}
-          <img src="{{ post.img }}" class="project__img" alt="{{ post.title }}" />
-        {% else %}
-          <div class="project__placeholder">
-            {% if post.type %}<span class="project__placeholder-type">{{ post.type }}</span>{% endif %}
-          </div>
-        {% endif %}
-        <div class="project__info">
-          <div class="feed__tag">Making</div>
-          <div class="project__title">{{ post.title }}</div>
-          <div class="project__blurb">{{ post.excerpt }}</div>
+        <div class="project__placeholder">
+          {% if post.type %}<span class="project__placeholder-type">{{ post.type }}</span>{% endif %}
         </div>
-      </a>
-    </li>
-  {% endif %}
+      {% endif %}
+      <div class="project__info">
+        <div class="project__title">{{ post.title }}</div>
+        <div class="project__blurb">{{ post.excerpt }}</div>
+      </div>
+    </a>
+  </li>
 {% endfor %}
 </ul>
 
