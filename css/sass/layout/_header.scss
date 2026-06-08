@@ -52,11 +52,12 @@
     }
 
     &__links {
+        text-align: right;
 
         a {
             font-size: 1.2rem;
             text-decoration: none;
-            margin-right: .5rem;
+            margin-left: .5rem;
             color: #707070;
         }
     }
