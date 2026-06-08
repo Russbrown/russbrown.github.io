@@ -288,6 +288,15 @@
 		margin-top: 0;
 	}
 
+	&__player {
+		margin-bottom: 1.5rem;
+
+		iframe {
+			display: block;
+			border-radius: 4px;
+		}
+	}
+
 }
 
 .grid {
