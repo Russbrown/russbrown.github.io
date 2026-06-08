@@ -297,6 +297,16 @@
 		}
 	}
 
+	&__player-embed {
+		display: block;
+		border-bottom: 1px solid #2f2f2f;
+	}
+
+	&__title a {
+		text-decoration: none;
+		color: inherit;
+	}
+
 }
 
 .grid {
