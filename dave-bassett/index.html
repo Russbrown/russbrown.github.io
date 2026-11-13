@@ -113,12 +113,34 @@ section[hidden] { display: none; }
 .mh-rec { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .mh-rec .form { display: inline-flex; gap: 3px; margin: 0; }
 .mh-rec .pip { width: 20px; height: 20px; font-size: 11px; line-height: 20px; border-radius: 5px; }
+.mh-chev { flex: none; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface-2); display: grid; place-items: center; transition: transform .2s, background .15s; }
+.mh-chev::before { content: ""; width: 9px; height: 9px; border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: translateY(-2px) rotate(45deg); }
+.month-head:hover .mh-chev { border-color: var(--club); }
+.month-card.open .mh-chev { transform: rotate(180deg); background: var(--club); border-color: var(--club); }
 .mh-toggle { flex: none; font: 700 13px var(--font-body); letter-spacing: .04em; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); border-radius: 999px; padding: 8px 14px; white-space: nowrap; transition: background .15s; }
 .month-head:hover .mh-toggle { border-color: var(--club); }
 .month-card.open .mh-toggle { background: var(--club); border-color: var(--club); color: #fff; }
 .month-sum { padding: 0 24px 20px; display: grid; gap: 10px; }
 .month-sum p { margin: 0; max-width: 68ch; color: #cfd6dd; }
-.weeks { padding: 18px; border-top: 1px solid var(--line); background: var(--bg); display: grid; gap: 14px; }
+.weeks { padding: 4px 18px 18px; border-top: 1px solid var(--line); background: var(--bg); display: grid; gap: 14px; }
+.wk-track { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(118px, 1fr); overflow-x: auto; position: relative; padding: 14px 0 4px; scrollbar-width: thin; }
+.wk { appearance: none; border: 0; background: none; color: var(--muted); font: inherit; cursor: pointer; text-align: center; display: grid; justify-items: center; gap: 3px; padding: 0 6px 8px; position: relative; border-radius: 10px; }
+.wk::before { content: ""; position: absolute; top: 9px; left: 0; right: 0; height: 2px; background: var(--line); z-index: 0; }
+.wk:first-child::before { left: 50%; } .wk:last-child::before { right: 50%; }
+.wk-dot { width: 20px; height: 20px; border-radius: 50%; background: var(--surface-2); border: 2px solid var(--line); position: relative; z-index: 1; display: grid; place-items: center; font: 800 10px var(--font-body); color: #0b0e12; margin-bottom: 4px; transition: transform .15s; }
+.wk-dot.W { background: var(--win); border-color: var(--win); } .wk-dot.D { background: var(--draw); border-color: var(--draw); } .wk-dot.L { background: var(--loss); border-color: var(--loss); }
+.wk-n { font: 800 13px var(--font-display); letter-spacing: .08em; text-transform: uppercase; }
+.wk-t { font-size: 12px; line-height: 1.25; color: var(--muted); max-width: 16ch; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.wk-d { font-size: 11px; color: color-mix(in srgb, var(--muted) 75%, transparent); font-variant-numeric: tabular-nums; }
+.wk:hover .wk-n, .wk:hover .wk-t { color: var(--ink); }
+.wk[aria-selected="true"] .wk-n, .wk[aria-selected="true"] .wk-t { color: var(--ink); }
+.wk[aria-selected="true"] .wk-dot { transform: scale(1.25); box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--club-2); }
+.wk:focus-visible { outline: 2px solid var(--club-2); outline-offset: -2px; }
+.wk-panel { display: grid; gap: 10px; }
+.wk-nav { display: flex; justify-content: space-between; gap: 8px; }
+.wk-nav button { appearance: none; font: 700 13px var(--font-body); color: var(--ink); background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; cursor: pointer; }
+.wk-nav button:disabled { opacity: .35; cursor: default; }
+.wk-nav button:not(:disabled):hover { border-color: var(--club); }
 .timeline { display: grid; gap: 14px; }
 .entry { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: grid; }
 .entry.has-img { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
@@ -132,6 +154,8 @@ section[hidden] { display: none; }
 .res.W { background: var(--win); } .res.D { background: var(--draw); } .res.L { background: var(--loss); }
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; margin-top: 4px; }
 .gallery img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: left top; border-radius: 10px; border: 1px solid var(--line); cursor: zoom-in; transition: transform .15s, border-color .15s; }
+.month-card.open .month-sum .gallery { display: none; }
+@media (max-width: 640px) { .gallery { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); } }
 .gallery img:hover { transform: translateY(-2px); border-color: var(--club); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag { font-size: 13px; padding: 4px 10px; border-radius: 999px; background: var(--surface-2); color: var(--ink); border: 1px solid var(--line); cursor: pointer; }
@@ -318,6 +342,24 @@ function renderKickoff() {
 
 function playerName(id) { const p = DATA.players.find(p => p.id === id); return p ? p.name : id; }
 
+function weekView(k, weeks) {
+  const asc = [...weeks].sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+  const sel = asc.find(w => w.id === SEL_WEEK[k]) || asc[asc.length - 1];
+  const i = asc.indexOf(sel);
+  const node = w => {
+    const m = w.match && DATA.matches.find(x => x.id === w.match);
+    const r = m && m.score ? result(m) : "";
+    const num = ((w.title || "").match(/^Week\s+(\d+)/i) || (w.label || "").match(/^Week\s+(\d+)/i) || [])[1];
+    const short = (w.title || "").replace(/^Week\s+\d+:\s*/i, "");
+    const range = MON3(((w.label || "").split("·")[1] || fmtDate(w.date)).trim());
+    return `<button class="wk" role="tab" aria-selected="${w === sel}" data-week="${esc(w.id)}" data-wmonth="${k}">
+      <span class="wk-dot ${r}">${r}</span><span class="wk-n">${num ? "Wk " + num : "Week"}</span><span class="wk-t">${esc(short)}</span><span class="wk-d">${esc(range)}</span></button>`;
+  };
+  return `<div class="weeks"><div class="wk-track" role="tablist" aria-label="Weeks in this month">${asc.map(node).join("")}</div>
+    <div class="wk-panel">${entryHtml(sel)}
+      ${asc.length > 1 ? `<div class="wk-nav"><button data-week="${esc(asc[i - 1]?.id || "")}" data-wmonth="${k}" ${i ? "" : "disabled"}>← Previous week</button><button data-week="${esc(asc[i + 1]?.id || "")}" data-wmonth="${k}" ${i < asc.length - 1 ? "" : "disabled"}>Next week →</button></div>` : ""}
+    </div></div>`;
+}
 function entryHtml(e) {
   const m = e.match && DATA.matches.find(x => x.id === e.match);
   return `<article class="entry ${e.image ? "has-img" : ""}">
@@ -333,6 +375,8 @@ function entryHtml(e) {
     </article>`;
 }
 const OPEN_MONTHS = new Set();
+const SEL_WEEK = {};
+const MON3 = t => t.replace(/(January|February|March|April|May|June|July|August|September|October|November|December)/g, m => m.slice(0, 3));
 function monthRecord(key) {
   const ms = DATA.matches.filter(m => (m.date || "").startsWith(key) && m.score);
   const comp = ms.filter(m => m.competition !== "Friendly");
@@ -359,15 +403,16 @@ function renderStory(el) {
           <h2>${esc(mt.title || name)}</h2>
           <div class="mh-rec">${rec.comp.length ? `<span class="form">${rec.form.map(f => `<span class="pip ${f}">${f}</span>`).join("")}</span><span>Won ${rec.r.W} · Drawn ${rec.r.D} · Lost ${rec.r.L} · Goals ${rec.r.gf}–${rec.r.ga}</span>` : `<span>${rec.friendlies} friendlies</span>`}</div>
         </div>
-        <span class="mh-toggle">${open ? "Hide weeks" : `Show ${weeks.length} ${weeks.length === 1 ? "week" : "weeks"}`}</span>
+        <span class="mh-chev" aria-hidden="true"></span>
       </button>
       <div class="month-sum">
         ${(mt.summary || "").split(/\n\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join("")}
         ${thumbs.length ? `<div class="gallery">${thumbs.map(src => { const e = weeks.find(w => w.image === src || (w.images || []).includes(src)); return `<img src="${esc(src)}" alt="Screenshot from the month" data-zoom="${esc(src)}" data-entry="${esc(e.id)}" loading="lazy">`; }).join("")}</div>` : ""}
       </div>
-      ${open ? `<div class="timeline weeks">${weeks.map(entryHtml).join("")}</div>` : ""}
+      ${open ? weekView(k, weeks) : ""}
     </section>`;
   }).join("") + "</div>";
+  el.querySelectorAll(".wk-track").forEach(t => { const w = t.querySelector('[aria-selected="true"]'); if (w) t.scrollLeft = w.offsetLeft - (t.clientWidth - w.offsetWidth) / 2; });
 }
 function positionChart() {
   const pts = DATA.matches.filter(m => m.leaguePos).sort((a, b) => (a.date || "").localeCompare(b.date || ""));
@@ -574,6 +619,7 @@ function showTab(t) {
 }
 
 document.addEventListener("click", e => {
+  const wk = e.target.closest("[data-week]"); if (wk) { if (!wk.disabled && wk.dataset.week) { SEL_WEEK[wk.dataset.wmonth] = wk.dataset.week; renderStory($("#story-panel")); } return; }
   const mo = e.target.closest("[data-month]"); if (mo) { const k = mo.dataset.month; OPEN_MONTHS.has(k) ? OPEN_MONTHS.delete(k) : OPEN_MONTHS.add(k); renderStory($("#story-panel")); return; }
   const sp = e.target.closest("[data-spell]"); if (sp) return selectSpell(sp.dataset.spell);
   const t = e.target.closest("[data-tab]"); if (t) { showTab(t.dataset.tab); history.replaceState(null, "", "#" + t.dataset.tab); return; }
