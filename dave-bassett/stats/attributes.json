@@ -1585,6 +1585,57 @@
      "work_rate": 12
     }
    }
+  },
+  {
+   "date": "2027-02-10",
+   "source": "Player profile",
+   "players": {
+    "nicolai-johannessen": {
+     "name": "Nicolai Johannessen",
+     "age": 32,
+     "position": "D (LC)",
+     "ca_stars": 3,
+     "height": "6'1\"",
+     "left_foot": "Very Strong",
+     "right_foot": "Reasonable",
+     "crossing": 7,
+     "dribbling": 5,
+     "finishing": 5,
+     "first_touch": 9,
+     "heading": 10,
+     "long_shots": 5,
+     "marking": 10,
+     "passing": 10,
+     "tackling": 11,
+     "technique": 7,
+     "corners": 5,
+     "free_kicks": 5,
+     "long_throws": 12,
+     "penalties": 5,
+     "aggression": 10,
+     "anticipation": 8,
+     "bravery": 8,
+     "composure": 9,
+     "concentration": 10,
+     "decisions": 9,
+     "determination": 10,
+     "flair": 4,
+     "leadership": 6,
+     "off_the_ball": 6,
+     "positioning": 10,
+     "teamwork": 13,
+     "vision": 8,
+     "work_rate": 10,
+     "acceleration": 9,
+     "agility": 9,
+     "balance": 9,
+     "jumping_reach": 11,
+     "natural_fitness": 10,
+     "pace": 8,
+     "stamina": 9,
+     "strength": 10
+    }
+   }
   }
  ]
 }

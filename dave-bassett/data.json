@@ -827,6 +827,23 @@
    "tag": "New signing",
    "status": "active",
    "spell": "sundby"
+  },
+  {
+   "id": "nicolai-johannessen",
+   "name": "Nicolai Johannessen",
+   "role": "DEF",
+   "position": "D (LC)",
+   "age": 32,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
+   "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
   }
  ],
  "matches": [
@@ -2811,6 +2828,21 @@
     "oliver-koertz"
    ],
    "images": []
+  },
+  {
+   "id": "2027-week-06",
+   "spell": "sundby",
+   "month": "2027-02",
+   "date": "2027-02-10",
+   "label": "Week 6 · 6–12 February",
+   "title": "Week 6: A left-back who stays at home",
+   "body": "With Vandal still injured, Sundby signed 32-year-old free agent Nicolai Johannessen to play left-back.\n\nHe's a defender first: tackling 11, marking 10, heading 10, concentration 10, and 6'1\" to deal with the back-post crosses that have cost Sundby all season. He won't get forward (crossing 7) and he's slow (pace 8), but with full-back-turned-winger Hansen ahead of him, he doesn't need to.",
+   "players": [
+    "nicolai-johannessen",
+    "adam-ejler-hansen",
+    "magnus-vandal"
+   ],
+   "images": []
   }
  ],
  "fixtures": [
@@ -3050,7 +3082,7 @@
    }
   ]
  },
- "currentDate": "2027-01-27",
+ "currentDate": "2027-02-10",
  "spells": [
   {
    "id": "sundby",
@@ -3133,6 +3165,10 @@
     {
      "date": "2027-01-27",
      "label": "Signs Oliver Koertz from rivals Næsby"
+    },
+    {
+     "date": "2027-02-10",
+     "label": "Signs left-back Nicolai Johannessen"
     }
    ]
   }
@@ -3184,8 +3220,14 @@
    "id": "2027-01",
    "spell": "sundby",
    "title": "January",
-   "inProgress": true,
    "summary": "The transfer window opened, and Bassett landed his two best signings yet: holding midfielder Nicklas Halse and right winger Oliver Koertz, taken from rivals Næsby."
+  },
+  {
+   "id": "2027-02",
+   "spell": "sundby",
+   "title": "February",
+   "inProgress": true,
+   "summary": "Final preparations for the restart. Experienced left-back Nicolai Johannessen joined to shore up the defence."
   }
  ]
 }
