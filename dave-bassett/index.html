@@ -401,7 +401,7 @@ function route() {
 }
 function weekView(k, weeks) {
   const asc = [...weeks].sort((a, b) => (a.date || "").localeCompare(b.date || ""));
-  const sel = asc.find(w => w.id === SEL_WEEK[k]) || asc[asc.length - 1];
+  const sel = asc.find(w => w.id === SEL_WEEK[k]) || asc[0];
   const i = asc.indexOf(sel);
   const node = w => {
     const m = w.match && DATA.matches.find(x => x.id === w.match);
