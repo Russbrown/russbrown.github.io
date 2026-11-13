@@ -1,5 +1,5 @@
 {
- "updatedAt": "2027-06-16",
+ "updatedAt": "2027-07-10",
  "players": [
   {
    "id": "lucas-poulsen",
@@ -5359,6 +5359,16 @@
     "img/2027-06-16-stadium.jpg",
     "img/2027-06-23-final-stats.jpg"
    ]
+  },
+  {
+   "id": "2027-week-28",
+   "spell": "sundby",
+   "month": "2027-07",
+   "date": "2027-07-10",
+   "label": "Week 28 · 10 July",
+   "title": "Week 28: Staying put",
+   "body": "Promotion made Bassett's name, and he tested the market. He applied for several jobs over the summer, hoping a bigger club would offer a better contract. Every application was turned down.\n\nSo it's another season at Sundby, now in the 2. Division. Pre-season is under way, and the trial process has turned up two highly rated teenage wingers, Gabriel Santos and David Manata, along with Ishøj goalkeeper Marius Kruse.",
+   "players": []
   }
  ],
  "fixtures": [
@@ -5660,7 +5670,7 @@
    }
   ]
  },
- "currentDate": "2027-06-16",
+ "currentDate": "2027-07-10",
  "spells": [
   {
    "id": "sundby",
@@ -5853,6 +5863,13 @@
    "spell": "sundby",
    "title": "Promoted",
    "summary": "Belmaillah scored twice to beat Helsingør 2–0. Then came the final day at Hørsholm-Usserød. With seven minutes left, Sighaoui scored the only goal, and Sundby finished 2nd. They are promoted to the 2. Division. Jovanovski swept the club awards."
+  },
+  {
+   "id": "2027-07",
+   "spell": "sundby",
+   "title": "July",
+   "inProgress": true,
+   "summary": "Every job application was turned down, so Bassett stays at Sundby for life in the 2. Division."
   }
  ]
 }
