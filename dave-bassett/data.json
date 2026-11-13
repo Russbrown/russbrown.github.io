@@ -2353,35 +2353,48 @@
     "formation": "4-2-2-2 (DLP + DM)",
     "XI": [
      "lucas-poulsen",
-     "noah-schak",
+     "magnus-langhorn",
      "mads-jul-jorgens",
      "simeon-jovanovski",
+     "nicolai-johannessen",
+     "oliver-koertz",
+     "nicklas-halse",
+     "johan-becker",
+     "karlo-trkulja",
+     "marcus-molvadgaard",
+     "mohamed-belmaillah"
+    ],
+    "subs_on": [
+     "noah-schak",
      "benjamin-damsgaard",
      "gustav-frederiksen",
-     "nicklas-halse",
-     "oliver-koertz",
-     "karlo-trkulja",
      "giran-pyne-cole",
      "bastian-andersen"
     ]
    },
    "ratings": {
-    "lucas-poulsen": 7.1,
-    "noah-schak": 6.6,
+    "lucas-poulsen": 7.2,
+    "magnus-langhorn": 6.7,
     "mads-jul-jorgens": 6.4,
     "simeon-jovanovski": 6.8,
+    "nicolai-johannessen": 6.4,
+    "oliver-koertz": 6.6,
+    "nicklas-halse": 6.9,
+    "johan-becker": 6.4,
+    "karlo-trkulja": 6.7,
+    "marcus-molvadgaard": 6.2,
+    "mohamed-belmaillah": 7.1,
+    "noah-schak": 6.6,
     "benjamin-damsgaard": 6.7,
     "gustav-frederiksen": 6.5,
-    "nicklas-halse": 6.9,
-    "oliver-koertz": 6.5,
-    "karlo-trkulja": 6.7,
     "giran-pyne-cole": 6.6,
     "bastian-andersen": 6.6
    },
    "errors_leading_to_goal": {
     "simeon-jovanovski": 1
    },
-   "image": "img/2027-02-13-espergaerde.jpg"
+   "image": "img/2027-02-13-espergaerde-stats.jpg",
+   "potm": "Matias Folkmann Andersen (Espergærde) 7.27"
   }
  ],
  "story": [
@@ -2971,7 +2984,7 @@
    "date": "2027-02-13",
    "label": "Week 7 · 13–19 February",
    "title": "Week 7: Rusty in the wind",
-   "body": "The first game back after three months off was a friendly at Espergærde, in a strong wind. It was a disappointment.\n\nHalse made his debut alongside Frederiksen, with Koertz on the right. Espergærde had 20 shots to 13, 10 on target to Sundby's 3, and three clear chances to none. Poulsen (7.1) kept it goalless until the 70th minute, when Folkmann Andersen scored. Three minutes later Jovanovski turned the ball into his own net.\n\nBelmaillah pulled one back immediately, set up by Trkulja, but it finished 2–1. Halse was the best outfield player on his debut (6.9).",
+   "body": "The first game back after three months off was a friendly at Espergærde, in a strong wind. Bassett picked his new-look first XI: Johannessen at left-back, Halse and Becker in midfield, Koertz on the right. It was a disappointment.\n\nEspergærde had 20 shots to 13, 10 on target to Sundby's 3, and three clear chances to none. Poulsen (7.2) kept it goalless until the 70th minute, when Folkmann Andersen scored. Three minutes later Jovanovski turned the ball into his own net.\n\nBelmaillah (7.1) pulled one back immediately, set up by Trkulja, but it finished 2–1. Becker, Johannessen and Mølvadgaard all struggled. Halse was the best outfield player on his debut (6.9).",
    "match": "2027-02-13-espergaerde",
    "players": [
     "nicklas-halse",
@@ -2981,6 +2994,7 @@
     "lucas-poulsen"
    ],
    "images": [
+    "img/2027-02-13-espergaerde-stats.jpg",
     "img/2027-02-13-espergaerde.jpg"
    ]
   }
