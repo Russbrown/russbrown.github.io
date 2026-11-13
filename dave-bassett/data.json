@@ -313,12 +313,12 @@
    "name": "Giran Pyne-Cole",
    "age": 24,
    "apps": 18,
-   "goals": 7,
+   "goals": 10,
    "assists": 6,
    "status": "active",
    "position": "AM (RL), ST (C)",
    "nationality": "DEN",
-   "storyline": "In form: two goals against Ishøj, then two assists at Vanløse (8.5).",
+   "storyline": "Scored a hat-trick at Ishøj (22', 52', 57'), but Sundby still only drew 3–3.",
    "number": 10,
    "avgRating": 7.0,
    "spell": "sundby",
@@ -3755,6 +3755,49 @@
     "mohamed-belmaillah": 6.5
    },
    "image": "img/2027-05-08-horsholm.jpg"
+  },
+  {
+   "id": "2027-05-15-ishoj",
+   "spell": "sundby",
+   "date": "2027-05-15",
+   "competition": "3. Division – Promotion Stage",
+   "opponent": "Ishøj IF",
+   "venue": "A",
+   "score": {
+    "for": 3,
+    "against": 3
+   },
+   "scorers": [
+    {
+     "player": "giran-pyne-cole",
+     "minute": 22
+    },
+    {
+     "player": "giran-pyne-cole",
+     "minute": 52
+    },
+    {
+     "player": "giran-pyne-cole",
+     "minute": 57
+    }
+   ],
+   "conceded": [
+    {
+     "minute": 39,
+     "scorer": "S. Escobar Jensen"
+    },
+    {
+     "minute": 72,
+     "scorer": "S. Escobar Jensen"
+    },
+    {
+     "minute": 81,
+     "scorer": "S. Escobar Jensen"
+    }
+   ],
+   "leaguePos": 4,
+   "summary": "Two hat-tricks. Pyne-Cole put Sundby 3–1 up after 57 minutes, but Escobar Jensen scored twice in the last 20 to complete his own and snatch a draw for bottom-of-the-group Ishøj.",
+   "image": "img/2027-05-15-ishoj.jpg"
   }
  ],
  "story": [
@@ -4612,6 +4655,24 @@
     "img/2027-05-08-horsholm-teamnews.jpg",
     "img/2027-05-08-horsholm-ht.jpg"
    ]
+  },
+  {
+   "id": "2027-week-21",
+   "spell": "sundby",
+   "month": "2027-05",
+   "date": "2027-05-15",
+   "label": "Week 21 · 15 May",
+   "title": "Week 21: Hat-trick for hat-trick",
+   "body": "After two goalless draws, the goals finally came, at both ends. Pyne-Cole scored on 22 minutes, Escobar Jensen equalised for Ishøj before half-time, and then Pyne-Cole struck twice in five minutes after the break to complete his hat-trick. 3–1 with half an hour left.\n\nIt wasn't enough. Escobar Jensen scored on 72 minutes and again on 81 to complete his own hat-trick. It finished 3–3, against the side bottom of the promotion group.\n\nSundby are 4th on 40 points, seven behind Hørsholm-Usserød in 2nd, with four games left. ASA lost to Frem and Hørsholm drew, so the door stayed slightly open, but a two-goal lead thrown away hurts.",
+   "match": "2027-05-15-ishoj",
+   "players": [
+    "giran-pyne-cole",
+    "oliver-elliott-karls",
+    "marcus-molvadgaard"
+   ],
+   "images": [
+    "img/2027-05-15-ishoj.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -4857,7 +4918,7 @@
    }
   ]
  },
- "currentDate": "2027-05-08",
+ "currentDate": "2027-05-15",
  "spells": [
   {
    "id": "sundby",
@@ -5040,7 +5101,7 @@
    "spell": "sundby",
    "title": "May",
    "inProgress": true,
-   "summary": "The run-in. Two goalless draws, at Helsingør and at home to Hørsholm-Usserød: the defence is solid, but the attack has dried up, and promotion is slipping away."
+   "summary": "The run-in. Two goalless draws, at Helsingør and at home to Hørsholm-Usserød, then a 3–3 at Ishøj after leading 3–1, despite a Pyne-Cole hat-trick."
   }
  ]
 }
