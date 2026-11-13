@@ -780,7 +780,7 @@
   {
    "id": "adam-ejler-hansen",
    "name": "Adam Ejler Hansen",
-   "role": "DEF",
+   "role": "MID",
    "position": "D (RL), WB (L)",
    "age": 22,
    "nationality": "Denmark",
@@ -788,7 +788,7 @@
    "goals": 0,
    "assists": 0,
    "avgRating": null,
-   "storyline": "Signed in late November as a regular starter. A left-footed full-back with pace (12), crossing (12) and concentration (13), arriving just as Vandal is injured.",
+   "storyline": "Signed in late November to play on the left wing. A natural full-back, which brings defensive work to the wing alongside pace (12) and crossing (12).",
    "bio": "22-year-old full-back who can also play wing-back on the left. 5'7\". 3.5-star ability, 4.5-star potential. 70 career games before Sundby.",
    "tag": "New signing",
    "status": "active",
@@ -2704,12 +2704,12 @@
    "month": "2026-11",
    "date": "2026-11-25",
    "label": "Week 22 · 21–27 November",
-   "title": "Week 22: Reinforcements on the left",
-   "body": "With Vandal injured, Sundby signed 22-year-old Adam Ejler Hansen, a left-footed full-back who can also play wing-back.\n\nHe arrives as a regular starter, and the numbers suggest why: pace 12, crossing 12, passing 11, concentration 13 and decisions 11. He's rated 3.5 stars now, with 4.5-star potential, the highest ceiling in the squad.\n\nThe worry is determination of 3. At 5'7\" he won't win much in the air either.",
+   "title": "Week 22: A full-back for the wing",
+   "body": "Sundby signed 22-year-old Adam Ejler Hansen as a regular starter. He's a left-footed full-back by trade, but Bassett wants him on the left wing.\n\nThere's logic to it. In a low block the wingers have to defend, and Hansen can: marking 10, concentration 13, aggression 14. Going forward he brings pace (12), crossing (12) and passing (11). He's rated 3.5 stars now, with 4.5-star potential, the highest ceiling in the squad.\n\nThe question marks are his finishing (5) and determination (3).",
    "players": [
     "adam-ejler-hansen",
-    "magnus-vandal",
-    "benjamin-damsgaard"
+    "karlo-trkulja",
+    "n-graini"
    ],
    "images": [
     "img/2026-11-25-hansen-signs.jpg"
@@ -2879,7 +2879,7 @@
     },
     {
      "date": "2026-11-25",
-     "label": "Signs full-back Adam Ejler Hansen"
+     "label": "Signs Adam Ejler Hansen for the left wing"
     }
    ]
   }
@@ -2918,7 +2918,7 @@
    "id": "2026-11",
    "spell": "sundby",
    "title": "Winter comes early",
-   "summary": "Three games without a win before the break. A tired 1–1 with Holbæk after the cup exit, then heartbreak at leaders Frem, lost in stoppage time after a Kunnerup error.\n\nAt Hørsholm-Usserød, Belmaillah ended his drought, but another headed goal from a cross cost two points, and Vandal was injured.\n\nSundby go into the winter break 4th on 24 points, seven behind Frem and two clear of 7th. Midfielder Hakim Sighaoui signed after a trial, and full-back Adam Ejler Hansen arrived to cover the injured Vandal."
+   "summary": "Three games without a win before the break. A tired 1–1 with Holbæk after the cup exit, then heartbreak at leaders Frem, lost in stoppage time after a Kunnerup error.\n\nAt Hørsholm-Usserød, Belmaillah ended his drought, but another headed goal from a cross cost two points, and Vandal was injured.\n\nSundby go into the winter break 4th on 24 points, seven behind Frem and two clear of 7th. Midfielder Hakim Sighaoui signed after a trial, and full-back Adam Ejler Hansen arrived to play on the left wing."
   }
  ]
 }
