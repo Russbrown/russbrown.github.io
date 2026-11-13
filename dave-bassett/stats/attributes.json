@@ -850,6 +850,67 @@
      ]
     }
    }
+  },
+  {
+   "date": "2026-11-17",
+   "source": "Player profile after signing",
+   "players": {
+    "hakim-sighaoui": {
+     "name": "Hakim Sighaoui",
+     "age": 22,
+     "position": "M (C)",
+     "ca_stars": 3,
+     "pa_stars": 4,
+     "crossing": 3,
+     "dribbling": 5,
+     "finishing": 6,
+     "first_touch": 9,
+     "heading": 8,
+     "long_shots": 5,
+     "marking": 8,
+     "passing": 8,
+     "tackling": 11,
+     "technique": 12,
+     "aggression": 10,
+     "anticipation": 8,
+     "bravery": 3,
+     "composure": 7,
+     "concentration": 9,
+     "decisions": 14,
+     "determination": 13,
+     "flair": 5,
+     "leadership": 5,
+     "off_the_ball": 8,
+     "positioning": 10,
+     "teamwork": 8,
+     "vision": 9,
+     "work_rate": 8,
+     "acceleration": 10,
+     "agility": 9,
+     "balance": 3,
+     "jumping_reach": 10,
+     "natural_fitness": 11,
+     "pace": 9,
+     "stamina": 6,
+     "strength": 7,
+     "left_foot": "Reasonable",
+     "right_foot": "Very Strong",
+     "height": "5'11\"",
+     "corners": 6,
+     "free_kicks": 2,
+     "long_throws": 6,
+     "penalties": 5,
+     "status": "Signed, fringe player",
+     "role_ratings": {
+      "Central Midfielder": 3,
+      "Wide Central Midfielder": 3,
+      "Midfield Playmaker": 2.5,
+      "Advanced Playmaker": 2.5,
+      "Channel Midfielder": 2,
+      "Attacking Midfielder": 2
+     }
+    }
+   }
   }
  ]
 }

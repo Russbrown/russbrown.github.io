@@ -759,6 +759,23 @@
    "bio": "Left-footed, 6'1\". Marking 11, positioning 11, pace 13, teamwork 15. Concentration 7 and stamina 5 are the worries.",
    "avgRating": 6.57,
    "role": "DEF"
+  },
+  {
+   "id": "hakim-sighaoui",
+   "name": "Hakim Sighaoui",
+   "role": "MID",
+   "position": "M (C)",
+   "age": 22,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "Signed on 17 November after a trial over the winter break. Decisions 14 and determination 13, with 4-star potential. Bought to share the holding-midfield load with Frederiksen.",
+   "bio": "22-year-old central midfielder, previously at Avarta. Joined as a fringe player.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
   }
  ],
  "matches": [
@@ -2647,19 +2664,21 @@
    "date": "2026-11-14",
    "label": "Week 21 · 14–20 November",
    "title": "Week 21: Robbed, then pegged back",
-   "body": "The last game before the winter break, away at Hørsholm-Usserød.\n\nSundby had a goal ruled out on 32 minutes. The match report said it should have stood. Belmaillah made up for it in first-half stoppage time with a solo run and a finish from 20 metres, set up by Becker (7.2). The drought was over.\n\nThen, on 59 minutes, Al-Hummadi crossed from their right, Vandal's side, and Hvid headed in from close range. Vandal lost both his tackles. Another goal from a cross into the middle of the box. Sundby had more shots (8 to 4) and more on target (5 to 2), but Hørsholm-Usserød had the better chances.\n\nTo make it worse, Vandal, who played most of the game at left-back, went off injured and Damsgaard replaced him.\n\nSundby drop to 4th on 24 points, two clear of 7th. The league breaks until 6 March, when Holstebro visit.",
+   "body": "The last game before the winter break, away at Hørsholm-Usserød.\n\nSundby had a goal ruled out on 32 minutes. The match report said it should have stood. Belmaillah made up for it in first-half stoppage time with a solo run and a finish from 20 metres, set up by Becker (7.2). The drought was over.\n\nThen, on 59 minutes, Al-Hummadi crossed from their right, Vandal's side, and Hvid headed in from close range. Vandal lost both his tackles. Another goal from a cross into the middle of the box. Sundby had more shots (8 to 4) and more on target (5 to 2), but Hørsholm-Usserød had the better chances.\n\nTo make it worse, Vandal, who played most of the game at left-back, went off injured and Damsgaard replaced him.\n\nSundby drop to 4th on 24 points, two clear of 7th. The league breaks until 6 March, when Holstebro visit.\n\nThree days later, on 17 November, trialist Hakim Sighaoui signed. The 22-year-old midfielder has the best decision-making in the squad's midfield (14) and 4-star potential. He arrives as cover and competition for Frederiksen.",
    "match": "2026-11-14-horsholm-usserod",
    "players": [
     "mohamed-belmaillah",
     "johan-becker",
     "magnus-vandal",
-    "benjamin-damsgaard"
+    "benjamin-damsgaard",
+    "hakim-sighaoui"
    ],
    "images": [
     "img/2026-11-14-horsholm.jpg",
     "img/2026-11-14-horsholm-stats.jpg",
     "img/2026-11-14-horsholm-report.jpg",
-    "img/2026-11-14-horsholm-table.jpg"
+    "img/2026-11-14-horsholm-table.jpg",
+    "img/2026-11-17-sighaoui-signs.jpg"
    ]
   }
  ],
@@ -2819,6 +2838,10 @@
     {
      "date": "2026-09-17",
      "label": "Giant-killing: beat Superliga AC Horsens in the cup"
+    },
+    {
+     "date": "2026-11-17",
+     "label": "Signs Hakim Sighaoui after trial"
     }
    ]
   }
@@ -2857,7 +2880,7 @@
    "id": "2026-11",
    "spell": "sundby",
    "title": "Winter comes early",
-   "summary": "Three games without a win before the break. A tired 1–1 with Holbæk after the cup exit, then heartbreak at leaders Frem, lost in stoppage time after a Kunnerup error.\n\nAt Hørsholm-Usserød, Belmaillah ended his drought, but another headed goal from a cross cost two points, and Vandal was injured.\n\nSundby go into the winter break 4th on 24 points, seven behind Frem and two clear of 7th."
+   "summary": "Three games without a win before the break. A tired 1–1 with Holbæk after the cup exit, then heartbreak at leaders Frem, lost in stoppage time after a Kunnerup error.\n\nAt Hørsholm-Usserød, Belmaillah ended his drought, but another headed goal from a cross cost two points, and Vandal was injured.\n\nSundby go into the winter break 4th on 24 points, seven behind Frem and two clear of 7th. Midfielder Hakim Sighaoui signed after a trial."
   }
  ]
 }
