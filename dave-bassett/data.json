@@ -359,7 +359,7 @@
    "name": "Bastian Andersen",
    "age": 20,
    "apps": 11,
-   "goals": 2,
+   "goals": 3,
    "assists": 2,
    "status": "active",
    "storyline": "The big man: knocked it on for Belmaillah's winner against Hørsholm-Usserød (7.5). The papers are now worried about his goal drought.",
@@ -2484,6 +2484,59 @@
     "giran-pyne-cole": 6.9,
     "noah-schak": 6.7
    }
+  },
+  {
+   "id": "2027-03-06-holstebro",
+   "spell": "sundby",
+   "date": "2027-03-06",
+   "competition": "3. Division",
+   "opponent": "Holstebro",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 2
+   },
+   "scorers": [
+    {
+     "player": "bastian-andersen",
+     "minute": 49
+    }
+   ],
+   "conceded": [
+    {
+     "minute": 6,
+     "scorer": "Christoffer Maul"
+    },
+    {
+     "minute": "90+2",
+     "scorer": "Casper Gandrup"
+    }
+   ],
+   "potm": "Christoffer Maul (Holstebro) 8.30",
+   "leaguePos": 4,
+   "summary": "Beaten in stoppage time again. Maul scored early, Andersen volleyed the equaliser, and Gandrup won it on 92 minutes. Sundby had the better chances (xG 1.47 to 0.90).",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     47,
+     53
+    ],
+    "shots": [
+     11,
+     6
+    ],
+    "on_target": [
+     6,
+     4
+    ],
+    "xg": [
+     1.47,
+     0.9
+    ],
+    "attendance": 74,
+    "weather": "6°C, clear"
+   },
+   "image": "img/2027-03-06-holstebro.jpg"
   }
  ],
  "story": [
@@ -3103,6 +3156,24 @@
     "magnus-langhorn"
    ],
    "images": []
+  },
+  {
+   "id": "2027-week-10",
+   "spell": "sundby",
+   "month": "2027-03",
+   "date": "2027-03-06",
+   "label": "Week 10 · 6–12 March",
+   "title": "Week 10: Déjà vu in stoppage time",
+   "body": "The league resumed at home to Holstebro, in front of 74 fans on a crisp afternoon. Koertz made his competitive debut.\n\nChristoffer Maul put Holstebro ahead with a fierce shot after six minutes. Andersen equalised four minutes into the second half with a volley into the top corner. Sundby had the better of it, with 11 shots to 6 and xG of 1.47 to 0.90.\n\nThen, in the 92nd minute, Casper Gandrup won it. It was the second time in three league games Sundby had lost to a stoppage-time goal. Bassett admitted he put the wrong sub on up front.\n\nSundby stay 4th on 24 points, level with ASA. Five games remain in the preliminary phase, and only two points separate 4th from 8th.",
+   "match": "2027-03-06-holstebro",
+   "players": [
+    "bastian-andersen",
+    "oliver-koertz"
+   ],
+   "images": [
+    "img/2027-03-06-holstebro.jpg",
+    "img/2027-03-06-holstebro-table.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -3186,13 +3257,6 @@
   {
    "date": "2026-09-12",
    "opponent": "Hørsholm-Usserød",
-   "venue": "H",
-   "competition": "3. Division",
-   "spell": "sundby"
-  },
-  {
-   "date": "2027-03-06",
-   "opponent": "Holstebro",
    "venue": "H",
    "competition": "3. Division",
    "spell": "sundby"
@@ -3487,6 +3551,13 @@
    "spell": "sundby",
    "title": "February",
    "summary": "Final preparations for the restart. Left-back Nicolai Johannessen joined. Three friendlies brought a win, a draw and a defeat. Andersen scored in two of them, but the new signings were slow to settle."
+  },
+  {
+   "id": "2027-03",
+   "spell": "sundby",
+   "title": "March",
+   "inProgress": true,
+   "summary": "The league resumed with another stoppage-time defeat, 2–1 at home to Holstebro, despite Sundby creating more."
   }
  ]
 }
