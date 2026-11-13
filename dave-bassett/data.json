@@ -5,14 +5,14 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 28,
+   "apps": 29,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Player of the match at FC Helsingør (8.1), with seven saves in a 0–0. A month after being taken off in the 7–1.",
    "number": 24,
-   "avgRating": 6.88,
+   "avgRating": 6.89,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 22,
+   "apps": 23,
    "goals": 1,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.95,
+   "avgRating": 6.96,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -83,14 +83,14 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 19,
+   "apps": 20,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "storyline": "Defensive midfielder. Scored a stoppage-time consolation against B.93.",
    "number": 16,
    "position": "D (C), DM",
-   "avgRating": 6.66,
+   "avgRating": 6.68,
    "spell": "sundby",
    "role": "MID"
   },
@@ -98,13 +98,13 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 21,
+   "apps": 22,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "storyline": "Scored a stoppage-time equaliser at ASA, Aarhus, playing as a defensive midfielder (7.3).",
    "tag": "Captain",
-   "avgRating": 6.7,
+   "avgRating": 6.71,
    "spell": "sundby",
    "role": "MID",
    "position": "DM, M (C)"
@@ -113,14 +113,14 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 14,
+   "apps": 15,
    "goals": 0,
    "assists": 5,
    "status": "active",
    "storyline": "Player of the match against Ishøj (8.4) off the bench, with two assists in the last ten minutes.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.89,
+   "avgRating": 6.87,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 19,
+   "apps": 20,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -312,15 +312,15 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 19,
+   "apps": 20,
    "goals": 7,
-   "assists": 7,
+   "assists": 8,
    "status": "active",
    "position": "AM (RL), ST (C)",
    "nationality": "DEN",
    "storyline": "Set up Mølvadgaard's opener at Ishøj (7.3).",
    "number": 10,
-   "avgRating": 7.02,
+   "avgRating": 7.03,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -359,7 +359,7 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 18,
+   "apps": 19,
    "goals": 6,
    "assists": 2,
    "status": "active",
@@ -369,7 +369,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.93,
+   "avgRating": 6.92,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -546,14 +546,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 24,
+   "apps": 25,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
-   "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
+   "storyline": "Outstanding against ASA, Aarhus (8.0) as Sundby held a 1–0 lead for 82 minutes, despite playing on a yellow.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.95,
+   "avgRating": 6.99,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -703,14 +703,14 @@
    "age": 27,
    "position": "ST (C)",
    "nationality": "DEN",
-   "apps": 16,
-   "goals": 8,
+   "apps": 17,
+   "goals": 9,
    "assists": 4,
    "status": "active",
    "tag": "Talisman",
-   "storyline": "Scored twice in 15 minutes to win at his former club Ishøj.",
+   "storyline": "Three goals in two games: a double at Ishøj, then the winner against ASA, Aarhus.",
    "spell": "sundby",
-   "avgRating": 7.04,
+   "avgRating": 7.06,
    "role": "FWD"
   },
   {
@@ -734,13 +734,13 @@
    "name": "Noah Graini",
    "number": 35,
    "position": "W (L)",
-   "apps": 12,
+   "apps": 13,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "tag": "In form",
    "spell": "sundby",
-   "avgRating": 6.77,
+   "avgRating": 6.79,
    "storyline": "Player of the match against ASA (7.9): a curled finish from 19 metres for the opener.",
    "role": "MID"
   },
@@ -768,10 +768,10 @@
    "position": "M (C)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 1,
+   "apps": 2,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.7,
+   "avgRating": 6.75,
    "storyline": "Made his Sundby debut off the bench in the 0–0 with Hørsholm-Usserød (6.7).",
    "bio": "22-year-old central midfielder, previously at Avarta. Joined as a fringe player.",
    "tag": "New signing",
@@ -785,10 +785,10 @@
    "position": "D (RL), WB (L)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 6,
+   "apps": 7,
    "goals": 1,
    "assists": 0,
-   "avgRating": 6.7,
+   "avgRating": 6.66,
    "storyline": "Scored the winner against league leaders Frem (7.4), his first goal for the club, playing on the left wing.",
    "bio": "22-year-old full-back who can also play wing-back on the left. 5'7\". 3.5-star ability, 4.5-star potential. 70 career games before Sundby.",
    "tag": "New signing",
@@ -819,10 +819,10 @@
    "position": "M (RC), AM (R)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 7,
+   "apps": 8,
    "goals": 0,
    "assists": 1,
-   "avgRating": 6.6,
+   "avgRating": 6.57,
    "storyline": "Set up Belmaillah's final-day winner at FC Helsingør (7.6), his best game yet.",
    "bio": "22-year-old right winger, rated 3.5 stars as a winger.",
    "tag": "New signing",
@@ -836,10 +836,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 10,
+   "apps": 11,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.61,
+   "avgRating": 6.65,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -3863,6 +3863,126 @@
     "giran-pyne-cole": 7.3
    },
    "image": "img/2027-05-15-ishoj-win.jpg"
+  },
+  {
+   "id": "2027-05-22-asa",
+   "spell": "sundby",
+   "date": "2027-05-22",
+   "competition": "3. Division – Promotion Stage",
+   "opponent": "ASA, Aarhus",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 0
+   },
+   "scorers": [
+    {
+     "player": "marcus-molvadgaard",
+     "minute": 8,
+     "assist": "giran-pyne-cole"
+    }
+   ],
+   "leaguePos": 4,
+   "summary": "Mølvadgaard scored after eight minutes, then Sundby defended for 82. Jovanovski (8.0) led a back four that held ASA to one shot from a clear chance.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     44,
+     56
+    ],
+    "shots": [
+     7,
+     15
+    ],
+    "on_target": [
+     1,
+     6
+    ],
+    "xg": [
+     0.98,
+     0.97
+    ],
+    "clear_cut": [
+     1,
+     1
+    ],
+    "corners": [
+     5,
+     6
+    ],
+    "fouls": [
+     5,
+     10
+    ],
+    "yellow": [
+     1,
+     2
+    ],
+    "progressive_passes": [
+     33,
+     50
+    ],
+    "pass_pct": [
+     80,
+     82
+    ],
+    "cross_pct": [
+     14,
+     18
+    ],
+    "distance_km": [
+     113,
+     118
+    ],
+    "avg_rating": [
+     7.1,
+     6.5
+    ],
+    "oppda": [
+     15.82,
+     10.31
+    ],
+    "weather": "Calm"
+   },
+   "lineup": {
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "simeon-jovanovski",
+     "mads-jul-jorgens",
+     "nicolai-johannessen",
+     "johan-becker",
+     "gustav-frederiksen",
+     "oliver-elliott-karls",
+     "adam-ejler-hansen",
+     "marcus-molvadgaard",
+     "giran-pyne-cole"
+    ],
+    "subs_on": [
+     "oliver-koertz",
+     "n-graini",
+     "hakim-sighaoui",
+     "bastian-andersen"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 7.2,
+    "magnus-langhorn": 7.0,
+    "simeon-jovanovski": 8.0,
+    "mads-jul-jorgens": 7.2,
+    "nicolai-johannessen": 7.1,
+    "hakim-sighaoui": 6.8,
+    "gustav-frederiksen": 7.1,
+    "oliver-koertz": 6.4,
+    "n-graini": 7.0,
+    "bastian-andersen": 6.7,
+    "giran-pyne-cole": 7.3,
+    "johan-becker": 6.9,
+    "marcus-molvadgaard": 7.3,
+    "oliver-elliott-karls": 6.6,
+    "adam-ejler-hansen": 6.4
+   },
+   "image": "img/2027-05-22-asa.jpg"
   }
  ],
  "story": [
@@ -4739,6 +4859,29 @@
    "images": [
     "img/2027-05-15-ishoj-win.jpg"
    ]
+  },
+  {
+   "id": "2027-week-22",
+   "spell": "sundby",
+   "month": "2027-05",
+   "date": "2027-05-22",
+   "label": "Week 22 · 22 May",
+   "title": "Week 22: The lead that held",
+   "body": "A must-win game at home to ASA, Aarhus, who'd taken four points off Sundby already this season. Mølvadgaard scored after eight minutes, finishing Pyne-Cole's pass, his third goal in two games.\n\nThen came the long wait. ASA had 56% of the ball and 15 shots. With 13 minutes left Bassett switched to Cautious, brought Sighaoui on as a second holding midfielder alongside Frederiksen, and sent Andersen on to defend set pieces. This time the lead held. Jovanovski was immense (8.0) despite being on a yellow, and Poulsen (7.2) made six saves.\n\nFrem and Hørsholm-Usserød drew 2–2. Sundby are 4th on 45 points: one behind ASA, three behind Hørsholm in 2nd, with three games to go. Promotion is back on.",
+   "match": "2027-05-22-asa",
+   "players": [
+    "marcus-molvadgaard",
+    "simeon-jovanovski",
+    "lucas-poulsen",
+    "giran-pyne-cole",
+    "hakim-sighaoui"
+   ],
+   "images": [
+    "img/2027-05-22-asa.jpg",
+    "img/2027-05-22-asa-ht.jpg",
+    "img/2027-05-22-asa-77min.jpg",
+    "img/2027-05-22-asa-preview.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -4984,7 +5127,7 @@
    }
   ]
  },
- "currentDate": "2027-05-15",
+ "currentDate": "2027-05-22",
  "spells": [
   {
    "id": "sundby",
@@ -5091,6 +5234,10 @@
     {
      "date": "2027-04-24",
      "label": "Beats league leaders Frem 1–0"
+    },
+    {
+     "date": "2027-05-22",
+     "label": "Beats ASA to move within 3 points of promotion"
     }
    ]
   }
@@ -5167,7 +5314,7 @@
    "spell": "sundby",
    "title": "May",
    "inProgress": true,
-   "summary": "The run-in. Goalless draws at Helsingør and at home to Hørsholm-Usserød, then Mølvadgaard's double won it at his old club Ishøj."
+   "summary": "The run-in. Goalless draws at Helsingør and at home to Hørsholm-Usserød, then back-to-back wins: Mølvadgaard's double at Ishøj, and his winner against ASA, Aarhus. Promotion is back on."
   }
  ]
 }
