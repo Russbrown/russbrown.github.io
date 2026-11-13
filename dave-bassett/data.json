@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-13",
+ "updatedAt": "2027-05-29",
  "players": [
   {
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 29,
+   "apps": 30,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Player of the match at FC Helsingør (8.1), with seven saves in a 0–0. A month after being taken off in the 7–1.",
    "number": 24,
-   "avgRating": 6.89,
+   "avgRating": 6.88,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 23,
+   "apps": 24,
    "goals": 1,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.96,
+   "avgRating": 6.93,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -83,14 +83,14 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 20,
+   "apps": 21,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "storyline": "Defensive midfielder. Scored a stoppage-time consolation against B.93.",
    "number": 16,
    "position": "D (C), DM",
-   "avgRating": 6.68,
+   "avgRating": 6.67,
    "spell": "sundby",
    "role": "MID"
   },
@@ -113,14 +113,14 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 15,
+   "apps": 16,
    "goals": 0,
    "assists": 5,
    "status": "active",
    "storyline": "Player of the match against Ishøj (8.4) off the bench, with two assists in the last ten minutes.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.87,
+   "avgRating": 6.83,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 20,
+   "apps": 21,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -289,7 +289,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.95,
+   "avgRating": 6.93,
    "role": "DEF"
   },
   {
@@ -312,7 +312,7 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 20,
+   "apps": 21,
    "goals": 7,
    "assists": 8,
    "status": "active",
@@ -320,7 +320,7 @@
    "nationality": "DEN",
    "storyline": "Set up Mølvadgaard's opener at Ishøj (7.3).",
    "number": 10,
-   "avgRating": 7.03,
+   "avgRating": 7.0,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -360,7 +360,7 @@
    "name": "Bastian Andersen",
    "age": 20,
    "apps": 19,
-   "goals": 6,
+   "goals": 7,
    "assists": 2,
    "status": "active",
    "storyline": "Came off the bench at Vanløse and scored twice in six minutes (8.3), both set up by Pyne-Cole.",
@@ -546,14 +546,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 25,
+   "apps": 26,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "Outstanding against ASA, Aarhus (8.0) as Sundby held a 1–0 lead for 82 minutes, despite playing on a yellow.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.99,
+   "avgRating": 6.98,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -703,14 +703,14 @@
    "age": 27,
    "position": "ST (C)",
    "nationality": "DEN",
-   "apps": 17,
+   "apps": 18,
    "goals": 9,
    "assists": 4,
    "status": "active",
    "tag": "Talisman",
    "storyline": "Three goals in two games: a double at Ishøj, then the winner against ASA, Aarhus.",
    "spell": "sundby",
-   "avgRating": 7.06,
+   "avgRating": 7.02,
    "role": "FWD"
   },
   {
@@ -785,10 +785,10 @@
    "position": "D (RL), WB (L)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 7,
+   "apps": 8,
    "goals": 1,
    "assists": 0,
-   "avgRating": 6.66,
+   "avgRating": 6.6,
    "storyline": "Scored the winner against league leaders Frem (7.4), his first goal for the club, playing on the left wing.",
    "bio": "22-year-old full-back who can also play wing-back on the left. 5'7\". 3.5-star ability, 4.5-star potential. 70 career games before Sundby.",
    "tag": "New signing",
@@ -802,10 +802,10 @@
    "position": "D/WB (R), DM, M (C)",
    "age": 29,
    "nationality": "Denmark",
-   "apps": 6,
+   "apps": 7,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.62,
+   "avgRating": 6.6,
    "storyline": "Signed in January as the ball-winning holding midfielder the side lacked. Rated 4 stars, the best in the squad, with leadership 13 and determination 15. Can cover right-back.",
    "bio": "29-year-old defensive midfielder with a national reputation. 221 career games, most recently at 2. Division leaders FC Roskilde.",
    "tag": "New signing",
@@ -836,10 +836,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 11,
+   "apps": 12,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.65,
+   "avgRating": 6.62,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -3983,6 +3983,119 @@
     "adam-ejler-hansen": 6.4
    },
    "image": "img/2027-05-22-asa.jpg"
+  },
+  {
+   "id": "2027-05-29-frem",
+   "spell": "sundby",
+   "date": "2027-05-29",
+   "competition": "3. Division – Promotion Stage",
+   "opponent": "Frem",
+   "venue": "A",
+   "score": {
+    "for": 1,
+    "against": 4
+   },
+   "scorers": [
+    {
+     "player": "bastian-andersen",
+     "minute": 72,
+     "assist": "mohamed-belmaillah"
+    }
+   ],
+   "summary": "Frem won 4–1 and lifted the title on their own pitch. Kretzschmar scored a hat-trick, all three set up by Almosawe (9.9). Andersen came off the bench to score.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     31,
+     69
+    ],
+    "shots": [
+     8,
+     14
+    ],
+    "on_target": [
+     4,
+     11
+    ],
+    "xg": [
+     0.91,
+     2.24
+    ],
+    "clear_cut": [
+     1,
+     3
+    ],
+    "corners": [
+     5,
+     6
+    ],
+    "fouls": [
+     14,
+     6
+    ],
+    "yellow": [
+     1,
+     2
+    ],
+    "progressive_passes": [
+     42,
+     44
+    ],
+    "pass_pct": [
+     77,
+     91
+    ],
+    "cross_pct": [
+     9,
+     8
+    ],
+    "distance_km": [
+     125,
+     128
+    ],
+    "avg_rating": [
+     6.5,
+     7.4
+    ],
+    "oppda": [
+     20.93,
+     12.31
+    ],
+    "weather": "Gale"
+   },
+   "lineup": {
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "simeon-jovanovski",
+     "mads-jul-jorgens",
+     "nicolai-johannessen",
+     "nicklas-halse",
+     "gustav-frederiksen",
+     "oliver-elliott-karls",
+     "adam-ejler-hansen",
+     "marcus-molvadgaard",
+     "giran-pyne-cole"
+    ],
+    "subs_on": [
+     "mohamed-belmaillah",
+     "bastian-andersen"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 6.6,
+    "magnus-langhorn": 6.5,
+    "simeon-jovanovski": 6.8,
+    "mads-jul-jorgens": 6.3,
+    "nicolai-johannessen": 6.3,
+    "oliver-elliott-karls": 6.3,
+    "nicklas-halse": 6.5,
+    "gustav-frederiksen": 6.4,
+    "adam-ejler-hansen": 6.2,
+    "marcus-molvadgaard": 6.3,
+    "giran-pyne-cole": 6.3
+   },
+   "image": "img/2027-05-29-frem.jpg"
   }
  ],
  "story": [
@@ -4883,6 +4996,28 @@
     "img/2027-05-22-asa-77min.jpg",
     "img/2027-05-22-asa-preview.jpg"
    ]
+  },
+  {
+   "id": "2027-week-23",
+   "spell": "sundby",
+   "month": "2027-05",
+   "date": "2027-05-29",
+   "label": "Week 23 · 29 May",
+   "title": "Week 23: Frem's party",
+   "body": "Away at Frem, the league leaders, in a gale at Valby Stadion. Sundby needed a win to stay in the promotion race.\n\nFrem were 1–0 up at half-time and well on top, with six shots on target to Sundby's one. Kretzschmar went on to score a hat-trick, at 26, 53 and 58 minutes, and Almosawe set up all three. He was rated 9.9.\n\nBassett went for it. Belmaillah came off the bench and set up Andersen for a goal at 72 minutes, but Remmer made it 4–1 in stoppage time. Frem had 69% of the ball and 11 shots on target. No Sundby player rated above 6.8.\n\nAfter the final whistle, Frem lifted the 3. Division trophy on their own pitch while Sundby watched. Helsingør are next.",
+   "match": "2027-05-29-frem",
+   "players": [
+    "bastian-andersen",
+    "mohamed-belmaillah",
+    "simeon-jovanovski",
+    "lucas-poulsen"
+   ],
+   "images": [
+    "img/2027-05-29-frem.jpg",
+    "img/2027-05-29-frem-trophy.jpg",
+    "img/2027-05-29-frem-ht.jpg",
+    "img/2027-05-29-frem-teamnews.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -5128,7 +5263,7 @@
    }
   ]
  },
- "currentDate": "2027-05-22",
+ "currentDate": "2027-05-29",
  "spells": [
   {
    "id": "sundby",
@@ -5315,7 +5450,7 @@
    "spell": "sundby",
    "title": "May",
    "inProgress": true,
-   "summary": "The run-in. Goalless draws at Helsingør and at home to Hørsholm-Usserød, then back-to-back wins: Mølvadgaard's double at Ishøj, and his winner against ASA, Aarhus. Promotion is back on."
+   "summary": "The run-in. Goalless draws at Helsingør and at home to Hørsholm-Usserød, then back-to-back wins: Mølvadgaard's double at Ishøj, and his winner against ASA, Aarhus. Then a 4–1 defeat at champions Frem, who lifted the trophy afterwards. Promotion has all but slipped away."
   }
  ]
 }
