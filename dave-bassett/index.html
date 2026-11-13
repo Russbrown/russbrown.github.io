@@ -172,6 +172,7 @@ a.month-head { text-decoration: none; padding-right: 76px; }
 .mp-head h1 { font: 900 clamp(40px, 7vw, 72px) var(--font-display); text-transform: uppercase; line-height: .9; margin: 2px 0 4px; }
 .mp-head p { margin: 0; max-width: 68ch; color: #cfd6dd; }
 .mpage .weeks { padding: 0; border: 0; background: none; }
+.mpage .wk-track { padding-top: 10px; }
 @media (max-width: 640px) { .gallery { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); } }
 .gallery img:hover { transform: translateY(-2px); border-color: var(--club); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -371,15 +372,17 @@ function renderMonthPage(k) {
   const keys = Object.keys(months).sort(), i = keys.indexOf(k);
   const mt = (FULL.months || []).find(m => m.id === k) || {}, rec = monthRecord(k), name = monthKey(k + "-15");
   const nav = (key, label) => key ? `<a href="#month/${key}">${label}</a>` : `<span class="off">${label}</span>`;
+  const wv = weekView(k, weeks);
   el.innerHTML = `<div class="mp-bar"><a href="#story">← All months</a>
       <div class="mp-nav">${nav(keys[i - 1], "← " + (keys[i - 1] ? monthKey(keys[i - 1] + "-15").split(" ")[0] : "Earlier"))}${nav(keys[i + 1], (keys[i + 1] ? monthKey(keys[i + 1] + "-15").split(" ")[0] : "Later") + " →")}</div></div>
+    ${wv.track}
     <header class="mp-head">
       <div class="mh-kicker">${esc(name)} · ${esc(SPELL.club)}${mt.inProgress ? ' <span class="chip">In progress</span>' : ""}</div>
       <h1>${esc(mt.title || name)}</h1>
       <div class="mh-rec">${rec.comp.length ? `<span class="form">${rec.form.map(f => `<span class="pip ${f}">${f}</span>`).join("")}</span><span>Won ${rec.r.W} · Drawn ${rec.r.D} · Lost ${rec.r.L} · Goals ${rec.r.gf}–${rec.r.ga}</span>` : `<span>${rec.friendlies} friendlies</span>`}</div>
       ${(mt.summary || "").split(/\n\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join("")}
     </header>
-    ${weekView(k, weeks)}`;
+    ${wv.panel}`;
   el.querySelectorAll(".wk-track").forEach(t => { const w = t.querySelector('[aria-selected="true"]'); if (w) t.scrollLeft = w.offsetLeft - (t.clientWidth - w.offsetWidth) / 2; });
 }
 let LAST_MONTH = null;
@@ -412,10 +415,10 @@ function weekView(k, weeks) {
     return `<button class="wk" role="tab" aria-selected="${w === sel}" data-week="${esc(w.id)}" data-wmonth="${k}">
       <span class="wk-dot ${r}">${r}</span><span class="wk-n">${num ? "Wk " + num : "Week"}</span><span class="wk-t">${esc(short)}</span><span class="wk-d">${esc(range)}</span></button>`;
   };
-  return `<div class="weeks"><div class="wk-track" role="tablist" aria-label="Weeks in this month">${asc.map(node).join("")}</div>
+  return { track: `<div class="wk-track" role="tablist" aria-label="Weeks in this month">${asc.map(node).join("")}</div>`, panel: `
     <div class="wk-panel">${entryHtml(sel)}
       ${asc.length > 1 ? `<div class="wk-nav"><button data-week="${esc(asc[i - 1]?.id || "")}" data-wmonth="${k}" ${i ? "" : "disabled"}>← Previous week</button><button data-week="${esc(asc[i + 1]?.id || "")}" data-wmonth="${k}" ${i < asc.length - 1 ? "" : "disabled"}>Next week →</button></div>` : ""}
-    </div></div>`;
+    </div>` };
 }
 function entryHtml(e) {
   const m = e.match && DATA.matches.find(x => x.id === e.match);
