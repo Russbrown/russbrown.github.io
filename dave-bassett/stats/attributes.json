@@ -911,6 +911,69 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-25",
+   "source": "Player profile after signing",
+   "players": {
+    "adam-ejler-hansen": {
+     "name": "Adam Ejler Hansen",
+     "age": 22,
+     "position": "D (RL), WB (L)",
+     "ca_stars": 3.5,
+     "pa_stars": 4.5,
+     "height": "5'7\"",
+     "left_foot": "Very Strong",
+     "right_foot": "Reasonable",
+     "crossing": 12,
+     "dribbling": 10,
+     "finishing": 5,
+     "first_touch": 9,
+     "heading": 5,
+     "long_shots": 6,
+     "marking": 10,
+     "passing": 11,
+     "tackling": 9,
+     "technique": 8,
+     "corners": 6,
+     "free_kicks": 1,
+     "long_throws": 6,
+     "penalties": 3,
+     "aggression": 14,
+     "anticipation": 9,
+     "bravery": 11,
+     "composure": 9,
+     "concentration": 13,
+     "decisions": 11,
+     "determination": 3,
+     "flair": 8,
+     "leadership": 10,
+     "off_the_ball": 7,
+     "positioning": 9,
+     "teamwork": 8,
+     "vision": 5,
+     "work_rate": 9,
+     "acceleration": 10,
+     "agility": 9,
+     "balance": 8,
+     "jumping_reach": 6,
+     "natural_fitness": 14,
+     "pace": 12,
+     "stamina": 8,
+     "strength": 8,
+     "role_ratings": {
+      "Full-Back": 3.5,
+      "Wing-Back": 3,
+      "Inside Wing-Back": 3,
+      "Playmaking Wing-Back": 3,
+      "Inside Full-Back": 2.5
+     },
+     "previous_season_3D": {
+      "apps": "1 (3)",
+      "avg_rating": 6.57
+     }
+    }
+   }
   }
  ]
 }
