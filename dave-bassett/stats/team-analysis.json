@@ -1,0 +1,149 @@
+{
+ "about": "Team-level findings from the Data Hub, by date.",
+ "snapshots": [
+  {
+   "date": "2026-08-23",
+   "after": "4 league games (1W 3L), 9 games all comps",
+   "key_findings": {
+    "verdict": "Plenty of problems defensively, fairly poor in attack, very easy to roll over",
+    "goals_conceded_per_game_league": 1.75,
+    "xga_per_game": 1.9,
+    "league_shots_for_against": [
+     38,
+     56
+    ],
+    "league_clear_cut_for_against": [
+     3,
+     7
+    ],
+    "fouls_per_game": 12,
+    "penalties_conceded": 2,
+    "passing_vs_league": "much worse than average",
+    "final_third_pass_share_pct": 3,
+    "tackling_vs_league": "much better than average",
+    "heading_vs_league": "much better than average",
+    "defenders_aerial": "about average",
+    "midfield_aerial": "much better than average",
+    "cross_completion": "about 1 in 10",
+    "board_confidence": "B- Pleased"
+   },
+   "goals_conceded_all_comps": {
+    "total": 16,
+    "by_type": {
+     "header": 4,
+     "from_cross": 4,
+     "long_ball": 4,
+     "short_passing": 2,
+     "through_ball": 0,
+     "corner": 0,
+     "direct_free_kick": 1
+    },
+    "by_zone": {
+     "central_box_6yd_to_penalty_spot": 10,
+     "six_yard_box": 3,
+     "other": 3
+    },
+    "by_time": {
+     "0-15": 4,
+     "31-45+": 4,
+     "46-60": 4,
+     "after_75": 1,
+     "other": 3
+    },
+    "assists_from_deep": 4,
+    "assists_total": 11
+   },
+   "formation_analysis": {
+    "4-2-4": {
+     "minutes": 404,
+     "clear_cut_chances": 8,
+     "mins_per_ccc": 50
+    },
+    "4-4-2 DM wide": {
+     "minutes": 163,
+     "clear_cut_chances": 4,
+     "mins_per_ccc": 41
+    }
+   },
+   "flags": {
+    "weak_passing_defender": "s-sorensen",
+    "standout_tackling_heading_midfielder": "gustav-frederiksen",
+    "standout_physical": "karlo-trkulja"
+   },
+   "changes_made": "Switched to cautious low-block 4-4-2 (2 DMs), new back four Langhorn-Jørgensen-Jovanovski-Vandal, released Lundqvist"
+  },
+  {
+   "date": "2026-11-07",
+   "source": "Data Hub after Frem away (3rd, 15 league games)",
+   "summary": "Good defensively, fairly poor in attack. Hard to break down but not a big threat.",
+   "season_per_game": {
+    "goals": 1.2,
+    "np_xg": 1.0,
+    "shots": 10.2,
+    "shot_on_target_pct": 49.7,
+    "conceded": 0.9,
+    "xga": 1.2,
+    "clean_sheets": 6,
+    "pass_pct": 79.5,
+    "tackle_pct": 74.2,
+    "cross_pct": 14.4,
+    "dribbles": 7.7,
+    "fouled": 8.9,
+    "fouls": 10.7,
+    "oppda": 20.3
+   },
+   "flags": [
+    "Pressing intensity much worse than average (by design, low block)",
+    "Passing dynamics much worse than average",
+    "Set-piece goals much worse than average",
+    "Set-piece defending below average, though 0 conceded from last 20 corners and 17 free kicks"
+   ],
+   "set_pieces": {
+    "corners_delivered": 22,
+    "corners_near_post": 22,
+    "corner_goals_recent": 0,
+    "short_corners": 0,
+    "free_kicks_last13_goals": 0,
+    "fk_far_post": "6 of 11"
+   },
+   "goals_last_23": {
+    "scored": 32,
+    "scored_by_time": {
+     "1-15": 5,
+     "16-30": 3,
+     "31-45": 5,
+     "46-60": 6,
+     "61-75": 4,
+     "76-90": 6,
+     "90+": 3
+    },
+    "conceded": 24,
+    "conceded_by_time": {
+     "1-15": 4,
+     "16-30": 3,
+     "31-45": 5,
+     "46-60": 5,
+     "61-75": 3,
+     "76-90": 2,
+     "90+": 2
+    },
+    "assists_from_crosses": "13 of 28",
+    "conceded_assists_from_crosses": "6 of 16"
+   },
+   "passes_by_third_pct": [
+    14,
+    17,
+    29,
+    24,
+    13,
+    3
+   ],
+   "standouts": [
+    "Langhorn performing much better than average defensively in midfield",
+    "Belmaillah and Andersen performing much better than average",
+    "Elliott Karlsen's attacking output an outlier",
+    "Sørensen's defending an outlier worth investigating"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2687 @@
+{
+ "updatedAt": "2026-11-13",
+ "players": [
+  {
+   "id": "lucas-poulsen",
+   "name": "Lucas Poulsen",
+   "age": 23,
+   "apps": 16,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "position": "GK",
+   "storyline": "Player of the match at Brønshøj (7.6). Six clean sheets in his last eight.",
+   "number": 24,
+   "avgRating": 6.85,
+   "spell": "sundby",
+   "role": "GK"
+  },
+  {
+   "id": "nicklas-bondo-an",
+   "name": "Nicklas Bondo Andersen",
+   "age": 25,
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "number": 8,
+   "position": "D (R), M (C)",
+   "avgRating": 6.7,
+   "spell": "sundby",
+   "role": "DEF"
+  },
+  {
+   "id": "mads-jul-jorgens",
+   "name": "Mads Jul Jørgensen",
+   "age": 24,
+   "apps": 12,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "storyline": "Four clean sheets in four starts at centre-back. Fitness concern after Holbæk.",
+   "number": 5,
+   "position": "D (C)",
+   "spell": "sundby",
+   "avgRating": 7.0,
+   "tag": "New first choice",
+   "role": "DEF"
+  },
+  {
+   "id": "benjamin-juel-be",
+   "name": "Benjamin Juel-Berg",
+   "age": 23,
+   "apps": 4,
+   "goals": 0,
+   "assists": 1,
+   "status": "left",
+   "number": 25,
+   "position": "D (LC)",
+   "storyline": "Unhappy that his promise about playing time wasn't kept. Released on a free the same morning.",
+   "avgRating": 6.92,
+   "spell": "sundby",
+   "tag": "Released",
+   "role": "DEF"
+  },
+  {
+   "id": "magnus-vandal",
+   "name": "Magnus Vandal",
+   "age": 23,
+   "apps": 11,
+   "goals": 0,
+   "assists": 1,
+   "status": "active",
+   "number": 4,
+   "position": "D (L)",
+   "avgRating": 6.86,
+   "spell": "sundby",
+   "tag": "New first choice",
+   "storyline": "Back at left-back: the most switched-on defender in the squad.",
+   "role": "DEF"
+  },
+  {
+   "id": "gustav-frederiksen",
+   "name": "Gustav Frederiksen",
+   "age": 21,
+   "apps": 10,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "storyline": "Defensive midfielder. Scored a stoppage-time consolation against B.93.",
+   "number": 16,
+   "position": "D (C), DM",
+   "avgRating": 6.71,
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "johan-becker",
+   "name": "Johan Becker",
+   "age": 24,
+   "apps": 11,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "storyline": "Captain, but scored an own goal against ASA.",
+   "tag": "Captain",
+   "avgRating": 6.67,
+   "spell": "sundby",
+   "role": "MID",
+   "position": "DM, M (C)"
+  },
+  {
+   "id": "oliver-elliott-karls",
+   "name": "Oliver Elliott Karlsen",
+   "age": 23,
+   "apps": 7,
+   "goals": 0,
+   "assists": 2,
+   "status": "active",
+   "storyline": "Two assists at Holbæk, rated 8.6. Man of the moment on the right.",
+   "number": 18,
+   "position": "M/AM (R)",
+   "avgRating": 6.83,
+   "spell": "sundby",
+   "tag": "In form",
+   "role": "MID"
+  },
+  {
+   "id": "karlo-trkulja",
+   "name": "Karlo Trkulja",
+   "age": 23,
+   "apps": 9,
+   "goals": 2,
+   "assists": 0,
+   "status": "active",
+   "storyline": "Two goals in the cup at Virum, including one after a minute.",
+   "number": 19,
+   "position": "M (L), AM (R)",
+   "avgRating": 6.79,
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "elias-langfeldt-eri",
+   "name": "Elias Langfeldt Eri…",
+   "age": 20,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "magnus-krogh-hansen",
+   "name": "Magnus Krogh Hansen",
+   "age": 25,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "position": "AM (R), ST (C)",
+   "nationality": "DEN",
+   "tag": "Released",
+   "number": 9,
+   "spell": "sundby",
+   "storyline": "Complained about not starting. Released on a free the same day.",
+   "role": "FWD"
+  },
+  {
+   "id": "nicolas-harksen",
+   "name": "Nicolas Harksen",
+   "age": 23,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "position": "GK",
+   "nationality": "GER",
+   "storyline": "The German keeper starts pre-season as the backup.",
+   "number": 1,
+   "spell": "sundby",
+   "role": "GK"
+  },
+  {
+   "id": "frederik-skov",
+   "name": "Frederik Skov",
+   "age": 25,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "position": "D (C)",
+   "nationality": "DEN",
+   "spell": "sundby",
+   "role": "DEF"
+  },
+  {
+   "id": "nicolai-jacobsen",
+   "name": "Nicolai Jacobsen",
+   "age": 24,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "storyline": "Pace and acceleration both 14.",
+   "position": "M (C)",
+   "nationality": "DEN",
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "noah-jakobsen",
+   "name": "Noah Jakobsen",
+   "age": 20,
+   "apps": 5,
+   "goals": 3,
+   "assists": 2,
+   "status": "active",
+   "position": "AM (R), ST (C)",
+   "nationality": "DEN",
+   "storyline": "Scored against Holbæk, then got injured.",
+   "number": 11,
+   "avgRating": 7.1,
+   "spell": "sundby",
+   "role": "FWD",
+   "tag": "Injured"
+  },
+  {
+   "id": "gustav-lundqvist",
+   "name": "Gustav Lundqvist",
+   "age": 24,
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "position": "D/WB (R)",
+   "nationality": "DEN",
+   "tag": "Released",
+   "number": 23,
+   "avgRating": 6.8,
+   "spell": "sundby",
+   "storyline": "Vice-captain, then scapegoat. Marking 4, tackling 3 at right-back. Released on a free after the Frem defeat.",
+   "role": "DEF"
+  },
+  {
+   "id": "alexander-aamann",
+   "name": "Alexander Aamann",
+   "age": 18,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "storyline": "Just 18, and quick: pace and acceleration both 14.",
+   "position": "M/AM (C)",
+   "nationality": "DEN",
+   "tag": "Breakthrough prospect",
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "mohamed-belmaillah",
+   "name": "Mohamed Belmaillah",
+   "age": 20,
+   "apps": 8,
+   "goals": 7,
+   "assists": 1,
+   "status": "active",
+   "storyline": "Opened the scoring at Brønshøj on 18 minutes. Seven goals, the club's top scorer.",
+   "position": "AM (L), ST (C)",
+   "nationality": "DEN",
+   "tag": "Hat-trick hero",
+   "number": 20,
+   "avgRating": 7.38,
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "magnus-langhorn",
+   "name": "Magnus Langhorn",
+   "age": 22,
+   "apps": 8,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "storyline": "Right-back since the switch to the low block. His error let in Fredericia's second goal in the cup.",
+   "position": "D (R), M (C)",
+   "nationality": "DEN",
+   "spell": "sundby",
+   "tag": "New first choice",
+   "avgRating": 6.94,
+   "role": "DEF"
+  },
+  {
+   "id": "rasmus-fink",
+   "name": "Rasmus Fink",
+   "age": 28,
+   "apps": 3,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "position": "M (RC)",
+   "nationality": "DEN",
+   "spell": "sundby",
+   "tag": "First start",
+   "storyline": "First start, at right midfield against Ringsted, a week after his debut.",
+   "avgRating": 6.63,
+   "role": "MID"
+  },
+  {
+   "id": "giran-pyne-cole",
+   "name": "Giran Pyne-Cole",
+   "age": 24,
+   "apps": 13,
+   "goals": 4,
+   "assists": 3,
+   "status": "active",
+   "position": "AM (RL), ST (C)",
+   "nationality": "DEN",
+   "storyline": "Volleyed in the 90th-minute clincher at Brønshøj.",
+   "number": 10,
+   "avgRating": 6.86,
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "frederik-mikkelsen",
+   "name": "Frederik Mikkelsen",
+   "age": 21,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "storyline": "Strong (12–16) and good in the air (jumping 13–17), if the scouts' ranges are right.",
+   "tag": "On trial",
+   "group": "On trial",
+   "position": "M/AM (C), ST (C)",
+   "nationality": "DEN",
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "romeo-rank",
+   "name": "Romeo Rank",
+   "age": 20,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "storyline": "Sent home from trial on day one.",
+   "tag": "Sent home",
+   "group": "On trial",
+   "position": "AM (C), ST (C)",
+   "nationality": "DEN",
+   "spell": "sundby"
+  },
+  {
+   "id": "bastian-andersen",
+   "name": "Bastian Andersen",
+   "age": 20,
+   "apps": 10,
+   "goals": 2,
+   "assists": 2,
+   "status": "active",
+   "storyline": "The big man: knocked it on for Belmaillah's winner against Hørsholm-Usserød (7.5). The papers are now worried about his goal drought.",
+   "tag": "New signing",
+   "position": "AM (R), ST (C)",
+   "nationality": "DEN",
+   "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
+   "number": 28,
+   "avgRating": 6.86,
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "bahtiyar-erpolat",
+   "name": "Bahtiyar Erpolat",
+   "age": 21,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "tag": "Sent home",
+   "group": "On trial",
+   "position": "AM (RL), ST",
+   "nationality": "DEN",
+   "storyline": "Sent home from trial on day one, well before his 20 July end date.",
+   "spell": "sundby"
+  },
+  {
+   "id": "asger-oliver-hansen",
+   "name": "Asger Oliver Hansen",
+   "age": 20,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "tag": "Sent home",
+   "group": "On trial",
+   "position": "AM (RL), ST",
+   "nationality": "DEN",
+   "storyline": "Sent home from trial on day one.",
+   "spell": "sundby"
+  },
+  {
+   "id": "jacob-plougmand",
+   "name": "Jacob Plougmand",
+   "age": 20,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "tag": "Sent home",
+   "group": "On trial",
+   "position": "ST (C)",
+   "nationality": "DEN",
+   "storyline": "Sent home from trial on day one.",
+   "spell": "sundby"
+  },
+  {
+   "id": "andy-minkoulou",
+   "name": "Andy Minkoulou",
+   "age": 20,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "On trial",
+   "group": "On trial",
+   "storyline": "The scouts' early read is exciting: off the ball rated somewhere between 13 and 18, with dribbling 12–17.",
+   "position": "ST (C)",
+   "nationality": "CMR",
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "luca-olofsen",
+   "name": "Luca Olofsen",
+   "age": 20,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "tag": "Sent home",
+   "group": "On trial",
+   "position": "ST (C)",
+   "nationality": "DEN",
+   "storyline": "Sent home from trial on day one.",
+   "spell": "sundby"
+  },
+  {
+   "id": "julian-vitus-pedersen",
+   "name": "Julian Vitus Pedersen",
+   "age": 19,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "Signed on a free after his trial. Could be a real aerial threat.",
+   "position": "ST (C)",
+   "nationality": "DEN",
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "villiam-madsen",
+   "name": "Villiam Madsen",
+   "age": 19,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "tag": "Sent home",
+   "group": "On trial",
+   "position": "ST (C)",
+   "nationality": "DEN",
+   "storyline": "Sent home from trial on day one.",
+   "spell": "sundby"
+  },
+  {
+   "id": "mads-mochau",
+   "name": "Mads Mochau",
+   "age": 20,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "On trial",
+   "group": "On trial",
+   "position": "ST (C)",
+   "nationality": "DEN",
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "andreas-nymark",
+   "name": "Andreas Nymark",
+   "age": 22,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "On trial",
+   "group": "On trial",
+   "position": "ST (C)",
+   "nationality": "DEN",
+   "spell": "sundby",
+   "role": "FWD"
+  },
+  {
+   "id": "emil-fosgrau",
+   "name": "Emil Fosgrau",
+   "age": 21,
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "tag": "Sent home",
+   "group": "On trial",
+   "position": "ST (C)",
+   "nationality": "DEN",
+   "storyline": "Sent home from trial on day one.",
+   "spell": "sundby"
+  },
+  {
+   "id": "mikkel-mortensen",
+   "name": "Mikkel Mortensen",
+   "age": 26,
+   "position": "AM (L)",
+   "nationality": "DEN",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "On trial",
+   "group": "On trial",
+   "storyline": "On a two-week trial from league rivals Ringsted. Assistant rates him 1.5 stars now, 2 potential.",
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "simeon-jovanovski",
+   "name": "Simeon Jovanovski",
+   "age": 20,
+   "position": "D (C)",
+   "nationality": "SWE",
+   "apps": 13,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
+   "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
+   "avgRating": 6.94,
+   "spell": "sundby",
+   "role": "DEF"
+  },
+  {
+   "id": "louis-keita",
+   "name": "Louis Keita",
+   "age": 21,
+   "position": "D (C)",
+   "nationality": "DEN",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "On trial",
+   "group": "On trial",
+   "storyline": "6'8\" centre-back with a 17 jumping reach. Back on trial after 3 games for Sundby last season.",
+   "bio": "Aggression 15, leadership 13, heading 12. Technique 2 and stamina 4. Homegrown in Denmark. Rated 3 stars now, 5 for potential.",
+   "spell": "sundby",
+   "role": "DEF"
+  },
+  {
+   "id": "andreas-nybro",
+   "name": "Andreas Nybro",
+   "number": 55,
+   "age": 22,
+   "position": "WB (R), M (RC)",
+   "nationality": "DEN",
+   "apps": 2,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "Fans keep demanding he plays. Captain Becker says he's developing concerns about his lack of games.",
+   "bio": "Signed on an amateur deal in week 3. Five previous clubs, 47 games, 8 goals. First touch 14. Rated 3.5 stars now, 4 for potential.",
+   "avgRating": 6.55,
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "alexander-johansen",
+   "name": "Alexander Johansen",
+   "age": 28,
+   "position": "D (R)",
+   "nationality": "NOR",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "tag": "Joined ASA, Aarhus",
+   "storyline": "Started at right-back in the friendlies, then left on a free for league rivals ASA, Aarhus. Scouts rated him 4.5 stars.",
+   "spell": "sundby"
+  },
+  {
+   "id": "s-sorensen",
+   "name": "Søren Sørensen",
+   "position": "D (LC)",
+   "nationality": "",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "Back in at centre-back at Holbæk, and part of a clean sheet.",
+   "avgRating": 6.8,
+   "spell": "sundby",
+   "role": "DEF"
+  },
+  {
+   "id": "m-hausted",
+   "name": "Marius Hausted",
+   "number": 3,
+   "position": "D (L)",
+   "apps": 4,
+   "goals": 0,
+   "assists": 0,
+   "status": "left",
+   "tag": "Released",
+   "storyline": "Released on a free on cup day, after Damsgaard signed to replace him at left-back.",
+   "avgRating": 6.53,
+   "spell": "sundby",
+   "role": "DEF"
+  },
+  {
+   "id": "kunnerup",
+   "name": "Mikkel Kunnerup",
+   "number": 33,
+   "position": "M (C)",
+   "apps": 12,
+   "goals": 0,
+   "assists": 2,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "Gave the ball away in stoppage time at Frem, and they broke to score the winner.",
+   "avgRating": 6.77,
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "malte-karoli",
+   "name": "Malte Karoli",
+   "number": 31,
+   "position": "AM (R)",
+   "apps": 6,
+   "goals": 0,
+   "assists": 1,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "Set up Trkulja's second on his debut at Virum.",
+   "avgRating": 6.58,
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "issah-salou",
+   "name": "Issah Salou",
+   "age": 27,
+   "position": "M (C)",
+   "nationality": "",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "Central midfielder on a free. Doesn't speak a word of Danish yet. Rated 3.5 stars, 4 for potential.",
+   "spell": "sundby",
+   "role": "MID"
+  },
+  {
+   "id": "devrim-sahin",
+   "name": "Devrim Sahin",
+   "age": 27,
+   "position": "DM, M (C)",
+   "nationality": "DEN",
+   "apps": 1,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "Deep-lying playmaker on a free. The fans call him talented and important. Rated 3.5 stars, 4 for potential.",
+   "spell": "sundby",
+   "avgRating": 6.6,
+   "role": "MID"
+  },
+  {
+   "id": "marcus-molvadgaard",
+   "name": "Marcus Mølvadgaard",
+   "age": 27,
+   "position": "ST (C)",
+   "nationality": "DEN",
+   "apps": 10,
+   "goals": 5,
+   "assists": 1,
+   "status": "active",
+   "tag": "Talisman",
+   "storyline": "Six goals, every one of them decisive. Rifled in from 19 metres to beat Ringsted, player of the match (8.6).",
+   "spell": "sundby",
+   "avgRating": 7.2,
+   "role": "FWD"
+  },
+  {
+   "id": "noah-schak",
+   "name": "Noah Schak",
+   "age": 22,
+   "position": "D (C)",
+   "nationality": "DEN",
+   "apps": 4,
+   "goals": 0,
+   "assists": 1,
+   "status": "active",
+   "tag": "Breaking through",
+   "storyline": "Player of the match against Holbæk (7.5) at right-back, and set up the goal.",
+   "spell": "sundby",
+   "avgRating": 6.9,
+   "role": "DEF"
+  },
+  {
+   "id": "n-graini",
+   "name": "Noah Graini",
+   "number": 35,
+   "position": "W (L)",
+   "apps": 6,
+   "goals": 1,
+   "assists": 1,
+   "status": "active",
+   "tag": "In form",
+   "spell": "sundby",
+   "avgRating": 6.95,
+   "storyline": "Player of the match against ASA (7.9): a curled finish from 19 metres for the opener.",
+   "role": "MID"
+  },
+  {
+   "id": "benjamin-damsgaard",
+   "spell": "sundby",
+   "name": "Benjamin Damsgaard",
+   "age": 21,
+   "position": "D (L)",
+   "nationality": "DEN",
+   "apps": 5,
+   "goals": 0,
+   "assists": 0,
+   "status": "active",
+   "tag": "New signing",
+   "storyline": "First league start at Holstebro: gave away a penalty inside 25 minutes and was replaced by Vandal.",
+   "bio": "Left-footed, 6'1\". Marking 11, positioning 11, pace 13, teamwork 15. Concentration 7 and stamina 5 are the worries.",
+   "avgRating": 6.56,
+   "role": "DEF"
+  }
+ ],
+ "matches": [
+  {
+   "id": "2026-07-11-b93",
+   "date": "2026-07-11",
+   "competition": "Friendly",
+   "opponent": "B.93",
+   "venue": "H",
+   "score": {
+    "for": 2,
+    "against": 3
+   },
+   "scorers": [
+    "Karlsen 50'",
+    "Frederiksen 90+5'"
+   ],
+   "potm": "Bassel Jradi (B.93)",
+   "summary": "Lost 2–3 to a side from the division above. Out-shot 22 to 11 with 35% possession, but Karlsen and Frederiksen scored. 825 at Kløvermarken.",
+   "image": "img/2026-07-11-b93.jpg",
+   "spell": "sundby"
+  },
+  {
+   "id": "2026-07-18-roskilde-kfum",
+   "date": "2026-07-18",
+   "competition": "Friendly",
+   "opponent": "Roskilde KFUM",
+   "venue": "A",
+   "score": {
+    "for": 1,
+    "against": 0
+   },
+   "scorers": [
+    "N. Jakobsen 90+1'"
+   ],
+   "potm": "noah-jakobsen",
+   "summary": "Won 1–0 at Boresko Park. A long ball, Andersen's knock-down and Noah Jakobsen rifled it home in the 91st minute. Sundby edged it on shots (12–7) and xG (1.29–0.41).",
+   "image": "img/2026-07-18-roskilde.jpg",
+   "spell": "sundby",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "shots": [
+     12,
+     7
+    ],
+    "xg": [
+     1.29,
+     0.41
+    ]
+   }
+  },
+  {
+   "id": "2026-07-25-hellerup-ik",
+   "date": "2026-07-25",
+   "competition": "Friendly",
+   "opponent": "Hellerup IK",
+   "venue": "H",
+   "score": {
+    "for": 3,
+    "against": 5
+   },
+   "scorers": [
+    "Hausted 1'",
+    "Pyne-Cole 3'",
+    "Pyne-Cole 45+3'"
+   ],
+   "potm": "Jonatan Rindom (Hellerup)",
+   "summary": "2–0 up after three minutes, 3–5 down at the end. Hellerup, from the division above, had 71% of the ball and scored five times from 11 shots on target.",
+   "image": "img/2026-07-25-hellerup.jpg",
+   "spell": "sundby"
+  },
+  {
+   "id": "2026-08-01-naesby",
+   "date": "2026-08-01",
+   "competition": "3. Division",
+   "opponent": "Næsby",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 2
+   },
+   "scorers": [
+    "Pyne-Cole 2'"
+   ],
+   "potm": "Magnus Schou (Næsby)",
+   "summary": "Pyne-Cole scored after two minutes from Andersen's pass, then Magnus Schou scored twice either side of half-time. Næsby out-shot Sundby 19–10 (xG 2.71–0.73).",
+   "image": "img/2026-08-01-naesby.jpg",
+   "leaguePos": 9,
+   "spell": "sundby",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "shots": [
+     10,
+     19
+    ],
+    "xg": [
+     0.73,
+     2.71
+    ]
+   }
+  },
+  {
+   "id": "2026-08-04-virum-sorgenfri",
+   "date": "2026-08-04",
+   "competition": "Danish Cup R1",
+   "opponent": "Virum-Sorgenfri",
+   "venue": "A",
+   "score": {
+    "for": 4,
+    "against": 0
+   },
+   "scorers": [
+    "Trkulja 1'",
+    "N. Jakobsen 25'",
+    "Trkulja 40'",
+    "Belmaillah 45'"
+   ],
+   "potm": "noah-jakobsen",
+   "summary": "4–0 up by half-time. 20 shots to 7, xG 2.77 to 0.36. Noah Jakobsen scored one and set up two.",
+   "image": "img/2026-08-04-virum.jpg",
+   "spell": "sundby",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "shots": [
+     20,
+     7
+    ],
+    "xg": [
+     2.77,
+     0.36
+    ]
+   }
+  },
+  {
+   "id": "2026-08-08-ringsted",
+   "date": "2026-08-08",
+   "competition": "3. Division",
+   "opponent": "Ringsted",
+   "venue": "A",
+   "score": {
+    "for": 3,
+    "against": 1
+   },
+   "scorers": [
+    "Belmaillah 50'",
+    "Belmaillah 61' (pen)",
+    "Belmaillah 72'"
+   ],
+   "potm": "mohamed-belmaillah",
+   "leaguePos": 6,
+   "summary": "First league win, and a Belmaillah hat-trick (9.97): the hoof chase, a penalty and a curler. Lind's 91st-minute goal was a consolation. Up to 6th.",
+   "image": "img/2026-08-08-ringsted-ft.jpg",
+   "spell": "sundby",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "shots": [
+     16,
+     10
+    ],
+    "clear_cut": [
+     3,
+     1
+    ]
+   }
+  },
+  {
+   "id": "2026-08-15-vanlose-if",
+   "spell": "sundby",
+   "date": "2026-08-15",
+   "competition": "3. Division",
+   "opponent": "Vanløse IF",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 2
+   },
+   "scorers": [
+    "N. Jakobsen 46'"
+   ],
+   "potm": "",
+   "leaguePos": 8,
+   "summary": "Paludan scored twice before half-time. Noah Jakobsen came on and pulled one back straight after the break, but Vanløse had 16 shots to 6 (xG 2.27–0.44). Down to 8th.",
+   "image": "img/2026-08-15-vanlose.jpg",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "shots": [
+     6,
+     16
+    ],
+    "xg": [
+     0.44,
+     2.27
+    ]
+   }
+  },
+  {
+   "id": "2026-08-22-frem",
+   "spell": "sundby",
+   "date": "2026-08-22",
+   "competition": "3. Division",
+   "opponent": "Frem",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 2
+   },
+   "scorers": [
+    "B. Andersen 87'"
+   ],
+   "potm": "",
+   "leaguePos": 10,
+   "summary": "Frouland scored after 7 minutes and Djafer-Bey added a second in first-half stoppage time. Bastian Andersen's 87th-minute goal came too late. Frem had 11 shots to 6. Down to 10th.",
+   "image": "img/2026-08-22-frem.jpg",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "shots": [
+     6,
+     11
+    ]
+   }
+  },
+  {
+   "id": "2026-08-26-tarnby-ff",
+   "spell": "sundby",
+   "date": "2026-08-26",
+   "competition": "Danish Cup R2",
+   "opponent": "Tårnby FF",
+   "venue": "A",
+   "score": {
+    "for": 1,
+    "against": 0
+   },
+   "scorers": [
+    "Mølvadgaard 112' (FK)"
+   ],
+   "potm": "marcus-molvadgaard",
+   "summary": "0–0 after 90 minutes. In extra time, Mølvadgaard curled a free kick over the wall in the 112th minute. A first clean sheet, with the new back four.",
+   "image": "img/2026-08-26-tarnby.jpg"
+  },
+  {
+   "id": "2026-08-29-holbaek",
+   "spell": "sundby",
+   "date": "2026-08-29",
+   "competition": "3. Division",
+   "opponent": "Holbæk",
+   "venue": "A",
+   "score": {
+    "for": 3,
+    "against": 0
+   },
+   "scorers": [
+    "Mølvadgaard 18'",
+    "Pyne-Cole 49'",
+    "Pyne-Cole 79'"
+   ],
+   "potm": "oliver-elliott-karls",
+   "leaguePos": 8,
+   "summary": "Expected to lose, won 3–0. Mølvadgaard opened the scoring, Pyne-Cole added two, and Elliott Karlsen set up two (8.6). Second clean sheet in a row. Up to 8th.",
+   "image": "img/2026-08-29-holbaek.jpg"
+  },
+  {
+   "id": "2026-09-05-ishoj-if",
+   "spell": "sundby",
+   "date": "2026-09-05",
+   "competition": "3. Division",
+   "opponent": "Ishøj IF",
+   "venue": "A",
+   "score": {
+    "for": 2,
+    "against": 0
+   },
+   "scorers": [
+    "B. Andersen 76'",
+    "Belmaillah 90'"
+   ],
+   "potm": "mohamed-belmaillah",
+   "leaguePos": 5,
+   "summary": "Absorbed 60% possession, then struck late: Andersen chipped the keeper after an error, then Belmaillah finished in the 90th. Seven shots on target to three. Third clean sheet in a row. Up to 5th.",
+   "image": "img/2026-09-05-ishoj.jpg",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     40,
+     60
+    ],
+    "shots": [
+     9,
+     9
+    ],
+    "on_target": [
+     7,
+     3
+    ],
+    "xg": [
+     1.15,
+     0.53
+    ],
+    "clear_cut": [
+     2,
+     0
+    ],
+    "corners": [
+     4,
+     5
+    ],
+    "fouls": [
+     7,
+     6
+    ],
+    "pass_pct": [
+     77,
+     82
+    ],
+    "avg_rating": [
+     7.0,
+     6.5
+    ],
+    "attendance": 253
+   }
+  },
+  {
+   "id": "2026-09-12-horsholm-usserod",
+   "spell": "sundby",
+   "date": "2026-09-12",
+   "competition": "3. Division",
+   "opponent": "Hørsholm-Usserød",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 0
+   },
+   "scorers": [
+    "Belmaillah 36'"
+   ],
+   "potm": "bastian-andersen",
+   "leaguePos": 2,
+   "summary": "Beat the league leaders 1–0. Andersen set up Belmaillah on 36 minutes. The only clear-cut chance of the game was Sundby's. Fourth clean sheet in a row. Up to 2nd.",
+   "image": "img/2026-09-12-horsholm.jpg",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     40,
+     60
+    ],
+    "shots": [
+     9,
+     8
+    ],
+    "on_target": [
+     5,
+     3
+    ],
+    "xg": [
+     0.95,
+     1.24
+    ],
+    "clear_cut": [
+     1,
+     0
+    ],
+    "corners": [
+     3,
+     7
+    ],
+    "fouls": [
+     11,
+     17
+    ],
+    "pass_pct": [
+     73,
+     83
+    ],
+    "avg_rating": [
+     6.9,
+     6.6
+    ],
+    "attendance": 88
+   }
+  },
+  {
+   "id": "2026-09-17-ac-horsens",
+   "spell": "sundby",
+   "date": "2026-09-17",
+   "competition": "Danish Cup R3",
+   "opponent": "AC Horsens",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 0
+   },
+   "scorers": [
+    "Mølvadgaard 84'"
+   ],
+   "potm": "marcus-molvadgaard",
+   "summary": "Giant-killing: beat Superliga AC Horsens, three divisions above. Horsens had 75% of the ball, but Mølvadgaard came off the bench and headed in from close range on 84 minutes. Player of the match (7.9).",
+   "image": "img/2026-09-17-horsens.jpg",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     25,
+     75
+    ],
+    "shots": [
+     6,
+     9
+    ],
+    "on_target": [
+     4,
+     3
+    ],
+    "xg": [
+     0.54,
+     0.59
+    ],
+    "attendance": 87
+   }
+  },
+  {
+   "id": "2026-09-20-holstebro",
+   "spell": "sundby",
+   "date": "2026-09-20",
+   "competition": "3. Division",
+   "opponent": "Holstebro",
+   "venue": "A",
+   "score": {
+    "for": 0,
+    "against": 2
+   },
+   "scorers": [],
+   "potm": "Rasmus Aagaard (Holstebro)",
+   "leaguePos": 3,
+   "summary": "Rotated side lost 2–0. Damsgaard conceded a penalty, Tønnesen scored it (25'), and Bøgedal added a second in first-half stoppage time. Went very attacking after the break: 12 shots, but chances worth only 0.85 goals.",
+   "image": "img/2026-09-20-holstebro.jpg",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     34,
+     66
+    ],
+    "shots": [
+     12,
+     11
+    ],
+    "on_target": [
+     4,
+     6
+    ],
+    "xg": [
+     0.85,
+     1.38
+    ],
+    "clear_cut": [
+     0,
+     1
+    ],
+    "corners": [
+     6,
+     4
+    ],
+    "fouls": [
+     4,
+     6
+    ],
+    "pass_pct": [
+     77,
+     85
+    ],
+    "avg_rating": [
+     6.6,
+     7.1
+    ],
+    "attendance": 269
+   }
+  },
+  {
+   "id": "2026-09-26-bronshoj",
+   "spell": "sundby",
+   "date": "2026-09-26",
+   "competition": "3. Division",
+   "opponent": "Brønshøj",
+   "venue": "A",
+   "score": {
+    "for": 2,
+    "against": 0
+   },
+   "scorers": [
+    "Belmaillah 18'",
+    "Pyne-Cole 90'"
+   ],
+   "potm": "lucas-poulsen",
+   "leaguePos": 2,
+   "summary": "Beat 2nd-placed Brønshøj with 28% of the ball. Belmaillah scored after 18 minutes, then Pyne-Cole volleyed in Mølvadgaard's low cross in the 90th. More clear-cut chances (2–1) and more expected goals (1.37–1.15). Up to 2nd.",
+   "image": "img/2026-09-26-bronshoj.jpg",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     28,
+     72
+    ],
+    "shots": [
+     7,
+     10
+    ],
+    "on_target": [
+     6,
+     5
+    ],
+    "xg": [
+     1.37,
+     1.15
+    ],
+    "clear_cut": [
+     2,
+     1
+    ],
+    "corners": [
+     2,
+     4
+    ],
+    "fouls": [
+     12,
+     5
+    ],
+    "pass_pct": [
+     76,
+     89
+    ],
+    "avg_rating": [
+     7.1,
+     6.7
+    ],
+    "attendance": 600
+   }
+  },
+  {
+   "id": "2026-10-03-asa-aarhus",
+   "spell": "sundby",
+   "date": "2026-10-03",
+   "competition": "3. Division",
+   "opponent": "ASA, Aarhus",
+   "venue": "H",
+   "score": {
+    "for": 2,
+    "against": 1
+   },
+   "scorers": [
+    "Graini 38' (Vandal)",
+    "Mølvadgaard 72' (Pyne-Cole)"
+   ],
+   "potm": "n-graini",
+   "leaguePos": 2,
+   "summary": "Deserved win over Johansen's new club. Graini curled in from 19 metres, Mølvadgaard finished low into the corner, and Becker's own goal made it nervy. 12 shots to 5, 7 on target to 1.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     49,
+     51
+    ],
+    "shots": [
+     12,
+     5
+    ],
+    "on_target": [
+     7,
+     1
+    ],
+    "xg": [
+     1.23,
+     0.23
+    ],
+    "clear_cut": [
+     1,
+     0
+    ],
+    "corners": [
+     2,
+     5
+    ],
+    "fouls": [
+     12,
+     11
+    ],
+    "yellow": [
+     0,
+     2
+    ],
+    "progressive_passes": [
+     47,
+     39
+    ],
+    "pass_pct": [
+     81,
+     79
+    ],
+    "cross_pct": [
+     29,
+     0
+    ],
+    "distance_km": [
+     116,
+     118
+    ],
+    "avg_rating": [
+     6.9,
+     6.4
+    ],
+    "oppda": [
+     16.88,
+     17.95
+    ],
+    "shots_saved_missed_blocked": [
+     [
+      5,
+      4,
+      1
+     ],
+     [
+      0,
+      1,
+      3
+     ]
+    ],
+    "attendance": 67
+   },
+   "image": "img/2026-10-03-asa.jpg",
+   "lineup": {
+    "formation": "4-4-2 (2 DM)",
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "magnus-vandal",
+     "gustav-frederiksen",
+     "johan-becker",
+     "oliver-elliott-karls",
+     "n-graini",
+     "bastian-andersen",
+     "mohamed-belmaillah"
+    ],
+    "subs_used": [
+     "marcus-molvadgaard",
+     "giran-pyne-cole"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 6.5,
+    "magnus-langhorn": 7.2,
+    "mads-jul-jorgens": 6.9,
+    "simeon-jovanovski": 6.6,
+    "magnus-vandal": 7.1,
+    "gustav-frederiksen": 6.5,
+    "johan-becker": 6.4,
+    "oliver-elliott-karls": 6.5,
+    "n-graini": 7.9,
+    "bastian-andersen": 6.8,
+    "mohamed-belmaillah": 6.6
+   }
+  },
+  {
+   "id": "2026-10-10-fc-helsingor",
+   "spell": "sundby",
+   "date": "2026-10-10",
+   "competition": "3. Division",
+   "opponent": "FC Helsingør",
+   "venue": "H",
+   "score": {
+    "for": 0,
+    "against": 1
+   },
+   "scorers": [],
+   "potm": "Olafur Hjaltason (FC Helsingør)",
+   "summary": "Top-of-the-table clash lost to Kisum's 18th-minute free kick. Sundby managed one shot all game, none on target. FC Helsingør go top.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     40,
+     60
+    ],
+    "shots": [
+     1,
+     9
+    ],
+    "on_target": [
+     0,
+     4
+    ],
+    "xg": [
+     0.02,
+     0.66
+    ],
+    "attendance": 97
+   },
+   "image": "img/2026-10-10-helsingor.jpg"
+  },
+  {
+   "id": "2026-10-17-naesby",
+   "spell": "sundby",
+   "date": "2026-10-17",
+   "competition": "3. Division",
+   "opponent": "Næsby",
+   "venue": "A",
+   "score": {
+    "for": 0,
+    "against": 0
+   },
+   "scorers": [],
+   "potm": "",
+   "summary": "0–0 away at Næsby, the side who led the league for most of the season. A first clean sheet against a top side, but a second game in a row without a goal. Rasmus Fink made his debut off the bench.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "venue": "ALPI Arena"
+   },
+   "image": "img/2026-10-17-fink.jpg",
+   "leaguePos": 4
+  },
+  {
+   "id": "2026-10-24-ringsted",
+   "spell": "sundby",
+   "date": "2026-10-24",
+   "competition": "3. Division",
+   "opponent": "Ringsted",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 0
+   },
+   "scorers": [
+    "Mølvadgaard 49'"
+   ],
+   "potm": "marcus-molvadgaard",
+   "leaguePos": 3,
+   "summary": "Back to winning ways in a gale. Mølvadgaard drove in from 19 metres on 49 minutes. 21 shots and 3 clear-cut chances, but only one goal. Up to 3rd.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     52,
+     48
+    ],
+    "shots": [
+     21,
+     9
+    ],
+    "on_target": [
+     7,
+     5
+    ],
+    "xg": [
+     2.05,
+     0.9
+    ],
+    "clear_cut": [
+     3,
+     0
+    ],
+    "corners": [
+     8,
+     2
+    ],
+    "fouls": [
+     8,
+     7
+    ],
+    "yellow": [
+     1,
+     1
+    ],
+    "progressive_passes": [
+     60,
+     32
+    ],
+    "pass_pct": [
+     81,
+     80
+    ],
+    "cross_pct": [
+     25,
+     8
+    ],
+    "distance_km": [
+     123,
+     121
+    ],
+    "avg_rating": [
+     7.1,
+     6.6
+    ],
+    "oppda": [
+     20.71,
+     18.35
+    ],
+    "attendance": 67,
+    "weather": "Gale"
+   },
+   "lineup": {
+    "formation": "4-4-2 (2 DM)",
+    "mentality": "more positive",
+    "XI": [
+     "lucas-poulsen",
+     "noah-schak",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "benjamin-damsgaard",
+     "kunnerup",
+     "johan-becker",
+     "rasmus-fink",
+     "karlo-trkulja",
+     "marcus-molvadgaard",
+     "giran-pyne-cole"
+    ],
+    "subs_used": [
+     "magnus-langhorn",
+     "magnus-vandal"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 7.1,
+    "noah-schak": 6.7,
+    "mads-jul-jorgens": 7.3,
+    "simeon-jovanovski": 7.2,
+    "benjamin-damsgaard": 6.8,
+    "kunnerup": 6.8,
+    "johan-becker": 7.3,
+    "rasmus-fink": 6.7,
+    "karlo-trkulja": 7.3,
+    "marcus-molvadgaard": 8.6,
+    "giran-pyne-cole": 6.9,
+    "magnus-langhorn": 6.9,
+    "magnus-vandal": 6.7
+   },
+   "image": "img/2026-10-24-ringsted.jpg"
+  },
+  {
+   "id": "2026-10-29-fc-fredericia",
+   "spell": "sundby",
+   "date": "2026-10-29",
+   "competition": "Danish Cup R4",
+   "opponent": "FC Fredericia",
+   "venue": "H",
+   "score": {
+    "for": 0,
+    "against": 2
+   },
+   "scorers": [],
+   "potm": "William Madsen (FC Fredericia, 8.49)",
+   "summary": "Cup run ends. FC Fredericia had 73% of the ball and William Madsen (8.5) scored twice from defensive midfield: a volley into the top corner, then a skidding drive after a Langhorn error.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     27,
+     73
+    ],
+    "shots": [
+     8,
+     13
+    ],
+    "on_target": [
+     2,
+     6
+    ],
+    "xg": [
+     0.71,
+     1.6
+    ],
+    "clear_cut": [
+     1,
+     2
+    ],
+    "corners": [
+     4,
+     6
+    ],
+    "fouls": [
+     6,
+     4
+    ],
+    "yellow": [
+     0,
+     1
+    ],
+    "progressive_passes": [
+     30,
+     63
+    ],
+    "pass_pct": [
+     78,
+     89
+    ],
+    "cross_pct": [
+     8,
+     10
+    ],
+    "distance_km": [
+     118,
+     120
+    ],
+    "avg_rating": [
+     6.5,
+     7.3
+    ],
+    "oppda": [
+     34.11,
+     11.0
+    ],
+    "weather": "Strong wind",
+    "shots_saved_missed_blocked": [
+     [
+      2,
+      2,
+      4
+     ],
+     [
+      4,
+      1,
+      6
+     ]
+    ],
+    "attendance": 93
+   },
+   "lineup": {
+    "formation": "4-4-2 (2 DM)",
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "benjamin-damsgaard",
+     "johan-becker",
+     "kunnerup",
+     "rasmus-fink",
+     "n-graini",
+     "bastian-andersen",
+     "giran-pyne-cole"
+    ],
+    "subs_used": [
+     "mohamed-belmaillah",
+     "marcus-molvadgaard",
+     "karlo-trkulja",
+     "oliver-elliott-karls",
+     "gustav-frederiksen"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 6.2,
+    "magnus-langhorn": 6.3,
+    "mads-jul-jorgens": 6.9,
+    "simeon-jovanovski": 6.9,
+    "benjamin-damsgaard": 6.5,
+    "johan-becker": 6.6,
+    "kunnerup": 6.8,
+    "rasmus-fink": 6.5,
+    "n-graini": 7.1,
+    "bastian-andersen": 6.7,
+    "giran-pyne-cole": 6.7,
+    "karlo-trkulja": 6.1,
+    "mohamed-belmaillah": 6.1,
+    "marcus-molvadgaard": 6.2,
+    "oliver-elliott-karls": 6.3,
+    "gustav-frederiksen": 6.3
+   },
+   "image": "img/2026-10-29-fredericia.jpg",
+   "errors_leading_to_goal": {
+    "magnus-langhorn": 1
+   }
+  },
+  {
+   "id": "2026-11-01-holbaek",
+   "spell": "sundby",
+   "date": "2026-11-01",
+   "competition": "3. Division",
+   "opponent": "Holbæk",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 1
+   },
+   "scorers": [
+    "N. Jakobsen 57' (Schak)"
+   ],
+   "potm": "noah-schak",
+   "summary": "Tired after the midweek cup tie and lucky to get a point. Holbæk had 70% of the ball and twice the expected goals. Jakobsen scored after a defensive error; Stolshøj equalised on 74 minutes.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     30,
+     70
+    ],
+    "shots": [
+     7,
+     10
+    ],
+    "on_target": [
+     3,
+     3
+    ],
+    "xg": [
+     0.55,
+     1.27
+    ],
+    "clear_cut": [
+     1,
+     1
+    ],
+    "corners": [
+     2,
+     11
+    ],
+    "fouls": [
+     13,
+     5
+    ],
+    "yellow": [
+     0,
+     0
+    ],
+    "progressive_passes": [
+     35,
+     66
+    ],
+    "pass_pct": [
+     80,
+     91
+    ],
+    "cross_pct": [
+     12,
+     11
+    ],
+    "distance_km": [
+     117,
+     119
+    ],
+    "avg_rating": [
+     6.6,
+     6.8
+    ],
+    "oppda": [
+     22.18,
+     13.43
+    ],
+    "shots_saved_missed_blocked": [
+     [
+      2,
+      2,
+      2
+     ],
+     [
+      2,
+      3,
+      4
+     ]
+    ],
+    "attendance": 63,
+    "weather": "Gusty"
+   },
+   "lineup": {
+    "formation": "4-4-2 (2 DM)",
+    "XI": [
+     "lucas-poulsen",
+     "noah-schak",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "benjamin-damsgaard",
+     "kunnerup",
+     "gustav-frederiksen",
+     "malte-karoli",
+     "karlo-trkulja",
+     "noah-jakobsen",
+     "giran-pyne-cole"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 6.4,
+    "noah-schak": 7.5,
+    "mads-jul-jorgens": 6.4,
+    "simeon-jovanovski": 6.5,
+    "benjamin-damsgaard": 6.5,
+    "kunnerup": 6.4,
+    "gustav-frederiksen": 6.9,
+    "malte-karoli": 6.4,
+    "karlo-trkulja": 6.4,
+    "noah-jakobsen": 6.9,
+    "giran-pyne-cole": 6.4
+   },
+   "image": "img/2026-11-01-holbaek.jpg"
+  },
+  {
+   "id": "2026-11-07-frem",
+   "spell": "sundby",
+   "date": "2026-11-07",
+   "competition": "3. Division",
+   "opponent": "Frem",
+   "venue": "A",
+   "score": {
+    "for": 0,
+    "against": 1
+   },
+   "scorers": [],
+   "potm": "Malthe Karsberg (Frem) 7.7",
+   "leaguePos": 3,
+   "summary": "Heartbreak at the leaders. An even game (12 shots to 13, xG 1.05 to 1.18) until the 92nd minute, when Kunnerup lost the ball and Frem broke for Kretzschmar to score.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     39,
+     61
+    ],
+    "shots": [
+     12,
+     13
+    ],
+    "on_target": [
+     5,
+     5
+    ],
+    "xg": [
+     1.05,
+     1.18
+    ],
+    "clear_cut": [
+     1,
+     1
+    ],
+    "corners": [
+     7,
+     5
+    ],
+    "fouls": [
+     9,
+     5
+    ],
+    "yellow": [
+     2,
+     0
+    ],
+    "progressive_passes": [
+     25,
+     42
+    ],
+    "pass_pct": [
+     78,
+     86
+    ],
+    "cross_pct": [
+     23,
+     12
+    ],
+    "distance_km": [
+     116,
+     121
+    ],
+    "avg_rating": [
+     6.6,
+     7.0
+    ],
+    "oppda": [
+     15.68,
+     10.4
+    ],
+    "weather": "Gusty, drizzle, 19°C",
+    "attendance": 788
+   },
+   "lineup": {
+    "formation": "4-4-2 (DLP + DM)",
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "magnus-vandal",
+     "johan-becker",
+     "kunnerup",
+     "oliver-elliott-karls",
+     "n-graini",
+     "giran-pyne-cole",
+     "marcus-molvadgaard"
+    ]
+   },
+   "errors_leading_to_goal": {
+    "kunnerup": 1
+   },
+   "ratings": {
+    "lucas-poulsen": 6.3,
+    "magnus-langhorn": 6.6,
+    "mads-jul-jorgens": 6.4,
+    "simeon-jovanovski": 6.3,
+    "magnus-vandal": 7.0,
+    "kunnerup": 6.5,
+    "johan-becker": 6.5,
+    "oliver-elliott-karls": 6.9,
+    "n-graini": 6.5,
+    "giran-pyne-cole": 6.5,
+    "marcus-molvadgaard": 6.6
+   },
+   "image": "img/2026-11-07-frem.jpg",
+   "venue_name": "Valby Stadion",
+   "table": [
+    [
+     "Frem",
+     15,
+     30
+    ],
+    [
+     "FC Helsingør",
+     15,
+     27
+    ],
+    [
+     "Sundby",
+     15,
+     23
+    ],
+    [
+     "Næsby",
+     15,
+     22
+    ],
+    [
+     "ASA, Aarhus",
+     15,
+     22
+    ],
+    [
+     "Hørsholm-Usserød",
+     14,
+     21
+    ],
+    [
+     "Ishøj IF",
+     14,
+     21
+    ],
+    [
+     "Holbæk",
+     15,
+     20
+    ],
+    [
+     "Brønshøj",
+     15,
+     18
+    ],
+    [
+     "Holstebro",
+     15,
+     18
+    ],
+    [
+     "Vanløse IF",
+     15,
+     14
+    ],
+    [
+     "Ringsted",
+     15,
+     8
+    ]
+   ]
+  }
+ ],
+ "story": [
+  {
+   "id": "2026-week-20",
+   "spell": "sundby",
+   "month": "2026-11",
+   "date": "2026-11-07",
+   "label": "Week 20 · 7–13 November",
+   "title": "Week 20: Heartbreak in stoppage time",
+   "body": "Away at leaders Frem, on a gusty, drizzly afternoon at the Valby Stadion in front of 788. Frem had 61% of the ball, but most of it ended in long-range efforts. It was as even as top-of-the-table games get: 12 shots to 13, five on target each, and xG of 1.05 to 1.18. Vandal was Sundby's best at 7.0. Karsberg, Frem's player of the match (7.7), was the threat all afternoon.\n\nThen, two minutes into stoppage time, Kunnerup gave the ball away. Frem broke, Karsberg crossed, and Kretzschmar volleyed in from close range. 1–0. The local paper called Sundby \"surprisingly lacklustre\". One fan's verdict: \"Nothing worse than conceding a late winner.\"\n\nIt was Frem's sixth win in a row. Elsewhere, Helsingør lost 2–0 at Hørsholm-Usserød, so the gap to 2nd is still four points. Sundby stay 3rd on 23, seven behind Frem, with Næsby and ASA a point behind on 22. Belmaillah, without a goal for a while, has publicly vowed to end his drought.\n\nNext: Hørsholm-Usserød away, the last game before the winter break. The league returns on 6 March against Holstebro.",
+   "match": "2026-11-07-frem",
+   "players": [
+    "kunnerup",
+    "magnus-vandal",
+    "mohamed-belmaillah"
+   ],
+   "images": [
+    "img/2026-11-07-frem.jpg",
+    "img/2026-11-07-frem-report.jpg",
+    "img/2026-11-07-frem-table.jpg"
+   ]
+  },
+  {
+   "id": "2026-week-19",
+   "spell": "sundby",
+   "month": "2026-11",
+   "date": "2026-11-01",
+   "label": "Week 19 · 1–7 November",
+   "title": "Week 19: Tired legs, lucky point",
+   "body": "Three days after the cup exit, a weary Sundby hosted Holbæk. It showed: Holbæk had 70% of the ball, 11 corners to 2, and twice the expected goals.\n\nNoah Jakobsen put Sundby ahead on 57 minutes after a Holbæk error, set up by right-back Noah Schak, who was player of the match (7.5). Stolshøj equalised on 74 minutes, set up by ex-Sundby man Matin Al-Atlassi. 1–1, and Sundby were glad of it.\n\nThe cost: Jakobsen picked up an injury, and there's a fitness worry over Jørgensen.\n\nNext: Frem, second in the table.",
+   "match": "2026-11-01-holbaek",
+   "players": [
+    "noah-schak",
+    "noah-jakobsen",
+    "mads-jul-jorgens"
+   ],
+   "images": [
+    "img/2026-11-01-holbaek.jpg",
+    "img/2026-11-01-holbaek-report.jpg"
+   ]
+  },
+  {
+   "id": "2026-week-18",
+   "spell": "sundby",
+   "month": "2026-10",
+   "date": "2026-10-26",
+   "label": "Week 18 · 26 October–1 November",
+   "title": "Week 18: The cup run ends with honour",
+   "body": "The Danish Cup fourth round brought FC Fredericia, a much bigger club, to Kløvermarken. Sundby held them for 54 minutes. Then William Madsen, a defensive midfielder, volleyed into the top corner. On 76 minutes a Langhorn error let him in for a second.\n\nFredericia had 73% of the ball and the better chances, but it was never a thrashing. Graini was Sundby's best player again (7.1). Bassett threw on Belmaillah, Mølvadgaard, Trkulja, Elliott Karlsen and Frederiksen, but the subs couldn't find a way back.\n\nA noble defeat. Three cup wins, a Superliga scalp, and now full focus on the league.",
+   "match": "2026-10-29-fc-fredericia",
+   "players": [
+    "n-graini",
+    "magnus-langhorn"
+   ],
+   "images": [
+    "img/2026-10-29-fredericia.jpg",
+    "img/2026-10-29-fredericia-report.jpg",
+    "img/2026-10-29-fredericia-result.jpg"
+   ]
+  },
+  {
+   "id": "2026-week-17",
+   "spell": "sundby",
+   "date": "2026-10-19",
+   "label": "Week 17 · 19–25 October",
+   "title": "Week 17: Mølvadgaard ends the drought",
+   "body": "The slide shows in the table: Sundby are 4th, five points behind leaders FC Helsingør, and have lost three of their last five home league games. Two games without a goal.\n\nNext up is bottom-of-the-table Ringsted at Kløvermarken: 7 points from 12 games, one away win in five. The pundits make Sundby favourites, but only just: 49% for a win, 26% a draw, 25% for Ringsted. Sundby beat them 3–1 in August with Belmaillah's hat-trick.\n\nA gale is forecast. Need a win.\n\nThey got it. Bassett picked his goal-scorers: Mølvadgaard and Pyne-Cole up front, with Fink making his first start on the right. Four minutes after half-time, Mølvadgaard drove one in from 19 metres. 1–0.\n\nIt should have been more: 21 shots, 3 clear-cut chances and 2.05 expected goals. But after two blanks, nobody minded. Mølvadgaard was player of the match (8.6), his sixth goal of the season and every one of them has mattered. Another clean sheet.\n\nSundby climb back to 3rd, three points behind FC Helsingør.",
+   "players": [
+    "marcus-molvadgaard",
+    "rasmus-fink",
+    "giran-pyne-cole"
+   ],
+   "images": [
+    "img/2026-10-24-ringsted.jpg",
+    "img/2026-10-24-ringsted-report.jpg",
+    "img/2026-10-24-ringsted-talk.jpg",
+    "img/2026-10-24-ringsted-preview.jpg"
+   ],
+   "match": "2026-10-24-ringsted",
+   "month": "2026-10"
+  },
+  {
+   "id": "2026-week-16",
+   "spell": "sundby",
+   "date": "2026-10-12",
+   "label": "Week 16 · 12–18 October",
+   "title": "Week 16: Honours even, still no goals",
+   "body": "Næsby away, the team that led the league for most of the season. Sundby held them to 0–0 at the ALPI Arena: another clean sheet against a top side, but a second game in a row without a goal.\n\nThe brightest moment came off the bench. Rasmus Fink, who complained weeks ago about not playing, finally made his debut on 79 minutes. The fans loved it: \"Our fans won't shut up about Fink now.\"\n\nThe papers are worried about Bastian Andersen's goal drought.\n\nNext: Ringsted, bottom of the table.",
+   "match": "2026-10-17-naesby",
+   "players": [
+    "rasmus-fink",
+    "bastian-andersen"
+   ],
+   "images": [
+    "img/2026-10-17-fink.jpg"
+   ],
+   "month": "2026-10"
+  },
+  {
+   "id": "2026-week-15",
+   "spell": "sundby",
+   "date": "2026-10-05",
+   "label": "Week 15 · 5–11 October",
+   "title": "Week 15: One shot, no goals, no top spot",
+   "body": "Second against third, with a chance to go top. FC Helsingør took it instead.\n\nMathias Kisum curled a free kick into the top corner after 18 minutes, and Sundby never replied. One shot all afternoon, none on target, expected goals of 0.02. The low block held, but there was nothing behind it.\n\nThe fans noticed: \"We have got absolutely no creativity in this side whatsoever.\"\n\nOff the pitch, captain Becker reports that Andreas Nybro is unhappy about his lack of games.\n\nFC Helsingør go top. Next: leaders-turned-chasers Næsby.",
+   "match": "2026-10-10-fc-helsingor",
+   "players": [
+    "andreas-nybro",
+    "johan-becker"
+   ],
+   "images": [
+    "img/2026-10-10-helsingor.jpg"
+   ],
+   "month": "2026-10"
+  },
+  {
+   "id": "2026-week-14",
+   "spell": "sundby",
+   "date": "2026-09-28",
+   "label": "Week 14 · 28 September–4 October",
+   "title": "Week 14: Promise broken, ASA brushed aside",
+   "body": "Saturday morning, two hours before kick-off: Benjamin Juel-Berg complained that Bassett hadn't kept his promise about playing time. By 11:30 he'd been released on a free. That's the fourth senior player Bassett has let go.\n\nThen ASA, Aarhus, Johansen's new club, came to Kløvermarken. Noah Graini curled one in from 19 metres, Mølvadgaard finished low into the corner, and only a Becker own goal made it close. Sundby had 12 shots to 5 and 7 on target to 1. Graini was player of the match (7.9).\n\nSundby stay 2nd, a point behind Næsby, who lost at FC Helsingør. Helsingør are next.",
+   "match": "2026-10-03-asa-aarhus",
+   "players": [
+    "n-graini",
+    "marcus-molvadgaard",
+    "johan-becker",
+    "benjamin-juel-be"
+   ],
+   "images": [
+    "img/2026-10-03-asa.jpg",
+    "img/2026-10-03-asa-stats.jpg",
+    "img/2026-10-03-table.jpg"
+   ],
+   "month": "2026-10"
+  },
+  {
+   "id": "2026-week-13",
+   "spell": "sundby",
+   "date": "2026-09-21",
+   "label": "Week 13 · 21–27 September",
+   "title": "Week 13: Wasps stung",
+   "body": "Brønshøj, second in the table, at the Tingbjerg Ground. They had 72% of the ball. Sundby won 2–0.\n\nBelmaillah scored after 18 minutes. Then Sundby sat in, Poulsen made save after save (player of the match, 7.6), and in the 90th minute Mølvadgaard crossed low and hard from the right for Pyne-Cole to volley in.\n\nThe papers are \"still wondering\" how Sundby won. The numbers say they deserved it: two clear-cut chances to one, and more expected goals despite barely touching the ball.\n\nSundby go back up to 2nd, level on points with FC Helsingør and four behind Næsby.\n\nNext: ASA, Aarhus, Johansen's new club.",
+   "match": "2026-09-26-bronshoj",
+   "players": [
+    "mohamed-belmaillah",
+    "giran-pyne-cole",
+    "marcus-molvadgaard",
+    "lucas-poulsen"
+   ],
+   "images": [
+    "img/2026-09-26-bronshoj.jpg",
+    "img/2026-09-26-goal.jpg",
+    "img/2026-09-26-report.jpg",
+    "img/2026-09-26-table.jpg"
+   ],
+   "month": "2026-09"
+  },
+  {
+   "id": "2026-week-12",
+   "spell": "sundby",
+   "date": "2026-09-14",
+   "label": "Week 12 · 14–20 September",
+   "title": "Week 12: Giant-killing, then a reality check",
+   "body": "Danish Cup third round, and a giant at Kløvermarken: AC Horsens of the Superliga, three divisions above Sundby. They had 75% of the ball. Sundby barely touched it but kept them out.\n\nOn came Damsgaard for his debut and Mølvadgaard for the last 20 minutes. On 84 minutes Trkulja broke down the left, the long ball went forward, and Mølvadgaard got to it first and headed in from close range. 1–0.\n\nHis second cup winner off the bench in three weeks, and player of the match (7.9). The papers called it a smash and grab and a damp squib. 87 people saw it. Nobody at Sundby cares.\n\nThe same day, Marius Hausted was released on a free. Damsgaard had signed the day before. The third senior player gone in three weeks.\n\nSix wins in a row. Five clean sheets in a row. Amateurs from the third tier have knocked a Superliga club out of the cup.\n\nThree days later, a reality check. With fitness a worry, Bassett rested four players and handed debuts in both full-back spots to Schak and Damsgaard. Inside 25 minutes Damsgaard gave away a penalty, Tønnesen scored it, and Bøgedal added a second just before half-time.\n\nThe half-time hairdryer fired most of them up, and Sundby went very attacking. Twelve shots, but nothing clear-cut. Holstebro 2–0 Sundby.\n\nThe run ends at six wins. Sundby stay 3rd, two points behind Brønshøj, who come to Kløvermarken next. One fan summed it up: \"Haven't seen finishing that wasteful in a very long time.\"",
+   "players": [
+    "marcus-molvadgaard",
+    "karlo-trkulja",
+    "benjamin-damsgaard",
+    "m-hausted",
+    "noah-schak"
+   ],
+   "images": [
+    "img/2026-09-17-horsens.jpg",
+    "img/2026-09-17-goal-4.jpg",
+    "img/2026-09-17-goal-1.jpg",
+    "img/2026-09-17-goal-2.jpg",
+    "img/2026-09-17-goal-3.jpg",
+    "img/2026-09-20-holstebro.jpg",
+    "img/2026-09-20-report.jpg"
+   ],
+   "match": "2026-09-17-ac-horsens",
+   "month": "2026-09"
+  },
+  {
+   "id": "2026-week-11",
+   "spell": "sundby",
+   "date": "2026-09-07",
+   "label": "Week 11 · 7–13 September",
+   "title": "Week 11: Top of the league, beaten",
+   "body": "Hørsholm-Usserød came to Kløvermarken top of the table. They left beaten.\n\nThe big man and the fast man: on 36 minutes Bastian Andersen set up Belmaillah, and that was enough. Hørsholm had 60% of the ball and eight shots but no clear-cut chances. Sundby had the only one, and scored it: a deft close-range finish. Andersen was player of the match (7.5).\n\nIt wasn't pretty. Hørsholm fouled their way through it, and one fan wished luck to anyone making a highlights package \"from that dross\". Only 88 people were there to see it.\n\nFour clean sheets in a row. Five wins in a row. And a month after being 10th, Sundby are 2nd, one point behind Næsby.\n\nNext: AC Horsens in the cup.",
+   "match": "2026-09-12-horsholm-usserod",
+   "players": [
+    "mohamed-belmaillah",
+    "bastian-andersen",
+    "mads-jul-jorgens",
+    "lucas-poulsen"
+   ],
+   "images": [
+    "img/2026-09-12-horsholm.jpg",
+    "img/2026-09-12-report.jpg"
+   ],
+   "month": "2026-09"
+  },
+  {
+   "id": "2026-week-10",
+   "spell": "sundby",
+   "date": "2026-08-31",
+   "label": "Week 10 · 31 August–6 September",
+   "title": "Week 10: Chat shit, get banged, then win at Ishøj",
+   "body": "Two days after the Holbæk win, captain Johan Becker came to Bassett with a warning: Magnus Krogh Hansen, an \"influential player\", was unhappy and wanted to start more games.\n\nBassett had a word with him. By 5pm Krogh Hansen had been released on a free transfer.\n\nThat's two senior players gone in a week: the vice-captain for defending badly, and the forward for complaining. Nobody seems bothered by the brutal regime. The September dynamics report rates the club atmosphere \"very good\": 19 of the 21 first-team players are very happy, and team cohesion is average but improving. The only unhappy player isn't even in the first-team squad.\n\nThe one open issue: Benjamin Juel-Berg is worried new signing Jovanovski will take his place, and seven teammates agree with him. Bassett has promised him something. With this manager, he'd better keep his head down.\n\nThen Ishøj away, third in the table. Sundby sat deep, let them have 60% of the ball, and waited. On 76 minutes keeper Marius Kruse made a mistake and Bastian Andersen chipped him delicately. In the 90th minute Belmaillah, the poacher, rounded it off with a well-struck finish. 0–2.\n\nA sweet one for Mølvadgaard too: Ishøj are his former club. One fan summed it up: \"We were excellent today, defended as a unit and allowed the forwards to do their thing.\"\n\nThree clean sheets in a row since the new back four came in, with Jørgensen the best defender on the pitch again (7.8). Bassett told them nobody gave them a chance. Most of them looked delighted.\n\nSundby are up to 5th, two points off the top.",
+   "players": [
+    "mohamed-belmaillah",
+    "bastian-andersen",
+    "mads-jul-jorgens",
+    "magnus-krogh-hansen",
+    "johan-becker",
+    "benjamin-juel-be"
+   ],
+   "images": [
+    "img/2026-09-05-ishoj.jpg",
+    "img/2026-09-05-report.jpg",
+    "img/2026-09-05-teamtalk.jpg",
+    "img/2026-08-31-krogh-concerns.jpg",
+    "img/2026-08-31-krogh-released.jpg",
+    "img/2026-09-01-dynamics.jpg"
+   ],
+   "match": "2026-09-05-ishoj-if",
+   "month": "2026-09"
+  },
+  {
+   "id": "2026-week-09",
+   "spell": "sundby",
+   "date": "2026-08-29",
+   "label": "Week 9 · 29 August",
+   "title": "Week 9: Written off, three goals up",
+   "body": "Board and fans expected defeat at Holbæk. Sundby won 3–0.\n\nMølvadgaard scored again after 18 minutes, from Elliott Karlsen's pass. Pyne-Cole added two after the break, one set up by Graini, the other by Elliott Karlsen again. Elliott Karlsen was the best player on the pitch (8.6).\n\nSecond clean sheet in a row, and the first in the league. Noah Schak got the debut the fans wanted, at right-back. Holbæk had 66% of the ball and only three shots on target.\n\nSundby climb to 8th on six points. Goal difference is positive (+2) for the first time, and fifth place is only two points away. The papers led with Elliott Karlsen's form. Social media was split: one fan loves him, another says it's too much hype, a third asks if everyone's on the bandwagon yet.",
+   "match": "2026-08-29-holbaek",
+   "players": [
+    "oliver-elliott-karls",
+    "giran-pyne-cole",
+    "marcus-molvadgaard",
+    "noah-schak",
+    "n-graini",
+    "lucas-poulsen"
+   ],
+   "images": [
+    "img/2026-08-29-holbaek.jpg",
+    "img/2026-08-29-table.jpg",
+    "img/2026-08-29-elliott-karlsen.jpg"
+   ],
+   "month": "2026-08"
+  },
+  {
+   "id": "2026-week-08",
+   "spell": "sundby",
+   "date": "2026-08-24",
+   "label": "Week 8 · 24–30 August",
+   "title": "Week 8: Someone takes the blame, the new back four delivers",
+   "body": "After the data came the reckoning. Bassett ripped up the 4-2-4 for a cautious 4-4-2 with two holding midfielders: sit in a low block, drop off, and hit teams on the break.\n\nA whole new back four: Langhorn, Jørgensen, Jovanovski and Vandal, all of them bench players last week. Sørensen and Hausted are out.\n\nAnd someone had to take the blame. Vice-captain Gustav Lundqvist, the right-back with a marking score of 4, was released on a free transfer. Now Sundby need a new vice-captain.\n\nFirst test: Tårnby away in the cup. A low block, a tight game, and 0–0 after 90 minutes. Then, in the 112th minute, a free kick. Mølvadgaard, signed for nothing a fortnight ago, curled it over the wall and in. Free kicks were on the training schedule every Thursday.\n\nTårnby 0–1 Sundby. The new back four's first game: a clean sheet. Jørgensen (7.5) and Jovanovski (7.4) were the best defenders on the pitch.\n\nThe reward: AC Horsens in the cup third round. Trialist striker Julian Vitus Pedersen also signed on a free, with four days of the transfer window left.\n\nThe table before kick-off: Sundby 10th on three points, Holbæk 11th, goal difference -5. Belmaillah is joint third in the league's scoring charts.\n\nNext: Holbæk away, 11th against 10th. The team second from bottom are somehow favourites. Board and fans both expect Sundby to lose. That's how low confidence has sunk. The fans' only wish: a debut for Noah Schak.",
+   "players": [
+    "marcus-molvadgaard",
+    "gustav-lundqvist",
+    "magnus-langhorn",
+    "mads-jul-jorgens",
+    "simeon-jovanovski",
+    "magnus-vandal",
+    "s-sorensen",
+    "julian-vitus-pedersen"
+   ],
+   "images": [
+    "img/2026-08-26-freekick-goal.jpg",
+    "img/2026-08-26-tarnby.jpg",
+    "img/2026-08-26-freekick-setup.jpg",
+    "img/2026-08-25-new-tactic.jpg",
+    "img/2026-08-26-lundqvist.jpg",
+    "img/2026-08-29-holbaek-preview.jpg",
+    "img/2026-08-29-league.jpg"
+   ],
+   "match": "2026-08-26-tarnby-ff",
+   "month": "2026-08"
+  },
+  {
+   "id": "2026-week-07-analysis",
+   "spell": "sundby",
+   "date": "2026-08-23",
+   "label": "Week 7 · Analysis",
+   "title": "What the data says: easy to roll over",
+   "body": "The analysts' verdict after four league games: plenty of problems defensively, fairly poor in attack, \"very easy to roll over.\"\n\nDefence is the big one. Sundby concede almost two a game, and the chances they allow say that's deserved. Opponents have had 56 shots to Sundby's 38 and seven clear-cut chances to three. No clean sheets, about 12 fouls a game, two penalties conceded, and early goals against Vanløse (5 minutes) and Frem (7).\n\nThe 4-2-4 leaves the middle empty. Opponents have had around 60% of the ball, and Sundby rarely win it back high up. The analysts' best XI is a cautious 4-4-2 with two holding midfielders.\n\nUp front, Sundby have scored six from chances worth about four, mostly thanks to Belmaillah's hat-trick against the bottom side. Only one cross in ten finds a teammate, and when the long ball doesn't stick there's no plan B.\n\nIndividuals: Søren Sørensen's passing is the weak link at the back. Gustav Frederiksen's tackling and heading stand out in midfield. Karlo Trkulja's physical output is off the charts.\n\nThe board? B-, Pleased. For now.",
+   "players": [
+    "s-sorensen",
+    "gustav-frederiksen",
+    "karlo-trkulja",
+    "mohamed-belmaillah"
+   ],
+   "images": [],
+   "month": "2026-08"
+  },
+  {
+   "id": "2026-week-07",
+   "spell": "sundby",
+   "date": "2026-08-17",
+   "label": "Week 7 · 17–23 August",
+   "title": "Week 7: Frem make it three league defeats",
+   "body": "After last week, a must-win. Frem come to Kløvermarken in 11th, third from bottom. Around 660 tickets are expected, more than three times Sundby's average of 195, and 600 of them are Frem fans. The ground holds 1,200.\n\nIt went wrong again. Frem led after seven minutes and doubled it in first-half stoppage time. Bastian Andersen scored his first Sundby goal on 87 minutes, set up by Pyne-Cole, but it was only a consolation. 1–2.\n\nThe papers called it a deserved Frem win. Three defeats in four league games, and Sundby slip to 10th on three points, above only Holbæk on goal difference and bottom side Ringsted. They look every bit the relegation favourites they were tipped to be.\n\nBehind the scenes, Bassett confirmed a new appointment: Paulsen joins the staff.",
+   "players": [
+    "bastian-andersen",
+    "giran-pyne-cole"
+   ],
+   "images": [
+    "img/2026-08-22-frem.jpg",
+    "img/2026-08-22-table.jpg",
+    "img/2026-08-21-frem-preview.jpg"
+   ],
+   "match": "2026-08-22-frem",
+   "month": "2026-08"
+  },
+  {
+   "id": "2026-week-06",
+   "date": "2026-08-10",
+   "label": "Week 6 · 10–16 August",
+   "title": "Week 6: Free-transfer frenzy, then a home defeat",
+   "body": "Amateurs train twice a week, so every session counts. Bassett is spending Thursdays on the final third, free kicks and corners. If you can't pass through teams, you can still beat them from a dead ball.\n\nThen a busy Saturday morning: four free signings before kick-off. Target forward Marcus Mølvadgaard, playmaker Devrim Sahin, midfielder Issah Salou (who speaks no Danish) and young centre-back Noah Schak. Cost: nothing.\n\nThen a defeat. Vanløse's Paludan scored twice before half-time, and Noah Jakobsen came off the bench to pull one back seconds after the break. That was as close as it got: 16 shots to 6, and Sundby drop to 8th. They were shite, and Bassett told them so: \"I don't like what I just saw from this team.\" Most of them looked inspired. Bastian Andersen just looked stressed.\n\nNext: Frem at home.",
+   "players": [
+    "issah-salou",
+    "devrim-sahin",
+    "marcus-molvadgaard",
+    "noah-schak"
+   ],
+   "images": [
+    "img/2026-08-15-vanlose.jpg",
+    "img/2026-08-15-teamtalk.jpg",
+    "img/2026-08-10-training.jpg",
+    "img/2026-08-15-salou.jpg",
+    "img/2026-08-15-sahin.jpg",
+    "img/2026-08-15-molvadgaard.jpg",
+    "img/2026-08-15-schak.jpg"
+   ],
+   "spell": "sundby",
+   "match": "2026-08-15-vanlose-if",
+   "month": "2026-08"
+  },
+  {
+   "id": "2026-week-05",
+   "date": "2026-08-03",
+   "label": "Week 5 · 3–9 August",
+   "title": "Week 5: Cup demolition, Belmaillah hat-trick",
+   "body": "Danish Cup first round at Virum-Sorgenfri, and Sundby were 4–0 up by half-time. Trkulja scored twice, Noah Jakobsen scored one and made two (8.6), and Belmaillah added the fourth. Twenty shots to seven.\n\nThen Ringsted away in the league, with a draw expected. 0–0 at half-time, but Sundby were the better side.\n\nAfter the break, Belmaillah took over. First a bizarre goal: Kunnerup hoofed it from halfway, keeper Fischer charged out, and Belmaillah got there first. Then a penalty. Then a peach, curled in from the edge of the box after Juel-Berg's pass. Hat-trick, rated 9.97.\n\nRingsted 1–3 Sundby. First league win, up to 6th.\n\nPerspective: the media tip Ringsted to finish bottom. Sundby are now predicted 10th, up one place.",
+   "match": "2026-08-08-ringsted",
+   "players": [
+    "noah-jakobsen",
+    "karlo-trkulja",
+    "mohamed-belmaillah",
+    "malte-karoli",
+    "benjamin-juel-be",
+    "kunnerup"
+   ],
+   "images": [
+    "img/2026-08-08-ringsted-ft.jpg",
+    "img/2026-08-04-virum.jpg",
+    "img/2026-08-04-virum-news.jpg",
+    "img/2026-08-08-ringsted-ht.jpg",
+    "img/2026-08-08-ringsted-goal.jpg",
+    "img/2026-08-08-ringsted-belmaillah.jpg"
+   ],
+   "spell": "sundby",
+   "month": "2026-08"
+  },
+  {
+   "id": "2026-week-04",
+   "date": "2026-07-27",
+   "label": "Pre-season · Week 4 · 27 July–2 August",
+   "title": "Week 4: One in, one out, one up, two down",
+   "body": "Done deal: Simeon Jovanovski signs until 2028 on £3.3K a year. That's the entire wage budget on one 20-year-old Swede.\n\nThe bad news: right-back Alexander Johansen, who started the friendlies, walked out on a free to ASA, Aarhus, the title favourites in Sundby's own league.\n\nLeague opener against Næsby, in a Route One 4-2-4 with both new centre-backs starting. It began perfectly: Bastian Andersen set up Pyne-Cole after two minutes. Then Magnus Schou scored either side of half-time and Sundby lost 1–2.\n\nFair result. Næsby had 19 shots to 10 and the only clear-cut chances. Poulsen (7.5) kept it close.",
+   "players": [
+    "simeon-jovanovski",
+    "alexander-johansen",
+    "s-sorensen",
+    "giran-pyne-cole"
+   ],
+   "images": [
+    "img/2026-08-01-naesby.jpg",
+    "img/2026-07-28-jovanovski-signs.jpg",
+    "img/2026-07-28-johansen.jpg",
+    "img/2026-08-01-naesby-teamsheet.jpg"
+   ],
+   "match": "2026-08-01-naesby",
+   "spell": "sundby",
+   "month": "2026-07"
+  },
+  {
+   "id": "2026-week-03",
+   "date": "2026-07-20",
+   "label": "Pre-season · Week 3 · 20–26 July",
+   "title": "Week 3: Five out, five conceded",
+   "body": "Signing number two: Andreas Nybro, 22, a 5'6\" right wing-back on an amateur deal. Quick (acceleration 15), tireless (determination 15) and with the strength of a paper bag (2). He's played 47 games for five clubs.\n\nThen the cull began. Five players were released on free transfers in a single afternoon: goalkeeper Oscar Brinkmann, Nielsen, Klein, Foss and Dal Møller. Another trialist, Mundt, is on his way in.\n\nAt BK Skjold, route one at its best: centre-back Mads Jul Jørgensen broke out of defence and Giran Pyne-Cole struck it home. Sundby 2–1 up after 73 minutes.\n\nThen an appalling afternoon against Hellerup IK. Hausted and Pyne-Cole had Sundby 2–0 up inside three minutes. Pyne-Cole got another to make it 3–3 at half-time, but Hellerup, from the division above, took 71% of the ball and won 5–3. Some mitigation, but not much.\n\nNext: the real thing. Næsby at home on 1 August.",
+   "players": [
+    "andreas-nybro",
+    "mads-jul-jorgens",
+    "giran-pyne-cole"
+   ],
+   "images": [
+    "img/2026-07-25-hellerup.jpg",
+    "img/2026-07-22-skjold-goal.jpg",
+    "img/2026-07-22-nybro.jpg"
+   ],
+   "match": "2026-07-25-hellerup-ik",
+   "spell": "sundby",
+   "month": "2026-07"
+  },
+  {
+   "id": "2026-week-02",
+   "date": "2026-07-13",
+   "label": "Pre-season · Week 2 · 13–19 July",
+   "title": "Week 2: Hoof, flick, bang, and a big bet",
+   "body": "The plan worked at the first time of asking. At Roskilde KFUM, with a 0–0 looking certain, a big hoof up the field found Bastian Andersen. He knocked it down and Noah Jakobsen rifled it home in the 91st minute. 1–0.\n\nIt wasn't a smash and grab either: Sundby had 12 shots to 7 and the only clear-cut chances. Lucas Poulsen kept a clean sheet and Jakobsen was player of the match.\n\nThe books: £5.27K in the bank and a projected £65K loss this season. So naturally Bassett is about to spend every penny of the remaining £3.4K-a-year wage budget on one player: trialist Simeon Jovanovski, a 20-year-old Swedish centre-back from Malmö FF. He was rated 7.5 at Roskilde and the staff rate him 5 stars. Worth every krone.\n\nAlso on trial: Louis Keita, a 6'8\" centre-back with a jumping reach of 17 and a technique of 2. He played three games for Sundby last season. A very Bassett sort of player.\n\nNext: BK Skjold away on Wednesday, then Hellerup IK at home.",
+   "match": "2026-07-18-roskilde-kfum",
+   "players": [
+    "noah-jakobsen",
+    "bastian-andersen",
+    "lucas-poulsen",
+    "simeon-jovanovski",
+    "louis-keita"
+   ],
+   "images": [
+    "img/2026-07-18-roskilde.jpg",
+    "img/2026-07-18-jovanovski.jpg",
+    "img/2026-07-18-keita.jpg",
+    "img/2026-07-18-finances.jpg"
+   ],
+   "spell": "sundby",
+   "month": "2026-07"
+  },
+  {
+   "id": "2026-week-01",
+   "date": "2026-07-06",
+   "label": "Pre-season · Week 1 · 6–12 July",
+   "title": "Week 1: Blank faces, brave defeat, first signing",
+   "body": "Dave Bassett, 42, takes charge with no badges, no caps and an 'obscure' reputation. Sundby are tipped 11th of 12. Transfer budget: zero.\n\nHis first team talk was met with blank faces. Captain Johan Becker hopes he's as convincing when it matters. The press conference drew one journalist. It could have been an email.\n\nThe plan: sit in, win it, go direct to a big man and a fast lad. Simple, because they're amateurs.\n\nThirteen strikers came in on trial, and seven were sent home on day one. Six remain to fight for the big-man role. Five more arrived for the left wing, including Ringsted's Mikkel Mortensen.\n\nBackroom: chief scout Andreas Koefoed and scout René Henriksen join for nothing.\n\nResult: 2–3 to B.93, a league above. Out-shot 22–11 and had 35% of the ball, but Oliver Elliott Karlsen equalised straight after their opener, and Gustav Frederiksen pulled one back in the 95th minute. A respectable start.\n\nFirst signing: trialist Bastian Andersen, 20, on a free amateur deal. He's 6'3\", jumps well (15) and is rated a 5-star prospect. The big man may already be in the building.",
+   "players": [
+    "oliver-elliott-karls",
+    "gustav-frederiksen",
+    "johan-becker",
+    "frederik-mikkelsen",
+    "bastian-andersen",
+    "andy-minkoulou",
+    "julian-vitus-pedersen",
+    "mads-mochau",
+    "andreas-nymark",
+    "mikkel-mortensen"
+   ],
+   "images": [
+    "img/2026-07-11-b93.jpg",
+    "img/2026-07-12-andersen.jpg",
+    "img/2026-07-07-bassett.jpg",
+    "img/2026-07-07-team-meeting.jpg",
+    "img/2026-07-07-press.jpg"
+   ],
+   "match": "2026-07-11-b93",
+   "spell": "sundby",
+   "month": "2026-07"
+  }
+ ],
+ "fixtures": [
+  {
+   "date": "2026-07-11",
+   "opponent": "B.93",
+   "venue": "H",
+   "competition": "Friendly",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-07-18",
+   "opponent": "Roskilde KFUM",
+   "venue": "A",
+   "competition": "Friendly",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-07-22",
+   "opponent": "BK Skjold",
+   "venue": "A",
+   "competition": "Friendly",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-07-25",
+   "opponent": "Hellerup IK",
+   "venue": "H",
+   "competition": "Friendly",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-08-01",
+   "opponent": "Næsby",
+   "venue": "H",
+   "competition": "3. Division",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-08-04",
+   "opponent": "Virum-Sorgenfri",
+   "venue": "A",
+   "competition": "Danish Cup R1",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-08-08",
+   "opponent": "Ringsted",
+   "venue": "A",
+   "competition": "3. Division",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-08-15",
+   "opponent": "Vanløse IF",
+   "venue": "H",
+   "competition": "3. Division",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-08-22",
+   "opponent": "Frem",
+   "venue": "H",
+   "competition": "3. Division",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-08-29",
+   "opponent": "Holbæk",
+   "venue": "A",
+   "competition": "3. Division",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-09-05",
+   "opponent": "Ishøj IF",
+   "venue": "A",
+   "competition": "3. Division",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-09-12",
+   "opponent": "Hørsholm-Usserød",
+   "venue": "H",
+   "competition": "3. Division",
+   "spell": "sundby"
+  },
+  {
+   "date": "2026-11-14",
+   "opponent": "Hørsholm-Usserød",
+   "venue": "A",
+   "competition": "3. Division",
+   "spell": "sundby"
+  },
+  {
+   "date": "2027-03-06",
+   "opponent": "Holstebro",
+   "venue": "H",
+   "competition": "3. Division",
+   "spell": "sundby"
+  }
+ ],
+ "manager": {
+  "name": "Dave Bassett",
+  "nationality": "England",
+  "born": "1983-11-09",
+  "reputation": "Obscure",
+  "favouriteClub": "Sheffield United",
+  "bio": "Journeyman English manager with no badges, no caps and fluent Danish. Plays direct, energetic football and trusts young players."
+ },
+ "currentDate": "2026-08-10",
+ "spells": [
+  {
+   "id": "sundby",
+   "chapter": 1,
+   "from": "2026-07-07",
+   "to": null,
+   "club": "Sundby",
+   "season": "2026/27",
+   "league": "CampoBet 3. Division",
+   "colours": {
+    "primary": "#b3262e",
+    "secondary": "#f1f1f1"
+   },
+   "ambition": "Survive a predicted relegation battle",
+   "leagueSize": 12,
+   "predicted": 10,
+   "cupAim": "Danish Cup: reach the first round (done)",
+   "budgets": {
+    "transfer": "£0",
+    "wageAvailable": "£3.4K p/a"
+   },
+   "tactic": "Simple, direct counter-attacking football: a big man and a fast lad up front",
+   "milestones": [
+    {
+     "date": "2026-07-07",
+     "label": "Appointed at Sundby"
+    },
+    {
+     "date": "2026-07-12",
+     "label": "First signing: Bastian Andersen"
+    },
+    {
+     "date": "2026-08-01",
+     "label": "First league game: 1–2 v Næsby"
+    },
+    {
+     "date": "2026-08-04",
+     "label": "First competitive win: 4–0 in the cup"
+    },
+    {
+     "date": "2026-08-08",
+     "label": "Belmaillah hat-trick at Ringsted"
+    },
+    {
+     "date": "2026-08-29",
+     "label": "First league clean sheet: 3–0 at Holbæk"
+    },
+    {
+     "date": "2026-09-12",
+     "label": "Beat the leaders, up to 2nd"
+    },
+    {
+     "date": "2026-09-17",
+     "label": "Giant-killing: beat Superliga AC Horsens in the cup"
+    }
+   ]
+  }
+ ],
+ "statsFiles": [
+  "stats/attributes.json",
+  "stats/playing-stats.json",
+  "stats/team-analysis.json"
+ ],
+ "months": [
+  {
+   "id": "2026-07",
+   "spell": "sundby",
+   "title": "Pre-season: new boss, blank faces",
+   "summary": "Dave Bassett arrived at a club tipped to finish 11th of 12, with no transfer budget. The squad met his first team talk with blank faces, and the press conference drew one journalist.\n\nHe went bargain hunting: thirteen trialist strikers, seven sent home on day one. Bastian Andersen, Andreas Nybro and Simeon Jovanovski signed, the last taking the entire wage budget. Five more players were released.\n\nThe friendlies were mixed: a narrow defeat to B.93, a route-one winner at Roskilde, then a 5–3 hammering by Hellerup. The league opener against Næsby ended in a 2–1 defeat."
+  },
+  {
+   "id": "2026-08",
+   "spell": "sundby",
+   "title": "Bottom half, then the turnaround",
+   "summary": "A 4–0 cup win and a Belmaillah hat-trick at Ringsted promised much. Then came defeats to Vanløse and Frem, and Sundby sank to 10th, looking every bit the relegation favourites.\n\nThe Data Hub's verdict was brutal: \"very easy to roll over\". Bassett tore up the 4-2-4, switched to a cautious low-block 4-4-2, brought in a new back four and released vice-captain Lundqvist.\n\nIt worked at once. Mølvadgaard's 112th-minute free kick won the cup tie at Tårnby, and Holbæk were beaten 3–0. Two clean sheets in two."
+  },
+  {
+   "id": "2026-09",
+   "spell": "sundby",
+   "title": "Giant-killers and title contenders",
+   "summary": "Krogh Hansen complained about not starting and was released the same day. Nobody else complained.\n\nSundby won at third-placed Ishøj, beat league leaders Hørsholm-Usserød, and knocked Superliga AC Horsens out of the cup with another Mølvadgaard winner off the bench. A rotated side lost at Holstebro, but a 2–0 win at second-placed Brønshøj put Sundby back up to 2nd.\n\nFour wins from five, and four clean sheets."
+  },
+  {
+   "id": "2026-10",
+   "spell": "sundby",
+   "title": "Stalling at the top",
+   "summary": "Juel-Berg complained about his broken promise and was released before kick-off against ASA, the fourth senior player let go. Sundby won that one 2–1.\n\nThen the goals dried up. The top-of-the-table clash with FC Helsingør was lost to a free kick, with Sundby managing one shot all game. A goalless draw at Næsby followed.\n\nMølvadgaard ended the drought against bottom side Ringsted with his sixth goal of the season. Sundby are 3rd, three points off the top.\n\nThe cup run ended in the fourth round with a 2–0 defeat to FC Fredericia, a noble exit after three wins and a Superliga scalp."
+  },
+  {
+   "id": "2026-11",
+   "spell": "sundby",
+   "title": "November",
+   "inProgress": true,
+   "summary": "A tired 1–1 with Holbæk three days after the cup exit, with Noah Schak the standout. Jakobsen injured, Jørgensen a doubt. Then heartbreak at leaders Frem: an even game lost in stoppage time after a Kunnerup error."
+  }
+ ]
+}

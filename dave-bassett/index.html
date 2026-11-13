@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FM Save Companion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: floodlit matchday app. One bold moment (the club-coloured hero with a giant chapter numeral and pitch markings); everything else is quiet dark cards. Club colours override --club / --club-2 at runtime. Single dark theme by choice. */
+:root {
+  --club: #b3262e;
+  --club-2: #f1f1f1;
+  --bg: #0b0e12;
+  --surface: #13181e;
+  --surface-2: #1a2028;
+  --ink: #eef1f4;
+  --muted: #8b96a3;
+  --line: #242c36;
+  --win: #3fbf7f;
+  --draw: #d6b44a;
+  --loss: #e5534b;
+  --font-display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+  --font-body: "Archivo", system-ui, -apple-system, sans-serif;
+  --radius: 14px;
+  --shadow: 0 1px 0 rgba(255,255,255,.03) inset, 0 10px 30px -18px rgba(0,0,0,.8);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; display: block; }
+h1, h2, h3, h4 { font-family: var(--font-display); text-wrap: balance; margin: 0; line-height: 1; letter-spacing: .01em; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+.muted { color: var(--muted); }
+button { font-family: inherit; }
+
+/* ---------- Hero ---------- */
+.mast { position: relative; overflow: hidden; isolation: isolate;
+  background:
+    radial-gradient(120% 140% at 85% -10%, color-mix(in srgb, var(--club) 85%, #fff 0%) 0%, transparent 55%),
+    linear-gradient(135deg, color-mix(in srgb, var(--club) 92%, #000) 0%, color-mix(in srgb, var(--club) 45%, var(--bg)) 55%, var(--bg) 100%);
+  border-bottom: 1px solid var(--line); }
+.mast::before { /* pitch markings */
+  content: ""; position: absolute; inset: 0; z-index: -1; opacity: .16;
+  background:
+    radial-gradient(circle at 78% 120%, transparent 0 150px, rgba(255,255,255,.9) 151px 153px, transparent 154px),
+    linear-gradient(90deg, transparent calc(78% - 1px), rgba(255,255,255,.9) calc(78% - 1px) calc(78% + 1px), transparent calc(78% + 1px));
+}
+.mast::after { content: ""; position: absolute; inset: 0; z-index: -1; background: repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 60px, transparent 60px 120px); }
+.mast .wrap { position: relative; padding-top: 44px; padding-bottom: 36px; display: grid; gap: 10px; }
+.kicker { font: 700 13px var(--font-body); letter-spacing: .22em; text-transform: uppercase; color: rgba(255,255,255,.75); }
+.mast h1 { font-size: clamp(64px, 12vw, 148px); font-weight: 900; text-transform: uppercase; color: #fff; line-height: .82; letter-spacing: -.01em; }
+.mast .sub { font-size: 16px; color: rgba(255,255,255,.85); max-width: 60ch; }
+.mast-num { position: absolute; right: 12px; bottom: -34px; font: 900 clamp(140px, 24vw, 300px)/1 var(--font-display); color: transparent; -webkit-text-stroke: 2px rgba(255,255,255,.22); pointer-events: none; user-select: none; letter-spacing: -.04em; }
+@media (prefers-reduced-motion: no-preference) {
+  .mast .kicker, .mast h1, .mast .sub { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+  .mast h1 { animation-delay: .06s; } .mast .sub { animation-delay: .14s; }
+  .mast-num { animation: rise 1s .1s cubic-bezier(.2,.7,.2,1) both; }
+  .stat { animation: rise .6s cubic-bezier(.2,.7,.2,1) both; }
+  .stat:nth-child(2) { animation-delay: .05s; } .stat:nth-child(3) { animation-delay: .1s; } .stat:nth-child(4) { animation-delay: .15s; } .stat:nth-child(5) { animation-delay: .2s; }
+}
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+/* ---------- Career timeline ---------- */
+.career { background: var(--bg); }
+.career .wrap { padding-top: 20px; padding-bottom: 6px; display: grid; gap: 12px; }
+.career-head { display: flex; flex-wrap: wrap; gap: 6px 20px; align-items: baseline; }
+.career-head h2 { font-size: 14px; font-family: var(--font-body); font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.career-head span { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.career-head b { color: var(--ink); font-weight: 700; }
+.track { display: flex; gap: 8px; align-items: stretch; overflow-x: auto; padding-bottom: 2px; }
+.spell { appearance: none; border: 1px solid rgba(255,255,255,.08); border-radius: var(--radius); padding: 0; min-width: 200px; text-align: left; cursor: pointer;
+  background: linear-gradient(135deg, var(--sp), color-mix(in srgb, var(--sp) 55%, #000)); color: #fff; font: inherit; display: grid; overflow: hidden; box-shadow: var(--shadow); transition: transform .15s; }
+.spell:hover { transform: translateY(-1px); }
+.spell[aria-pressed="true"] { outline: 2px solid var(--sp2); outline-offset: 2px; }
+.spell:focus-visible { outline: 3px solid var(--club-2); outline-offset: 2px; }
+.spell .top { padding: 12px 14px 4px; display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+.spell .ch { font: 700 11px var(--font-body); letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
+.spell .nm { font: 900 28px var(--font-display); text-transform: uppercase; line-height: 1; }
+.spell .dt, .spell .rec { padding: 0 14px; font-size: 13px; opacity: .88; }
+.spell .rec { padding-bottom: 10px; font-variant-numeric: tabular-nums; }
+.spell .rail { position: relative; height: 22px; background: rgba(0,0,0,.28); }
+.spell .rail::before { content: ""; position: absolute; left: 8px; right: 8px; top: 10px; height: 2px; background: rgba(255,255,255,.35); border-radius: 2px; }
+.spell .dot { position: absolute; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: #fff; transform: translateX(-50%); box-shadow: 0 0 0 3px rgba(0,0,0,.25); }
+.spell .now { position: absolute; right: 10px; top: 3px; font: 700 10px var(--font-body); letter-spacing: .16em; text-transform: uppercase; }
+.spell.future { background: transparent; border: 1px dashed var(--line); color: var(--muted); cursor: default; min-width: 150px; box-shadow: none; }
+.spell.future .rail { background: transparent; } .spell.future .rail::before { background: var(--line); }
+.milestones { display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; color: var(--muted); }
+.milestones span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; }
+.milestones b { color: var(--ink); font-weight: 600; }
+
+/* ---------- Season strip ---------- */
+.strip { background: var(--bg); }
+.strip .wrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; padding-top: 14px; padding-bottom: 6px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+.stat::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--club); }
+.stat .n { font: 900 44px var(--font-display); font-variant-numeric: tabular-nums; line-height: .95; }
+.stat .l { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; margin-top: 4px; }
+.form { display: flex; gap: 4px; margin-top: 6px; }
+.pip { width: 24px; height: 24px; border-radius: 6px; color: #0b0e12; font: 800 13px/24px var(--font-body); text-align: center; }
+.pip.W { background: var(--win); } .pip.D { background: var(--draw); } .pip.L { background: var(--loss); color: #fff; }
+
+/* ---------- Tabs ---------- */
+nav.tabs { position: sticky; top: 0; z-index: 5; display: inline-flex; gap: 4px; margin: 22px 0 18px; padding: 5px; border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 85%, transparent); border: 1px solid var(--line); backdrop-filter: blur(10px); }
+nav.tabs button { appearance: none; border: 0; background: none; color: var(--muted); cursor: pointer; font: 700 15px var(--font-body); letter-spacing: .04em; padding: 9px 18px; border-radius: 999px; transition: background .15s, color .15s; }
+nav.tabs button:hover { color: var(--ink); }
+nav.tabs button[aria-selected="true"] { color: #fff; background: var(--club); }
+nav.tabs button:focus-visible, .pcard:focus-visible, .row:focus-visible { outline: 3px solid var(--club-2); outline-offset: 2px; }
+section[hidden] { display: none; }
+
+/* ---------- Story: months + weeks ---------- */
+.months { display: grid; gap: 16px; padding-bottom: 56px; }
+.month-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); position: relative; }
+.month-card::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; background: linear-gradient(90deg, var(--club), transparent 70%); }
+.month-head { appearance: none; border: 0; background: none; color: inherit; font: inherit; width: 100%; text-align: left; cursor: pointer; padding: 22px 24px 8px; display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+.month-head:focus-visible { outline: 3px solid var(--club-2); outline-offset: -3px; border-radius: 18px; }
+.month-head h2 { font-size: clamp(32px, 5vw, 48px); font-weight: 900; text-transform: uppercase; margin: 4px 0 10px; line-height: .92; }
+.mh-kicker { font: 700 12px var(--font-body); letter-spacing: .22em; text-transform: uppercase; color: color-mix(in srgb, var(--club) 60%, #fff); display: flex; gap: 8px; align-items: center; }
+.mh-rec { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mh-rec .form { display: inline-flex; gap: 3px; margin: 0; }
+.mh-rec .pip { width: 20px; height: 20px; font-size: 11px; line-height: 20px; border-radius: 5px; }
+.mh-toggle { flex: none; font: 700 13px var(--font-body); letter-spacing: .04em; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); border-radius: 999px; padding: 8px 14px; white-space: nowrap; transition: background .15s; }
+.month-head:hover .mh-toggle { border-color: var(--club); }
+.month-card.open .mh-toggle { background: var(--club); border-color: var(--club); color: #fff; }
+.month-sum { padding: 0 24px 20px; display: grid; gap: 10px; }
+.month-sum p { margin: 0; max-width: 68ch; color: #cfd6dd; }
+.weeks { padding: 18px; border-top: 1px solid var(--line); background: var(--bg); display: grid; gap: 14px; }
+.timeline { display: grid; gap: 14px; }
+.entry { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: grid; }
+.entry.has-img { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+.entry .body { padding: 20px 22px; display: grid; gap: 10px; align-content: start; }
+.entry h3 { font-size: 30px; font-weight: 800; text-transform: uppercase; line-height: .95; }
+.entry .meta { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .14em; font-weight: 600; }
+.entry p { margin: 0; max-width: 65ch; color: #cfd6dd; }
+.entry > img { width: 100%; height: 100%; object-fit: cover; object-position: left top; cursor: zoom-in; }
+.score-badge { display: inline-flex; gap: 10px; align-items: center; justify-self: start; background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 5px 14px 5px 8px; font: 800 18px var(--font-display); letter-spacing: .02em; }
+.res { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; }
+.res.W { background: var(--win); } .res.D { background: var(--draw); } .res.L { background: var(--loss); }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; margin-top: 4px; }
+.gallery img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: left top; border-radius: 10px; border: 1px solid var(--line); cursor: zoom-in; transition: transform .15s, border-color .15s; }
+.gallery img:hover { transform: translateY(-2px); border-color: var(--club); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 13px; padding: 4px 10px; border-radius: 999px; background: var(--surface-2); color: var(--ink); border: 1px solid var(--line); cursor: pointer; }
+.tag:hover { border-color: var(--club); }
+.month { font: 800 14px var(--font-body); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+
+/* ---------- Results ---------- */
+.chart-box { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; margin-bottom: 16px; box-shadow: var(--shadow); }
+.chart-box h3 { font: 700 12px var(--font-body); text-transform: uppercase; letter-spacing: .18em; color: var(--muted); margin-bottom: 10px; }
+.results-wrap { overflow-x: auto; margin-bottom: 56px; border-radius: var(--radius); border: 1px solid var(--line); }
+.results { width: 100%; border-collapse: collapse; background: var(--surface); font-variant-numeric: tabular-nums; }
+.results th, .results td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--line); font-size: 14px; white-space: nowrap; }
+.results th { font: 700 11px var(--font-body); text-transform: uppercase; letter-spacing: .14em; color: var(--muted); background: var(--surface-2); }
+.results tr:last-child td { border-bottom: 0; }
+.results td.sc { font: 900 22px var(--font-display); }
+.row { cursor: pointer; transition: background .12s; }
+.row:hover { background: var(--surface-2); }
+
+/* ---------- Squad ---------- */
+.posgroup { font: 700 12px var(--font-body); letter-spacing: .22em; text-transform: uppercase; color: var(--muted); margin: 26px 0 10px; display: flex; align-items: center; gap: 12px; }
+.posgroup::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.squad { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.pcard { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 6px; cursor: pointer; text-align: left; font: inherit; color: inherit; box-shadow: var(--shadow); transition: transform .15s, border-color .15s; }
+.pcard:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--club) 60%, var(--line)); }
+.pcard .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.pcard .num { position: absolute; right: 10px; top: -4px; font: 900 60px/1 var(--font-display); color: transparent; -webkit-text-stroke: 1.5px color-mix(in srgb, var(--club) 45%, transparent); }
+.pcard .name { font: 800 24px var(--font-display); text-transform: uppercase; line-height: .95; max-width: 80%; position: relative; }
+.pcard .info { font-size: 13px; color: var(--muted); }
+.pcard .nums { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; font-variant-numeric: tabular-nums; border-top: 1px solid var(--line); padding-top: 10px; margin-top: 4px; }
+.pcard .nums b { display: block; font: 900 24px var(--font-display); }
+.pcard .nums span { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
+.pcard .line { font-size: 13px; color: #c2cad2; }
+.chip { font-size: 11px; padding: 3px 8px; border-radius: 999px; background: color-mix(in srgb, var(--club) 25%, transparent); color: #fff; border: 1px solid color-mix(in srgb, var(--club) 60%, transparent); font-weight: 600; letter-spacing: .04em; justify-self: start; }
+.squad-wrap { padding-bottom: 56px; }
+
+/* ---------- Kick-off (empty state) ---------- */
+.kickoff { display: grid; gap: 16px; padding: 28px 0 56px; }
+.kickoff h2 { font-size: 48px; text-transform: uppercase; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.step { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
+.step b { font: 800 20px var(--font-display); text-transform: uppercase; display: block; margin-bottom: 4px; }
+.step p { margin: 0; color: var(--muted); }
+.kickoff .lead { max-width: 65ch; font-size: 18px; margin: 0; }
+
+/* ---------- Dialogs ---------- */
+dialog { border: 1px solid var(--line); border-radius: 18px; padding: 0; max-width: min(760px, 94vw); width: 100%; background: var(--surface); color: var(--ink); box-shadow: 0 30px 80px -20px rgba(0,0,0,.8); }
+dialog::backdrop { background: rgba(5,7,10,.75); backdrop-filter: blur(4px); }
+dialog .dhead { background: linear-gradient(135deg, var(--club), color-mix(in srgb, var(--club) 40%, var(--surface))); color: #fff; padding: 22px 24px; display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+dialog .dhead h2 { font-size: 44px; font-weight: 900; text-transform: uppercase; line-height: .9; margin-top: 4px; }
+dialog .dbody { padding: 20px 24px 24px; display: grid; gap: 12px; }
+dialog .dbody h3 { font-size: 22px; text-transform: uppercase; }
+dialog .close { background: rgba(0,0,0,.25); border: 1px solid rgba(255,255,255,.35); color: #fff; border-radius: 999px; font: 700 13px var(--font-body); padding: 6px 14px; cursor: pointer; }
+dialog .close:hover { background: rgba(0,0,0,.45); }
+dialog .mini { display: grid; gap: 8px; }
+dialog .mini div { border-left: 3px solid var(--club); padding-left: 12px; }
+dialog img.full { width: 100%; display: block; }
+.lightbox { position: relative; background: #000; touch-action: pan-y; }
+.lbnav { position: absolute; top: 50%; transform: translateY(-50%); width: 46px; height: 46px; border: 0; border-radius: 50%; background: rgba(0,0,0,.6); color: #fff; font: 700 30px/1 var(--font-body); cursor: pointer; }
+.lbnav:hover { background: var(--club); }
+.lbnav:focus-visible { outline: 3px solid var(--club-2); }
+.lbnav.prev { left: 10px; } .lbnav.next { right: 10px; }
+.ptabs { display: flex; gap: 4px; padding: 12px 24px 0; border-bottom: 1px solid var(--line); }
+.ptabs button { appearance: none; border: 0; background: none; color: var(--muted); font: 700 14px var(--font-body); letter-spacing: .04em; padding: 10px 12px; border-bottom: 2px solid transparent; cursor: pointer; }
+.ptabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--club); }
+.ptabs button:focus-visible { outline: 3px solid var(--club-2); }
+.agrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; }
+.agroup h4 { margin: 0 0 8px; font: 700 11px var(--font-body); text-transform: uppercase; letter-spacing: .2em; color: var(--muted); }
+.arow { display: flex; justify-content: space-between; align-items: center; padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.arow b { min-width: 32px; text-align: center; border-radius: 6px; padding: 2px 6px; font: 800 16px var(--font-display); font-variant-numeric: tabular-nums; }
+.a-hi { background: var(--win); color: #0b0e12; } .a-good { background: color-mix(in srgb, var(--win) 30%, transparent); color: #c9f2dc; } .a-mid { background: var(--surface-2); } .a-low { background: color-mix(in srgb, var(--loss) 28%, transparent); color: #ffd2cf; }
+.sgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+.scell { background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; }
+.scell b { font: 900 28px var(--font-display); font-variant-numeric: tabular-nums; line-height: 1; }
+.scell span { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.small { font-size: 13px; }
+dialog [data-ppanel][hidden] { display: none; }
+
+/* ---------- Awards ---------- */
+.aw-note { margin: 0 0 4px; font-size: 14px; }
+.aw-h { font: 700 12px var(--font-body); text-transform: uppercase; letter-spacing: .22em; color: var(--muted); margin: 26px 0 10px; display: flex; align-items: center; gap: 12px; }
+.aw-h::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.awards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.award { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 4px; align-content: start; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+.award::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; background: var(--draw); }
+.award.bad::before { background: var(--loss); }
+.aw-kicker { font: 700 11px var(--font-body); text-transform: uppercase; letter-spacing: .16em; color: var(--muted); }
+.aw-win, .aw-run { appearance: none; border: 0; background: none; padding: 0; color: inherit; font: inherit; text-align: left; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
+.aw-win span { font: 900 28px var(--font-display); text-transform: uppercase; line-height: .95; }
+.aw-win b { font: 900 30px var(--font-display); color: var(--draw); font-variant-numeric: tabular-nums; }
+.award.bad .aw-win b { color: var(--loss); }
+.aw-desc { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.aw-run { font-size: 14px; border-top: 1px solid var(--line); padding-top: 6px; font-variant-numeric: tabular-nums; color: #c2cad2; }
+.aw-run:hover, .aw-win:hover span { color: #fff; }
+.aw-win:focus-visible, .aw-run:focus-visible { outline: 3px solid var(--club-2); }
+#awards-panel { padding-bottom: 56px; }
+
+@media (max-width: 700px) {
+  .entry.has-img { grid-template-columns: 1fr; }
+  .month-head { flex-direction: column; }
+  nav.tabs { display: flex; overflow-x: auto; }
+  .mast-num { bottom: -10px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <div class="kicker" id="kicker">The story of a journeyman manager</div>
+  <h1 id="club">Dave Bassett</h1>
+  <div class="sub" id="sub"></div>
+  <div class="mast-num" id="mastnum" aria-hidden="true">01</div>
+</div></header>
+<section class="career"><div class="wrap" id="career"></div></section>
+<div class="strip"><div class="wrap" id="strip"></div></div>
+<main class="wrap" id="main"></main>
+<dialog id="dlg"></dialog>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtDate = d => { if (!d) return ""; const x = new Date(d + "T12:00:00"); return isNaN(x) ? d : x.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
+const monthKey = d => { const x = new Date((d || "") + "T12:00:00"); return isNaN(x) ? "Undated" : x.toLocaleDateString("en-GB", { month: "long", year: "numeric" }); };
+const result = m => m.score.for > m.score.against ? "W" : m.score.for < m.score.against ? "L" : "D";
+let FULL, DATA, SPELL;
+
+function stats() {
+  const ms = DATA.matches.filter(m => m.score && m.score.for != null && m.competition !== "Friendly").sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+  const r = { W: 0, D: 0, L: 0 };
+  ms.forEach(m => r[result(m)]++);
+  const lg = ms.filter(m => m.leaguePos);
+  const top = [...DATA.players].sort((a, b) => (b.goals || 0) - (a.goals || 0))[0];
+  return { played: ms.length, r, pos: lg.length ? lg[lg.length - 1].leaguePos : null, top, form: ms.slice(-5).map(result) };
+}
+
+const ord = n => n + (["th", "st", "nd", "rd"][(n % 100 - 20) % 10] || ["th", "st", "nd", "rd"][n % 100] || "th");
+const monthYr = d => { const x = new Date((d || "") + "T12:00:00"); return isNaN(x) ? "" : x.toLocaleDateString("en-GB", { month: "short", year: "numeric" }); };
+const days = (a, b) => Math.max(1, (new Date(b + "T12:00:00") - new Date(a + "T12:00:00")) / 864e5);
+function recordOf(ms) { const r = { W: 0, D: 0, L: 0 }; ms.filter(m => m.score && m.competition !== "Friendly").forEach(m => r[result(m)]++); return r; }
+
+function selectSpell(id) {
+  SPELL = FULL.spells.find(s => s.id === id) || FULL.spells[FULL.spells.length - 1];
+  const f = k => (FULL[k] || []).filter(x => (x.spell || SPELL.id) === SPELL.id);
+  DATA = { ...FULL, save: SPELL, matches: f("matches"), story: f("story"), players: f("players"), fixtures: f("fixtures") };
+  renderCareer(); renderHead(); renderTabs();
+}
+
+function renderCareer() {
+  const now = FULL.currentDate || FULL.updatedAt;
+  const all = recordOf(FULL.matches || []);
+  const games = all.W + all.D + all.L;
+  const m = FULL.manager || {};
+  $("#career").innerHTML = `<div class="career-head"><h2>Career</h2>
+      <span><b>${FULL.spells.length}</b> ${FULL.spells.length === 1 ? "club" : "clubs"}</span>
+      <span><b>${games}</b> competitive games</span>
+      <span>Won <b>${all.W}</b> · Drawn <b>${all.D}</b> · Lost <b>${all.L}</b></span>
+      ${games ? `<span>Win rate <b>${Math.round(all.W / games * 100)}%</b></span>` : ""}</div>
+    <div class="track">${FULL.spells.map(sp => {
+      const end = sp.to || now, len = days(sp.from, end);
+      const r = recordOf((FULL.matches || []).filter(x => x.spell === sp.id));
+      const dots = (sp.milestones || []).map(ms => `<span class="dot" title="${esc(fmtDate(ms.date) + ": " + ms.label)}" style="left:${Math.min(96, Math.max(4, days(sp.from, ms.date) / len * 100))}%"></span>`).join("");
+      return `<button class="spell" aria-pressed="${sp.id === SPELL.id}" data-spell="${esc(sp.id)}" style="--sp:${esc(sp.colours?.primary || "#444")};--sp2:${esc(sp.colours?.secondary || "#ddd")};flex:${len} 1 0">
+        <div class="top"><span class="nm">${esc(sp.club)}</span><span class="ch">Chapter ${sp.chapter}</span></div>
+        <div class="dt">${esc(monthYr(sp.from))} – ${sp.to ? esc(monthYr(sp.to)) : "now"} · ${esc(sp.league || "")}</div>
+        <div class="rec">W${r.W} D${r.D} L${r.L}</div>
+        <div class="rail">${dots}${sp.to ? "" : '<span class="now">Now</span>'}</div></button>`;
+    }).join("")}<div class="spell future" aria-hidden="true"><div class="top"><span class="nm">?</span><span class="ch">Chapter ${FULL.spells.length + 1}</span></div><div class="dt">Next club</div><div class="rec">&nbsp;</div><div class="rail"></div></div></div>
+    ${(SPELL.milestones || []).length ? `<div class="milestones">${SPELL.milestones.map(ms => `<span>${esc(fmtDate(ms.date))}: <b>${esc(ms.label)}</b></span>`).join("")}</div>` : ""}`;
+}
+
+function renderHead() {
+  const s = DATA.save, m = FULL.manager || {};
+  document.documentElement.style.setProperty("--club", s.colours?.primary || "#1f5f3f");
+  document.documentElement.style.setProperty("--club-2", s.colours?.secondary || "#e8c547");
+  document.title = (m.name || "Dave Bassett") + " Story";
+  $("#club").textContent = m.name || "Dave Bassett";
+  $("#mastnum").textContent = String(s.chapter || 1).padStart(2, "0");
+  $("#kicker").textContent = "The story of a journeyman manager";
+  $("#sub").textContent = `Chapter ${s.chapter}: ${s.club} · ${[s.league, s.season].filter(Boolean).join(" · ")}${s.ambition ? " · Aim: " + s.ambition : ""}`;
+  const st = stats();
+  $("#strip").innerHTML = `
+    <div class="stat"><div class="n">${st.pos ? ord(st.pos) : s.predicted ? ord(s.predicted) : "–"}</div><div class="l">${st.pos ? "League position" : s.predicted ? "Predicted finish" : "League position"}</div></div>
+    <div class="stat"><div class="n">${st.r.W}-${st.r.D}-${st.r.L}</div><div class="l">Won · Drawn · Lost</div></div>
+    <div class="stat"><div class="n">${st.played}</div><div class="l">Competitive games</div></div>
+    <div class="stat"><div class="n">${st.top && st.top.goals ? st.top.goals : "–"}</div><div class="l">${st.top && st.top.goals ? "Top scorer: " + esc(st.top.name) : "Top scorer"}</div></div>
+    <div class="stat"><div class="l">Last five</div><div class="form">${st.form.map(f => `<span class="pip ${f}">${f}</span>`).join("") || '<span class="muted">No games yet</span>'}</div></div>`;
+}
+
+function renderKickoff() {
+  $("#strip").parentElement.hidden = true;
+  $("#main").innerHTML = `<div class="kickoff">
+    <h2>Before the first ball is kicked</h2>
+    <p class="lead">This page fills itself in as you play. Screenshots you take go into the FM Story folder in your Pictures, and each night they're turned into results, player cards and the story of your save.</p>
+    <div class="steps">
+      <div class="step"><b>1. Point screenshots at FM Story</b><p>Press Cmd+Shift+5, open Options, choose Other Location and pick Pictures › FM Story.</p></div>
+      <div class="step"><b>2. Capture the start</b><p>Screenshot the squad screen, the board's expectations and the pre-season predictions. Add a line to notes.txt on why you picked the club.</p></div>
+      <div class="step"><b>3. Play, pressing Cmd+Shift+3</b><p>On full-time screens, big inbox news and the monthly round-up. Jot anything else in notes.txt.</p></div>
+    </div></div>`;
+}
+
+function playerName(id) { const p = DATA.players.find(p => p.id === id); return p ? p.name : id; }
+
+function entryHtml(e) {
+  const m = e.match && DATA.matches.find(x => x.id === e.match);
+  return `<article class="entry ${e.image ? "has-img" : ""}">
+      <div class="body">
+        <div class="meta">${esc(e.label || fmtDate(e.date))}${m ? " · " + esc(m.competition || "") : ""}</div>
+        <h3>${esc(e.title)}</h3>
+        ${m ? `<div class="score-badge"><span class="res ${result(m)}"></span>${esc(m.venue === "A" ? m.opponent + " " + m.score.against + "–" + m.score.for + " " + DATA.save.club : DATA.save.club + " " + m.score.for + "–" + m.score.against + " " + m.opponent)}</div>` : ""}
+        ${(e.body || "").split(/\n\n+/).map(p => `<p>${esc(p)}</p>`).join("")}
+        ${(e.images || []).length ? `<div class="gallery">${e.images.map(src => `<img src="${esc(src)}" alt="Screenshot from the week" data-zoom="${esc(src)}" data-entry="${esc(e.id)}" loading="lazy">`).join("")}</div>` : ""}
+        ${(e.players || []).length ? `<div class="tags">${e.players.map(id => `<button class="tag" data-player="${esc(id)}">${esc(playerName(id))}</button>`).join("")}</div>` : ""}
+      </div>
+      ${e.image ? `<img src="${esc(e.image)}" alt="${esc(e.title)}" data-zoom="${esc(e.image)}" data-entry="${esc(e.id)}" loading="lazy">` : ""}
+    </article>`;
+}
+const OPEN_MONTHS = new Set();
+function monthRecord(key) {
+  const ms = DATA.matches.filter(m => (m.date || "").startsWith(key) && m.score);
+  const comp = ms.filter(m => m.competition !== "Friendly");
+  const r = { W: 0, D: 0, L: 0, gf: 0, ga: 0 };
+  comp.forEach(m => { r[result(m)]++; r.gf += m.score.for; r.ga += m.score.against; });
+  return { r, comp, friendlies: ms.length - comp.length, form: comp.sort((a, b) => a.date.localeCompare(b.date)).map(result) };
+}
+function renderStory(el) {
+  const items = [...DATA.story].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  if (!items.length) { el.innerHTML = '<p class="muted">The story starts with your first update.</p>'; return; }
+  const months = {};
+  items.forEach(e => { const k = e.month || (e.date || "").slice(0, 7); (months[k] ||= []).push(e); });
+  const meta = Object.fromEntries((FULL.months || []).filter(m => (m.spell || SPELL.id) === SPELL.id).map(m => [m.id, m]));
+  const keys = Object.keys(months).sort().reverse();
+  el.innerHTML = '<div class="months">' + keys.map(k => {
+    const mt = meta[k] || {}, rec = monthRecord(k), open = OPEN_MONTHS.has(k);
+    const name = monthKey(k + "-15");
+    const thumbs = months[k].flatMap(e => [e.image, ...(e.images || [])].filter(Boolean)).slice(0, 4);
+    const weeks = [...months[k]];
+    return `<section class="month-card ${open ? "open" : ""}" id="m-${k}">
+      <button class="month-head" data-month="${k}" aria-expanded="${open}">
+        <div class="mh-left">
+          <div class="mh-kicker">${esc(name)}${mt.inProgress ? ' <span class="chip">In progress</span>' : ""}</div>
+          <h2>${esc(mt.title || name)}</h2>
+          <div class="mh-rec">${rec.comp.length ? `<span class="form">${rec.form.map(f => `<span class="pip ${f}">${f}</span>`).join("")}</span><span>Won ${rec.r.W} · Drawn ${rec.r.D} · Lost ${rec.r.L} · Goals ${rec.r.gf}–${rec.r.ga}</span>` : `<span>${rec.friendlies} friendlies</span>`}</div>
+        </div>
+        <span class="mh-toggle">${open ? "Hide weeks" : `Show ${weeks.length} ${weeks.length === 1 ? "week" : "weeks"}`}</span>
+      </button>
+      <div class="month-sum">
+        ${(mt.summary || "").split(/\n\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join("")}
+        ${thumbs.length ? `<div class="gallery">${thumbs.map(src => { const e = weeks.find(w => w.image === src || (w.images || []).includes(src)); return `<img src="${esc(src)}" alt="Screenshot from the month" data-zoom="${esc(src)}" data-entry="${esc(e.id)}" loading="lazy">`; }).join("")}</div>` : ""}
+      </div>
+      ${open ? `<div class="timeline weeks">${weeks.map(entryHtml).join("")}</div>` : ""}
+    </section>`;
+  }).join("") + "</div>";
+}
+function positionChart() {
+  const pts = DATA.matches.filter(m => m.leaguePos).sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+  if (pts.length < 2) return "";
+  const W = 900, H = 200, pad = 34, maxPos = Math.max(DATA.save.leagueSize || 0, ...pts.map(p => p.leaguePos));
+  const x = i => pad + i * (W - pad * 2) / (pts.length - 1);
+  const y = p => pad / 2 + (p - 1) * (H - pad * 1.5) / Math.max(1, maxPos - 1);
+  const d = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.leaguePos).toFixed(1)}`).join(" ");
+  const ticks = [1, Math.ceil(maxPos / 2), maxPos].filter((v, i, a) => a.indexOf(v) === i);
+  const lastP = pts[pts.length - 1];
+  return `<div class="chart-box"><h3>League position after each league game</h3>
+    <svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="League position over the season">
+      ${ticks.map(t => `<line x1="${pad}" x2="${W - pad}" y1="${y(t)}" y2="${y(t)}" stroke="var(--line)"/><text x="${pad - 8}" y="${y(t) + 4}" text-anchor="end" font-size="12" fill="var(--muted)">${t}</text>`).join("")}
+      <path d="${d}" fill="none" stroke="var(--club)" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="${x(pts.length - 1)}" cy="${y(lastP.leaguePos)}" r="6" fill="var(--club-2)" stroke="var(--club)" stroke-width="2"/>
+    </svg></div>`;
+}
+
+function fixturesTable() {
+  const played = new Set(DATA.matches.map(m => (m.date || "") + "|" + (m.opponent || "").toLowerCase()));
+  const fx = (DATA.fixtures || []).filter(f => !played.has((f.date || "") + "|" + (f.opponent || "").toLowerCase())).sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+  if (!fx.length) return "";
+  return `<div class="chart-box"><h3>Coming up</h3><div class="results-wrap" style="margin:0"><table class="results">
+    <thead><tr><th>Date</th><th>Opponent</th><th>H/A</th><th>Competition</th></tr></thead>
+    <tbody>${fx.map(f => `<tr><td>${esc(fmtDate(f.date))}</td><td>${esc(f.opponent)}</td><td>${esc(f.venue || "")}</td><td>${esc(f.competition)}</td></tr>`).join("")}</tbody></table></div></div>`;
+}
+function renderResults(el) {
+  const ms = [...DATA.matches].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  if (!ms.length) { el.innerHTML = fixturesTable() + '<p class="muted">No matches played yet.</p>'; return; }
+  el.innerHTML = positionChart() + fixturesTable() + `<div class="results-wrap"><table class="results">
+    <thead><tr><th></th><th>Date</th><th>Competition</th><th>Opponent</th><th>H/A</th><th>Score</th><th>Scorers</th><th>Player of the match</th></tr></thead>
+    <tbody>${ms.map(m => `<tr class="row" tabindex="0" data-match="${esc(m.id)}">
+      <td><span class="res ${result(m)}"></span></td><td>${esc(fmtDate(m.date))}</td><td>${esc(m.competition)}</td>
+      <td>${esc(m.opponent)}</td><td>${esc(m.venue || "")}</td><td class="sc">${m.score.for}–${m.score.against}</td>
+      <td>${esc((m.scorers || []).join(", "))}</td><td>${esc(m.potm ? playerName(m.potm) : "")}</td></tr>`).join("")}</tbody></table></div>`;
+}
+
+const POS_ORDER = ["Goalkeepers", "Defenders", "Midfielders", "Forwards", "Squad", "On trial"];
+function posGroup(p) {
+  const s = (p.position || "").toUpperCase();
+  if (!s) return "Squad";
+  if (s.startsWith("GK")) return "Goalkeepers";
+  if (/^ST|^F\b|AM ?\(?[LRC]*\)?\s*,?\s*ST/.test(s) || s.startsWith("ST")) return "Forwards";
+  if (/^D|^WB/.test(s)) return "Defenders";
+  return "Midfielders";
+}
+function renderSquad(el) {
+  if (!DATA.players.length) { el.innerHTML = '<p class="muted">Your squad loads from the first squad screenshot.</p>'; return; }
+  const groups = {};
+  const ROLE = { GK: "Goalkeepers", DEF: "Defenders", MID: "Midfielders", FWD: "Forwards" };
+  DATA.players.filter(p => p.status !== "left").forEach(p => (groups[p.group || ROLE[p.role] || posGroup(p)] ||= []).push(p));
+  const left = DATA.players.filter(p => p.status === "left");
+  const card = p => `<button class="pcard" data-player="${esc(p.id)}">
+      <div class="top"><span class="name">${esc(p.name)}</span><span class="num">${esc(p.number ?? "")}</span></div>
+      <div class="info">${esc([p.position, p.age ? p.age + " yrs" : "", p.nationality].filter(Boolean).join(" · "))}</div>
+      ${p.tag ? `<span class="chip">${esc(p.tag)}</span>` : ""}
+      ${p.storyline ? `<div class="line">${esc(p.storyline)}</div>` : ""}
+      <div class="nums"><div><b>${p.apps ?? 0}</b><span>Apps</span></div><div><b>${p.goals ?? 0}</b><span>Goals</span></div><div><b>${p.assists ?? 0}</b><span>Assists</span></div><div><b>${p.avgRating ?? "–"}</b><span>Rating</span></div></div>
+    </button>`;
+  el.innerHTML = '<div class="squad-wrap">' + POS_ORDER.filter(g => groups[g]).map(g => `<div class="posgroup">${g}</div><div class="squad">${groups[g].map(card).join("")}</div>`).join("")
+    + (left.length ? `<div class="posgroup">Moved on</div><div class="squad">${left.map(card).join("")}</div>` : "") + "</div>";
+}
+
+let ATTR = null, PSTATS = null;
+const latest = j => (j && j.snapshots && j.snapshots.length) ? j.snapshots[j.snapshots.length - 1] : null;
+const ATTR_GROUPS = [
+  ["Technical", [["crossing","Crossing"],["dribbling","Dribbling"],["finishing","Finishing"],["first_touch","First touch"],["heading","Heading"],["long_shots","Long shots"],["marking","Marking"],["passing","Passing"],["tackling","Tackling"],["technique","Technique"],["corners","Corners"],["free_kicks","Free kicks"],["penalties","Penalties"],["long_throws","Long throws"]]],
+  ["Mental", [["aggression","Aggression"],["anticipation","Anticipation"],["bravery","Bravery"],["composure","Composure"],["concentration","Concentration"],["decisions","Decisions"],["determination","Determination"],["flair","Flair"],["leadership","Leadership"],["off_the_ball","Off the ball"],["positioning","Positioning"],["teamwork","Teamwork"],["vision","Vision"],["work_rate","Work rate"]]],
+  ["Physical", [["acceleration","Acceleration"],["agility","Agility"],["balance","Balance"],["jumping_reach","Jumping reach"],["natural_fitness","Natural fitness"],["pace","Pace"],["stamina","Stamina"],["strength","Strength"]]]
+];
+const STAT_LIST = [["minutes","Minutes"],["avg_rating","Avg rating"],["goals","Goals"],["xg","xG"],["shots_on_target_90","Shots on target /90"],["chances_created_90","Chances created /90"],["pass_pct","Pass %","%"],["passes_completed_90","Passes /90"],["possession_won_90","Ball won /90"],["possession_lost_90","Ball lost /90"],["headers_won_90","Headers won /90"],["header_win_pct","Headers won %","%"],["tackles_90","Tackles /90"],["tackle_win_pct","Tackles won %","%"],["interceptions_90","Interceptions /90"],["blocks_90","Blocks /90"],["op_crosses_attempted_90","Crosses tried /90"],["fouls","Fouls"],["fouls_against","Fouled"],["mistakes_leading_to_goal","Mistakes → goal"]];
+function attrClass(v) { return v >= 15 ? "a-hi" : v >= 12 ? "a-good" : v >= 8 ? "a-mid" : "a-low"; }
+function attrsHtml(id) {
+  const snap = latest(ATTR); const a = snap && snap.players[id];
+  if (!a) return '<p class="muted">No attributes saved yet. Send a screenshot of his attributes and they will appear here.</p>';
+  const groups = ATTR_GROUPS.map(([g, list]) => {
+    const rows = list.filter(([k]) => typeof a[k] === "number");
+    if (!rows.length) return "";
+    return `<div class="agroup"><h4>${g}</h4>${rows.map(([k, l]) => `<div class="arow"><span>${l}</span><b class="${attrClass(a[k])}">${a[k]}</b></div>`).join("")}</div>`;
+  }).join("");
+  const extra = [a.preferred_foot ? "Foot: " + a.preferred_foot : (a.left_foot ? "Left foot: " + a.left_foot : ""), a.height ? "Height: " + a.height : ""].filter(Boolean).join(" · ");
+  return `<div class="agrid">${groups}</div><p class="muted small">${extra ? esc(extra) + " · " : ""}As of ${esc(fmtDate(snap.date))}</p>`;
+}
+function statsHtml(id) {
+  const snap = latest(PSTATS); const s = snap && snap.players[id];
+  if (!s) return '<p class="muted">No season stats saved yet.</p>';
+  const rows = STAT_LIST.filter(([k]) => s[k] !== undefined && s[k] !== null);
+  if (!rows.length || (rows.length === 1 && rows[0][0] === "minutes" && !s.minutes)) return '<p class="muted">Hasn\'t played yet in the stats saved so far.</p>';
+  return `<div class="sgrid">${rows.map(([k, l, u]) => `<div class="scell"><b>${esc(s[k])}${u || ""}</b><span>${l}</span></div>`).join("")}</div>
+    <p class="muted small">${esc(snap.period || "")} · as of ${esc(fmtDate(snap.date))}${s.note ? " · " + esc(s.note) : ""}</p>`;
+}
+
+const MIN_MINS = 180;
+function renderAwards(el) {
+  const snap = latest(PSTATS);
+  if (!snap) { el.innerHTML = '<p class="muted">Loading stats…</p>'; return; }
+  const ppl = (FULL || DATA).players.filter(p => p.status !== "left" && (p.spell || SPELL.id) === SPELL.id);
+  const role = id => (ppl.find(p => p.id === id) || {}).role;
+  const name = id => (ppl.find(p => p.id === id) || {}).name || id;
+  const rows = Object.entries(snap.players).filter(([id, s]) => ppl.some(p => p.id === id) && (s.minutes || 0) >= MIN_MINS).map(([id, s]) => ({ id, ...s }));
+  const pick = (list, key, dir, n = 3) => list.filter(r => typeof r[key] === "number").sort((a, b) => dir * (b[key] - a[key])).slice(0, n);
+  const fmt = (v, u) => (Math.round(v * 100) / 100) + (u || "");
+  const award = (title, desc, list, key, dir, unit, bad) => {
+    const top = pick(list, key, dir);
+    if (!top.length) return "";
+    return `<div class="award ${bad ? "bad" : ""}"><div class="aw-kicker">${esc(title)}</div>
+      <button class="aw-win" data-player="${esc(top[0].id)}"><span>${esc(name(top[0].id))}</span><b>${fmt(top[0][key], unit)}</b></button>
+      <div class="aw-desc">${esc(desc)}</div>
+      ${top.slice(1).map((r, i) => `<button class="aw-run" data-player="${esc(r.id)}"><span>${i + 2}. ${esc(name(r.id))}</span><span>${fmt(r[key], unit)}</span></button>`).join("")}</div>`;
+  };
+  const by = r => rows.filter(x => role(x.id) === r);
+  rows.forEach(r => { r.finishing_diff = (r.goals || 0) - (r.xg || 0); r.fouls_90 = (r.fouls || 0) / r.minutes * 90; r.net_ball = (r.possession_won_90 || 0) - (r.possession_lost_90 || 0); r.waste = (r.xg || 0) - (r.goals || 0); });
+  const passers = rows.filter(r => (r.passes_completed_90 || 0) >= 20);
+  const seasonGoals = ppl.filter(p => p.goals).sort((a, b) => b.goals - a.goals).slice(0, 3).map(p => ({ id: p.id, goals: p.goals }));
+  const seasonAssists = ppl.filter(p => p.assists).sort((a, b) => b.assists - a.assists).slice(0, 3).map(p => ({ id: p.id, assists: p.assists }));
+  el.innerHTML = `<p class="muted aw-note">From season stats as of ${esc(fmtDate(snap.date))}. Only players with ${MIN_MINS}+ minutes count, so small samples don't skew the per-90 awards. Goals and assists are live from the results.</p>
+  <h3 class="aw-h">Best by position (average rating)</h3><div class="awards">
+    ${award("Player of the season so far", "Highest average rating", rows, "avg_rating", 1)}
+    ${award("Best defender", "Highest average rating, defenders", by("DEF"), "avg_rating", 1)}
+    ${award("Best midfielder", "Highest average rating, midfielders", by("MID"), "avg_rating", 1)}
+    ${award("Best forward", "Highest average rating, forwards", by("FWD"), "avg_rating", 1)}
+  </div>
+  <h3 class="aw-h">Goals</h3><div class="awards">
+    ${award("Top scorer", "Goals this season", seasonGoals, "goals", 1)}
+    ${award("Top assists", "Assists this season", seasonAssists, "assists", 1)}
+    ${award("Most clinical", "Goals scored above expected (goals minus xG)", rows.filter(r => r.goals), "finishing_diff", 1)}
+    ${award("Most chances created", "Chances created per 90", rows, "chances_created_90", 1)}
+  </div>
+  <h3 class="aw-h">On the ball</h3><div class="awards">
+    ${award("Best ball winner", "Possession won per 90", rows, "possession_won_90", 1)}
+    ${award("Safest with the ball", "Possession lost per 90 (lowest)", rows.filter(r => role(r.id) !== "GK"), "possession_lost_90", -1)}
+    ${award("Best passer", "Pass completion, 20+ passes per 90", passers, "pass_pct", 1, "%")}
+    ${award("Best in the air", "Headers won per 90", rows, "headers_won_90", 1)}
+    ${award("Best interceptor", "Interceptions per 90", rows, "interceptions_90", 1)}
+    ${award("Most fouled", "Fouls won", rows, "fouls_against", 1)}
+  </div>
+  <h3 class="aw-h">Hall of shame</h3><div class="awards">
+    ${award("Gives the ball away most", "Possession lost per 90 (outfield)", rows.filter(r => role(r.id) !== "GK"), "possession_lost_90", 1, "", true)}
+    ${award("Most wasteful finisher", "Goals missed compared with chances (xG minus goals)", rows.filter(r => r.waste > 0), "waste", 1, "", true)}
+    ${award("Worst passer", "Lowest pass completion, 20+ passes per 90", passers, "pass_pct", -1, "%", true)}
+    ${award("Dirtiest player", "Fouls committed per 90", rows, "fouls_90", 1, "", true)}
+  </div>`;
+}
+function openPlayer(id) {
+  const p = (FULL || DATA).players.find(x => x.id === id); if (!p) return;
+  const entries = (FULL || DATA).story.filter(e => (e.players || []).includes(id)).sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+  const dlg = $("#dlg");
+  dlg.innerHTML = `<div class="dhead"><div><div class="kicker">${esc([p.position, p.age ? p.age + " yrs" : "", p.nationality].filter(Boolean).join(" · "))}</div><h2>${esc(p.name)}</h2></div><button class="close" id="dclose">Close</button></div>
+    <div class="ptabs" role="tablist">
+      <button data-ptab="story" aria-selected="true">Story</button><button data-ptab="attrs" aria-selected="false">Attributes</button><button data-ptab="stats" aria-selected="false">Season stats</button>
+    </div>
+    <div class="dbody" data-ppanel="story">
+      ${p.storyline ? `<p><b>${esc(p.storyline)}</b></p>` : ""}
+      ${p.bio ? `<p>${esc(p.bio)}</p>` : ""}
+      <div class="muted">${p.apps ?? 0} apps · ${p.goals ?? 0} goals · ${p.assists ?? 0} assists · avg rating ${p.avgRating ?? "–"}</div>
+      <h3>Their story so far</h3>
+      <div class="mini">${entries.length ? entries.map(e => `<div><span class="muted">${esc(e.label || fmtDate(e.date))}</span><br><b>${esc(e.title)}</b></div>`).join("") : '<p class="muted">Nothing yet.</p>'}</div>
+    </div>
+    <div class="dbody" data-ppanel="attrs" hidden>${attrsHtml(id)}</div>
+    <div class="dbody" data-ppanel="stats" hidden>${statsHtml(id)}</div>`;
+  dlg.querySelectorAll("[data-ptab]").forEach(b => b.onclick = () => {
+    dlg.querySelectorAll("[data-ptab]").forEach(x => x.setAttribute("aria-selected", x === b));
+    dlg.querySelectorAll("[data-ppanel]").forEach(x => x.hidden = x.dataset.ppanel !== b.dataset.ptab);
+  });
+  dlg.showModal(); $("#dclose").onclick = () => dlg.close();
+}
+function openMatch(id) {
+  const m = DATA.matches.find(x => x.id === id); if (!m) return;
+  const dlg = $("#dlg");
+  dlg.innerHTML = `<div class="dhead"><div><div class="kicker">${esc(m.competition)} · ${esc(fmtDate(m.date))}</div><h2>${esc(DATA.save.club)} ${m.score.for}–${m.score.against} ${esc(m.opponent)}</h2></div><button class="close" id="dclose">Close</button></div>
+    <div class="dbody">${m.summary ? `<p>${esc(m.summary)}</p>` : ""}${(m.scorers || []).length ? `<p class="muted">Scorers: ${esc(m.scorers.join(", "))}</p>` : ""}${m.image ? `<img class="full" src="${esc(m.image)}" alt="Match screenshot">` : ""}</div>`;
+  dlg.showModal(); $("#dclose").onclick = () => dlg.close();
+}
+function openImage(src, entryId) {
+  const e = entryId && DATA.story.find(x => x.id === entryId);
+  const list = e ? [...new Set([e.image, ...(e.images || [])].filter(Boolean))] : [src];
+  let i = Math.max(0, list.indexOf(src));
+  const dlg = $("#dlg");
+  dlg.innerHTML = `<div class="dhead"><div class="kicker" id="lbcount"></div><button class="close" id="dclose">Close</button></div>
+    <div class="lightbox"><img class="full" id="lbimg" alt="Screenshot">
+    ${list.length > 1 ? `<button class="lbnav prev" id="lbprev" aria-label="Previous image">‹</button><button class="lbnav next" id="lbnext" aria-label="Next image">›</button>` : ""}</div>`;
+  const show = () => { $("#lbimg").src = list[i]; $("#lbcount").textContent = list.length > 1 ? `${i + 1} of ${list.length}` : ""; };
+  const go = d => { i = (i + d + list.length) % list.length; show(); };
+  show(); dlg.showModal(); $("#dclose").onclick = () => dlg.close();
+  if (list.length > 1) {
+    $("#lbprev").onclick = () => go(-1); $("#lbnext").onclick = () => go(1);
+    dlg.onkeydown = ev => { if (ev.key === "ArrowLeft") go(-1); if (ev.key === "ArrowRight") go(1); };
+    let x0 = null; const box = dlg.querySelector(".lightbox");
+    box.ontouchstart = ev => { x0 = ev.touches[0].clientX; };
+    box.ontouchend = ev => { if (x0 === null) return; const dx = ev.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1); x0 = null; };
+  } else dlg.onkeydown = null;
+}
+
+function renderTabs() {
+  const tabs = ["story", "results", "squad", "awards"];
+  const want = tabs.includes(location.hash.slice(1)) ? location.hash.slice(1) : "story";
+  $("#main").innerHTML = `<nav class="tabs" role="tablist">${tabs.map(t => `<button role="tab" id="tab-${t}" aria-selected="${t === want}" data-tab="${t}">${t[0].toUpperCase() + t.slice(1)}</button>`).join("")}</nav>
+    ${tabs.map(t => `<section id="${t}-panel" role="tabpanel" ${t === want ? "" : "hidden"}></section>`).join("")}`;
+  renderStory($("#story-panel")); renderResults($("#results-panel")); renderSquad($("#squad-panel")); renderAwards($("#awards-panel"));
+}
+function showTab(t) {
+  document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
+  document.querySelectorAll("[role=tabpanel]").forEach(s => s.hidden = s.id !== t + "-panel");
+}
+
+document.addEventListener("click", e => {
+  const mo = e.target.closest("[data-month]"); if (mo) { const k = mo.dataset.month; OPEN_MONTHS.has(k) ? OPEN_MONTHS.delete(k) : OPEN_MONTHS.add(k); renderStory($("#story-panel")); return; }
+  const sp = e.target.closest("[data-spell]"); if (sp) return selectSpell(sp.dataset.spell);
+  const t = e.target.closest("[data-tab]"); if (t) { showTab(t.dataset.tab); history.replaceState(null, "", "#" + t.dataset.tab); return; }
+  const p = e.target.closest("[data-player]"); if (p) return openPlayer(p.dataset.player);
+  const m = e.target.closest("[data-match]"); if (m) return openMatch(m.dataset.match);
+  const z = e.target.closest("[data-zoom]"); if (z) return openImage(z.dataset.zoom, z.dataset.entry);
+});
+document.addEventListener("keydown", e => { if (e.key === "Enter") { const m = e.target.closest?.("[data-match]"); if (m) openMatch(m.dataset.match); } });
+window.addEventListener("hashchange", () => { const t = location.hash.slice(1); if (["story", "results", "squad", "awards"].includes(t)) showTab(t); });
+
+fetch("stats/attributes.json", { cache: "no-store" }).then(r => r.json()).then(j => ATTR = j).catch(() => {});
+fetch("stats/playing-stats.json", { cache: "no-store" }).then(r => r.json()).then(j => { PSTATS = j; const el = document.getElementById("awards-panel"); if (el && SPELL) renderAwards(el); }).catch(() => {});
+fetch("data.json", { cache: "no-store" }).then(r => r.json()).then(d => {
+  FULL = d;
+  const cur = d.spells.find(x => !x.to) || d.spells[d.spells.length - 1];
+  selectSpell(cur.id);
+}).catch(() => { $("#main").innerHTML = '<p class="muted" style="padding:24px 0">The save data could not be loaded. Refresh the page to try again.</p>'; });
+</script>
+</body>
+</html>
