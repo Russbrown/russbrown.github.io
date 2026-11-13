@@ -66,16 +66,16 @@
    "id": "magnus-vandal",
    "name": "Magnus Vandal",
    "age": 23,
-   "apps": 11,
+   "apps": 12,
    "goals": 0,
    "assists": 1,
    "status": "active",
    "number": 4,
    "position": "D (L)",
-   "avgRating": 6.86,
+   "avgRating": 6.82,
    "spell": "sundby",
    "tag": "New first choice",
-   "storyline": "First-choice left-back. Played most of the game at Hørsholm-Usserød before going off injured, just ahead of the winter break.",
+   "storyline": "First-choice left-back. Had a tough afternoon against Al-Hummadi at Hørsholm-Usserød (0 of 2 tackles, 6.4) before going off injured.",
    "role": "DEF",
    "injured": true
   },
@@ -90,7 +90,7 @@
    "storyline": "Defensive midfielder. Scored a stoppage-time consolation against B.93.",
    "number": 16,
    "position": "D (C), DM",
-   "avgRating": 6.71,
+   "avgRating": 6.72,
    "spell": "sundby",
    "role": "MID"
   },
@@ -102,7 +102,7 @@
    "goals": 0,
    "assists": 1,
    "status": "active",
-   "storyline": "Set up Belmaillah's goal at Hørsholm-Usserød, rated 7.1.",
+   "storyline": "Set up Belmaillah's goal at Hørsholm-Usserød and was Sundby's joint-best player (7.2).",
    "tag": "Captain",
    "avgRating": 6.71,
    "spell": "sundby",
@@ -120,7 +120,7 @@
    "storyline": "Two assists at Holbæk, rated 8.6. Man of the moment on the right.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.79,
+   "avgRating": 6.8,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -129,14 +129,14 @@
    "id": "karlo-trkulja",
    "name": "Karlo Trkulja",
    "age": 23,
-   "apps": 9,
+   "apps": 10,
    "goals": 2,
    "assists": 0,
    "status": "active",
    "storyline": "Two goals in the cup at Virum, including one after a minute.",
    "number": 19,
    "position": "M (L), AM (R)",
-   "avgRating": 6.79,
+   "avgRating": 6.74,
    "spell": "sundby",
    "role": "MID"
   },
@@ -279,7 +279,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 8,
+   "apps": 9,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -288,7 +288,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.94,
+   "avgRating": 6.91,
    "role": "DEF"
   },
   {
@@ -702,14 +702,14 @@
    "age": 27,
    "position": "ST (C)",
    "nationality": "DEN",
-   "apps": 10,
+   "apps": 11,
    "goals": 5,
    "assists": 1,
    "status": "active",
    "tag": "Talisman",
    "storyline": "Six goals, every one of them decisive. Rifled in from 19 metres to beat Ringsted, player of the match (8.6).",
    "spell": "sundby",
-   "avgRating": 7.2,
+   "avgRating": 7.14,
    "role": "FWD"
   },
   {
@@ -723,7 +723,7 @@
    "assists": 1,
    "status": "active",
    "tag": "Breaking through",
-   "storyline": "Pushing Langhorn for the right-back shirt; came off the bench at Hørsholm-Usserød.",
+   "storyline": "Pushing Langhorn for the right-back shirt. Came on for him at Hørsholm-Usserød (6.8).",
    "spell": "sundby",
    "avgRating": 6.88,
    "role": "DEF"
@@ -2035,7 +2035,7 @@
      "assist": "johan-becker"
     }
    ],
-   "potm": "Anas Al-Hummadi (Hørsholm-Usserød) 7.4",
+   "potm": "Anas Al-Hummadi (Hørsholm-Usserød) 7.42",
    "leaguePos": 4,
    "summary": "A 1–1 at Hørsholm-Usserød. Belmaillah scored just before half-time, after another goal had been wrongly disallowed. Hvid headed the equaliser on 59 minutes.",
    "stats": {
@@ -2105,39 +2105,42 @@
    },
    "lineup": {
     "formation": "4-4-2 (DLP + DM)",
-    "on_pitch_at_full_time": [
+    "XI": [
      "lucas-poulsen",
-     "noah-schak",
+     "magnus-langhorn",
      "mads-jul-jorgens",
      "simeon-jovanovski",
-     "benjamin-damsgaard",
-     "johan-becker",
-     "gustav-frederiksen",
+     "magnus-vandal",
      "oliver-elliott-karls",
-     "n-graini",
-     "mohamed-belmaillah",
-     "bastian-andersen"
+     "gustav-frederiksen",
+     "johan-becker",
+     "karlo-trkulja",
+     "marcus-molvadgaard",
+     "mohamed-belmaillah"
     ],
     "subs_on": [
      "noah-schak",
      "benjamin-damsgaard",
      "n-graini",
-     "oliver-elliott-karls",
      "bastian-andersen"
     ],
-    "note": "Starting XI not captured; Vandal started at left-back and went off injured"
+    "note": "Vandal went off injured, replaced by Damsgaard"
    },
    "ratings": {
     "lucas-poulsen": 6.4,
-    "noah-schak": 6.8,
+    "magnus-langhorn": 6.7,
     "mads-jul-jorgens": 6.9,
     "simeon-jovanovski": 6.8,
-    "benjamin-damsgaard": 6.6,
-    "johan-becker": 7.1,
-    "gustav-frederiksen": 6.7,
-    "oliver-elliott-karls": 6.5,
-    "n-graini": 6.5,
+    "magnus-vandal": 6.4,
+    "oliver-elliott-karls": 6.6,
+    "gustav-frederiksen": 6.8,
+    "johan-becker": 7.2,
+    "karlo-trkulja": 6.3,
+    "marcus-molvadgaard": 6.5,
     "mohamed-belmaillah": 7.2,
+    "noah-schak": 6.8,
+    "benjamin-damsgaard": 6.6,
+    "n-graini": 6.5,
     "bastian-andersen": 6.8
    },
    "conceded": [
@@ -2152,7 +2155,28 @@
     "Sundby goal disallowed on 32 minutes; match report says it should have stood",
     "Vandal injured after the game"
    ],
-   "image": "img/2026-11-14-horsholm.jpg"
+   "image": "img/2026-11-14-horsholm.jpg",
+   "tackles": {
+    "magnus-vandal": "0/2",
+    "mads-jul-jorgens": "1/1",
+    "oliver-elliott-karls": "1/1",
+    "johan-becker": "1/1",
+    "karlo-trkulja": "1/1"
+   },
+   "shots_detail": {
+    "sundby": {
+     "on_target": 5,
+     "saved": 4,
+     "missed": 2,
+     "blocked": 1
+    },
+    "opponent": {
+     "on_target": 2,
+     "saved": 1,
+     "missed": 1,
+     "blocked": 1
+    }
+   }
   }
  ],
  "story": [
@@ -2623,7 +2647,7 @@
    "date": "2026-11-14",
    "label": "Week 21 · 14–20 November",
    "title": "Week 21: Robbed, then pegged back",
-   "body": "The last game before the winter break, away at Hørsholm-Usserød.\n\nSundby had a goal ruled out on 32 minutes. The match report said it should have stood. Belmaillah made up for it in first-half stoppage time with a solo run and a finish from 20 metres, set up by Becker. The drought was over.\n\nThen, on 59 minutes, Al-Hummadi crossed from their right and Hvid headed in from close range. Another goal from a cross into the middle of the box. Sundby had more shots (8 to 4) and more on target (5 to 2), but Hørsholm-Usserød had the better chances.\n\nTo make it worse, Vandal, who played most of the game at left-back, went off injured and Damsgaard replaced him.\n\nSundby drop to 4th on 24 points, two clear of 7th. The league breaks until 6 March, when Holstebro visit.",
+   "body": "The last game before the winter break, away at Hørsholm-Usserød.\n\nSundby had a goal ruled out on 32 minutes. The match report said it should have stood. Belmaillah made up for it in first-half stoppage time with a solo run and a finish from 20 metres, set up by Becker (7.2). The drought was over.\n\nThen, on 59 minutes, Al-Hummadi crossed from their right, Vandal's side, and Hvid headed in from close range. Vandal lost both his tackles. Another goal from a cross into the middle of the box. Sundby had more shots (8 to 4) and more on target (5 to 2), but Hørsholm-Usserød had the better chances.\n\nTo make it worse, Vandal, who played most of the game at left-back, went off injured and Damsgaard replaced him.\n\nSundby drop to 4th on 24 points, two clear of 7th. The league breaks until 6 March, when Holstebro visit.",
    "match": "2026-11-14-horsholm-usserod",
    "players": [
     "mohamed-belmaillah",
@@ -2633,6 +2657,7 @@
    ],
    "images": [
     "img/2026-11-14-horsholm.jpg",
+    "img/2026-11-14-horsholm-stats.jpg",
     "img/2026-11-14-horsholm-report.jpg",
     "img/2026-11-14-horsholm-table.jpg"
    ]
