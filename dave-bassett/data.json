@@ -1,5 +1,5 @@
 {
- "updatedAt": "2027-06-14",
+ "updatedAt": "2027-06-16",
  "players": [
   {
    "id": "lucas-poulsen",
@@ -217,7 +217,7 @@
    "apps": 5,
    "goals": 3,
    "assists": 2,
-   "status": "active",
+   "status": "left",
    "position": "AM (R), ST (C)",
    "nationality": "DEN",
    "storyline": "Scored against Holbæk, then got injured.",
@@ -225,7 +225,7 @@
    "avgRating": 7.1,
    "spell": "sundby",
    "role": "FWD",
-   "tag": "Injured"
+   "tag": "Sold"
   },
   {
    "id": "gustav-lundqvist",
@@ -842,6 +842,74 @@
    "avgRating": 6.67,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
+  },
+  {
+   "id": "noah-kjer",
+   "name": "Noah Kjer",
+   "role": "MID",
+   "position": "Midfielder",
+   "age": 18,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "The pick of the young trialists in April: rated highest of the group. Signed on a free transfer in June 2027. Coach rating: 3.5 stars.",
+   "bio": "18-year-old midfielder. Free transfer, June 2027.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
+  },
+  {
+   "id": "teo-reeh",
+   "name": "Teo Reeh",
+   "role": "FWD",
+   "position": "Forward",
+   "age": 18,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "A young forward from the April trials. Mads Jul Jørgensen has been asked to help him settle. Signed on a free transfer in June 2027. Coach rating: 3 stars.",
+   "bio": "18-year-old forward. Free transfer, June 2027.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
+  },
+  {
+   "id": "magnus-dalager",
+   "name": "Magnus Dalager",
+   "role": "DEF",
+   "position": "Full-back",
+   "age": 18,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "A young full-back from the April trials. Signed on a free transfer in June 2027. Coach rating: 3 stars.",
+   "bio": "18-year-old full-back. Free transfer, June 2027.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
+  },
+  {
+   "id": "lau-overgaard",
+   "name": "Lau Overgaard",
+   "role": "DEF",
+   "position": "Centre-back",
+   "age": 18,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "A young centre-back from the April trials. Signed on a free transfer in June 2027. Coach rating: 2.5 stars.",
+   "bio": "18-year-old centre-back. Free transfer, June 2027.",
    "tag": "New signing",
    "status": "active",
    "spell": "sundby"
@@ -5269,19 +5337,26 @@
    "id": "2027-week-26",
    "spell": "sundby",
    "month": "2027-06",
-   "date": "2027-06-14",
-   "label": "Week 26 · 14 June",
-   "title": "Week 26: The awards",
-   "body": "The season review put the promotion in context. The board's target for the season was simply to avoid relegation. Sundby finished 2nd and went up. In the Danish Cup they reached the fourth round, which met the aim of being competitive.\n\nThe club's awards night at Kløvermarken belonged to Simeon Jovanovski. The 20-year-old centre-back won Fans' Player of the Season, Young Player of the Season and Signing of the Season, averaging 7.03.\n\nThe other awards:\n• Top scorer: Belmaillah, 12 goals. He also had the best pass completion in the squad (88%).\n• Most assists: Pyne-Cole, 8.\n• Most Player of the Match awards: Mølvadgaard, 4.\n• Goal of the Season: Graini, away at ASA, Aarhus in October.\n\nThe Team of the Season, in a 4-4-2: Poulsen; Langhorn, Jovanovski, Jørgensen, Johannessen; Elliott Karlsen, Becker, Frederiksen, Trkulja; Mølvadgaard, Pyne-Cole.\n\nNext up: a meeting with the board about the club's vision and expectations for life in the 2. Division.",
+   "date": "2027-06-16",
+   "label": "Week 26 · 14–16 June",
+   "title": "Week 26: Awards, records and new arrivals",
+   "body": "The season review put the promotion in context. The board's target for the season was simply to avoid relegation. Sundby finished 2nd and went up. In the Danish Cup they reached the fourth round, which met the aim of being competitive.\n\nThe club's awards night at Kløvermarken belonged to Simeon Jovanovski. The 20-year-old centre-back won Fans' Player of the Season, Young Player of the Season and Signing of the Season, averaging 7.03.\n\nThe other awards:\n• Top scorer: Belmaillah, 12 goals. He also had the best pass completion in the squad (88%).\n• Most assists: Pyne-Cole, 8.\n• Most Player of the Match awards: Mølvadgaard, 4.\n• Goal of the Season: Graini, away at ASA, Aarhus in October.\n\nThe Team of the Season, in a 4-4-2: Poulsen; Langhorn, Jovanovski, Jørgensen, Johannessen; Elliott Karlsen, Becker, Frederiksen, Trkulja; Mølvadgaard, Pyne-Cole.\n\nThe board's end-of-season review gave Bassett an A-. They called themselves delighted with his leadership, and they especially liked the passing in the Wing Play style. Their criticisms were the 0–0 at home to Hørsholm-Usserød, the 4–1 defeat at Frem, and the sale of Noah Jakobsen. The board also approved a place on the next coaching course.\n\nThe record book was busy. Belmaillah broke the club goalscoring record, Mølvadgaard set a new record for Player of the Match awards, Poulsen set a clean-sheet record, and Pyne-Cole set one of his own.\n\nThe transfer window opened, and four of the young players from the April trials signed on free transfers: midfielder Noah Kjer, forward Teo Reeh, full-back Magnus Dalager and centre-back Lau Overgaard. All are 18. Jørgensen has been asked to help Reeh settle in.\n\nThe 2. Division brings ground rules too. The board announced a £55K expansion of Kløvermarken, adding standing room for 500 more supporters to meet league requirements. A £28K council grant covers about half of it. The work will take around six months, and capacity drops from 1,080 while a stand is closed.",
    "players": [
     "simeon-jovanovski",
     "mohamed-belmaillah",
     "giran-pyne-cole",
     "marcus-molvadgaard",
-    "n-graini"
+    "n-graini",
+    "noah-kjer",
+    "teo-reeh",
+    "magnus-dalager",
+    "lau-overgaard"
    ],
    "images": [
-    "img/2027-06-14-awards.jpg"
+    "img/2027-06-14-awards.jpg",
+    "img/2027-06-14-board-review.jpg",
+    "img/2027-06-16-signings.jpg",
+    "img/2027-06-16-stadium.jpg"
    ]
   }
  ],
@@ -5414,30 +5489,28 @@
   ],
   "goal": "Make as much money as possible",
   "standing": {
-   "date": "2027-04-01",
-   "board": "A+",
-   "board_text": "Unbelievable job, clearly the right manager",
+   "date": "2027-06-14",
+   "board": "A-",
+   "board_text": "Delighted with the leadership qualities you are demonstrating",
    "supporters": "Ecstatic",
    "board_breakdown": {
-    "club_vision": "A+",
-    "match": "C",
+    "club_vision": "B",
+    "match": "C+",
     "recruitment": "C",
-    "tactics": "C+",
-    "squad": "C"
+    "tactics": "B-",
+    "squad": "B+"
    },
    "highlights": [
-    "In the promotion race",
-    "Pleased with signings of Adam Ejler Hansen and Hakim Sighaoui"
+    "1-0 win at Hørsholm-Usserød on the final day",
+    "2-0 win over FC Helsingør",
+    "2-1 win over Ishøj IF"
    ],
    "criticisms": [
-    "0-0 draw with Næsby",
-    "Sale of Malte Karoli",
-    "0-1 defeat at Frem",
-    "Lack of entertaining football with Wing Play style",
-    "No experience guiding teams clear of relegation"
+    "0-0 draw with Hørsholm-Usserød",
+    "1-4 defeat at Frem",
+    "Sale of Noah Jakobsen"
    ],
-   "warning": "Relegation would cost Bassett his job",
-   "club_objective": "Avoid relegation from the CampoBet 3. Division",
+   "club_objective": "Promoted. 2026/27 target was to avoid relegation",
    "dynamics": {
     "atmosphere": "Average",
     "cohesion": "Average",
@@ -5526,9 +5599,67 @@
      "Hillerød (Betinia Liga)"
     ]
    }
+  ],
+  "standingHistory": [
+   {
+    "date": "2027-04-01",
+    "board": "A+",
+    "board_text": "Unbelievable job, clearly the right manager",
+    "supporters": "Ecstatic",
+    "board_breakdown": {
+     "club_vision": "A+",
+     "match": "C",
+     "recruitment": "C",
+     "tactics": "C+",
+     "squad": "C"
+    },
+    "highlights": [
+     "In the promotion race",
+     "Pleased with signings of Adam Ejler Hansen and Hakim Sighaoui"
+    ],
+    "criticisms": [
+     "0-0 draw with Næsby",
+     "Sale of Malte Karoli",
+     "0-1 defeat at Frem",
+     "Lack of entertaining football with Wing Play style",
+     "No experience guiding teams clear of relegation"
+    ],
+    "warning": "Relegation would cost Bassett his job",
+    "club_objective": "Avoid relegation from the CampoBet 3. Division",
+    "dynamics": {
+     "atmosphere": "Average",
+     "cohesion": "Average",
+     "unhappy_players": 4,
+     "very_happy": 11,
+     "very_happy_first_team": 7,
+     "issues": [
+      {
+       "player": "noah-jakobsen",
+       "issue": "Wants to start more games (promised)"
+      },
+      {
+       "player": "noah-jakobsen",
+       "issue": "Unhappy agreed playing time changed"
+      },
+      {
+       "player": "andreas-nybro",
+       "issue": "Unhappy agreed playing time changed"
+      },
+      {
+       "player": "noah-schak",
+       "issue": "Unhappy agreed playing time changed (Impact Sub)"
+      }
+     ]
+    },
+    "jobs_available": [
+     "Lyngby (3F Superliga)",
+     "Viborg FF (3F Superliga)",
+     "Hillerød (Betinia Liga)"
+    ]
+   }
   ]
  },
- "currentDate": "2027-06-14",
+ "currentDate": "2027-06-16",
  "spells": [
   {
    "id": "sundby",
