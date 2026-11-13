@@ -2932,33 +2932,42 @@
    "conceded": [
     {
      "minute": 6,
-     "scorer": "M. Olsen"
+     "scorer": "Morten Olsen",
+     "type": "close-range finish"
     },
     {
      "minute": 12,
-     "scorer": "A. Fæster"
+     "scorer": "Anders Fæster",
+     "type": "close-range header",
+     "error": "magnus-vandal"
     },
     {
      "minute": 17,
-     "scorer": "M. Olsen"
+     "scorer": "Morten Olsen",
+     "type": "low drive"
     },
     {
      "minute": 26,
-     "scorer": "A. Fæster"
+     "scorer": "Anders Fæster",
+     "type": "volley"
     },
     {
      "minute": 44,
-     "scorer": "A. Fæster"
+     "scorer": "Anders Fæster",
+     "type": "point-blank header"
     },
     {
      "minute": 50,
-     "scorer": "T. Noer"
+     "scorer": "Tobias Noer",
+     "type": "22-metre volley"
     },
     {
-     "scorer": "(7th goal)"
+     "minute": 63,
+     "scorer": "Morten Olsen",
+     "type": "finish off the post"
     }
    ],
-   "potm": "M. Olsen (Brønshøj) 9.4",
+   "potm": "Anders Fæster (Brønshøj) 10.0",
    "leaguePos": 6,
    "summary": "A humiliation. 11th-placed Brønshøj scored with almost every shot: 4–0 after 26 minutes, 5–1 at half-time, 7–1 at the end. Poulsen was substituted.",
    "stats": {
@@ -3019,7 +3028,8 @@
      15.12,
      13.42
     ],
-    "weather": "Calm"
+    "weather": "Downpour, 10°C",
+    "attendance": 800
    },
    "lineup": {
     "formation": "4-2-2-2 (2 DM), Cautious",
@@ -3062,7 +3072,10 @@
     "oliver-koertz": 7.0,
     "n-graini": 6.6
    },
-   "image": "img/2027-03-29-bronshoj.jpg"
+   "image": "img/2027-03-29-bronshoj.jpg",
+   "errors_leading_to_goal": {
+    "magnus-vandal": 1
+   }
   }
  ],
  "story": [
@@ -3770,7 +3783,7 @@
    "date": "2027-03-29",
    "label": "Week 13 · 29 March",
    "title": "Week 13: Seven",
-   "body": "The worst day of Bassett's career. Brønshøj, 11th in the table, came to Kløvermarken and scored with almost everything. Olsen after six minutes, Fæster on 12, Olsen again on 17 (another corner), Fæster on 26. 4–0 inside half an hour.\n\nBelmaillah pulled one back, but Fæster completed his hat-trick before half-time: 1–5. The half-time message was blunt (\"You're letting yourselves down\"). Poulsen was taken off. Brønshøj scored twice more.\n\nIt finished 7–1. Brønshøj had eight shots on target, and seven went in from an xG of just 2.42. Olsen rated 9.4.\n\nSundby drop to 6th on 28 points, one above Vanløse and Holstebro, and the goal difference has gone from +4 to –2. The final preliminary game is away at 2nd-placed FC Helsingør. A top-six place is no longer guaranteed.",
+   "body": "The worst day of Bassett's career. In a downpour at Kløvermarken, 11th-placed Brønshøj scored with almost everything. Olsen after six minutes. A Vandal error let Fæster head in on 12. Olsen again on 17, Fæster's volley on 26: 4–0 inside half an hour.\n\nBelmaillah pulled one back, but Fæster headed his hat-trick goal from point-blank range on 44: 1–5. The half-time message was blunt (\"You're letting yourselves down\"). Poulsen was taken off, and Harksen made his debut. Noer added a 22-metre volley and Olsen completed his own hat-trick on 63.\n\nIt finished 7–1, with two hat-tricks. Fæster was rated a perfect 10. Brønshøj had eight shots on target and seven went in, from an xG of just 2.41.\n\nSundby drop to 6th on 28 points, one above Vanløse and Holstebro, and the goal difference has gone from +4 to –2. The final preliminary game is away at 2nd-placed FC Helsingør.",
    "match": "2027-03-29-bronshoj",
    "players": [
     "lucas-poulsen",
@@ -3779,6 +3792,7 @@
    ],
    "images": [
     "img/2027-03-29-bronshoj.jpg",
+    "img/2027-03-29-bronshoj-report.jpg",
     "img/2027-03-29-bronshoj-16min.jpg",
     "img/2027-03-29-bronshoj-ht.jpg"
    ]
