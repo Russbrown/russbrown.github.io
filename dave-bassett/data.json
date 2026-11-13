@@ -5,14 +5,14 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 23,
+   "apps": 24,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Bounced back from the 7–1 with a 7.6 at FC Helsingør on the final day.",
    "number": 24,
-   "avgRating": 6.81,
+   "avgRating": 6.82,
    "spell": "sundby",
    "role": "GK"
   },
@@ -83,7 +83,7 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 16,
+   "apps": 17,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -98,13 +98,13 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 16,
+   "apps": 17,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "storyline": "Scored a stoppage-time equaliser at ASA, Aarhus, playing as a defensive midfielder (7.3).",
    "tag": "Captain",
-   "avgRating": 6.7,
+   "avgRating": 6.72,
    "spell": "sundby",
    "role": "MID",
    "position": "DM, M (C)"
@@ -113,14 +113,14 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 10,
+   "apps": 11,
    "goals": 0,
-   "assists": 2,
+   "assists": 4,
    "status": "active",
-   "storyline": "Two assists at Holbæk, rated 8.6. Man of the moment on the right.",
+   "storyline": "Player of the match against Ishøj (8.4) off the bench, with two assists in the last ten minutes.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.71,
+   "avgRating": 6.86,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -263,9 +263,9 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 13,
+   "apps": 14,
    "goals": 10,
-   "assists": 1,
+   "assists": 2,
    "status": "active",
    "storyline": "Scored the winner at FC Helsingør that sent Sundby into the promotion group.",
    "position": "AM (L), ST (C)",
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 14,
+   "apps": 15,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -289,7 +289,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.86,
+   "avgRating": 6.88,
    "role": "DEF"
   },
   {
@@ -313,7 +313,7 @@
    "name": "Giran Pyne-Cole",
    "age": 24,
    "apps": 16,
-   "goals": 6,
+   "goals": 7,
    "assists": 6,
    "status": "active",
    "position": "AM (RL), ST (C)",
@@ -359,8 +359,8 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 14,
-   "goals": 5,
+   "apps": 15,
+   "goals": 6,
    "assists": 2,
    "status": "active",
    "storyline": "Came off the bench at Vanløse and scored twice in six minutes (8.3), both set up by Pyne-Cole.",
@@ -369,7 +369,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.95,
+   "avgRating": 6.99,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -546,14 +546,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 19,
+   "apps": 20,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.88,
+   "avgRating": 6.91,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -611,13 +611,13 @@
    "name": "Søren Sørensen",
    "position": "D (LC)",
    "nationality": "",
-   "apps": 6,
+   "apps": 7,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "Back in at centre-back at Holbæk, and part of a clean sheet.",
-   "avgRating": 6.78,
+   "avgRating": 6.8,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -704,11 +704,11 @@
    "position": "ST (C)",
    "nationality": "DEN",
    "apps": 14,
-   "goals": 5,
+   "goals": 6,
    "assists": 4,
    "status": "active",
    "tag": "Talisman",
-   "storyline": "Six goals, every one of them decisive. Rifled in from 19 metres to beat Ringsted, player of the match (8.6).",
+   "storyline": "Scored against his former club Ishøj in stoppage time, ending his goal drought.",
    "spell": "sundby",
    "avgRating": 7.12,
    "role": "FWD"
@@ -734,13 +734,13 @@
    "name": "Noah Graini",
    "number": 35,
    "position": "W (L)",
-   "apps": 10,
+   "apps": 11,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "tag": "In form",
    "spell": "sundby",
-   "avgRating": 6.83,
+   "avgRating": 6.79,
    "storyline": "Player of the match against ASA (7.9): a curled finish from 19 metres for the opener.",
    "role": "MID"
   },
@@ -754,9 +754,9 @@
    "apps": 6,
    "goals": 0,
    "assists": 0,
-   "status": "active",
+   "status": "left",
    "tag": "New signing",
-   "storyline": "Came on for the injured Vandal at Hørsholm-Usserød, and is likely to start at left-back after the winter break.",
+   "storyline": "Released on a free transfer in April 2027.",
    "bio": "Left-footed, 6'1\". Marking 11, positioning 11, pace 13, teamwork 15. Concentration 7 and stamina 5 are the worries.",
    "avgRating": 6.57,
    "role": "DEF"
@@ -819,10 +819,10 @@
    "position": "M (RC), AM (R)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 4,
+   "apps": 5,
    "goals": 0,
    "assists": 1,
-   "avgRating": 6.7,
+   "avgRating": 6.66,
    "storyline": "Set up Belmaillah's final-day winner at FC Helsingør (7.6), his best game yet.",
    "bio": "22-year-old right winger, rated 3.5 stars as a winger.",
    "tag": "New signing",
@@ -836,10 +836,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 6,
+   "apps": 7,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.47,
+   "avgRating": 6.55,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -3313,6 +3313,124 @@
     "mohamed-belmaillah": 6.3
    },
    "image": "img/2027-04-10-asa.jpg"
+  },
+  {
+   "id": "2027-04-17-ishoj",
+   "spell": "sundby",
+   "date": "2027-04-17",
+   "competition": "3. Division – Promotion Stage",
+   "opponent": "Ishøj IF",
+   "venue": "H",
+   "score": {
+    "for": 3,
+    "against": 1
+   },
+   "scorers": [
+    {
+     "player": "bastian-andersen",
+     "minute": 31,
+     "assist": "mohamed-belmaillah"
+    },
+    {
+     "player": "giran-pyne-cole",
+     "minute": 82,
+     "assist": "oliver-elliott-karls"
+    },
+    {
+     "player": "marcus-molvadgaard",
+     "minute": "90+3",
+     "assist": "oliver-elliott-karls"
+    }
+   ],
+   "conceded": [
+    {
+     "minute": 68,
+     "scorer": "S. Escobar Jensen",
+     "assist": "I. Elaoufi"
+    }
+   ],
+   "potm": "Oliver Elliott Karlsen 8.4",
+   "leaguePos": 5,
+   "summary": "Sundby's best all-round performance in weeks. Andersen opened the scoring, Ishøj equalised, then subs Elliott Karlsen, Pyne-Cole and Mølvadgaard won it late.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     50,
+     50
+    ],
+    "shots": [
+     14,
+     11
+    ],
+    "on_target": [
+     7,
+     6
+    ],
+    "xg": [
+     2.5,
+     1.69
+    ],
+    "clear_cut": [
+     2,
+     1
+    ],
+    "corners": [
+     4,
+     6
+    ],
+    "fouls": [
+     11,
+     11
+    ],
+    "yellow": [
+     0,
+     1
+    ],
+    "progressive_passes": [
+     52,
+     49
+    ],
+    "pass_pct": [
+     81,
+     78
+    ],
+    "cross_pct": [
+     17,
+     11
+    ],
+    "distance_km": [
+     125,
+     129
+    ],
+    "avg_rating": [
+     7.1,
+     6.6
+    ],
+    "oppda": [
+     10.98,
+     14.76
+    ],
+    "attendance": 201,
+    "weather": "18°C, sunny"
+   },
+   "lineup": {
+    "note": "Late subs Elliott Karlsen, Pyne-Cole and Mølvadgaard decided it"
+   },
+   "ratings": {
+    "lucas-poulsen": 7.1,
+    "magnus-langhorn": 7.1,
+    "simeon-jovanovski": 7.5,
+    "s-sorensen": 6.9,
+    "nicolai-johannessen": 7.0,
+    "oliver-koertz": 6.5,
+    "johan-becker": 7.0,
+    "gustav-frederiksen": 6.7,
+    "n-graini": 6.4,
+    "bastian-andersen": 7.6,
+    "mohamed-belmaillah": 7.1,
+    "oliver-elliott-karls": 8.4
+   },
+   "image": "img/2027-04-17-ishoj.jpg"
   }
  ],
  "story": [
@@ -4087,6 +4205,28 @@
     "img/2027-04-10-asa.jpg",
     "img/2027-04-10-asa-report.jpg"
    ]
+  },
+  {
+   "id": "2027-week-17",
+   "spell": "sundby",
+   "month": "2027-04",
+   "date": "2027-04-17",
+   "label": "Week 17 · 17 April",
+   "title": "Week 17: The bench wins it",
+   "body": "In the sunshine at Kløvermarken, Sundby played their most complete game in weeks against Ishøj. Andersen finished Belmaillah's pass on 31 minutes. Ishøj equalised through Escobar Jensen on 68.\n\nThen the bench took over. Elliott Karlsen came on and set up Pyne-Cole's header on 82, then Mølvadgaard's goal in stoppage time against his old club. Elliott Karlsen was named player of the match (8.4). Jovanovski (7.5) was outstanding at the back.\n\nSundby out-created Ishøj (xG 2.50 to 1.69), and the new back four looked settled. Sundby are 5th on 34 points, five behind ASA and Hørsholm-Usserød in 2nd and 3rd, with seven games left. Damsgaard left on a free transfer. Next: Frem.",
+   "match": "2027-04-17-ishoj",
+   "players": [
+    "oliver-elliott-karls",
+    "bastian-andersen",
+    "giran-pyne-cole",
+    "marcus-molvadgaard",
+    "simeon-jovanovski"
+   ],
+   "images": [
+    "img/2027-04-17-ishoj.jpg",
+    "img/2027-04-17-ishoj-report.jpg",
+    "img/2027-04-17-ishoj-table.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -4332,7 +4472,7 @@
    }
   ]
  },
- "currentDate": "2027-04-10",
+ "currentDate": "2027-04-17",
  "spells": [
   {
    "id": "sundby",
