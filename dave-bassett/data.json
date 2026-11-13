@@ -5,14 +5,14 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 20,
+   "apps": 21,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
-   "storyline": "Player of the match at Brønshøj (7.6). Six clean sheets in his last eight.",
+   "storyline": "Substituted in the 7–1 home defeat to Brønshøj (5.9), after conceding five in the first half.",
    "number": 24,
-   "avgRating": 6.82,
+   "avgRating": 6.78,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 15,
+   "apps": 16,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.9,
+   "avgRating": 6.87,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -66,13 +66,13 @@
    "id": "magnus-vandal",
    "name": "Magnus Vandal",
    "age": 23,
-   "apps": 13,
+   "apps": 14,
    "goals": 0,
    "assists": 1,
    "status": "active",
    "number": 4,
    "position": "D (L)",
-   "avgRating": 6.8,
+   "avgRating": 6.75,
    "spell": "sundby",
    "tag": "New first choice",
    "storyline": "Back from injury at left-back for the draw at ASA, Aarhus.",
@@ -83,14 +83,14 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 13,
+   "apps": 14,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "storyline": "Defensive midfielder. Scored a stoppage-time consolation against B.93.",
    "number": 16,
    "position": "D (C), DM",
-   "avgRating": 6.7,
+   "avgRating": 6.66,
    "spell": "sundby",
    "role": "MID"
   },
@@ -113,14 +113,14 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 9,
+   "apps": 10,
    "goals": 0,
    "assists": 2,
    "status": "active",
    "storyline": "Two assists at Holbæk, rated 8.6. Man of the moment on the right.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.78,
+   "avgRating": 6.71,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -129,14 +129,14 @@
    "id": "karlo-trkulja",
    "name": "Karlo Trkulja",
    "age": 23,
-   "apps": 11,
+   "apps": 12,
    "goals": 2,
    "assists": 0,
    "status": "active",
    "storyline": "Two goals in the cup at Virum, including one after a minute.",
    "number": 19,
    "position": "M (L), AM (R)",
-   "avgRating": 6.71,
+   "avgRating": 6.67,
    "spell": "sundby",
    "role": "MID"
   },
@@ -171,7 +171,7 @@
    "id": "nicolas-harksen",
    "name": "Nicolas Harksen",
    "age": 23,
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -180,7 +180,8 @@
    "storyline": "The German keeper starts pre-season as the backup.",
    "number": 1,
    "spell": "sundby",
-   "role": "GK"
+   "role": "GK",
+   "avgRating": 6.5
   },
   {
    "id": "frederik-skov",
@@ -262,8 +263,8 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 10,
-   "goals": 8,
+   "apps": 11,
+   "goals": 9,
    "assists": 1,
    "status": "active",
    "storyline": "Ended his goal drought with a solo finish from 20 metres at Hørsholm-Usserød, after having another goal wrongly ruled out.",
@@ -271,7 +272,7 @@
    "nationality": "DEN",
    "tag": "Hat-trick hero",
    "number": 20,
-   "avgRating": 7.26,
+   "avgRating": 7.19,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -279,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 12,
+   "apps": 13,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -288,7 +289,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.91,
+   "avgRating": 6.89,
    "role": "DEF"
   },
   {
@@ -545,14 +546,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 17,
+   "apps": 18,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.96,
+   "avgRating": 6.91,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -702,14 +703,14 @@
    "age": 27,
    "position": "ST (C)",
    "nationality": "DEN",
-   "apps": 12,
+   "apps": 13,
    "goals": 5,
-   "assists": 2,
+   "assists": 3,
    "status": "active",
    "tag": "Talisman",
    "storyline": "Six goals, every one of them decisive. Rifled in from 19 metres to beat Ringsted, player of the match (8.6).",
    "spell": "sundby",
-   "avgRating": 7.19,
+   "avgRating": 7.16,
    "role": "FWD"
   },
   {
@@ -733,13 +734,13 @@
    "name": "Noah Graini",
    "number": 35,
    "position": "W (L)",
-   "apps": 9,
+   "apps": 10,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "tag": "In form",
    "spell": "sundby",
-   "avgRating": 6.86,
+   "avgRating": 6.83,
    "storyline": "Player of the match against ASA (7.9): a curled finish from 19 metres for the opener.",
    "role": "MID"
   },
@@ -784,10 +785,10 @@
    "position": "D (RL), WB (L)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 1,
+   "apps": 2,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.6,
+   "avgRating": 6.55,
    "storyline": "Signed in late November to play on the left wing. A natural full-back, which brings defensive work to the wing alongside pace (12) and crossing (12).",
    "bio": "22-year-old full-back who can also play wing-back on the left. 5'7\". 3.5-star ability, 4.5-star potential. 70 career games before Sundby.",
    "tag": "New signing",
@@ -801,10 +802,10 @@
    "position": "D/WB (R), DM, M (C)",
    "age": 29,
    "nationality": "Denmark",
-   "apps": 2,
+   "apps": 3,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.65,
+   "avgRating": 6.6,
    "storyline": "Signed in January as the ball-winning holding midfielder the side lacked. Rated 4 stars, the best in the squad, with leadership 13 and determination 15. Can cover right-back.",
    "bio": "29-year-old defensive midfielder with a national reputation. 221 career games, most recently at 2. Division leaders FC Roskilde.",
    "tag": "New signing",
@@ -818,10 +819,10 @@
    "position": "M (RC), AM (R)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 1,
+   "apps": 2,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.1,
+   "avgRating": 6.55,
    "storyline": "Signed from rivals Næsby in January to fix the right wing. Quick (acceleration 14), skilful (technique 14, flair 13) and a proven creator: 5 assists for Næsby in the first half of the season.",
    "bio": "22-year-old right winger, rated 3.5 stars as a winger.",
    "tag": "New signing",
@@ -835,10 +836,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 3,
+   "apps": 4,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.5,
+   "avgRating": 6.4,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -2909,6 +2910,159 @@
     "bastian-andersen": 7.1
    },
    "image": "img/2027-03-25-asa.jpg"
+  },
+  {
+   "id": "2027-03-29-bronshoj",
+   "spell": "sundby",
+   "date": "2027-03-29",
+   "competition": "3. Division",
+   "opponent": "Brønshøj",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 7
+   },
+   "scorers": [
+    {
+     "player": "mohamed-belmaillah",
+     "minute": 36,
+     "assist": "marcus-molvadgaard"
+    }
+   ],
+   "conceded": [
+    {
+     "minute": 6,
+     "scorer": "M. Olsen"
+    },
+    {
+     "minute": 12,
+     "scorer": "A. Fæster"
+    },
+    {
+     "minute": 17,
+     "scorer": "M. Olsen"
+    },
+    {
+     "minute": 26,
+     "scorer": "A. Fæster"
+    },
+    {
+     "minute": 44,
+     "scorer": "A. Fæster"
+    },
+    {
+     "minute": 50,
+     "scorer": "T. Noer"
+    },
+    {
+     "scorer": "(7th goal)"
+    }
+   ],
+   "potm": "M. Olsen (Brønshøj) 9.4",
+   "leaguePos": 6,
+   "summary": "A humiliation. 11th-placed Brønshøj scored with almost every shot: 4–0 after 26 minutes, 5–1 at half-time, 7–1 at the end. Poulsen was substituted.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     46,
+     54
+    ],
+    "shots": [
+     12,
+     13
+    ],
+    "on_target": [
+     4,
+     8
+    ],
+    "xg": [
+     1.39,
+     2.42
+    ],
+    "clear_cut": [
+     1,
+     2
+    ],
+    "corners": [
+     9,
+     4
+    ],
+    "fouls": [
+     8,
+     6
+    ],
+    "yellow": [
+     1,
+     1
+    ],
+    "progressive_passes": [
+     27,
+     38
+    ],
+    "pass_pct": [
+     77,
+     80
+    ],
+    "cross_pct": [
+     12,
+     25
+    ],
+    "distance_km": [
+     115,
+     118
+    ],
+    "avg_rating": [
+     6.4,
+     7.8
+    ],
+    "oppda": [
+     15.12,
+     13.42
+    ],
+    "weather": "Calm"
+   },
+   "lineup": {
+    "formation": "4-2-2-2 (2 DM), Cautious",
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "simeon-jovanovski",
+     "nicolai-johannessen",
+     "magnus-vandal",
+     "gustav-frederiksen",
+     "nicklas-halse",
+     "oliver-elliott-karls",
+     "karlo-trkulja",
+     "marcus-molvadgaard",
+     "mohamed-belmaillah"
+    ],
+    "subs_on": [
+     "nicolas-harksen",
+     "mads-jul-jorgens",
+     "adam-ejler-hansen",
+     "oliver-koertz",
+     "n-graini"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 5.9,
+    "magnus-langhorn": 6.6,
+    "simeon-jovanovski": 6.1,
+    "nicolai-johannessen": 6.1,
+    "magnus-vandal": 6.1,
+    "gustav-frederiksen": 6.2,
+    "nicklas-halse": 6.5,
+    "oliver-elliott-karls": 6.1,
+    "karlo-trkulja": 6.2,
+    "marcus-molvadgaard": 6.8,
+    "mohamed-belmaillah": 6.5,
+    "nicolas-harksen": 6.5,
+    "mads-jul-jorgens": 6.4,
+    "adam-ejler-hansen": 6.5,
+    "oliver-koertz": 7.0,
+    "n-graini": 6.6
+   },
+   "image": "img/2027-03-29-bronshoj.jpg"
   }
  ],
  "story": [
@@ -3608,6 +3762,26 @@
     "img/2027-03-25-asa-report.jpg",
     "img/2027-03-25-asa-table.jpg"
    ]
+  },
+  {
+   "id": "2027-week-13b",
+   "spell": "sundby",
+   "month": "2027-03",
+   "date": "2027-03-29",
+   "label": "Week 13 · 29 March",
+   "title": "Week 13: Seven",
+   "body": "The worst day of Bassett's career. Brønshøj, 11th in the table, came to Kløvermarken and scored with almost everything. Olsen after six minutes, Fæster on 12, Olsen again on 17 (another corner), Fæster on 26. 4–0 inside half an hour.\n\nBelmaillah pulled one back, but Fæster completed his hat-trick before half-time: 1–5. The half-time message was blunt (\"You're letting yourselves down\"). Poulsen was taken off. Brønshøj scored twice more.\n\nIt finished 7–1. Brønshøj had eight shots on target, and seven went in from an xG of just 2.42. Olsen rated 9.4.\n\nSundby drop to 6th on 28 points, one above Vanløse and Holstebro, and the goal difference has gone from +4 to –2. The final preliminary game is away at 2nd-placed FC Helsingør. A top-six place is no longer guaranteed.",
+   "match": "2027-03-29-bronshoj",
+   "players": [
+    "lucas-poulsen",
+    "mohamed-belmaillah",
+    "nicolas-harksen"
+   ],
+   "images": [
+    "img/2027-03-29-bronshoj.jpg",
+    "img/2027-03-29-bronshoj-16min.jpg",
+    "img/2027-03-29-bronshoj-ht.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -3840,7 +4014,7 @@
    }
   ]
  },
- "currentDate": "2027-03-25",
+ "currentDate": "2027-03-29",
  "spells": [
   {
    "id": "sundby",
@@ -3931,6 +4105,10 @@
     {
      "date": "2027-03-13",
      "label": "Beat Ishøj to go 3rd"
+    },
+    {
+     "date": "2027-03-29",
+     "label": "Worst defeat: 1–7 at home to Brønshøj"
     }
    ]
   }
@@ -3993,9 +4171,9 @@
   {
    "id": "2027-03",
    "spell": "sundby",
-   "title": "March",
+   "title": "Stoppage time and set pieces",
    "inProgress": true,
-   "summary": "The league resumed with a stoppage-time home defeat to Holstebro. A week later, two Pyne-Cole goals beat Ishøj and lifted Sundby to 3rd. Then a set-piece collapse at Vanløse: 3–0 down at half-time, Andersen's late double wasn't quite enough. At ASA, Becker's stoppage-time equaliser rescued a point Sundby barely deserved."
+   "summary": "The league resumed with a stoppage-time home defeat to Holstebro. A week later, two Pyne-Cole goals beat Ishøj and lifted Sundby to 3rd. Then a set-piece collapse at Vanløse: 3–0 down at half-time, Andersen's late double wasn't quite enough. At ASA, Becker's stoppage-time equaliser rescued a point Sundby barely deserved. Then the low point: a 7–1 home thrashing by Brønshøj."
   }
  ]
 }
