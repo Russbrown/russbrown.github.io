@@ -53,6 +53,13 @@ button { font-family: inherit; }
 .kicker { font: 700 13px var(--font-body); letter-spacing: .22em; text-transform: uppercase; color: rgba(255,255,255,.75); }
 .mast h1 { font-size: clamp(64px, 12vw, 148px); font-weight: 900; text-transform: uppercase; color: #fff; line-height: .82; letter-spacing: -.01em; }
 .mast .sub { font-size: 16px; color: rgba(255,255,255,.85); max-width: 60ch; }
+.mast-facts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; position: relative; z-index: 1; }
+.mast-facts:empty { display: none; }
+@media (max-width: 520px) { .mast-facts { display: grid; grid-template-columns: 1fr 1fr; } .mast-facts .fact:nth-child(2) { grid-column: 1 / -1; grid-row: 2; } .fact b { font-size: 16px; } }
+.fact { background: rgba(0,0,0,.28); border: 1px solid rgba(255,255,255,.16); border-radius: 12px; padding: 8px 12px; display: grid; gap: 1px; backdrop-filter: blur(4px); }
+.fact span { font: 700 10px var(--font-body); letter-spacing: .14em; text-transform: uppercase; color: rgba(255,255,255,.7); }
+.fact b { font: 800 18px var(--font-display); color: #fff; letter-spacing: .02em; text-transform: uppercase; }
+.fact small { font-size: 11px; color: rgba(255,255,255,.7); }
 .mast-num { position: absolute; right: 12px; bottom: -34px; font: 900 clamp(140px, 24vw, 300px)/1 var(--font-display); color: transparent; -webkit-text-stroke: 2px rgba(255,255,255,.22); pointer-events: none; user-select: none; letter-spacing: -.04em; }
 @media (prefers-reduced-motion: no-preference) {
   .mast .kicker, .mast h1, .mast .sub { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
@@ -287,6 +294,7 @@ dialog [data-ppanel][hidden] { display: none; }
   <div class="kicker" id="kicker">The story of a journeyman manager</div>
   <h1 id="club">Dave Bassett</h1>
   <div class="sub" id="sub"></div>
+  <div class="mast-facts" id="facts"></div>
   <div class="mast-num" id="mastnum" aria-hidden="true">01</div>
 </div></header>
 <section class="career"><div class="wrap" id="career"></div></section>
@@ -348,6 +356,17 @@ function renderHead() {
   $("#club").textContent = m.name || "Dave Bassett";
   $("#mastnum").textContent = String(s.chapter || 1).padStart(2, "0");
   $("#kicker").textContent = "The story of a journeyman manager";
+  const today = FULL.currentDate || new Date().toISOString().slice(0, 10);
+  const dd = (a, b) => Math.max(0, (new Date(b) - new Date(a)) / 864e5);
+  const money = n => n >= 1e6 ? "£" + (n / 1e6).toFixed(2) + "m" : n >= 1e3 ? "£" + (n / 1e3).toFixed(1) + "K" : "£" + Math.round(n);
+  const cons = m.contracts || [], cur = cons.find(c => !c.left) || cons[cons.length - 1];
+  const earned = cons.reduce((t, c) => t + c.wage * dd(c.start, [c.left || c.end, today].sort()[0]) / 365, 0);
+  const lic = m.licence;
+  $("#facts").innerHTML = [
+    lic ? `<div class="fact"><span>Coaching licence</span><b>${esc(lic.name)}</b><small>Since ${esc(fmtDate(lic.date))}</small></div>` : "",
+    cur ? `<div class="fact"><span>Contract · ${esc(cur.club)}</span><b>${money(cur.wage)} a year</b><small>${esc(cur.type || "")}${cur.type ? " · " : ""}until ${esc(fmtDate(cur.end))} (${Math.round(dd(today, cur.end))} days)</small></div>` : "",
+    cons.length ? `<div class="fact"><span>Career earnings</span><b>${money(earned)}</b><small>Up to ${esc(fmtDate(today))}</small></div>` : ""
+  ].join("");
   $("#sub").textContent = `Chapter ${s.chapter}: ${s.club} · ${[s.league, s.season].filter(Boolean).join(" · ")}${s.ambition ? " · Aim: " + s.ambition : ""}`;
 }
 
