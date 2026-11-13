@@ -75,7 +75,7 @@
    "avgRating": 6.86,
    "spell": "sundby",
    "tag": "New first choice",
-   "storyline": "First-choice left-back, but injured just before the winter break.",
+   "storyline": "First-choice left-back. Played most of the game at Hørsholm-Usserød before going off injured, just ahead of the winter break.",
    "role": "DEF",
    "injured": true
   },
@@ -723,7 +723,7 @@
    "assists": 1,
    "status": "active",
    "tag": "Breaking through",
-   "storyline": "Started at right-back at Hørsholm-Usserød after pushing Langhorn for the shirt.",
+   "storyline": "Pushing Langhorn for the right-back shirt; came off the bench at Hørsholm-Usserød.",
    "spell": "sundby",
    "avgRating": 6.88,
    "role": "DEF"
@@ -755,7 +755,7 @@
    "assists": 0,
    "status": "active",
    "tag": "New signing",
-   "storyline": "Started at left-back at Hørsholm-Usserød. Their right side, led by Al-Hummadi (7.4), set up the equaliser.",
+   "storyline": "Came on for the injured Vandal at Hørsholm-Usserød, and is likely to start at left-back after the winter break.",
    "bio": "Left-footed, 6'1\". Marking 11, positioning 11, pace 13, teamwork 15. Concentration 7 and stamina 5 are the worries.",
    "avgRating": 6.57,
    "role": "DEF"
@@ -2105,7 +2105,7 @@
    },
    "lineup": {
     "formation": "4-4-2 (DLP + DM)",
-    "XI": [
+    "on_pitch_at_full_time": [
      "lucas-poulsen",
      "noah-schak",
      "mads-jul-jorgens",
@@ -2118,7 +2118,14 @@
      "mohamed-belmaillah",
      "bastian-andersen"
     ],
-    "subs_used": "unknown"
+    "subs_on": [
+     "noah-schak",
+     "benjamin-damsgaard",
+     "n-graini",
+     "oliver-elliott-karls",
+     "bastian-andersen"
+    ],
+    "note": "Starting XI not captured; Vandal started at left-back and went off injured"
    },
    "ratings": {
     "lucas-poulsen": 6.4,
@@ -2616,14 +2623,13 @@
    "date": "2026-11-14",
    "label": "Week 21 · 14–20 November",
    "title": "Week 21: Robbed, then pegged back",
-   "body": "The last game before the winter break, away at Hørsholm-Usserød. Schak started at right-back and Damsgaard on the left.\n\nSundby had a goal ruled out on 32 minutes. The match report said it should have stood. Belmaillah made up for it in first-half stoppage time with a solo run and a finish from 20 metres, set up by Becker. The drought was over.\n\nThen, on 59 minutes, Al-Hummadi crossed from their right and Hvid headed in from close range. Another goal from a cross into the middle of the box. Sundby had more shots (8 to 4) and more on target (5 to 2), but Hørsholm-Usserød had the better chances.\n\nTo make it worse, Vandal picked up an injury.\n\nSundby drop to 4th on 24 points, two clear of 7th. The league breaks until 6 March, when Holstebro visit.",
+   "body": "The last game before the winter break, away at Hørsholm-Usserød.\n\nSundby had a goal ruled out on 32 minutes. The match report said it should have stood. Belmaillah made up for it in first-half stoppage time with a solo run and a finish from 20 metres, set up by Becker. The drought was over.\n\nThen, on 59 minutes, Al-Hummadi crossed from their right and Hvid headed in from close range. Another goal from a cross into the middle of the box. Sundby had more shots (8 to 4) and more on target (5 to 2), but Hørsholm-Usserød had the better chances.\n\nTo make it worse, Vandal, who played most of the game at left-back, went off injured and Damsgaard replaced him.\n\nSundby drop to 4th on 24 points, two clear of 7th. The league breaks until 6 March, when Holstebro visit.",
    "match": "2026-11-14-horsholm-usserod",
    "players": [
     "mohamed-belmaillah",
     "johan-becker",
-    "benjamin-damsgaard",
-    "noah-schak",
-    "magnus-vandal"
+    "magnus-vandal",
+    "benjamin-damsgaard"
    ],
    "images": [
     "img/2026-11-14-horsholm.jpg",
