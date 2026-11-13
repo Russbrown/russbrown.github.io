@@ -5,14 +5,14 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 25,
+   "apps": 26,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
-   "storyline": "Bounced back from the 7–1 with a 7.6 at FC Helsingør on the final day.",
+   "storyline": "Player of the match at FC Helsingør (8.1), with seven saves in a 0–0. A month after being taken off in the 7–1.",
    "number": 24,
-   "avgRating": 6.84,
+   "avgRating": 6.89,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 19,
+   "apps": 20,
    "goals": 1,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.91,
+   "avgRating": 6.92,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -83,14 +83,14 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 17,
+   "apps": 18,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "storyline": "Defensive midfielder. Scored a stoppage-time consolation against B.93.",
    "number": 16,
    "position": "D (C), DM",
-   "avgRating": 6.66,
+   "avgRating": 6.67,
    "spell": "sundby",
    "role": "MID"
   },
@@ -98,13 +98,13 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 18,
+   "apps": 19,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "storyline": "Scored a stoppage-time equaliser at ASA, Aarhus, playing as a defensive midfielder (7.3).",
    "tag": "Captain",
-   "avgRating": 6.71,
+   "avgRating": 6.7,
    "spell": "sundby",
    "role": "MID",
    "position": "DM, M (C)"
@@ -113,14 +113,14 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 11,
+   "apps": 12,
    "goals": 0,
    "assists": 4,
    "status": "active",
    "storyline": "Player of the match against Ishøj (8.4) off the bench, with two assists in the last ten minutes.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.86,
+   "avgRating": 6.9,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -263,7 +263,7 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 15,
+   "apps": 16,
    "goals": 10,
    "assists": 2,
    "status": "active",
@@ -272,7 +272,7 @@
    "nationality": "DEN",
    "tag": "Hat-trick hero",
    "number": 20,
-   "avgRating": 7.1,
+   "avgRating": 7.05,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 16,
+   "apps": 17,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -289,7 +289,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.92,
+   "avgRating": 6.94,
    "role": "DEF"
   },
   {
@@ -546,7 +546,7 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 21,
+   "apps": 22,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -703,14 +703,14 @@
    "age": 27,
    "position": "ST (C)",
    "nationality": "DEN",
-   "apps": 14,
+   "apps": 15,
    "goals": 6,
    "assists": 4,
    "status": "active",
    "tag": "Talisman",
    "storyline": "Scored against his former club Ishøj in stoppage time, ending his goal drought.",
    "spell": "sundby",
-   "avgRating": 7.12,
+   "avgRating": 7.07,
    "role": "FWD"
   },
   {
@@ -785,10 +785,10 @@
    "position": "D (RL), WB (L)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 4,
+   "apps": 5,
    "goals": 1,
    "assists": 0,
-   "avgRating": 6.8,
+   "avgRating": 6.72,
    "storyline": "Scored the winner against league leaders Frem (7.4), his first goal for the club, playing on the left wing.",
    "bio": "22-year-old full-back who can also play wing-back on the left. 5'7\". 3.5-star ability, 4.5-star potential. 70 career games before Sundby.",
    "tag": "New signing",
@@ -836,10 +836,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 7,
+   "apps": 8,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.55,
+   "avgRating": 6.59,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -3539,6 +3539,111 @@
     "mohamed-belmaillah": 6.4
    },
    "image": "img/2027-04-24-frem.jpg"
+  },
+  {
+   "id": "2027-05-01-helsingor",
+   "spell": "sundby",
+   "date": "2027-05-01",
+   "competition": "3. Division – Promotion Stage",
+   "opponent": "FC Helsingør",
+   "venue": "A",
+   "score": {
+    "for": 0,
+    "against": 0
+   },
+   "scorers": [],
+   "potm": "Lucas Poulsen 8.1",
+   "summary": "A goalless draw away at managerless Helsingør. Poulsen made seven saves, though Sundby had the better chances (xG 1.77 to 0.84).",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     34,
+     66
+    ],
+    "shots": [
+     13,
+     12
+    ],
+    "on_target": [
+     3,
+     7
+    ],
+    "xg": [
+     1.77,
+     0.84
+    ],
+    "clear_cut": [
+     2,
+     0
+    ],
+    "corners": [
+     4,
+     6
+    ],
+    "fouls": [
+     10,
+     7
+    ],
+    "yellow": [
+     4,
+     3
+    ],
+    "progressive_passes": [
+     35,
+     57
+    ],
+    "pass_pct": [
+     78,
+     88
+    ],
+    "cross_pct": [
+     20,
+     11
+    ],
+    "distance_km": [
+     116,
+     119
+    ],
+    "avg_rating": [
+     6.9,
+     6.9
+    ],
+    "oppda": [
+     32.75,
+     9.41
+    ],
+    "attendance": 336,
+    "weather": "Wet, 10°C"
+   },
+   "lineup": {
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "simeon-jovanovski",
+     "mads-jul-jorgens",
+     "nicolai-johannessen",
+     "oliver-elliott-karls",
+     "johan-becker",
+     "gustav-frederiksen",
+     "adam-ejler-hansen",
+     "marcus-molvadgaard",
+     "mohamed-belmaillah"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 8.1,
+    "magnus-langhorn": 7.3,
+    "simeon-jovanovski": 6.9,
+    "mads-jul-jorgens": 7.2,
+    "nicolai-johannessen": 6.9,
+    "oliver-elliott-karls": 7.3,
+    "johan-becker": 6.6,
+    "gustav-frederiksen": 6.8,
+    "adam-ejler-hansen": 6.4,
+    "marcus-molvadgaard": 6.4,
+    "mohamed-belmaillah": 6.3
+   },
+   "image": "img/2027-05-01-helsingor.jpg"
   }
  ],
  "story": [
@@ -4354,6 +4459,26 @@
    "images": [
     "img/2027-04-24-frem.jpg"
    ]
+  },
+  {
+   "id": "2027-week-19",
+   "spell": "sundby",
+   "month": "2027-05",
+   "date": "2027-05-01",
+   "label": "Week 19 · 1 May",
+   "title": "Week 19: Poulsen holds firm",
+   "body": "Back at Helsingør, scene of the final-day win four weeks earlier. Helsingør had sacked René Skovdahl in the meantime.\n\nOn a wet afternoon it finished 0–0. Helsingør had two-thirds of the ball and seven shots on target, but Poulsen saved all of them and was named player of the match (8.1). Sundby had the two clear-cut chances and the better xG (1.77 to 0.84), but couldn't finish them.\n\nThe point keeps Sundby 4th with five games left. Hørsholm-Usserød, one of the two sides they're chasing, are next.",
+   "match": "2027-05-01-helsingor",
+   "players": [
+    "lucas-poulsen",
+    "magnus-langhorn",
+    "mads-jul-jorgens",
+    "oliver-elliott-karls"
+   ],
+   "images": [
+    "img/2027-05-01-helsingor.jpg",
+    "img/2027-05-01-helsingor-report.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -4599,7 +4724,7 @@
    }
   ]
  },
- "currentDate": "2027-04-24",
+ "currentDate": "2027-05-01",
  "spells": [
   {
    "id": "sundby",
@@ -4775,8 +4900,14 @@
    "id": "2027-04",
    "spell": "sundby",
    "title": "Into the promotion group",
+   "summary": "A new contract for Bassett, then the most important win of his career: 2–1 at FC Helsingør on the final day, to finish 5th and reach the promotion group. In the promotion group, a narrow loss at ASA was followed by wins over Ishøj (3–1) and leaders Frem (1–0)."
+  },
+  {
+   "id": "2027-05",
+   "spell": "sundby",
+   "title": "May",
    "inProgress": true,
-   "summary": "A new contract for Bassett, then the most important win of his career: 2–1 at FC Helsingør on the final day, to finish 5th and reach the promotion group."
+   "summary": "The run-in. A goalless draw at Helsingør, with Poulsen outstanding."
   }
  ]
 }
