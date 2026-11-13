@@ -64,32 +64,23 @@ button { font-family: inherit; }
 @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 
 /* ---------- Career timeline ---------- */
-.career { background: var(--bg); }
-.career .wrap { padding-top: 20px; padding-bottom: 6px; display: grid; gap: 12px; }
-.career-head { display: flex; flex-wrap: wrap; gap: 6px 20px; align-items: baseline; }
-.career-head h2 { font-size: 14px; font-family: var(--font-body); font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
-.career-head span { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.career { background: var(--bg); border-bottom: 1px solid var(--line); }
+.career .wrap { padding-top: 12px; padding-bottom: 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+.career-head { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.career-head h2 { font: 700 11px var(--font-body); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
 .career-head b { color: var(--ink); font-weight: 700; }
-.track { display: flex; gap: 8px; align-items: stretch; overflow-x: auto; padding-bottom: 2px; }
-.spell { appearance: none; border: 1px solid rgba(255,255,255,.08); border-radius: var(--radius); padding: 0; min-width: 200px; text-align: left; cursor: pointer;
-  background: linear-gradient(135deg, var(--sp), color-mix(in srgb, var(--sp) 55%, #000)); color: #fff; font: inherit; display: grid; overflow: hidden; box-shadow: var(--shadow); transition: transform .15s; }
-.spell:hover { transform: translateY(-1px); }
-.spell[aria-pressed="true"] { outline: 2px solid var(--sp2); outline-offset: 2px; }
-.spell:focus-visible { outline: 3px solid var(--club-2); outline-offset: 2px; }
-.spell .top { padding: 12px 14px 4px; display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
-.spell .ch { font: 700 11px var(--font-body); letter-spacing: .16em; text-transform: uppercase; opacity: .8; }
-.spell .nm { font: 900 28px var(--font-display); text-transform: uppercase; line-height: 1; }
-.spell .dt, .spell .rec { padding: 0 14px; font-size: 13px; opacity: .88; }
-.spell .rec { padding-bottom: 10px; font-variant-numeric: tabular-nums; }
-.spell .rail { position: relative; height: 22px; background: rgba(0,0,0,.28); }
-.spell .rail::before { content: ""; position: absolute; left: 8px; right: 8px; top: 10px; height: 2px; background: rgba(255,255,255,.35); border-radius: 2px; }
-.spell .dot { position: absolute; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: #fff; transform: translateX(-50%); box-shadow: 0 0 0 3px rgba(0,0,0,.25); }
-.spell .now { position: absolute; right: 10px; top: 3px; font: 700 10px var(--font-body); letter-spacing: .16em; text-transform: uppercase; }
-.spell.future { background: transparent; border: 1px dashed var(--line); color: var(--muted); cursor: default; min-width: 150px; box-shadow: none; }
-.spell.future .rail { background: transparent; } .spell.future .rail::before { background: var(--line); }
-.milestones { display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; color: var(--muted); }
-.milestones span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; }
-.milestones b { color: var(--ink); font-weight: 600; }
+.track { display: flex; gap: 6px; align-items: center; flex: 1 1 320px; min-width: 0; overflow-x: auto; }
+.spell { appearance: none; font: inherit; color: var(--ink); cursor: pointer; text-align: left; position: relative; overflow: hidden;
+  display: flex; align-items: center; gap: 10px; min-width: 0; padding: 8px 12px; border-radius: 10px;
+  background: var(--surface); border: 1px solid var(--line); transition: border-color .15s; }
+.spell:hover { border-color: color-mix(in srgb, var(--sp) 70%, var(--line)); }
+.spell[aria-pressed="true"] { border-color: var(--sp); background: color-mix(in srgb, var(--sp) 14%, var(--surface)); }
+.spell:focus-visible { outline: 2px solid var(--club-2); outline-offset: 2px; }
+.spell .sw { width: 10px; height: 10px; border-radius: 50%; background: var(--sp); box-shadow: 0 0 0 2px var(--sp2); flex: none; }
+.spell .nm { font: 800 16px var(--font-display); text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; }
+.spell .dt { font-size: 12px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.spell.future { cursor: default; border-style: dashed; background: transparent; color: var(--muted); }
+.spell.future .nm { font-size: 14px; }
 
 /* ---------- Season strip ---------- */
 .strip { background: var(--bg); }
@@ -294,20 +285,14 @@ function renderCareer() {
   const m = FULL.manager || {};
   $("#career").innerHTML = `<div class="career-head"><h2>Career</h2>
       <span><b>${FULL.spells.length}</b> ${FULL.spells.length === 1 ? "club" : "clubs"}</span>
-      <span><b>${games}</b> competitive games</span>
-      <span>Won <b>${all.W}</b> · Drawn <b>${all.D}</b> · Lost <b>${all.L}</b></span>
-      ${games ? `<span>Win rate <b>${Math.round(all.W / games * 100)}%</b></span>` : ""}</div>
+      <span><b>${games}</b> games</span>
+      <span>W<b>${all.W}</b> D<b>${all.D}</b> L<b>${all.L}</b></span>
+      ${games ? `<span><b>${Math.round(all.W / games * 100)}%</b> wins</span>` : ""}</div>
     <div class="track">${FULL.spells.map(sp => {
-      const end = sp.to || now, len = days(sp.from, end);
-      const r = recordOf((FULL.matches || []).filter(x => x.spell === sp.id));
-      const dots = (sp.milestones || []).map(ms => `<span class="dot" title="${esc(fmtDate(ms.date) + ": " + ms.label)}" style="left:${Math.min(96, Math.max(4, days(sp.from, ms.date) / len * 100))}%"></span>`).join("");
-      return `<button class="spell" aria-pressed="${sp.id === SPELL.id}" data-spell="${esc(sp.id)}" style="--sp:${esc(sp.colours?.primary || "#444")};--sp2:${esc(sp.colours?.secondary || "#ddd")};flex:${len} 1 0">
-        <div class="top"><span class="nm">${esc(sp.club)}</span><span class="ch">Chapter ${sp.chapter}</span></div>
-        <div class="dt">${esc(monthYr(sp.from))} – ${sp.to ? esc(monthYr(sp.to)) : "now"} · ${esc(sp.league || "")}</div>
-        <div class="rec">W${r.W} D${r.D} L${r.L}</div>
-        <div class="rail">${dots}${sp.to ? "" : '<span class="now">Now</span>'}</div></button>`;
-    }).join("")}<div class="spell future" aria-hidden="true"><div class="top"><span class="nm">?</span><span class="ch">Chapter ${FULL.spells.length + 1}</span></div><div class="dt">Next club</div><div class="rec">&nbsp;</div><div class="rail"></div></div></div>
-    ${(SPELL.milestones || []).length ? `<div class="milestones">${SPELL.milestones.map(ms => `<span>${esc(fmtDate(ms.date))}: <b>${esc(ms.label)}</b></span>`).join("")}</div>` : ""}`;
+      return `<button class="spell" aria-pressed="${sp.id === SPELL.id}" data-spell="${esc(sp.id)}" title="${esc(sp.league || "")}" style="--sp:${esc(sp.colours?.primary || "#444")};--sp2:${esc(sp.colours?.secondary || "#ddd")}">
+        <span class="sw"></span><span class="nm">${esc(sp.club)}</span>
+        <span class="dt">${esc(monthYr(sp.from))} – ${sp.to ? esc(monthYr(sp.to)) : "now"}</span></button>`;
+    }).join("")}<div class="spell future" aria-hidden="true"><span class="nm">Next club?</span></div></div>`;
 }
 
 function renderHead() {
