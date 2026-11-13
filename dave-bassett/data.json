@@ -1,5 +1,5 @@
 {
- "updatedAt": "2027-06-12",
+ "updatedAt": "2027-06-14",
  "players": [
   {
    "id": "lucas-poulsen",
@@ -5264,6 +5264,25 @@
     "img/2027-06-12-70min.jpg",
     "img/2027-06-12-55min.jpg"
    ]
+  },
+  {
+   "id": "2027-week-26",
+   "spell": "sundby",
+   "month": "2027-06",
+   "date": "2027-06-14",
+   "label": "Week 26 · 14 June",
+   "title": "Week 26: The awards",
+   "body": "The season review put the promotion in context. The board's target for the season was simply to avoid relegation. Sundby finished 2nd and went up. In the Danish Cup they reached the fourth round, which met the aim of being competitive.\n\nThe club's awards night at Kløvermarken belonged to Simeon Jovanovski. The 20-year-old centre-back won Fans' Player of the Season, Young Player of the Season and Signing of the Season, averaging 7.03.\n\nThe other awards:\n• Top scorer: Belmaillah, 12 goals. He also had the best pass completion in the squad (88%).\n• Most assists: Pyne-Cole, 8.\n• Most Player of the Match awards: Mølvadgaard, 4.\n• Goal of the Season: Graini, away at ASA, Aarhus in October.\n\nThe Team of the Season, in a 4-4-2: Poulsen; Langhorn, Jovanovski, Jørgensen, Johannessen; Elliott Karlsen, Becker, Frederiksen, Trkulja; Mølvadgaard, Pyne-Cole.\n\nNext up: a meeting with the board about the club's vision and expectations for life in the 2. Division.",
+   "players": [
+    "simeon-jovanovski",
+    "mohamed-belmaillah",
+    "giran-pyne-cole",
+    "marcus-molvadgaard",
+    "n-graini"
+   ],
+   "images": [
+    "img/2027-06-14-awards.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -5509,7 +5528,7 @@
    }
   ]
  },
- "currentDate": "2027-06-12",
+ "currentDate": "2027-06-14",
  "spells": [
   {
    "id": "sundby",
@@ -5701,7 +5720,7 @@
    "id": "2027-06",
    "spell": "sundby",
    "title": "Promoted",
-   "summary": "Belmaillah scored twice to beat Helsingør 2–0. Then came the final day at Hørsholm-Usserød. With seven minutes left, Sighaoui scored the only goal, and Sundby finished 2nd. They are promoted to the 2. Division."
+   "summary": "Belmaillah scored twice to beat Helsingør 2–0. Then came the final day at Hørsholm-Usserød. With seven minutes left, Sighaoui scored the only goal, and Sundby finished 2nd. They are promoted to the 2. Division. Jovanovski swept the club awards."
   }
  ]
 }
