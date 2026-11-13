@@ -5,14 +5,14 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 27,
+   "apps": 28,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Player of the match at FC Helsingør (8.1), with seven saves in a 0–0. A month after being taken off in the 7–1.",
    "number": 24,
-   "avgRating": 6.89,
+   "avgRating": 6.88,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 21,
+   "apps": 22,
    "goals": 1,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.93,
+   "avgRating": 6.95,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -98,7 +98,7 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 20,
+   "apps": 21,
    "goals": 1,
    "assists": 1,
    "status": "active",
@@ -113,14 +113,14 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 13,
+   "apps": 14,
    "goals": 0,
-   "assists": 4,
+   "assists": 5,
    "status": "active",
    "storyline": "Player of the match against Ishøj (8.4) off the bench, with two assists in the last ten minutes.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.86,
+   "avgRating": 6.89,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -263,7 +263,7 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 17,
+   "apps": 18,
    "goals": 10,
    "assists": 2,
    "status": "active",
@@ -272,7 +272,7 @@
    "nationality": "DEN",
    "tag": "Hat-trick hero",
    "number": 20,
-   "avgRating": 7.02,
+   "avgRating": 7.0,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 18,
+   "apps": 19,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -312,15 +312,15 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 18,
-   "goals": 10,
-   "assists": 6,
+   "apps": 19,
+   "goals": 7,
+   "assists": 7,
    "status": "active",
    "position": "AM (RL), ST (C)",
    "nationality": "DEN",
-   "storyline": "Scored a hat-trick at Ishøj (22', 52', 57'), but Sundby still only drew 3–3.",
+   "storyline": "Set up Mølvadgaard's opener at Ishøj (7.3).",
    "number": 10,
-   "avgRating": 7.0,
+   "avgRating": 7.02,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -359,7 +359,7 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 17,
+   "apps": 18,
    "goals": 6,
    "assists": 2,
    "status": "active",
@@ -369,7 +369,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.95,
+   "avgRating": 6.93,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -546,14 +546,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 23,
+   "apps": 24,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.94,
+   "avgRating": 6.95,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -704,11 +704,11 @@
    "position": "ST (C)",
    "nationality": "DEN",
    "apps": 16,
-   "goals": 6,
+   "goals": 8,
    "assists": 4,
    "status": "active",
    "tag": "Talisman",
-   "storyline": "Scored against his former club Ishøj in stoppage time, ending his goal drought.",
+   "storyline": "Scored twice in 15 minutes to win at his former club Ishøj.",
    "spell": "sundby",
    "avgRating": 7.04,
    "role": "FWD"
@@ -734,13 +734,13 @@
    "name": "Noah Graini",
    "number": 35,
    "position": "W (L)",
-   "apps": 11,
+   "apps": 12,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "tag": "In form",
    "spell": "sundby",
-   "avgRating": 6.79,
+   "avgRating": 6.77,
    "storyline": "Player of the match against ASA (7.9): a curled finish from 19 metres for the opener.",
    "role": "MID"
   },
@@ -802,10 +802,10 @@
    "position": "D/WB (R), DM, M (C)",
    "age": 29,
    "nationality": "Denmark",
-   "apps": 5,
+   "apps": 6,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.6,
+   "avgRating": 6.62,
    "storyline": "Signed in January as the ball-winning holding midfielder the side lacked. Rated 4 stars, the best in the squad, with leadership 13 and determination 15. Can cover right-back.",
    "bio": "29-year-old defensive midfielder with a national reputation. 221 career games, most recently at 2. Division leaders FC Roskilde.",
    "tag": "New signing",
@@ -836,10 +836,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 9,
+   "apps": 10,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.62,
+   "avgRating": 6.61,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -3764,40 +3764,106 @@
    "opponent": "Ishøj IF",
    "venue": "A",
    "score": {
-    "for": 3,
-    "against": 3
+    "for": 2,
+    "against": 1
    },
    "scorers": [
     {
-     "player": "giran-pyne-cole",
-     "minute": 22
+     "player": "marcus-molvadgaard",
+     "minute": 14,
+     "assist": "giran-pyne-cole"
     },
     {
-     "player": "giran-pyne-cole",
-     "minute": 52
-    },
-    {
-     "player": "giran-pyne-cole",
-     "minute": 57
+     "player": "marcus-molvadgaard",
+     "minute": 29,
+     "assist": "oliver-elliott-karls"
     }
    ],
    "conceded": [
     {
-     "minute": 39,
-     "scorer": "S. Escobar Jensen"
-    },
-    {
-     "minute": 72,
-     "scorer": "S. Escobar Jensen"
-    },
-    {
-     "minute": 81,
-     "scorer": "S. Escobar Jensen"
+     "minute": 22,
+     "scorer": "S. Escobar Jensen",
+     "assist": "R. Lynder"
     }
    ],
    "leaguePos": 4,
-   "summary": "Two hat-tricks. Pyne-Cole put Sundby 3–1 up after 57 minutes, but Escobar Jensen scored twice in the last 20 to complete his own and snatch a draw for bottom-of-the-group Ishøj.",
-   "image": "img/2027-05-15-ishoj.jpg"
+   "summary": "Mølvadgaard scored twice against his old club and Sundby held on. Five clear-cut chances to one, and xG of 2.28 to 1.06.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     48,
+     52
+    ],
+    "shots": [
+     16,
+     10
+    ],
+    "on_target": [
+     8,
+     5
+    ],
+    "xg": [
+     2.28,
+     1.06
+    ],
+    "clear_cut": [
+     5,
+     1
+    ],
+    "corners": [
+     5,
+     3
+    ],
+    "fouls": [
+     15,
+     15
+    ],
+    "yellow": [
+     3,
+     2
+    ],
+    "progressive_passes": [
+     34,
+     41
+    ],
+    "pass_pct": [
+     79,
+     80
+    ],
+    "cross_pct": [
+     18,
+     3
+    ],
+    "distance_km": [
+     113,
+     115
+    ],
+    "avg_rating": [
+     7.0,
+     6.6
+    ],
+    "oppda": [
+     13.79,
+     14.23
+    ],
+    "weather": "Calm"
+   },
+   "ratings": {
+    "lucas-poulsen": 6.5,
+    "magnus-langhorn": 6.9,
+    "simeon-jovanovski": 7.1,
+    "mads-jul-jorgens": 7.3,
+    "nicolai-johannessen": 6.5,
+    "johan-becker": 6.8,
+    "nicklas-halse": 6.7,
+    "oliver-elliott-karls": 7.3,
+    "n-graini": 6.5,
+    "bastian-andersen": 6.6,
+    "mohamed-belmaillah": 6.6,
+    "giran-pyne-cole": 7.3
+   },
+   "image": "img/2027-05-15-ishoj-win.jpg",
+   "note": "Replayed after a computer crash; the first attempt finished 3–3."
   }
  ],
  "story": [
@@ -4662,16 +4728,17 @@
    "month": "2027-05",
    "date": "2027-05-15",
    "label": "Week 21 · 15 May",
-   "title": "Week 21: Hat-trick for hat-trick",
-   "body": "After two goalless draws, the goals finally came, at both ends. Pyne-Cole scored on 22 minutes, Escobar Jensen equalised for Ishøj before half-time, and then Pyne-Cole struck twice in five minutes after the break to complete his hat-trick. 3–1 with half an hour left.\n\nIt wasn't enough. Escobar Jensen scored on 72 minutes and again on 81 to complete his own hat-trick. It finished 3–3, against the side bottom of the promotion group.\n\nSundby are 4th on 40 points, seven behind Hørsholm-Usserød in 2nd, with four games left. ASA lost to Frem and Hørsholm drew, so the door stayed slightly open, but a two-goal lead thrown away hurts.",
+   "title": "Week 21: Mølvadgaard comes home",
+   "body": "Away at Ishøj, Marcus Mølvadgaard's old club. He scored on 14 minutes from Pyne-Cole's pass. Escobar Jensen equalised on 22, but Mølvadgaard struck again on 29, set up by Elliott Karlsen (7.3).\n\nFor once Sundby protected a lead. They created five clear-cut chances to Ishøj's one (xG 2.28 to 1.06), and Jørgensen (7.3) and Jovanovski (7.1) kept it tight for the last hour. 2–1.\n\n(In an alternate timeline, lost to a computer crash, this game finished 3–3 after Sundby led 3–1. The replay went better.)\n\nSundby are 4th on 42 points, five behind Hørsholm-Usserød and four behind ASA, with three games left. It's still a long shot, but it's not over.",
    "match": "2027-05-15-ishoj",
    "players": [
-    "giran-pyne-cole",
+    "marcus-molvadgaard",
     "oliver-elliott-karls",
-    "marcus-molvadgaard"
+    "giran-pyne-cole",
+    "mads-jul-jorgens"
    ],
    "images": [
-    "img/2027-05-15-ishoj.jpg"
+    "img/2027-05-15-ishoj-win.jpg"
    ]
   }
  ],
@@ -5101,7 +5168,7 @@
    "spell": "sundby",
    "title": "May",
    "inProgress": true,
-   "summary": "The run-in. Two goalless draws, at Helsingør and at home to Hørsholm-Usserød, then a 3–3 at Ishøj after leading 3–1, despite a Pyne-Cole hat-trick."
+   "summary": "The run-in. Goalless draws at Helsingør and at home to Hørsholm-Usserød, then Mølvadgaard's double won it at his old club Ishøj."
   }
  ]
 }
