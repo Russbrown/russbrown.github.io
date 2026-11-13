@@ -2735,6 +2735,19 @@
     "img/2026-12-01-supporter-review.jpg",
     "img/2026-12-01-dynamics.jpg"
    ]
+  },
+  {
+   "id": "2026-week-25",
+   "spell": "sundby",
+   "month": "2026-12",
+   "date": "2026-12-18",
+   "label": "Week 25 · 12–18 December",
+   "title": "Week 25: Thisted come calling",
+   "body": "Five months into his first job, Bassett applied for the vacancy at Thisted FC, a club with a national reputation in the CampoBet 2. Division, a league above Sundby.\n\nOn 18 December they invited him to interview. The board were \"extremely impressed\" with his work at Sundby, but have \"strong reservations\" about his lack of experience keeping teams away from relegation.",
+   "players": [],
+   "images": [
+    "img/2026-12-18-thisted-interview.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -2974,7 +2987,7 @@
    }
   ]
  },
- "currentDate": "2026-12-02",
+ "currentDate": "2026-12-18",
  "spells": [
   {
    "id": "sundby",
@@ -3045,6 +3058,10 @@
     {
      "date": "2026-12-01",
      "label": "Board rates him A+"
+    },
+    {
+     "date": "2026-12-18",
+     "label": "Interview offer from Thisted FC (2. Division)"
     }
    ]
   }
