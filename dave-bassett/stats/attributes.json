@@ -1732,6 +1732,55 @@
      "note": "Declining: dribbling, agility, strength, acceleration falling"
     }
    }
+  },
+  {
+   "date": "2027-07-10",
+   "source": "Player profile (pre-season)",
+   "players": {
+    "lucas-poulsen": {
+     "name": "Lucas Poulsen",
+     "age": 24,
+     "position": "GK",
+     "ca_stars": 3,
+     "pa_stars": 3.5,
+     "height": "6'3\"",
+     "aerial_reach": 13,
+     "command_of_area": 7,
+     "communication": 6,
+     "eccentricity": 5,
+     "first_touch": 3,
+     "handling": 11,
+     "kicking": 7,
+     "one_on_ones": 5,
+     "passing": 7,
+     "punching": 10,
+     "reflexes": 14,
+     "rushing_out": 14,
+     "throwing": 4,
+     "aggression": 14,
+     "anticipation": 12,
+     "bravery": 14,
+     "composure": 7,
+     "concentration": 10,
+     "decisions": 7,
+     "determination": 11,
+     "flair": 3,
+     "leadership": 9,
+     "off_the_ball": 2,
+     "positioning": 9,
+     "teamwork": 7,
+     "vision": 6,
+     "work_rate": 5,
+     "acceleration": 12,
+     "agility": 9,
+     "balance": 8,
+     "jumping_reach": 13,
+     "natural_fitness": 10,
+     "pace": 12,
+     "stamina": 1,
+     "strength": 6
+    }
+   }
   }
  ]
 }
