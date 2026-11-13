@@ -5,14 +5,14 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 19,
+   "apps": 20,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Player of the match at Brønshøj (7.6). Six clean sheets in his last eight.",
    "number": 24,
-   "avgRating": 6.79,
+   "avgRating": 6.82,
    "spell": "sundby",
    "role": "GK"
   },
@@ -66,16 +66,16 @@
    "id": "magnus-vandal",
    "name": "Magnus Vandal",
    "age": 23,
-   "apps": 12,
+   "apps": 13,
    "goals": 0,
    "assists": 1,
    "status": "active",
    "number": 4,
    "position": "D (L)",
-   "avgRating": 6.82,
+   "avgRating": 6.8,
    "spell": "sundby",
    "tag": "New first choice",
-   "storyline": "First-choice left-back. Had a tough afternoon against Al-Hummadi at Hørsholm-Usserød (0 of 2 tackles, 6.4) before going off injured.",
+   "storyline": "Back from injury at left-back for the draw at ASA, Aarhus.",
    "role": "DEF",
    "injured": true
   },
@@ -98,13 +98,13 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 13,
-   "goals": 0,
+   "apps": 14,
+   "goals": 1,
    "assists": 1,
    "status": "active",
-   "storyline": "Set up Belmaillah's goal at Hørsholm-Usserød and was Sundby's joint-best player (7.2).",
+   "storyline": "Scored a stoppage-time equaliser at ASA, Aarhus, playing as a defensive midfielder (7.3).",
    "tag": "Captain",
-   "avgRating": 6.71,
+   "avgRating": 6.75,
    "spell": "sundby",
    "role": "MID",
    "position": "DM, M (C)"
@@ -279,7 +279,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 11,
+   "apps": 12,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -288,7 +288,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.93,
+   "avgRating": 6.91,
    "role": "DEF"
   },
   {
@@ -311,15 +311,15 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 15,
+   "apps": 16,
    "goals": 6,
-   "assists": 5,
+   "assists": 6,
    "status": "active",
    "position": "AM (RL), ST (C)",
    "nationality": "DEN",
    "storyline": "In form: two goals against Ishøj, then two assists at Vanløse (8.5).",
    "number": 10,
-   "avgRating": 7.06,
+   "avgRating": 7.07,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -358,7 +358,7 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 12,
+   "apps": 13,
    "goals": 5,
    "assists": 2,
    "status": "active",
@@ -368,7 +368,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.97,
+   "avgRating": 6.98,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -545,14 +545,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 16,
+   "apps": 17,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.93,
+   "avgRating": 6.96,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -733,13 +733,13 @@
    "name": "Noah Graini",
    "number": 35,
    "position": "W (L)",
-   "apps": 8,
+   "apps": 9,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "tag": "In form",
    "spell": "sundby",
-   "avgRating": 6.88,
+   "avgRating": 6.86,
    "storyline": "Player of the match against ASA (7.9): a curled finish from 19 metres for the opener.",
    "role": "MID"
   },
@@ -801,10 +801,10 @@
    "position": "D/WB (R), DM, M (C)",
    "age": 29,
    "nationality": "Denmark",
-   "apps": 1,
+   "apps": 2,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.7,
+   "avgRating": 6.65,
    "storyline": "Signed in January as the ball-winning holding midfielder the side lacked. Rated 4 stars, the best in the squad, with leadership 13 and determination 15. Can cover right-back.",
    "bio": "29-year-old defensive midfielder with a national reputation. 221 career games, most recently at 2. Division leaders FC Roskilde.",
    "tag": "New signing",
@@ -818,10 +818,10 @@
    "position": "M (RC), AM (R)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.1,
    "storyline": "Signed from rivals Næsby in January to fix the right wing. Quick (acceleration 14), skilful (technique 14, flair 13) and a proven creator: 5 assists for Næsby in the first half of the season.",
    "bio": "22-year-old right winger, rated 3.5 stars as a winger.",
    "tag": "New signing",
@@ -835,10 +835,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 2,
+   "apps": 3,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.6,
+   "avgRating": 6.5,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -2788,6 +2788,127 @@
     "bastian-andersen": 8.3
    },
    "image": "img/2027-03-20-vanlose.jpg"
+  },
+  {
+   "id": "2027-03-25-asa",
+   "spell": "sundby",
+   "date": "2027-03-25",
+   "competition": "3. Division",
+   "opponent": "ASA, Aarhus",
+   "venue": "A",
+   "score": {
+    "for": 1,
+    "against": 1
+   },
+   "scorers": [
+    {
+     "player": "johan-becker",
+     "minute": "90+2",
+     "assist": "giran-pyne-cole"
+    }
+   ],
+   "conceded": [
+    {
+     "minute": 58,
+     "scorer": "Daniel Matos",
+     "assist": "T. Viggers"
+    }
+   ],
+   "potm": "Daniel Matos (ASA) 7.70",
+   "leaguePos": 5,
+   "summary": "Outplayed (20 shots to 9, xG 3.74 to 1.23) but rescued by Becker's stoppage-time equaliser. Poulsen (7.4) kept it close.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     40,
+     60
+    ],
+    "shots": [
+     9,
+     20
+    ],
+    "on_target": [
+     4,
+     10
+    ],
+    "xg": [
+     1.23,
+     3.74
+    ],
+    "clear_cut": [
+     2,
+     4
+    ],
+    "corners": [
+     3,
+     8
+    ],
+    "fouls": [
+     12,
+     12
+    ],
+    "yellow": [
+     2,
+     5
+    ],
+    "progressive_passes": [
+     48,
+     50
+    ],
+    "pass_pct": [
+     76,
+     82
+    ],
+    "cross_pct": [
+     9,
+     28
+    ],
+    "distance_km": [
+     118,
+     120
+    ],
+    "avg_rating": [
+     6.8,
+     6.9
+    ],
+    "oppda": [
+     13.87,
+     11.0
+    ],
+    "attendance": 49,
+    "weather": "Drizzle, 8°C"
+   },
+   "lineup": {
+    "formation": "4-2-2-2",
+    "on_pitch_at_full_time": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "simeon-jovanovski",
+     "nicolai-johannessen",
+     "magnus-vandal",
+     "johan-becker",
+     "nicklas-halse",
+     "oliver-koertz",
+     "n-graini",
+     "giran-pyne-cole",
+     "bastian-andersen"
+    ],
+    "note": "Johannessen moved to centre-back, Vandal back at left-back, Jørgensen out"
+   },
+   "ratings": {
+    "lucas-poulsen": 7.4,
+    "magnus-langhorn": 6.7,
+    "simeon-jovanovski": 7.4,
+    "nicolai-johannessen": 6.3,
+    "magnus-vandal": 6.6,
+    "johan-becker": 7.3,
+    "nicklas-halse": 6.6,
+    "oliver-koertz": 6.1,
+    "n-graini": 6.7,
+    "giran-pyne-cole": 7.2,
+    "bastian-andersen": 7.1
+   },
+   "image": "img/2027-03-25-asa.jpg"
   }
  ],
  "story": [
@@ -3465,6 +3586,28 @@
     "img/2027-03-20-vanlose.jpg",
     "img/2027-03-20-vanlose-ht.jpg"
    ]
+  },
+  {
+   "id": "2027-week-13",
+   "spell": "sundby",
+   "month": "2027-03",
+   "date": "2027-03-25",
+   "label": "Week 13 · 25 March",
+   "title": "Week 13: Outplayed, but Becker rescues a point",
+   "body": "Away at 3rd-placed ASA, Aarhus, Bassett reshuffled the defence: Jørgensen out, Johannessen into the middle, and Vandal back from injury at left-back.\n\nASA dominated: 20 shots to 9, 10 on target, xG of 3.74 to 1.23. Poulsen (7.4) and Jovanovski (7.4) held them off until Matos scored on 58 minutes.\n\nThen, for once, a stoppage-time goal went Sundby's way. Becker, playing as a defensive midfielder, timed his run perfectly to finish Pyne-Cole's pass in the 92nd minute. 1–1.\n\nSundby stay 5th on 28 points, a point above Ishøj. Two preliminary games remain: Brønshøj, then FC Helsingør.",
+   "match": "2027-03-25-asa",
+   "players": [
+    "johan-becker",
+    "lucas-poulsen",
+    "simeon-jovanovski",
+    "giran-pyne-cole",
+    "magnus-vandal"
+   ],
+   "images": [
+    "img/2027-03-25-asa.jpg",
+    "img/2027-03-25-asa-report.jpg",
+    "img/2027-03-25-asa-table.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -3697,7 +3840,7 @@
    }
   ]
  },
- "currentDate": "2027-03-20",
+ "currentDate": "2027-03-25",
  "spells": [
   {
    "id": "sundby",
@@ -3852,7 +3995,7 @@
    "spell": "sundby",
    "title": "March",
    "inProgress": true,
-   "summary": "The league resumed with a stoppage-time home defeat to Holstebro. A week later, two Pyne-Cole goals beat Ishøj and lifted Sundby to 3rd. Then a set-piece collapse at Vanløse: 3–0 down at half-time, Andersen's late double wasn't quite enough."
+   "summary": "The league resumed with a stoppage-time home defeat to Holstebro. A week later, two Pyne-Cole goals beat Ishøj and lifted Sundby to 3rd. Then a set-piece collapse at Vanløse: 3–0 down at half-time, Andersen's late double wasn't quite enough. At ASA, Becker's stoppage-time equaliser rescued a point Sundby barely deserved."
   }
  ]
 }
