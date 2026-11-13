@@ -5,14 +5,14 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 16,
+   "apps": 17,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Player of the match at Brønshøj (7.6). Six clean sheets in his last eight.",
    "number": 24,
-   "avgRating": 6.85,
+   "avgRating": 6.82,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 12,
+   "apps": 13,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 7.0,
+   "avgRating": 6.99,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -75,14 +75,15 @@
    "avgRating": 6.86,
    "spell": "sundby",
    "tag": "New first choice",
-   "storyline": "Back at left-back: the most switched-on defender in the squad.",
-   "role": "DEF"
+   "storyline": "First-choice left-back, but injured just before the winter break.",
+   "role": "DEF",
+   "injured": true
   },
   {
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 10,
+   "apps": 11,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -97,13 +98,13 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 11,
+   "apps": 12,
    "goals": 0,
-   "assists": 0,
+   "assists": 1,
    "status": "active",
-   "storyline": "Captain, but scored an own goal against ASA.",
+   "storyline": "Set up Belmaillah's goal at Hørsholm-Usserød, rated 7.1.",
    "tag": "Captain",
-   "avgRating": 6.67,
+   "avgRating": 6.71,
    "spell": "sundby",
    "role": "MID",
    "position": "DM, M (C)"
@@ -112,14 +113,14 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 7,
+   "apps": 8,
    "goals": 0,
    "assists": 2,
    "status": "active",
    "storyline": "Two assists at Holbæk, rated 8.6. Man of the moment on the right.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.83,
+   "avgRating": 6.79,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -261,16 +262,16 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 8,
-   "goals": 7,
+   "apps": 9,
+   "goals": 8,
    "assists": 1,
    "status": "active",
-   "storyline": "Opened the scoring at Brønshøj on 18 minutes. Seven goals, the club's top scorer.",
+   "storyline": "Ended his goal drought with a solo finish from 20 metres at Hørsholm-Usserød, after having another goal wrongly ruled out.",
    "position": "AM (L), ST (C)",
    "nationality": "DEN",
    "tag": "Hat-trick hero",
    "number": 20,
-   "avgRating": 7.38,
+   "avgRating": 7.36,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -357,7 +358,7 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 10,
+   "apps": 11,
    "goals": 2,
    "assists": 2,
    "status": "active",
@@ -367,7 +368,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.86,
+   "avgRating": 6.85,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -544,14 +545,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 13,
+   "apps": 14,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.94,
+   "avgRating": 6.93,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -717,14 +718,14 @@
    "age": 22,
    "position": "D (C)",
    "nationality": "DEN",
-   "apps": 4,
+   "apps": 5,
    "goals": 0,
    "assists": 1,
    "status": "active",
    "tag": "Breaking through",
-   "storyline": "Player of the match against Holbæk (7.5) at right-back, and set up the goal.",
+   "storyline": "Started at right-back at Hørsholm-Usserød after pushing Langhorn for the shirt.",
    "spell": "sundby",
-   "avgRating": 6.9,
+   "avgRating": 6.88,
    "role": "DEF"
   },
   {
@@ -732,13 +733,13 @@
    "name": "Noah Graini",
    "number": 35,
    "position": "W (L)",
-   "apps": 6,
+   "apps": 7,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "tag": "In form",
    "spell": "sundby",
-   "avgRating": 6.95,
+   "avgRating": 6.89,
    "storyline": "Player of the match against ASA (7.9): a curled finish from 19 metres for the opener.",
    "role": "MID"
   },
@@ -749,14 +750,14 @@
    "age": 21,
    "position": "D (L)",
    "nationality": "DEN",
-   "apps": 5,
+   "apps": 6,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
-   "storyline": "First league start at Holstebro: gave away a penalty inside 25 minutes and was replaced by Vandal.",
+   "storyline": "Started at left-back at Hørsholm-Usserød. Their right side, led by Al-Hummadi (7.4), set up the equaliser.",
    "bio": "Left-footed, 6'1\". Marking 11, positioning 11, pace 13, teamwork 15. Concentration 7 and stamina 5 are the worries.",
-   "avgRating": 6.56,
+   "avgRating": 6.57,
    "role": "DEF"
   }
  ],
@@ -2015,6 +2016,136 @@
      8
     ]
    ]
+  },
+  {
+   "id": "2026-11-14-horsholm-usserod",
+   "spell": "sundby",
+   "date": "2026-11-14",
+   "competition": "3. Division",
+   "opponent": "Hørsholm-Usserød",
+   "venue": "A",
+   "score": {
+    "for": 1,
+    "against": 1
+   },
+   "scorers": [
+    {
+     "player": "mohamed-belmaillah",
+     "minute": "45+2",
+     "assist": "johan-becker"
+    }
+   ],
+   "potm": "Anas Al-Hummadi (Hørsholm-Usserød) 7.4",
+   "leaguePos": 4,
+   "summary": "A 1–1 at Hørsholm-Usserød. Belmaillah scored just before half-time, after another goal had been wrongly disallowed. Hvid headed the equaliser on 59 minutes.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     41,
+     59
+    ],
+    "shots": [
+     8,
+     4
+    ],
+    "on_target": [
+     5,
+     2
+    ],
+    "xg": [
+     0.42,
+     0.61
+    ],
+    "clear_cut": [
+     0,
+     1
+    ],
+    "corners": [
+     5,
+     2
+    ],
+    "fouls": [
+     8,
+     15
+    ],
+    "yellow": [
+     1,
+     2
+    ],
+    "red": [
+     0,
+     0
+    ],
+    "progressive_passes": [
+     41,
+     53
+    ],
+    "pass_pct": [
+     79,
+     83
+    ],
+    "cross_pct": [
+     9,
+     6
+    ],
+    "distance_km": [
+     120,
+     119
+    ],
+    "avg_rating": [
+     6.7,
+     6.6
+    ],
+    "oppda": [
+     16.59,
+     11.48
+    ],
+    "attendance": 103,
+    "weather": "Drizzle, 9°C"
+   },
+   "lineup": {
+    "formation": "4-4-2 (DLP + DM)",
+    "XI": [
+     "lucas-poulsen",
+     "noah-schak",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "benjamin-damsgaard",
+     "johan-becker",
+     "gustav-frederiksen",
+     "oliver-elliott-karls",
+     "n-graini",
+     "mohamed-belmaillah",
+     "bastian-andersen"
+    ],
+    "subs_used": "unknown"
+   },
+   "ratings": {
+    "lucas-poulsen": 6.4,
+    "noah-schak": 6.8,
+    "mads-jul-jorgens": 6.9,
+    "simeon-jovanovski": 6.8,
+    "benjamin-damsgaard": 6.6,
+    "johan-becker": 7.1,
+    "gustav-frederiksen": 6.7,
+    "oliver-elliott-karls": 6.5,
+    "n-graini": 6.5,
+    "mohamed-belmaillah": 7.2,
+    "bastian-andersen": 6.8
+   },
+   "conceded": [
+    {
+     "minute": 59,
+     "scorer": "Alexander Hvid",
+     "type": "close-range header",
+     "assist": "Anas Al-Hummadi (AM R)"
+    }
+   ],
+   "notes": [
+    "Sundby goal disallowed on 32 minutes; match report says it should have stood",
+    "Vandal injured after the game"
+   ],
+   "image": "img/2026-11-14-horsholm.jpg"
   }
  ],
  "story": [
@@ -2477,6 +2608,28 @@
    "match": "2026-07-11-b93",
    "spell": "sundby",
    "month": "2026-07"
+  },
+  {
+   "id": "2026-week-21",
+   "spell": "sundby",
+   "month": "2026-11",
+   "date": "2026-11-14",
+   "label": "Week 21 · 14–20 November",
+   "title": "Week 21: Robbed, then pegged back",
+   "body": "The last game before the winter break, away at Hørsholm-Usserød. Schak started at right-back and Damsgaard on the left.\n\nSundby had a goal ruled out on 32 minutes. The match report said it should have stood. Belmaillah made up for it in first-half stoppage time with a solo run and a finish from 20 metres, set up by Becker. The drought was over.\n\nThen, on 59 minutes, Al-Hummadi crossed from their right and Hvid headed in from close range. Another goal from a cross into the middle of the box. Sundby had more shots (8 to 4) and more on target (5 to 2), but Hørsholm-Usserød had the better chances.\n\nTo make it worse, Vandal picked up an injury.\n\nSundby drop to 4th on 24 points, two clear of 7th. The league breaks until 6 March, when Holstebro visit.",
+   "match": "2026-11-14-horsholm-usserod",
+   "players": [
+    "mohamed-belmaillah",
+    "johan-becker",
+    "benjamin-damsgaard",
+    "noah-schak",
+    "magnus-vandal"
+   ],
+   "images": [
+    "img/2026-11-14-horsholm.jpg",
+    "img/2026-11-14-horsholm-report.jpg",
+    "img/2026-11-14-horsholm-table.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -2565,13 +2718,6 @@
    "spell": "sundby"
   },
   {
-   "date": "2026-11-14",
-   "opponent": "Hørsholm-Usserød",
-   "venue": "A",
-   "competition": "3. Division",
-   "spell": "sundby"
-  },
-  {
    "date": "2027-03-06",
    "opponent": "Holstebro",
    "venue": "H",
@@ -2587,7 +2733,7 @@
   "favouriteClub": "Sheffield United",
   "bio": "Journeyman English manager with no badges, no caps and fluent Danish. Plays direct, energetic football and trusts young players."
  },
- "currentDate": "2026-08-10",
+ "currentDate": "2026-11-14",
  "spells": [
   {
    "id": "sundby",
@@ -2679,9 +2825,8 @@
   {
    "id": "2026-11",
    "spell": "sundby",
-   "title": "November",
-   "inProgress": true,
-   "summary": "A tired 1–1 with Holbæk three days after the cup exit, with Noah Schak the standout. Jakobsen injured, Jørgensen a doubt. Then heartbreak at leaders Frem: an even game lost in stoppage time after a Kunnerup error."
+   "title": "Winter comes early",
+   "summary": "Three games without a win before the break. A tired 1–1 with Holbæk after the cup exit, then heartbreak at leaders Frem, lost in stoppage time after a Kunnerup error.\n\nAt Hørsholm-Usserød, Belmaillah ended his drought, but another headed goal from a cross cost two points, and Vandal was injured.\n\nSundby go into the winter break 4th on 24 points, seven behind Frem and two clear of 7th."
   }
  ]
 }
