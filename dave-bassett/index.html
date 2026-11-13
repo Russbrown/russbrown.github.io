@@ -245,7 +245,6 @@ dialog [data-ppanel][hidden] { display: none; }
   <div class="mast-num" id="mastnum" aria-hidden="true">01</div>
 </div></header>
 <section class="career"><div class="wrap" id="career"></div></section>
-<div class="strip"><div class="wrap" id="strip"></div></div>
 <main class="wrap" id="main"></main>
 <dialog id="dlg"></dialog>
 
@@ -304,17 +303,9 @@ function renderHead() {
   $("#mastnum").textContent = String(s.chapter || 1).padStart(2, "0");
   $("#kicker").textContent = "The story of a journeyman manager";
   $("#sub").textContent = `Chapter ${s.chapter}: ${s.club} · ${[s.league, s.season].filter(Boolean).join(" · ")}${s.ambition ? " · Aim: " + s.ambition : ""}`;
-  const st = stats();
-  $("#strip").innerHTML = `
-    <div class="stat"><div class="n">${st.pos ? ord(st.pos) : s.predicted ? ord(s.predicted) : "–"}</div><div class="l">${st.pos ? "League position" : s.predicted ? "Predicted finish" : "League position"}</div></div>
-    <div class="stat"><div class="n">${st.r.W}-${st.r.D}-${st.r.L}</div><div class="l">Won · Drawn · Lost</div></div>
-    <div class="stat"><div class="n">${st.played}</div><div class="l">Competitive games</div></div>
-    <div class="stat"><div class="n">${st.top && st.top.goals ? st.top.goals : "–"}</div><div class="l">${st.top && st.top.goals ? "Top scorer: " + esc(st.top.name) : "Top scorer"}</div></div>
-    <div class="stat"><div class="l">Last five</div><div class="form">${st.form.map(f => `<span class="pip ${f}">${f}</span>`).join("") || '<span class="muted">No games yet</span>'}</div></div>`;
 }
 
 function renderKickoff() {
-  $("#strip").parentElement.hidden = true;
   $("#main").innerHTML = `<div class="kickoff">
     <h2>Before the first ball is kicked</h2>
     <p class="lead">This page fills itself in as you play. Screenshots you take go into the FM Story folder in your Pictures, and each night they're turned into results, player cards and the story of your save.</p>
