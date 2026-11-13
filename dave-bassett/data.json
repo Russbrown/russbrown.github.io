@@ -2395,6 +2395,95 @@
    },
    "image": "img/2027-02-13-espergaerde-stats.jpg",
    "potm": "Matias Folkmann Andersen (Espergærde) 7.27"
+  },
+  {
+   "id": "2027-02-20-silkeborg-ii",
+   "spell": "sundby",
+   "date": "2027-02-20",
+   "competition": "Friendly",
+   "opponent": "Silkeborg IF II",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 0
+   },
+   "scorers": [
+    {
+     "player": "bastian-andersen",
+     "assist": "johan-becker"
+    }
+   ],
+   "summary": "A narrow win and a clean sheet. Andersen (8.3) scored, Becker assisted, and the back four all rated 7.1 or higher.",
+   "lineup": {
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "nicolai-johannessen",
+     "oliver-koertz",
+     "nicklas-halse",
+     "johan-becker",
+     "karlo-trkulja",
+     "bastian-andersen",
+     "noah-jakobsen"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 7.3,
+    "magnus-langhorn": 7.1,
+    "mads-jul-jorgens": 7.6,
+    "simeon-jovanovski": 7.4,
+    "nicolai-johannessen": 7.1,
+    "oliver-koertz": 6.8,
+    "nicklas-halse": 6.7,
+    "johan-becker": 7.4,
+    "karlo-trkulja": 6.7,
+    "bastian-andersen": 8.3,
+    "noah-jakobsen": 6.6
+   }
+  },
+  {
+   "id": "2027-02-27-hellerup",
+   "spell": "sundby",
+   "date": "2027-02-27",
+   "competition": "Friendly",
+   "opponent": "Hellerup IK",
+   "venue": "H",
+   "score": {
+    "for": 2,
+    "against": 2
+   },
+   "scorers": [
+    {
+     "player": "bastian-andersen"
+    },
+    {
+     "player": "giran-pyne-cole"
+    }
+   ],
+   "summary": "A lucky draw. Hellerup dominated, and Sundby's xG was 0.44 to 0.72. Langhorn (7.6) was the best player.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "xg": [
+     0.44,
+     0.72
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 6.3,
+    "magnus-langhorn": 7.6,
+    "mads-jul-jorgens": 6.5,
+    "simeon-jovanovski": 6.7,
+    "nicolai-johannessen": 6.6,
+    "oliver-koertz": 6.2,
+    "nicklas-halse": 6.5,
+    "johan-becker": 6.5,
+    "karlo-trkulja": 6.5,
+    "bastian-andersen": 7.1,
+    "giran-pyne-cole": 6.9,
+    "noah-schak": 6.7
+   }
   }
  ],
  "story": [
@@ -2997,6 +3086,23 @@
     "img/2027-02-13-espergaerde-stats.jpg",
     "img/2027-02-13-espergaerde.jpg"
    ]
+  },
+  {
+   "id": "2027-week-09",
+   "spell": "sundby",
+   "month": "2027-02",
+   "date": "2027-02-27",
+   "label": "Week 8–9 · 20 February–5 March",
+   "title": "Weeks 8–9: Pre-season wobbles",
+   "body": "Two more friendlies to finish pre-season. A 1–0 win over Silkeborg II brought a clean sheet. Andersen scored and rated 8.3, and Jørgensen was excellent (7.6).\n\nThen came a scrappy 2–2 with Hellerup, who dominated. Andersen and Pyne-Cole scored, but Sundby managed only 0.44 xG. Langhorn (7.6) was the standout.\n\nPre-season ended with a record of W1 D1 L1. The worry: Koertz and Halse haven't yet looked like the upgrades they should be, and the attack still isn't creating enough.",
+   "match": "2027-02-27-hellerup",
+   "players": [
+    "bastian-andersen",
+    "oliver-koertz",
+    "nicklas-halse",
+    "magnus-langhorn"
+   ],
+   "images": []
   }
  ],
  "fixtures": [
@@ -3236,7 +3342,7 @@
    }
   ]
  },
- "currentDate": "2027-02-13",
+ "currentDate": "2027-03-06",
  "spells": [
   {
    "id": "sundby",
@@ -3380,8 +3486,7 @@
    "id": "2027-02",
    "spell": "sundby",
    "title": "February",
-   "inProgress": true,
-   "summary": "Final preparations for the restart. Experienced left-back Nicolai Johannessen joined to shore up the defence."
+   "summary": "Final preparations for the restart. Left-back Nicolai Johannessen joined. Three friendlies brought a win, a draw and a defeat. Andersen scored in two of them, but the new signings were slow to settle."
   }
  ]
 }
