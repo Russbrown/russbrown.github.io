@@ -3796,6 +3796,19 @@
     "img/2027-03-29-bronshoj-16min.jpg",
     "img/2027-03-29-bronshoj-ht.jpg"
    ]
+  },
+  {
+   "id": "2027-week-14",
+   "spell": "sundby",
+   "month": "2027-04",
+   "date": "2027-03-30",
+   "label": "Week 14 · 30 March–5 April",
+   "title": "Week 14: A new deal, despite the seven",
+   "body": "The day after the 7–1, the board offered Bassett a new contract anyway, and he signed. It runs until June 2028 on the same £3.4K a year, still part-time.\n\nThe interesting part is the clauses: a 15% pay rise if Sundby are promoted, and a 35% cut if they're relegated. The board still rate him A+ and the fans are ecstatic.\n\nNext: FC Helsingør away, the last game of the preliminary phase, with a top-six place on the line.",
+   "players": [],
+   "images": [
+    "img/2027-03-30-new-contract.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -3909,12 +3922,25 @@
     "start": "2026-07-06",
     "end": "2027-06-30",
     "type": "Part-time",
-    "share_of_wage_budget": "10.2%"
+    "share_of_wage_budget": "10.2%",
+    "left": "2027-03-29"
+   },
+   {
+    "club": "Sundby",
+    "wage": 3400,
+    "start": "2027-03-30",
+    "end": "2028-06-30",
+    "type": "Part-time",
+    "share_of_wage_budget": "10.2%",
+    "clauses": {
+     "promotion_wage_rise": "15%",
+     "relegation_wage_drop": "35%"
+    }
    }
   ],
   "goal": "Make as much money as possible",
   "standing": {
-   "date": "2026-12-01",
+   "date": "2027-04-01",
    "board": "A+",
    "board_text": "Unbelievable job, clearly the right manager",
    "supporters": "Ecstatic",
@@ -4028,7 +4054,7 @@
    }
   ]
  },
- "currentDate": "2027-03-29",
+ "currentDate": "2027-04-01",
  "spells": [
   {
    "id": "sundby",
@@ -4123,6 +4149,10 @@
     {
      "date": "2027-03-29",
      "label": "Worst defeat: 1–7 at home to Brønshøj"
+    },
+    {
+     "date": "2027-03-30",
+     "label": "Signs new contract to June 2028"
     }
    ]
   }
@@ -4186,8 +4216,14 @@
    "id": "2027-03",
    "spell": "sundby",
    "title": "Stoppage time and set pieces",
-   "inProgress": true,
    "summary": "The league resumed with a stoppage-time home defeat to Holstebro. A week later, two Pyne-Cole goals beat Ishøj and lifted Sundby to 3rd. Then a set-piece collapse at Vanløse: 3–0 down at half-time, Andersen's late double wasn't quite enough. At ASA, Becker's stoppage-time equaliser rescued a point Sundby barely deserved. Then the low point: a 7–1 home thrashing by Brønshøj."
+  },
+  {
+   "id": "2027-04",
+   "spell": "sundby",
+   "title": "April",
+   "inProgress": true,
+   "summary": "A new contract for Bassett, and a final preliminary-phase game at FC Helsingør with the top six on the line."
   }
  ]
 }
