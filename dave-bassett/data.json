@@ -5,14 +5,14 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 24,
+   "apps": 25,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Bounced back from the 7–1 with a 7.6 at FC Helsingør on the final day.",
    "number": 24,
-   "avgRating": 6.82,
+   "avgRating": 6.84,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 18,
+   "apps": 19,
    "goals": 1,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.9,
+   "avgRating": 6.91,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -66,7 +66,7 @@
    "id": "magnus-vandal",
    "name": "Magnus Vandal",
    "age": 23,
-   "apps": 14,
+   "apps": 15,
    "goals": 0,
    "assists": 1,
    "status": "active",
@@ -98,13 +98,13 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 17,
+   "apps": 18,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "storyline": "Scored a stoppage-time equaliser at ASA, Aarhus, playing as a defensive midfielder (7.3).",
    "tag": "Captain",
-   "avgRating": 6.72,
+   "avgRating": 6.71,
    "spell": "sundby",
    "role": "MID",
    "position": "DM, M (C)"
@@ -263,7 +263,7 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 14,
+   "apps": 15,
    "goals": 10,
    "assists": 2,
    "status": "active",
@@ -272,7 +272,7 @@
    "nationality": "DEN",
    "tag": "Hat-trick hero",
    "number": 20,
-   "avgRating": 7.15,
+   "avgRating": 7.1,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 15,
+   "apps": 16,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -289,7 +289,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.88,
+   "avgRating": 6.92,
    "role": "DEF"
   },
   {
@@ -312,7 +312,7 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 16,
+   "apps": 17,
    "goals": 7,
    "assists": 6,
    "status": "active",
@@ -320,7 +320,7 @@
    "nationality": "DEN",
    "storyline": "In form: two goals against Ishøj, then two assists at Vanløse (8.5).",
    "number": 10,
-   "avgRating": 7.07,
+   "avgRating": 7.04,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -359,7 +359,7 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 15,
+   "apps": 16,
    "goals": 6,
    "assists": 2,
    "status": "active",
@@ -369,7 +369,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.99,
+   "avgRating": 6.97,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -546,14 +546,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 20,
+   "apps": 21,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.91,
+   "avgRating": 6.93,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -785,11 +785,11 @@
    "position": "D (RL), WB (L)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 3,
-   "goals": 0,
+   "apps": 4,
+   "goals": 1,
    "assists": 0,
-   "avgRating": 6.6,
-   "storyline": "Signed in late November to play on the left wing. A natural full-back, which brings defensive work to the wing alongside pace (12) and crossing (12).",
+   "avgRating": 6.8,
+   "storyline": "Scored the winner against league leaders Frem (7.4), his first goal for the club, playing on the left wing.",
    "bio": "22-year-old full-back who can also play wing-back on the left. 5'7\". 3.5-star ability, 4.5-star potential. 70 career games before Sundby.",
    "tag": "New signing",
    "status": "active",
@@ -802,7 +802,7 @@
    "position": "D/WB (R), DM, M (C)",
    "age": 29,
    "nationality": "Denmark",
-   "apps": 4,
+   "apps": 5,
    "goals": 0,
    "assists": 0,
    "avgRating": 6.6,
@@ -819,10 +819,10 @@
    "position": "M (RC), AM (R)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 5,
+   "apps": 6,
    "goals": 0,
    "assists": 1,
-   "avgRating": 6.66,
+   "avgRating": 6.63,
    "storyline": "Set up Belmaillah's final-day winner at FC Helsingør (7.6), his best game yet.",
    "bio": "22-year-old right winger, rated 3.5 stars as a winger.",
    "tag": "New signing",
@@ -3431,6 +3431,114 @@
     "oliver-elliott-karls": 8.4
    },
    "image": "img/2027-04-17-ishoj.jpg"
+  },
+  {
+   "id": "2027-04-24-frem",
+   "spell": "sundby",
+   "date": "2027-04-24",
+   "competition": "3. Division – Promotion Stage",
+   "opponent": "Frem",
+   "venue": "H",
+   "score": {
+    "for": 1,
+    "against": 0
+   },
+   "scorers": [
+    {
+     "player": "adam-ejler-hansen",
+     "minute": 28
+    }
+   ],
+   "leaguePos": 4,
+   "summary": "Beat the champions-elect. Hansen scored on 28 minutes, and a disciplined defence held Frem to one shot on target.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     40,
+     60
+    ],
+    "shots": [
+     5,
+     10
+    ],
+    "on_target": [
+     4,
+     1
+    ],
+    "xg": [
+     0.78,
+     1.19
+    ],
+    "clear_cut": [
+     1,
+     2
+    ],
+    "corners": [
+     2,
+     4
+    ],
+    "fouls": [
+     10,
+     8
+    ],
+    "progressive_passes": [
+     32,
+     56
+    ],
+    "pass_pct": [
+     77,
+     84
+    ],
+    "cross_pct": [
+     7,
+     11
+    ],
+    "distance_km": [
+     123,
+     127
+    ],
+    "avg_rating": [
+     6.9,
+     6.7
+    ],
+    "oppda": [
+     16.74,
+     9.1
+    ],
+    "weather": "Calm"
+   },
+   "lineup": {
+    "formation": "4-2-2-2",
+    "on_pitch_at_full_time": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "simeon-jovanovski",
+     "mads-jul-jorgens",
+     "magnus-vandal",
+     "johan-becker",
+     "nicklas-halse",
+     "oliver-koertz",
+     "adam-ejler-hansen",
+     "bastian-andersen",
+     "giran-pyne-cole",
+     "mohamed-belmaillah"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 7.3,
+    "magnus-langhorn": 7.5,
+    "simeon-jovanovski": 7.3,
+    "mads-jul-jorgens": 7.1,
+    "magnus-vandal": 6.7,
+    "johan-becker": 6.6,
+    "nicklas-halse": 6.6,
+    "oliver-koertz": 6.5,
+    "adam-ejler-hansen": 7.4,
+    "bastian-andersen": 6.6,
+    "giran-pyne-cole": 6.6,
+    "mohamed-belmaillah": 6.4
+   },
+   "image": "img/2027-04-24-frem.jpg"
   }
  ],
  "story": [
@@ -4227,6 +4335,25 @@
     "img/2027-04-17-ishoj-report.jpg",
     "img/2027-04-17-ishoj-table.jpg"
    ]
+  },
+  {
+   "id": "2027-week-18",
+   "spell": "sundby",
+   "month": "2027-04",
+   "date": "2027-04-24",
+   "label": "Week 18 · 24 April",
+   "title": "Week 18: Frem beaten",
+   "body": "Frem arrived at Kløvermarken top of the league, already as good as champions. They left beaten.\n\nOn 28 minutes Adam Ejler Hansen, the full-back Bassett converted into a left winger, scored his first goal for the club. Then Sundby defended. Frem had 60% of the ball and 10 shots, but only one on target. Langhorn (7.5), Hansen (7.4), Poulsen and Jovanovski (both 7.3) led the way.\n\nThe win lifts Sundby to 4th on 37 points, five behind ASA and Hørsholm-Usserød in 2nd and 3rd. Six games left.",
+   "match": "2027-04-24-frem",
+   "players": [
+    "adam-ejler-hansen",
+    "magnus-langhorn",
+    "lucas-poulsen",
+    "simeon-jovanovski"
+   ],
+   "images": [
+    "img/2027-04-24-frem.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -4472,7 +4599,7 @@
    }
   ]
  },
- "currentDate": "2027-04-17",
+ "currentDate": "2027-04-24",
  "spells": [
   {
    "id": "sundby",
@@ -4575,6 +4702,10 @@
     {
      "date": "2027-04-05",
      "label": "Qualifies for the promotion group (5th)"
+    },
+    {
+     "date": "2027-04-24",
+     "label": "Beats league leaders Frem 1–0"
     }
    ]
   }
