@@ -2748,6 +2748,19 @@
    "images": [
     "img/2026-12-18-thisted-interview.jpg"
    ]
+  },
+  {
+   "id": "2026-week-26",
+   "spell": "sundby",
+   "month": "2026-12",
+   "date": "2026-12-25",
+   "label": "Week 26 · 19–25 December",
+   "title": "Week 26: A Christmas knock-back",
+   "body": "On Christmas Day, Thisted FC turned Bassett down. Their board liked his plans but decided he wasn't the right person to take the club forward, and appointed Hans Henrik Andreasen instead.\n\nGiven that Thisted are bottom of the 2. Division, it may be a lucky escape. Bassett stays at Sundby, 4th and in the promotion race. A few days later the Sundby board announced a cash injection.",
+   "players": [],
+   "images": [
+    "img/2026-12-25-thisted-rejection.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -2987,7 +3000,7 @@
    }
   ]
  },
- "currentDate": "2026-12-18",
+ "currentDate": "2026-12-30",
  "spells": [
   {
    "id": "sundby",
@@ -3061,7 +3074,7 @@
     },
     {
      "date": "2026-12-18",
-     "label": "Interview offer from Thisted FC (2. Division)"
+     "label": "Interviews for Thisted FC (2. Division), turned down"
     }
    ]
   }
