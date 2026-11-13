@@ -167,6 +167,7 @@ a.month-head { text-decoration: none; padding-right: 76px; }
 .mp-bar a:hover { border-color: var(--club); }
 .mp-bar span.off { opacity: .35; }
 .mp-bar .mp-nav { display: flex; gap: 8px; }
+.mp-title { font: 800 22px var(--font-display); text-transform: uppercase; letter-spacing: .04em; display: flex; gap: 8px; align-items: center; margin-right: auto; margin-left: 6px; }
 .mp-head { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 24px; overflow: hidden; display: grid; gap: 10px; }
 .mp-head::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: linear-gradient(90deg, var(--club), transparent 70%); }
 .mp-head h1 { font: 900 clamp(40px, 7vw, 72px) var(--font-display); text-transform: uppercase; line-height: .9; margin: 2px 0 4px; }
@@ -373,15 +374,9 @@ function renderMonthPage(k) {
   const mt = (FULL.months || []).find(m => m.id === k) || {}, rec = monthRecord(k), name = monthKey(k + "-15");
   const nav = (key, label) => key ? `<a href="#month/${key}">${label}</a>` : `<span class="off">${label}</span>`;
   const wv = weekView(k, weeks);
-  el.innerHTML = `<div class="mp-bar"><a href="#story">← All months</a>
+  el.innerHTML = `<div class="mp-bar"><a href="#story">← All months</a><div class="mp-title">${esc(name)}${mt.inProgress ? ' <span class="chip">In progress</span>' : ""}</div>
       <div class="mp-nav">${nav(keys[i - 1], "← " + (keys[i - 1] ? monthKey(keys[i - 1] + "-15").split(" ")[0] : "Earlier"))}${nav(keys[i + 1], (keys[i + 1] ? monthKey(keys[i + 1] + "-15").split(" ")[0] : "Later") + " →")}</div></div>
     ${wv.track}
-    <header class="mp-head">
-      <div class="mh-kicker">${esc(name)} · ${esc(SPELL.club)}${mt.inProgress ? ' <span class="chip">In progress</span>' : ""}</div>
-      <h1>${esc(mt.title || name)}</h1>
-      <div class="mh-rec">${rec.comp.length ? `<span class="form">${rec.form.map(f => `<span class="pip ${f}">${f}</span>`).join("")}</span><span>Won ${rec.r.W} · Drawn ${rec.r.D} · Lost ${rec.r.L} · Goals ${rec.r.gf}–${rec.r.ga}</span>` : `<span>${rec.friendlies} friendlies</span>`}</div>
-      ${(mt.summary || "").split(/\n\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join("")}
-    </header>
     ${wv.panel}`;
   el.querySelectorAll(".wk-track").forEach(t => { const w = t.querySelector('[aria-selected="true"]'); if (w) t.scrollLeft = w.offsetLeft - (t.clientWidth - w.offsetWidth) / 2; });
 }
