@@ -810,6 +810,23 @@
    "tag": "New signing",
    "status": "active",
    "spell": "sundby"
+  },
+  {
+   "id": "oliver-koertz",
+   "name": "Oliver Koertz",
+   "role": "MID",
+   "position": "M (RC), AM (R)",
+   "age": 22,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "Signed from rivals Næsby in January to fix the right wing. Quick (acceleration 14), skilful (technique 14, flair 13) and a proven creator: 5 assists for Næsby in the first half of the season.",
+   "bio": "22-year-old right winger, rated 3.5 stars as a winger.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
   }
  ],
  "matches": [
@@ -2785,12 +2802,13 @@
    "month": "2027-01",
    "date": "2027-01-27",
    "label": "Week 4 · 23–29 January",
-   "title": "Week 4: Halse arrives",
-   "body": "Sundby signed free agent Nicklas Halse after a trial. The 29-year-old is rated 4 stars as a defensive midfielder, the best player in the squad on paper.\n\nHe's the ball-winner the side has lacked: tackling 10, anticipation 12, positioning 10, aggression and bravery 14. He brings leadership (13), determination (15) and 221 games of experience, most recently at 2. Division leaders FC Roskilde.\n\nHe'll sit in front of the back four, with Becker alongside him to pass. His passing (9) and pace (9) are the limits.",
+   "title": "Week 4: Halse and Koertz arrive",
+   "body": "Sundby signed free agent Nicklas Halse after a trial. The 29-year-old is rated 4 stars as a defensive midfielder, the best player in the squad on paper.\n\nHe's the ball-winner the side has lacked: tackling 10, anticipation 12, positioning 10, aggression and bravery 14. He brings leadership (13), determination (15) and 221 games of experience, most recently at 2. Division leaders FC Roskilde.\n\nHe'll sit in front of the back four, with Becker alongside him to pass. His passing (9) and pace (9) are the limits.\n\nThe right wing was fixed too. Oliver Koertz arrived from promotion rivals Næsby: quick, skilful and already the creator of 5 assists in this league. Signing him also weakens a team Sundby are competing with.",
    "players": [
     "nicklas-halse",
     "johan-becker",
-    "hakim-sighaoui"
+    "hakim-sighaoui",
+    "oliver-koertz"
    ],
    "images": []
   }
@@ -3111,6 +3129,10 @@
     {
      "date": "2027-01-27",
      "label": "Signs Nicklas Halse, the squad's best player"
+    },
+    {
+     "date": "2027-01-27",
+     "label": "Signs Oliver Koertz from rivals Næsby"
     }
    ]
   }
@@ -3163,7 +3185,7 @@
    "spell": "sundby",
    "title": "January",
    "inProgress": true,
-   "summary": "The transfer window opened, and Bassett landed his best signing yet: experienced holding midfielder Nicklas Halse."
+   "summary": "The transfer window opened, and Bassett landed his two best signings yet: holding midfielder Nicklas Halse and right winger Oliver Koertz, taken from rivals Næsby."
   }
  ]
 }
