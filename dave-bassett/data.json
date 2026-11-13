@@ -5,7 +5,7 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 17,
+   "apps": 18,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 13,
+   "apps": 14,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.99,
+   "avgRating": 6.96,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -83,7 +83,7 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 11,
+   "apps": 12,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -129,14 +129,14 @@
    "id": "karlo-trkulja",
    "name": "Karlo Trkulja",
    "age": 23,
-   "apps": 10,
+   "apps": 11,
    "goals": 2,
    "assists": 0,
    "status": "active",
    "storyline": "Two goals in the cup at Virum, including one after a minute.",
    "number": 19,
    "position": "M (L), AM (R)",
-   "avgRating": 6.74,
+   "avgRating": 6.71,
    "spell": "sundby",
    "role": "MID"
   },
@@ -262,7 +262,7 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 9,
+   "apps": 10,
    "goals": 8,
    "assists": 1,
    "status": "active",
@@ -271,7 +271,7 @@
    "nationality": "DEN",
    "tag": "Hat-trick hero",
    "number": 20,
-   "avgRating": 7.36,
+   "avgRating": 7.26,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -279,7 +279,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 9,
+   "apps": 10,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -288,7 +288,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.91,
+   "avgRating": 6.95,
    "role": "DEF"
   },
   {
@@ -311,15 +311,15 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 13,
-   "goals": 4,
+   "apps": 14,
+   "goals": 6,
    "assists": 3,
    "status": "active",
    "position": "AM (RL), ST (C)",
    "nationality": "DEN",
-   "storyline": "Volleyed in the 90th-minute clincher at Brønshøj.",
+   "storyline": "Scored twice in the last 20 minutes to beat Ishøj (8.2), lifting Sundby to 3rd.",
    "number": 10,
-   "avgRating": 6.86,
+   "avgRating": 6.96,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -545,14 +545,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 14,
+   "apps": 15,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.93,
+   "avgRating": 6.94,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -702,14 +702,14 @@
    "age": 27,
    "position": "ST (C)",
    "nationality": "DEN",
-   "apps": 11,
+   "apps": 12,
    "goals": 5,
-   "assists": 1,
+   "assists": 2,
    "status": "active",
    "tag": "Talisman",
    "storyline": "Six goals, every one of them decisive. Rifled in from 19 metres to beat Ringsted, player of the match (8.6).",
    "spell": "sundby",
-   "avgRating": 7.14,
+   "avgRating": 7.19,
    "role": "FWD"
   },
   {
@@ -784,10 +784,10 @@
    "position": "D (RL), WB (L)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.6,
    "storyline": "Signed in late November to play on the left wing. A natural full-back, which brings defensive work to the wing alongside pace (12) and crossing (12).",
    "bio": "22-year-old full-back who can also play wing-back on the left. 5'7\". 3.5-star ability, 4.5-star potential. 70 career games before Sundby.",
    "tag": "New signing",
@@ -801,10 +801,10 @@
    "position": "D/WB (R), DM, M (C)",
    "age": 29,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.7,
    "storyline": "Signed in January as the ball-winning holding midfielder the side lacked. Rated 4 stars, the best in the squad, with leadership 13 and determination 15. Can cover right-back.",
    "bio": "29-year-old defensive midfielder with a national reputation. 221 career games, most recently at 2. Division leaders FC Roskilde.",
    "tag": "New signing",
@@ -835,10 +835,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.8,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -2537,6 +2537,125 @@
     "weather": "6°C, clear"
    },
    "image": "img/2027-03-06-holstebro.jpg"
+  },
+  {
+   "id": "2027-03-13-ishoj",
+   "spell": "sundby",
+   "date": "2027-03-13",
+   "competition": "3. Division",
+   "opponent": "Ishøj IF",
+   "venue": "H",
+   "score": {
+    "for": 2,
+    "against": 1
+   },
+   "scorers": [
+    {
+     "player": "giran-pyne-cole",
+     "minute": 73,
+     "assist": "marcus-molvadgaard"
+    },
+    {
+     "player": "giran-pyne-cole",
+     "minute": "90+1"
+    }
+   ],
+   "conceded": [
+    {
+     "minute": "90+3",
+     "scorer": "W. Maretti"
+    }
+   ],
+   "leaguePos": 3,
+   "summary": "Out-shot 16 to 7 but far more clinical. Two Pyne-Cole goals beat 3rd-placed Ishøj and took Sundby above them.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     40,
+     60
+    ],
+    "shots": [
+     7,
+     16
+    ],
+    "on_target": [
+     3,
+     8
+    ],
+    "xg": [
+     1.69,
+     0.76
+    ],
+    "clear_cut": [
+     3,
+     0
+    ],
+    "corners": [
+     1,
+     6
+    ],
+    "fouls": [
+     10,
+     6
+    ],
+    "progressive_passes": [
+     41,
+     47
+    ],
+    "pass_pct": [
+     81,
+     85
+    ],
+    "cross_pct": [
+     12,
+     4
+    ],
+    "distance_km": [
+     123,
+     126
+    ],
+    "avg_rating": [
+     6.8,
+     6.7
+    ],
+    "oppda": [
+     16.58,
+     13.75
+    ],
+    "weather": "Calm"
+   },
+   "lineup": {
+    "formation": "4-2-2-2 (2 DM)",
+    "on_pitch_at_full_time": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "nicolai-johannessen",
+     "gustav-frederiksen",
+     "nicklas-halse",
+     "karlo-trkulja",
+     "adam-ejler-hansen",
+     "marcus-molvadgaard",
+     "giran-pyne-cole"
+    ],
+    "note": "Frederiksen and Halse paired in midfield"
+   },
+   "ratings": {
+    "lucas-poulsen": 6.8,
+    "magnus-langhorn": 7.3,
+    "mads-jul-jorgens": 6.6,
+    "simeon-jovanovski": 7.1,
+    "nicolai-johannessen": 6.8,
+    "gustav-frederiksen": 6.7,
+    "nicklas-halse": 6.7,
+    "karlo-trkulja": 6.4,
+    "adam-ejler-hansen": 6.6,
+    "marcus-molvadgaard": 7.8,
+    "giran-pyne-cole": 8.2,
+    "mohamed-belmaillah": 6.4
+   },
+   "image": "img/2027-03-13-ishoj.jpg"
   }
  ],
  "story": [
@@ -3174,6 +3293,28 @@
     "img/2027-03-06-holstebro.jpg",
     "img/2027-03-06-holstebro-table.jpg"
    ]
+  },
+  {
+   "id": "2027-week-11",
+   "spell": "sundby",
+   "month": "2027-03",
+   "date": "2027-03-13",
+   "label": "Week 11 · 13–19 March",
+   "title": "Week 11: Pyne-Cole sinks Ishøj",
+   "body": "Bassett tried his new midfield pairing for the visit of 3rd-placed Ishøj: Frederiksen and Halse, both sitting deep. Ishøj had 60% of the ball and 16 shots to 7, but Sundby made the clear chances, three to none, with xG of 1.69 to 0.76.\n\nPyne-Cole made the difference. On 73 minutes he finished off a fine team move, set up by Mølvadgaard. In stoppage time he scored again. Maretti's reply came too late.\n\nThe win lifts Sundby to 3rd on 27 points, a point above Ishøj. Frem have already qualified for the promotion stage. With four preliminary games left, Sundby are three points clear of 6th.",
+   "match": "2027-03-13-ishoj",
+   "players": [
+    "giran-pyne-cole",
+    "marcus-molvadgaard",
+    "gustav-frederiksen",
+    "nicklas-halse",
+    "magnus-langhorn"
+   ],
+   "images": [
+    "img/2027-03-13-ishoj.jpg",
+    "img/2027-03-13-ishoj-table.jpg",
+    "img/2027-03-13-ishoj-report.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -3406,7 +3547,7 @@
    }
   ]
  },
- "currentDate": "2027-03-06",
+ "currentDate": "2027-03-13",
  "spells": [
   {
    "id": "sundby",
@@ -3493,6 +3634,10 @@
     {
      "date": "2027-02-10",
      "label": "Signs left-back Nicolai Johannessen"
+    },
+    {
+     "date": "2027-03-13",
+     "label": "Beat Ishøj to go 3rd"
     }
    ]
   }
@@ -3557,7 +3702,7 @@
    "spell": "sundby",
    "title": "March",
    "inProgress": true,
-   "summary": "The league resumed with another stoppage-time defeat, 2–1 at home to Holstebro, despite Sundby creating more."
+   "summary": "The league resumed with a stoppage-time home defeat to Holstebro. A week later, two Pyne-Cole goals beat Ishøj and lifted Sundby to 3rd."
   }
  ]
 }
