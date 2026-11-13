@@ -793,6 +793,23 @@
    "tag": "New signing",
    "status": "active",
    "spell": "sundby"
+  },
+  {
+   "id": "nicklas-halse",
+   "name": "Nicklas Halse",
+   "role": "MID",
+   "position": "D/WB (R), DM, M (C)",
+   "age": 29,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "Signed in January as the ball-winning holding midfielder the side lacked. Rated 4 stars, the best in the squad, with leadership 13 and determination 15. Can cover right-back.",
+   "bio": "29-year-old defensive midfielder with a national reputation. 221 career games, most recently at 2. Division leaders FC Roskilde.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
   }
  ],
  "matches": [
@@ -2761,6 +2778,21 @@
    "images": [
     "img/2026-12-25-thisted-rejection.jpg"
    ]
+  },
+  {
+   "id": "2027-week-04",
+   "spell": "sundby",
+   "month": "2027-01",
+   "date": "2027-01-27",
+   "label": "Week 4 · 23–29 January",
+   "title": "Week 4: Halse arrives",
+   "body": "Sundby signed free agent Nicklas Halse after a trial. The 29-year-old is rated 4 stars as a defensive midfielder, the best player in the squad on paper.\n\nHe's the ball-winner the side has lacked: tackling 10, anticipation 12, positioning 10, aggression and bravery 14. He brings leadership (13), determination (15) and 221 games of experience, most recently at 2. Division leaders FC Roskilde.\n\nHe'll sit in front of the back four, with Becker alongside him to pass. His passing (9) and pace (9) are the limits.",
+   "players": [
+    "nicklas-halse",
+    "johan-becker",
+    "hakim-sighaoui"
+   ],
+   "images": []
   }
  ],
  "fixtures": [
@@ -3000,7 +3032,7 @@
    }
   ]
  },
- "currentDate": "2026-12-30",
+ "currentDate": "2027-01-27",
  "spells": [
   {
    "id": "sundby",
@@ -3075,6 +3107,10 @@
     {
      "date": "2026-12-18",
      "label": "Interviews for Thisted FC (2. Division), turned down"
+    },
+    {
+     "date": "2027-01-27",
+     "label": "Signs Nicklas Halse, the squad's best player"
     }
    ]
   }
@@ -3121,6 +3157,13 @@
    "title": "December",
    "inProgress": true,
    "summary": "The winter break. The board gave Bassett an A+ for November, calling it an unbelievable job, and the fans are ecstatic. Squad harmony is only average, with Jakobsen, Nybro and Schak all unhappy about playing time."
+  },
+  {
+   "id": "2027-01",
+   "spell": "sundby",
+   "title": "January",
+   "inProgress": true,
+   "summary": "The transfer window opened, and Bassett landed his best signing yet: experienced holding midfielder Nicklas Halse."
   }
  ]
 }

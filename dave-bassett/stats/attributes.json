@@ -974,6 +974,65 @@
      }
     }
    }
+  },
+  {
+   "date": "2027-01-13",
+   "source": "Trial profile",
+   "players": {
+    "nicklas-halse": {
+     "name": "Nicklas Halse",
+     "age": 29,
+     "position": "D/WB (R), DM, M (C)",
+     "ca_stars": 4,
+     "pa_stars": 4,
+     "height": "5'11\"",
+     "left_foot": "Weak",
+     "right_foot": "Very Strong",
+     "crossing": 7,
+     "dribbling": 6,
+     "finishing": 5,
+     "first_touch": 7,
+     "heading": 7,
+     "long_shots": 8,
+     "marking": 10,
+     "passing": 9,
+     "tackling": 10,
+     "technique": 7,
+     "corners": 8,
+     "free_kicks": 8,
+     "long_throws": 5,
+     "penalties": 9,
+     "aggression": 14,
+     "anticipation": 12,
+     "bravery": 14,
+     "composure": 8,
+     "concentration": 11,
+     "decisions": 11,
+     "determination": 15,
+     "flair": 7,
+     "leadership": 13,
+     "off_the_ball": 9,
+     "positioning": 10,
+     "teamwork": 14,
+     "vision": 9,
+     "work_rate": 12,
+     "acceleration": 8,
+     "agility": 8,
+     "balance": 8,
+     "jumping_reach": 9,
+     "natural_fitness": 11,
+     "pace": 9,
+     "stamina": 9,
+     "strength": 7,
+     "role_ratings": {
+      "Defensive Midfielder": 4,
+      "Half Back": 3,
+      "Box-To-Box Midfielder": 3,
+      "Deep-Lying Playmaker": 3,
+      "Box-To-Box Playmaker": 1
+     }
+    }
+   }
   }
  ]
 }
