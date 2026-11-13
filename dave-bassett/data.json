@@ -1,18 +1,18 @@
 {
- "updatedAt": "2027-05-29",
+ "updatedAt": "2027-06-05",
  "players": [
   {
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 30,
+   "apps": 31,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Player of the match at FC Helsingør (8.1), with seven saves in a 0–0. A month after being taken off in the 7–1.",
    "number": 24,
-   "avgRating": 6.88,
+   "avgRating": 6.91,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 24,
+   "apps": 25,
    "goals": 1,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.93,
+   "avgRating": 6.96,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -83,7 +83,7 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 21,
+   "apps": 22,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -113,7 +113,7 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 16,
+   "apps": 17,
    "goals": 0,
    "assists": 5,
    "status": "active",
@@ -263,8 +263,8 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 18,
-   "goals": 10,
+   "apps": 19,
+   "goals": 12,
    "assists": 2,
    "status": "active",
    "storyline": "Scored the winner at FC Helsingør that sent Sundby into the promotion group.",
@@ -272,7 +272,7 @@
    "nationality": "DEN",
    "tag": "Hat-trick hero",
    "number": 20,
-   "avgRating": 7.0,
+   "avgRating": 7.07,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 21,
+   "apps": 22,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -289,7 +289,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.93,
+   "avgRating": 6.94,
    "role": "DEF"
   },
   {
@@ -312,7 +312,7 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 21,
+   "apps": 22,
    "goals": 7,
    "assists": 8,
    "status": "active",
@@ -320,7 +320,7 @@
    "nationality": "DEN",
    "storyline": "Set up Mølvadgaard's opener at Ishøj (7.3).",
    "number": 10,
-   "avgRating": 7.0,
+   "avgRating": 6.97,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -359,7 +359,7 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 19,
+   "apps": 20,
    "goals": 7,
    "assists": 2,
    "status": "active",
@@ -369,7 +369,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.92,
+   "avgRating": 6.93,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -546,14 +546,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 26,
+   "apps": 27,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "Outstanding against ASA, Aarhus (8.0) as Sundby held a 1–0 lead for 82 minutes, despite playing on a yellow.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.98,
+   "avgRating": 7.02,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -734,7 +734,7 @@
    "name": "Noah Graini",
    "number": 35,
    "position": "W (L)",
-   "apps": 13,
+   "apps": 14,
    "goals": 1,
    "assists": 1,
    "status": "active",
@@ -802,10 +802,10 @@
    "position": "D/WB (R), DM, M (C)",
    "age": 29,
    "nationality": "Denmark",
-   "apps": 7,
+   "apps": 8,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.6,
+   "avgRating": 6.71,
    "storyline": "Signed in January as the ball-winning holding midfielder the side lacked. Rated 4 stars, the best in the squad, with leadership 13 and determination 15. Can cover right-back.",
    "bio": "29-year-old defensive midfielder with a national reputation. 221 career games, most recently at 2. Division leaders FC Roskilde.",
    "tag": "New signing",
@@ -836,10 +836,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 12,
+   "apps": 13,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.62,
+   "avgRating": 6.66,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -4096,6 +4096,125 @@
     "giran-pyne-cole": 6.3
    },
    "image": "img/2027-05-29-frem.jpg"
+  },
+  {
+   "id": "2027-06-05-helsingor",
+   "spell": "sundby",
+   "date": "2027-06-05",
+   "competition": "3. Division – Promotion Stage",
+   "opponent": "FC Helsingør",
+   "venue": "H",
+   "score": {
+    "for": 2,
+    "against": 0
+   },
+   "scorers": [
+    {
+     "player": "mohamed-belmaillah",
+     "minute": 46,
+     "assist": "lucas-poulsen"
+    },
+    {
+     "player": "mohamed-belmaillah",
+     "minute": 71,
+     "assist": "bastian-andersen"
+    }
+   ],
+   "leaguePos": 4,
+   "summary": "Belmaillah (8.4) scored twice after half-time and Sundby kept a clean sheet. Nine shots on target to Helsingør's six, and an xG of 1.59 to 0.49.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     41,
+     59
+    ],
+    "shots": [
+     17,
+     12
+    ],
+    "on_target": [
+     9,
+     6
+    ],
+    "xg": [
+     1.59,
+     0.49
+    ],
+    "clear_cut": [
+     2,
+     0
+    ],
+    "corners": [
+     2,
+     8
+    ],
+    "fouls": [
+     7,
+     9
+    ],
+    "yellow": [
+     0,
+     4
+    ],
+    "progressive_passes": [
+     44,
+     43
+    ],
+    "pass_pct": [
+     80,
+     83
+    ],
+    "cross_pct": [
+     15,
+     3
+    ],
+    "distance_km": [
+     123,
+     126
+    ],
+    "avg_rating": [
+     7.3,
+     6.5
+    ],
+    "oppda": [
+     15.5,
+     14.0
+    ],
+    "weather": "Calm"
+   },
+   "lineup": {
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "simeon-jovanovski",
+     "mads-jul-jorgens",
+     "nicolai-johannessen",
+     "gustav-frederiksen",
+     "nicklas-halse",
+     "oliver-elliott-karls",
+     "n-graini",
+     "bastian-andersen",
+     "mohamed-belmaillah"
+    ],
+    "subs_on": [
+     "giran-pyne-cole"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 7.9,
+    "magnus-langhorn": 7.1,
+    "simeon-jovanovski": 8.1,
+    "mads-jul-jorgens": 7.6,
+    "nicolai-johannessen": 7.1,
+    "gustav-frederiksen": 6.7,
+    "nicklas-halse": 7.5,
+    "oliver-elliott-karls": 6.9,
+    "n-graini": 6.8,
+    "bastian-andersen": 7.2,
+    "mohamed-belmaillah": 8.4,
+    "giran-pyne-cole": 6.4
+   },
+   "image": "img/2027-06-05-helsingor.jpg"
   }
  ],
  "story": [
@@ -5018,6 +5137,26 @@
     "img/2027-05-29-frem-ht.jpg",
     "img/2027-05-29-frem-teamnews.jpg"
    ]
+  },
+  {
+   "id": "2027-week-24",
+   "spell": "sundby",
+   "month": "2027-06",
+   "date": "2027-06-05",
+   "label": "Week 24 · 5 June",
+   "title": "Week 24: Belmaillah's double",
+   "body": "A week after the defeat at Frem, Bassett changed his front two. Andersen and Belmaillah started up top, with Graini on the left wing.\n\nIt worked. Belmaillah scored straight after half-time from Poulsen's long ball, then added a second at 71 minutes from Andersen's pass. He was rated 8.4. At the back, Jovanovski (8.1) and Jørgensen (7.6) kept Helsingør to an xG of 0.49, and Poulsen (7.9) kept a clean sheet.\n\nASA, Aarhus won too and moved up to 2nd on 50 points. Hørsholm-Usserød are 3rd on 49, with Sundby 4th on 48: two points off 2nd place.",
+   "match": "2027-06-05-helsingor",
+   "players": [
+    "mohamed-belmaillah",
+    "simeon-jovanovski",
+    "lucas-poulsen",
+    "mads-jul-jorgens",
+    "bastian-andersen"
+   ],
+   "images": [
+    "img/2027-06-05-helsingor.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -5263,7 +5402,7 @@
    }
   ]
  },
- "currentDate": "2027-05-29",
+ "currentDate": "2027-06-05",
  "spells": [
   {
    "id": "sundby",
@@ -5449,8 +5588,14 @@
    "id": "2027-05",
    "spell": "sundby",
    "title": "May",
+   "summary": "The run-in. Goalless draws at Helsingør and at home to Hørsholm-Usserød, then back-to-back wins: Mølvadgaard's double at Ishøj, and his winner against ASA, Aarhus. Then a 4–1 defeat at Frem, who lifted the title on their own pitch."
+  },
+  {
+   "id": "2027-06",
+   "spell": "sundby",
+   "title": "June",
    "inProgress": true,
-   "summary": "The run-in. Goalless draws at Helsingør and at home to Hørsholm-Usserød, then back-to-back wins: Mølvadgaard's double at Ishøj, and his winner against ASA, Aarhus. Then a 4–1 defeat at champions Frem, who lifted the trophy afterwards. Promotion has all but slipped away."
+   "summary": "Belmaillah scored twice in a 2–0 win over Helsingør. Sundby are 4th on 48 points, two behind ASA, Aarhus in 2nd."
   }
  ]
 }
