@@ -5,7 +5,7 @@
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 26,
+   "apps": 27,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 20,
+   "apps": 21,
    "goals": 1,
    "assists": 0,
    "status": "active",
@@ -42,7 +42,7 @@
    "number": 5,
    "position": "D (C)",
    "spell": "sundby",
-   "avgRating": 6.92,
+   "avgRating": 6.93,
    "tag": "New first choice",
    "role": "DEF"
   },
@@ -83,14 +83,14 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 18,
+   "apps": 19,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "storyline": "Defensive midfielder. Scored a stoppage-time consolation against B.93.",
    "number": 16,
    "position": "D (C), DM",
-   "avgRating": 6.67,
+   "avgRating": 6.66,
    "spell": "sundby",
    "role": "MID"
   },
@@ -98,7 +98,7 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 19,
+   "apps": 20,
    "goals": 1,
    "assists": 1,
    "status": "active",
@@ -113,14 +113,14 @@
    "id": "oliver-elliott-karls",
    "name": "Oliver Elliott Karlsen",
    "age": 23,
-   "apps": 12,
+   "apps": 13,
    "goals": 0,
    "assists": 4,
    "status": "active",
    "storyline": "Player of the match against Ishøj (8.4) off the bench, with two assists in the last ten minutes.",
    "number": 18,
    "position": "M/AM (R)",
-   "avgRating": 6.9,
+   "avgRating": 6.86,
    "spell": "sundby",
    "tag": "In form",
    "role": "MID"
@@ -263,7 +263,7 @@
    "id": "mohamed-belmaillah",
    "name": "Mohamed Belmaillah",
    "age": 20,
-   "apps": 16,
+   "apps": 17,
    "goals": 10,
    "assists": 2,
    "status": "active",
@@ -272,7 +272,7 @@
    "nationality": "DEN",
    "tag": "Hat-trick hero",
    "number": 20,
-   "avgRating": 7.05,
+   "avgRating": 7.02,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 17,
+   "apps": 18,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -289,7 +289,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.94,
+   "avgRating": 6.95,
    "role": "DEF"
   },
   {
@@ -312,7 +312,7 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 17,
+   "apps": 18,
    "goals": 7,
    "assists": 6,
    "status": "active",
@@ -320,7 +320,7 @@
    "nationality": "DEN",
    "storyline": "In form: two goals against Ishøj, then two assists at Vanløse (8.5).",
    "number": 10,
-   "avgRating": 7.04,
+   "avgRating": 7.0,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -359,7 +359,7 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 16,
+   "apps": 17,
    "goals": 6,
    "assists": 2,
    "status": "active",
@@ -369,7 +369,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.97,
+   "avgRating": 6.95,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -546,14 +546,14 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 22,
+   "apps": 23,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
    "storyline": "The £3.3K man, finally starting: a 7.4 and a clean sheet at Tårnby.",
    "bio": "20-year-old Swede, 6'0\", with a national reputation. Determination 14, jumping reach 13, tackling 12, strength 12. Bassett wants to spend the whole remaining wage budget on him.",
-   "avgRating": 6.93,
+   "avgRating": 6.94,
    "spell": "sundby",
    "role": "DEF"
   },
@@ -703,14 +703,14 @@
    "age": 27,
    "position": "ST (C)",
    "nationality": "DEN",
-   "apps": 15,
+   "apps": 16,
    "goals": 6,
    "assists": 4,
    "status": "active",
    "tag": "Talisman",
    "storyline": "Scored against his former club Ishøj in stoppage time, ending his goal drought.",
    "spell": "sundby",
-   "avgRating": 7.07,
+   "avgRating": 7.04,
    "role": "FWD"
   },
   {
@@ -768,11 +768,11 @@
    "position": "M (C)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
-   "storyline": "Signed on 17 November after a trial over the winter break. Decisions 14 and determination 13, with 4-star potential. Bought to share the holding-midfield load with Frederiksen.",
+   "avgRating": 6.7,
+   "storyline": "Made his Sundby debut off the bench in the 0–0 with Hørsholm-Usserød (6.7).",
    "bio": "22-year-old central midfielder, previously at Avarta. Joined as a fringe player.",
    "tag": "New signing",
    "status": "active",
@@ -785,10 +785,10 @@
    "position": "D (RL), WB (L)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 5,
+   "apps": 6,
    "goals": 1,
    "assists": 0,
-   "avgRating": 6.72,
+   "avgRating": 6.7,
    "storyline": "Scored the winner against league leaders Frem (7.4), his first goal for the club, playing on the left wing.",
    "bio": "22-year-old full-back who can also play wing-back on the left. 5'7\". 3.5-star ability, 4.5-star potential. 70 career games before Sundby.",
    "tag": "New signing",
@@ -819,10 +819,10 @@
    "position": "M (RC), AM (R)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 6,
+   "apps": 7,
    "goals": 0,
    "assists": 1,
-   "avgRating": 6.63,
+   "avgRating": 6.6,
    "storyline": "Set up Belmaillah's final-day winner at FC Helsingør (7.6), his best game yet.",
    "bio": "22-year-old right winger, rated 3.5 stars as a winger.",
    "tag": "New signing",
@@ -836,10 +836,10 @@
    "position": "D (LC)",
    "age": 32,
    "nationality": "Denmark",
-   "apps": 8,
+   "apps": 9,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.59,
+   "avgRating": 6.62,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
    "tag": "New signing",
@@ -3644,6 +3644,117 @@
     "mohamed-belmaillah": 6.3
    },
    "image": "img/2027-05-01-helsingor.jpg"
+  },
+  {
+   "id": "2027-05-08-horsholm",
+   "spell": "sundby",
+   "date": "2027-05-08",
+   "competition": "3. Division – Promotion Stage",
+   "opponent": "Hørsholm-Usserød",
+   "venue": "H",
+   "score": {
+    "for": 0,
+    "against": 0
+   },
+   "scorers": [],
+   "leaguePos": 4,
+   "summary": "A tight, chanceless 0–0 with 2nd-placed Hørsholm-Usserød. The defence held again (xG against 0.98), but the attack managed just 0.25 xG.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     40,
+     60
+    ],
+    "shots": [
+     5,
+     11
+    ],
+    "on_target": [
+     2,
+     4
+    ],
+    "xg": [
+     0.25,
+     0.98
+    ],
+    "clear_cut": [
+     0,
+     0
+    ],
+    "corners": [
+     3,
+     4
+    ],
+    "fouls": [
+     7,
+     8
+    ],
+    "yellow": [
+     2,
+     3
+    ],
+    "progressive_passes": [
+     38,
+     39
+    ],
+    "pass_pct": [
+     80,
+     87
+    ],
+    "cross_pct": [
+     14,
+     12
+    ],
+    "distance_km": [
+     117,
+     120
+    ],
+    "avg_rating": [
+     6.8,
+     6.9
+    ],
+    "weather": "Drizzle, 13°C"
+   },
+   "lineup": {
+    "formation": "4-2-2-2",
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "simeon-jovanovski",
+     "mads-jul-jorgens",
+     "nicolai-johannessen",
+     "johan-becker",
+     "gustav-frederiksen",
+     "oliver-elliott-karls",
+     "adam-ejler-hansen",
+     "bastian-andersen",
+     "giran-pyne-cole"
+    ],
+    "subs_on": [
+     "hakim-sighaoui",
+     "oliver-koertz",
+     "marcus-molvadgaard",
+     "mohamed-belmaillah"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 7.0,
+    "magnus-langhorn": 7.1,
+    "simeon-jovanovski": 7.2,
+    "mads-jul-jorgens": 7.1,
+    "nicolai-johannessen": 6.9,
+    "johan-becker": 6.7,
+    "gustav-frederiksen": 6.5,
+    "oliver-elliott-karls": 6.4,
+    "adam-ejler-hansen": 6.6,
+    "bastian-andersen": 6.6,
+    "giran-pyne-cole": 6.3,
+    "hakim-sighaoui": 6.7,
+    "oliver-koertz": 6.4,
+    "marcus-molvadgaard": 6.6,
+    "mohamed-belmaillah": 6.5
+   },
+   "image": "img/2027-05-08-horsholm.jpg"
   }
  ],
  "story": [
@@ -4479,6 +4590,28 @@
     "img/2027-05-01-helsingor.jpg",
     "img/2027-05-01-helsingor-report.jpg"
    ]
+  },
+  {
+   "id": "2027-week-20",
+   "spell": "sundby",
+   "month": "2027-05",
+   "date": "2027-05-08",
+   "label": "Week 20 · 8 May",
+   "title": "Week 20: Stalemate with the team in 2nd",
+   "body": "Second-placed Hørsholm-Usserød came to Kløvermarken knowing a win would all but end Sundby's promotion hopes. They left with a point.\n\nIt was a tight, cagey game with no clear-cut chances for either side. Hørsholm had 60% of the ball and 11 shots, but only 0.98 xG. The back four held firm again, with Jovanovski (7.2), Langhorn, Jørgensen (both 7.1) and Poulsen (7.0) all solid. Going forward, Sundby managed only 0.25 xG all game, even after Bassett brought on Sighaoui, Koertz, Mølvadgaard and Belmaillah.\n\nThat's four games in a row now with one goal or fewer conceded. But Sundby are 4th on 39 points, seven behind Hørsholm and six behind ASA, with four games left. Promotion now needs a miracle.",
+   "match": "2027-05-08-horsholm",
+   "players": [
+    "simeon-jovanovski",
+    "magnus-langhorn",
+    "mads-jul-jorgens",
+    "lucas-poulsen",
+    "hakim-sighaoui"
+   ],
+   "images": [
+    "img/2027-05-08-horsholm.jpg",
+    "img/2027-05-08-horsholm-teamnews.jpg",
+    "img/2027-05-08-horsholm-ht.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -4724,7 +4857,7 @@
    }
   ]
  },
- "currentDate": "2027-05-01",
+ "currentDate": "2027-05-08",
  "spells": [
   {
    "id": "sundby",
@@ -4907,7 +5040,7 @@
    "spell": "sundby",
    "title": "May",
    "inProgress": true,
-   "summary": "The run-in. A goalless draw at Helsingør, with Poulsen outstanding."
+   "summary": "The run-in. Two goalless draws, at Helsingør and at home to Hørsholm-Usserød: the defence is solid, but the attack has dried up, and promotion is slipping away."
   }
  ]
 }
