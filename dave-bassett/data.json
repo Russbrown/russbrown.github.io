@@ -658,9 +658,9 @@
    "apps": 6,
    "goals": 0,
    "assists": 1,
-   "status": "active",
+   "status": "left",
    "tag": "New signing",
-   "storyline": "Set up Trkulja's second on his debut at Virum.",
+   "storyline": "Sold in late November after losing the ball more than anyone in the squad. The board and fans were disappointed to see him go.",
    "avgRating": 6.58,
    "spell": "sundby",
    "role": "MID"
@@ -2715,6 +2715,26 @@
     "img/2026-11-25-hansen-signs.jpg",
     "img/2026-11-27-licence.jpg"
    ]
+  },
+  {
+   "id": "2026-week-23",
+   "spell": "sundby",
+   "month": "2026-12",
+   "date": "2026-12-01",
+   "label": "Week 23 · 28 November–4 December",
+   "title": "Week 23: Top marks, mixed mood",
+   "body": "Karoli was sold in late November. The board and the fans were both disappointed, but he lost the ball more than anyone in the squad.\n\nThe monthly reviews were glowing all the same. The board gave Bassett an A+: \"an unbelievable job, clearly the right manager.\" The fans are ecstatic to be in the promotion race. The small print: tactics only a C+, with complaints that the wing play isn't entertaining, and a reminder that relegation would cost him his job.\n\nThe dressing room is calmer. Atmosphere and team cohesion are both only average. Noah Jakobsen was promised more starts and wants them. He, Nybro and Schak are all unhappy that their agreed playing time has changed.",
+   "players": [
+    "noah-jakobsen",
+    "andreas-nybro",
+    "noah-schak",
+    "malte-karoli"
+   ],
+   "images": [
+    "img/2026-12-01-board-review.jpg",
+    "img/2026-12-01-supporter-review.jpg",
+    "img/2026-12-01-dynamics.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -2840,16 +2860,119 @@
   ],
   "goal": "Make as much money as possible",
   "standing": {
-   "date": "2026-12-02",
-   "board": "A+ Ecstatic",
+   "date": "2026-12-01",
+   "board": "A+",
+   "board_text": "Unbelievable job, clearly the right manager",
    "supporters": "Ecstatic",
+   "board_breakdown": {
+    "club_vision": "A+",
+    "match": "C",
+    "recruitment": "C",
+    "tactics": "C+",
+    "squad": "C"
+   },
+   "highlights": [
+    "In the promotion race",
+    "Pleased with signings of Adam Ejler Hansen and Hakim Sighaoui"
+   ],
+   "criticisms": [
+    "0-0 draw with Næsby",
+    "Sale of Malte Karoli",
+    "0-1 defeat at Frem",
+    "Lack of entertaining football with Wing Play style",
+    "No experience guiding teams clear of relegation"
+   ],
+   "warning": "Relegation would cost Bassett his job",
    "club_objective": "Avoid relegation from the CampoBet 3. Division",
+   "dynamics": {
+    "atmosphere": "Average",
+    "cohesion": "Average",
+    "unhappy_players": 4,
+    "very_happy": 11,
+    "very_happy_first_team": 7,
+    "issues": [
+     {
+      "player": "noah-jakobsen",
+      "issue": "Wants to start more games (promised)"
+     },
+     {
+      "player": "noah-jakobsen",
+      "issue": "Unhappy agreed playing time changed"
+     },
+     {
+      "player": "andreas-nybro",
+      "issue": "Unhappy agreed playing time changed"
+     },
+     {
+      "player": "noah-schak",
+      "issue": "Unhappy agreed playing time changed (Impact Sub)"
+     }
+    ]
+   },
    "jobs_available": [
     "Lyngby (3F Superliga)",
     "Viborg FF (3F Superliga)",
     "Hillerød (Betinia Liga)"
    ]
-  }
+  },
+  "standing_history": [
+   {
+    "date": "2026-12-01",
+    "board": "A+",
+    "board_text": "Unbelievable job, clearly the right manager",
+    "supporters": "Ecstatic",
+    "board_breakdown": {
+     "club_vision": "A+",
+     "match": "C",
+     "recruitment": "C",
+     "tactics": "C+",
+     "squad": "C"
+    },
+    "highlights": [
+     "In the promotion race",
+     "Pleased with signings of Adam Ejler Hansen and Hakim Sighaoui"
+    ],
+    "criticisms": [
+     "0-0 draw with Næsby",
+     "Sale of Malte Karoli",
+     "0-1 defeat at Frem",
+     "Lack of entertaining football with Wing Play style",
+     "No experience guiding teams clear of relegation"
+    ],
+    "warning": "Relegation would cost Bassett his job",
+    "club_objective": "Avoid relegation from the CampoBet 3. Division",
+    "dynamics": {
+     "atmosphere": "Average",
+     "cohesion": "Average",
+     "unhappy_players": 4,
+     "very_happy": 11,
+     "very_happy_first_team": 7,
+     "issues": [
+      {
+       "player": "noah-jakobsen",
+       "issue": "Wants to start more games (promised)"
+      },
+      {
+       "player": "noah-jakobsen",
+       "issue": "Unhappy agreed playing time changed"
+      },
+      {
+       "player": "andreas-nybro",
+       "issue": "Unhappy agreed playing time changed"
+      },
+      {
+       "player": "noah-schak",
+       "issue": "Unhappy agreed playing time changed (Impact Sub)"
+      }
+     ]
+    },
+    "jobs_available": [
+     "Lyngby (3F Superliga)",
+     "Viborg FF (3F Superliga)",
+     "Hillerød (Betinia Liga)"
+    ]
+   }
+  ]
  },
  "currentDate": "2026-12-02",
  "spells": [
@@ -2918,6 +3041,10 @@
     {
      "date": "2026-11-27",
      "label": "Earns National C Licence"
+    },
+    {
+     "date": "2026-12-01",
+     "label": "Board rates him A+"
     }
    ]
   }
@@ -2957,6 +3084,13 @@
    "spell": "sundby",
    "title": "Winter comes early",
    "summary": "Three games without a win before the break. A tired 1–1 with Holbæk after the cup exit, then heartbreak at leaders Frem, lost in stoppage time after a Kunnerup error.\n\nAt Hørsholm-Usserød, Belmaillah ended his drought, but another headed goal from a cross cost two points, and Vandal was injured.\n\nSundby go into the winter break 4th on 24 points, seven behind Frem and two clear of 7th. Midfielder Hakim Sighaoui signed after a trial, and full-back Adam Ejler Hansen arrived to play on the left wing."
+  },
+  {
+   "id": "2026-12",
+   "spell": "sundby",
+   "title": "December",
+   "inProgress": true,
+   "summary": "The winter break. The board gave Bassett an A+ for November, calling it an unbelievable job, and the fans are ecstatic. Squad harmony is only average, with Jakobsen, Nybro and Schak all unhappy about playing time."
   }
  ]
 }

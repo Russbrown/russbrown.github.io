@@ -365,6 +365,7 @@ function renderHead() {
   $("#facts").innerHTML = [
     lic ? `<div class="fact"><span>Coaching licence</span><b>${esc(lic.name)}</b><small>Since ${esc(fmtDate(lic.date))}</small></div>` : "",
     cur ? `<div class="fact"><span>Contract · ${esc(cur.club)}</span><b>${money(cur.wage)} a year</b><small>${esc(cur.type || "")}${cur.type ? " · " : ""}until ${esc(fmtDate(cur.end))} (${Math.round(dd(today, cur.end))} days)</small></div>` : "",
+    m.standing ? `<div class="fact"><span>Board · Fans</span><b>${esc(m.standing.board)} · ${esc(m.standing.supporters)}</b><small>Review ${esc(fmtDate(m.standing.date))}</small></div>` : "",
     cons.length ? `<div class="fact"><span>Career earnings</span><b>${money(earned)}</b><small>Up to ${esc(fmtDate(today))}</small></div>` : ""
   ].join("");
   $("#sub").textContent = `Chapter ${s.chapter}: ${s.club} · ${[s.league, s.season].filter(Boolean).join(" · ")}${s.ambition ? " · Aim: " + s.ambition : ""}`;
