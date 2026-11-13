@@ -2262,6 +2262,126 @@
      "blocked": 1
     }
    }
+  },
+  {
+   "id": "2027-02-13-espergaerde",
+   "spell": "sundby",
+   "date": "2027-02-13",
+   "competition": "Friendly",
+   "opponent": "Espergærde",
+   "venue": "A",
+   "score": {
+    "for": 1,
+    "against": 2
+   },
+   "scorers": [
+    {
+     "player": "mohamed-belmaillah",
+     "minute": 74,
+     "assist": "karlo-trkulja"
+    }
+   ],
+   "conceded": [
+    {
+     "minute": 70,
+     "scorer": "M. Folkmann Andersen",
+     "assist": "J. Thorup"
+    },
+    {
+     "minute": 73,
+     "scorer": "Simeon Jovanovski (own goal)"
+    }
+   ],
+   "summary": "A flat return after the winter break. Espergærde had 20 shots to 13 and 10 on target. Jovanovski's own goal made it 2–0 before Belmaillah pulled one back.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     43,
+     57
+    ],
+    "shots": [
+     13,
+     20
+    ],
+    "on_target": [
+     3,
+     10
+    ],
+    "xg": [
+     1.11,
+     2.28
+    ],
+    "clear_cut": [
+     0,
+     3
+    ],
+    "corners": [
+     5,
+     10
+    ],
+    "fouls": [
+     7,
+     12
+    ],
+    "progressive_passes": [
+     35,
+     31
+    ],
+    "pass_pct": [
+     77,
+     81
+    ],
+    "cross_pct": [
+     11,
+     22
+    ],
+    "distance_km": [
+     113,
+     113
+    ],
+    "avg_rating": [
+     6.7,
+     6.7
+    ],
+    "oppda": [
+     19.05,
+     12.07
+    ],
+    "weather": "Strong wind"
+   },
+   "lineup": {
+    "formation": "4-2-2-2 (DLP + DM)",
+    "XI": [
+     "lucas-poulsen",
+     "noah-schak",
+     "mads-jul-jorgens",
+     "simeon-jovanovski",
+     "benjamin-damsgaard",
+     "gustav-frederiksen",
+     "nicklas-halse",
+     "oliver-koertz",
+     "karlo-trkulja",
+     "giran-pyne-cole",
+     "bastian-andersen"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 7.1,
+    "noah-schak": 6.6,
+    "mads-jul-jorgens": 6.4,
+    "simeon-jovanovski": 6.8,
+    "benjamin-damsgaard": 6.7,
+    "gustav-frederiksen": 6.5,
+    "nicklas-halse": 6.9,
+    "oliver-koertz": 6.5,
+    "karlo-trkulja": 6.7,
+    "giran-pyne-cole": 6.6,
+    "bastian-andersen": 6.6
+   },
+   "errors_leading_to_goal": {
+    "simeon-jovanovski": 1
+   },
+   "image": "img/2027-02-13-espergaerde.jpg"
   }
  ],
  "story": [
@@ -2843,6 +2963,26 @@
     "magnus-vandal"
    ],
    "images": []
+  },
+  {
+   "id": "2027-week-07",
+   "spell": "sundby",
+   "month": "2027-02",
+   "date": "2027-02-13",
+   "label": "Week 7 · 13–19 February",
+   "title": "Week 7: Rusty in the wind",
+   "body": "The first game back after three months off was a friendly at Espergærde, in a strong wind. It was a disappointment.\n\nHalse made his debut alongside Frederiksen, with Koertz on the right. Espergærde had 20 shots to 13, 10 on target to Sundby's 3, and three clear chances to none. Poulsen (7.1) kept it goalless until the 70th minute, when Folkmann Andersen scored. Three minutes later Jovanovski turned the ball into his own net.\n\nBelmaillah pulled one back immediately, set up by Trkulja, but it finished 2–1. Halse was the best outfield player on his debut (6.9).",
+   "match": "2027-02-13-espergaerde",
+   "players": [
+    "nicklas-halse",
+    "simeon-jovanovski",
+    "mohamed-belmaillah",
+    "oliver-koertz",
+    "lucas-poulsen"
+   ],
+   "images": [
+    "img/2027-02-13-espergaerde.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -3082,7 +3222,7 @@
    }
   ]
  },
- "currentDate": "2027-02-10",
+ "currentDate": "2027-02-13",
  "spells": [
   {
    "id": "sundby",
