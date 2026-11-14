@@ -1,5 +1,5 @@
 {
- "updatedAt": "2027-08-04",
+ "updatedAt": "2027-08-07",
  "players": [
   {
    "id": "lucas-poulsen",
@@ -360,7 +360,7 @@
    "name": "Bastian Andersen",
    "age": 20,
    "apps": 22,
-   "goals": 8,
+   "goals": 9,
    "assists": 2,
    "status": "active",
    "storyline": "Came off the bench at Vanløse and scored twice in six minutes (8.3), both set up by Pyne-Cole.",
@@ -547,7 +547,7 @@
    "position": "D (C)",
    "nationality": "SWE",
    "apps": 29,
-   "goals": 0,
+   "goals": 1,
    "assists": 0,
    "status": "active",
    "tag": "New signing",
@@ -955,10 +955,10 @@
    "position": "M/AM (R)",
    "age": 23,
    "nationality": "Denmark",
-   "apps": 1,
-   "goals": 0,
+   "apps": 2,
+   "goals": 1,
    "assists": 0,
-   "avgRating": 7.0,
+   "avgRating": 7.55,
    "storyline": "Signed from Hørsholm-Usserød in July 2027. A quick, two-footed right winger with 49 goals in 130 career games. Concentration 1, so he drifts in and out.",
    "bio": "Signed from Hørsholm-Usserød in July 2027. A quick, two-footed right winger with 49 goals in 130 career games. Concentration 1, so he drifts in and out.",
    "tag": "New signing",
@@ -4733,6 +4733,59 @@
     "rasmus-steuch": 6.7
    },
    "image": "img/2027-08-04-hillerod-cup.jpg"
+  },
+  {
+   "id": "2027-08-07-naestved",
+   "spell": "sundby",
+   "date": "2027-08-07",
+   "competition": "CampoBet 2. Division",
+   "opponent": "Næstved",
+   "venue": "H",
+   "score": {
+    "for": 3,
+    "against": 1
+   },
+   "scorers": [
+    {
+     "player": "khalid-al-ali",
+     "minute": 3
+    },
+    {
+     "player": "bastian-andersen",
+     "minute": 60
+    },
+    {
+     "player": "simeon-jovanovski",
+     "minute": 88
+    }
+   ],
+   "summary": "The first 2. Division win, earned despite only 27% of the ball. Al-Ali (8.1, Player of the Match) scored after three minutes; Andersen and Jovanovski added headers.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     27,
+     73
+    ],
+    "shots": [
+     6,
+     14
+    ],
+    "on_target": [
+     4,
+     7
+    ],
+    "xg": [
+     0.7,
+     1.29
+    ],
+    "weather": "Drizzle, 21°C",
+    "attendance": 208
+   },
+   "potm": "khalid-al-ali",
+   "ratings": {
+    "khalid-al-ali": 8.1
+   },
+   "image": "img/2027-08-07-naestved.jpg"
   }
  ],
  "story": [
@@ -5788,6 +5841,25 @@
    "images": [
     "img/2027-08-04-hillerod-cup.jpg"
    ]
+  },
+  {
+   "id": "2027-week-33",
+   "spell": "sundby",
+   "month": "2027-08",
+   "date": "2027-08-07",
+   "label": "Week 33 · 7 August",
+   "title": "Week 33: First win in the 2. Division",
+   "body": "Næstved came to Kløvermarken and had 73% of the ball, but Sundby won 3–1.\n\nKhalid Al-Ali needed three minutes to make his mark. He pounced on a mistake by Mads Bager and his shot went in off the woodwork. Full-back Jonathan Krath equalised for Næstved after 39 minutes, but Bastian Andersen headed Sundby back in front on the hour. Simeon Jovanovski sealed it with another header two minutes from time.\n\nAl-Ali was Player of the Match (8.1) on his home debut. Gabriel Santos, 17, made his professional debut. A crowd of 208 was there, Sundby's biggest of the Bassett era so far.",
+   "match": "2027-08-07-naestved",
+   "players": [
+    "khalid-al-ali",
+    "bastian-andersen",
+    "simeon-jovanovski",
+    "gabriel-santos"
+   ],
+   "images": [
+    "img/2027-08-07-naestved.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -6089,7 +6161,7 @@
    }
   ]
  },
- "currentDate": "2027-08-04",
+ "currentDate": "2027-08-07",
  "spells": [
   {
    "id": "sundby",
@@ -6295,7 +6367,7 @@
    "spell": "sundby",
    "title": "August",
    "inProgress": true,
-   "summary": "Out of the Danish Cup at the first hurdle, beaten in extra time at Hillerød."
+   "summary": "Out of the Danish Cup in extra time at Hillerød, then a first 2. Division win: 3–1 over Næstved."
   }
  ]
 }
