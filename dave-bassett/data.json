@@ -1,18 +1,18 @@
 {
- "updatedAt": "2027-07-31",
+ "updatedAt": "2027-08-04",
  "players": [
   {
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 33,
+   "apps": 34,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Player of the match at FC Helsingør (8.1), with seven saves in a 0–0. A month after being taken off in the 7–1.",
    "number": 24,
-   "avgRating": 6.88,
+   "avgRating": 6.9,
    "spell": "sundby",
    "role": "GK"
   },
@@ -34,7 +34,7 @@
    "id": "mads-jul-jorgens",
    "name": "Mads Jul Jørgensen",
    "age": 24,
-   "apps": 26,
+   "apps": 27,
    "goals": 1,
    "assists": 0,
    "status": "active",
@@ -83,7 +83,7 @@
    "id": "gustav-frederiksen",
    "name": "Gustav Frederiksen",
    "age": 21,
-   "apps": 22,
+   "apps": 23,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -98,13 +98,13 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 24,
+   "apps": 25,
    "goals": 1,
    "assists": 1,
    "status": "active",
    "storyline": "Scored a stoppage-time equaliser at ASA, Aarhus, playing as a defensive midfielder (7.3).",
    "tag": "Captain",
-   "avgRating": 6.71,
+   "avgRating": 6.7,
    "spell": "sundby",
    "role": "MID",
    "position": "DM, M (C)"
@@ -280,7 +280,7 @@
    "id": "magnus-langhorn",
    "name": "Magnus Langhorn",
    "age": 22,
-   "apps": 23,
+   "apps": 24,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -289,7 +289,7 @@
    "nationality": "DEN",
    "spell": "sundby",
    "tag": "New first choice",
-   "avgRating": 6.94,
+   "avgRating": 6.92,
    "role": "DEF"
   },
   {
@@ -360,7 +360,7 @@
    "name": "Bastian Andersen",
    "age": 20,
    "apps": 22,
-   "goals": 7,
+   "goals": 8,
    "assists": 2,
    "status": "active",
    "storyline": "Came off the bench at Vanløse and scored twice in six minutes (8.3), both set up by Pyne-Cole.",
@@ -703,14 +703,14 @@
    "age": 27,
    "position": "ST (C)",
    "nationality": "DEN",
-   "apps": 19,
+   "apps": 20,
    "goals": 9,
    "assists": 4,
    "status": "active",
    "tag": "Talisman",
    "storyline": "Three goals in two games: a double at Ishøj, then the winner against ASA, Aarhus.",
    "spell": "sundby",
-   "avgRating": 7.0,
+   "avgRating": 6.98,
    "role": "FWD"
   },
   {
@@ -921,7 +921,7 @@
    "position": "D/WB (RL)",
    "age": 21,
    "nationality": "Denmark",
-   "apps": 1,
+   "apps": 2,
    "goals": 0,
    "assists": 0,
    "avgRating": 6.4,
@@ -938,10 +938,10 @@
    "position": "D/M (R)",
    "age": 25,
    "nationality": "Denmark",
-   "apps": 1,
+   "apps": 2,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.8,
+   "avgRating": 6.75,
    "storyline": "Signed on a free from Holbæk in July 2027. A right-back with the best crossing in the squad (14), positioning 12 and a big engine (natural fitness 16).",
    "bio": "Signed on a free from Holbæk in July 2027. A right-back with the best crossing in the squad (14), positioning 12 and a big engine (natural fitness 16).",
    "tag": "New signing",
@@ -955,10 +955,10 @@
    "position": "M/AM (R)",
    "age": 23,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 7.0,
    "storyline": "Signed from Hørsholm-Usserød in July 2027. A quick, two-footed right winger with 49 goals in 130 career games. Concentration 1, so he drifts in and out.",
    "bio": "Signed from Hørsholm-Usserød in July 2027. A quick, two-footed right winger with 49 goals in 130 career games. Concentration 1, so he drifts in and out.",
    "tag": "New signing",
@@ -972,10 +972,10 @@
    "position": "M (RL), AM (L)",
    "age": 18,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.4,
    "storyline": "Signed in July 2027 after a trial, formerly OB's. A natural left winger rated 4 stars with 5-star potential.",
    "bio": "Signed in July 2027 after a trial, formerly OB's. A natural left winger rated 4 stars with 5-star potential.",
    "tag": "New signing",
@@ -1023,10 +1023,10 @@
    "position": "D (C)",
    "age": 20,
    "nationality": "Denmark",
-   "apps": 1,
+   "apps": 2,
    "goals": 0,
    "assists": 0,
-   "avgRating": 6.5,
+   "avgRating": 6.45,
    "storyline": "Signed from Hørsholm-Usserød in July 2027. A centre-back who reads the game (decisions 15, anticipation 12) and wins headers. Rated 4 stars. Physically light.",
    "bio": "Signed from Hørsholm-Usserød in July 2027. A centre-back who reads the game (decisions 15, anticipation 12) and wins headers. Rated 4 stars. Physically light.",
    "tag": "New signing",
@@ -1037,14 +1037,14 @@
    "id": "jonas-buch-dahl",
    "name": "Jonas Buch Dahl",
    "role": "FWD",
-   "position": "?",
+   "position": "ST (C)",
    "age": 24,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
-   "storyline": "Joined in summer 2027.",
+   "avgRating": 7.3,
+   "storyline": "Joined in summer 2027. A striker with good first touch (13) and movement (off the ball 12). Set up Andersen's goal at Hillerød in the cup.",
    "bio": "Joined in summer 2027.",
    "tag": "New signing",
    "status": "active",
@@ -4618,6 +4618,121 @@
     "noah-kjer": 6.7
    },
    "image": "img/2027-07-31-frem.jpg"
+  },
+  {
+   "id": "2027-08-04-hillerod-cup",
+   "spell": "sundby",
+   "date": "2027-08-04",
+   "competition": "Danish Cup – First Round",
+   "opponent": "Hillerød",
+   "venue": "A",
+   "score": {
+    "for": 1,
+    "against": 2,
+    "note": "after extra time"
+   },
+   "scorers": [
+    {
+     "player": "bastian-andersen",
+     "minute": "45+2",
+     "assist": "jonas-buch-dahl"
+    }
+   ],
+   "summary": "Out of the cup after extra time. Andersen's goal in first-half stoppage time almost won it, but Kretzschmar equalised in the 93rd minute and Høyer won it in the 107th.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     38,
+     62
+    ],
+    "shots": [
+     14,
+     16
+    ],
+    "on_target": [
+     9,
+     7
+    ],
+    "xg": [
+     1.83,
+     2.05
+    ],
+    "clear_cut": [
+     3,
+     2
+    ],
+    "corners": [
+     5,
+     11
+    ],
+    "fouls": [
+     16,
+     11
+    ],
+    "yellow": [
+     1,
+     2
+    ],
+    "progressive_passes": [
+     47,
+     78
+    ],
+    "pass_pct": [
+     83,
+     86
+    ],
+    "cross_pct": [
+     17,
+     25
+    ],
+    "distance_km": [
+     152,
+     154
+    ],
+    "avg_rating": [
+     6.9,
+     6.9
+    ],
+    "oppda": [
+     18.51,
+     13.06
+    ],
+    "weather": "Breezy"
+   },
+   "lineup": {
+    "note": "Positions as shown at full time",
+    "XI": [
+     "lucas-poulsen",
+     "magnus-langhorn",
+     "oliver-wettergren",
+     "mads-jul-jorgens",
+     "huseyin-tumturk",
+     "johan-becker",
+     "gustav-frederiksen",
+     "khalid-al-ali",
+     "david-manata",
+     "marcus-molvadgaard",
+     "jonas-buch-dahl"
+    ],
+    "subs_on": [
+     "rasmus-steuch"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 7.4,
+    "magnus-langhorn": 6.5,
+    "oliver-wettergren": 6.4,
+    "mads-jul-jorgens": 6.9,
+    "huseyin-tumturk": 6.4,
+    "johan-becker": 6.4,
+    "gustav-frederiksen": 6.7,
+    "khalid-al-ali": 7.0,
+    "david-manata": 6.4,
+    "marcus-molvadgaard": 6.7,
+    "jonas-buch-dahl": 7.3,
+    "rasmus-steuch": 6.7
+   },
+   "image": "img/2027-08-04-hillerod-cup.jpg"
   }
  ],
  "story": [
@@ -5655,6 +5770,24 @@
    "images": [
     "img/2027-07-31-frem.jpg"
    ]
+  },
+  {
+   "id": "2027-week-32",
+   "spell": "sundby",
+   "month": "2027-08",
+   "date": "2027-08-04",
+   "label": "Week 32 · 4 August",
+   "title": "Week 32: Out in extra time",
+   "body": "The Danish Cup first round, away at Hillerød. Andersen put Sundby ahead in first-half stoppage time, set up by new striker Jonas Buch Dahl (7.3).\n\nSundby were three minutes from the next round. Then, in the third minute of added time, Kretzschmar equalised. It was the same Kretzschmar who scored a hat-trick for Frem against Sundby in May. In extra time, Høyer headed the winner after 107 minutes.\n\nIt was close throughout: Sundby had more shots on target (9 to 7) and more clear chances (3 to 2), and the xG was 1.83 to 2.05. Poulsen (7.4) was busy. The worry is a second late goal conceded in two games.",
+   "match": "2027-08-04-hillerod-cup",
+   "players": [
+    "bastian-andersen",
+    "jonas-buch-dahl",
+    "lucas-poulsen"
+   ],
+   "images": [
+    "img/2027-08-04-hillerod-cup.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -5956,7 +6089,7 @@
    }
   ]
  },
- "currentDate": "2027-07-31",
+ "currentDate": "2027-08-04",
  "spells": [
   {
    "id": "sundby",
@@ -6156,6 +6289,13 @@
    "title": "July",
    "inProgress": true,
    "summary": "Every job application was turned down, so Bassett stays at Sundby for life in the 2. Division."
+  },
+  {
+   "id": "2027-08",
+   "spell": "sundby",
+   "title": "August",
+   "inProgress": true,
+   "summary": "Out of the Danish Cup at the first hurdle, beaten in extra time at Hillerød."
   }
  ]
 }
