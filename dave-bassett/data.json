@@ -1,18 +1,18 @@
 {
- "updatedAt": "2027-07-10",
+ "updatedAt": "2027-07-31",
  "players": [
   {
    "id": "lucas-poulsen",
    "name": "Lucas Poulsen",
    "age": 23,
-   "apps": 32,
+   "apps": 33,
    "goals": 0,
    "assists": 0,
    "status": "active",
    "position": "GK",
    "storyline": "Player of the match at FC Helsingør (8.1), with seven saves in a 0–0. A month after being taken off in the 7–1.",
    "number": 24,
-   "avgRating": 6.9,
+   "avgRating": 6.88,
    "spell": "sundby",
    "role": "GK"
   },
@@ -98,7 +98,7 @@
    "id": "johan-becker",
    "name": "Johan Becker",
    "age": 24,
-   "apps": 23,
+   "apps": 24,
    "goals": 1,
    "assists": 1,
    "status": "active",
@@ -312,7 +312,7 @@
    "id": "giran-pyne-cole",
    "name": "Giran Pyne-Cole",
    "age": 24,
-   "apps": 23,
+   "apps": 24,
    "goals": 7,
    "assists": 8,
    "status": "active",
@@ -320,7 +320,7 @@
    "nationality": "DEN",
    "storyline": "Set up Mølvadgaard's opener at Ishøj (7.3).",
    "number": 10,
-   "avgRating": 6.95,
+   "avgRating": 6.93,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -359,7 +359,7 @@
    "id": "bastian-andersen",
    "name": "Bastian Andersen",
    "age": 20,
-   "apps": 21,
+   "apps": 22,
    "goals": 7,
    "assists": 2,
    "status": "active",
@@ -369,7 +369,7 @@
    "nationality": "DEN",
    "bio": "Signed on a free, amateur deal on 12 July after his trial. Right-footed, quick enough (pace 12) and a decent passer (13). The assistant rates him 3.5 stars now and 5 for potential.",
    "number": 28,
-   "avgRating": 6.9,
+   "avgRating": 6.88,
    "spell": "sundby",
    "role": "FWD"
   },
@@ -546,7 +546,7 @@
    "age": 20,
    "position": "D (C)",
    "nationality": "SWE",
-   "apps": 28,
+   "apps": 29,
    "goals": 0,
    "assists": 0,
    "status": "active",
@@ -802,10 +802,10 @@
    "position": "D/WB (R), DM, M (C)",
    "age": 29,
    "nationality": "Denmark",
-   "apps": 9,
-   "goals": 0,
+   "apps": 10,
+   "goals": 1,
    "assists": 0,
-   "avgRating": 6.7,
+   "avgRating": 6.76,
    "storyline": "Signed in January as the ball-winning holding midfielder the side lacked. Rated 4 stars, the best in the squad, with leadership 13 and determination 15. Can cover right-back.",
    "bio": "29-year-old defensive midfielder with a national reputation. 221 career games, most recently at 2. Division leaders FC Roskilde.",
    "tag": "New signing",
@@ -819,10 +819,10 @@
    "position": "M (RC), AM (R)",
    "age": 22,
    "nationality": "Denmark",
-   "apps": 9,
+   "apps": 10,
    "goals": 0,
    "assists": 1,
-   "avgRating": 6.56,
+   "avgRating": 6.55,
    "storyline": "Set up Belmaillah's final-day winner at FC Helsingør (7.6), his best game yet.",
    "bio": "22-year-old right winger, rated 3.5 stars as a winger.",
    "tag": "New signing",
@@ -853,10 +853,10 @@
    "position": "Midfielder",
    "age": 18,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.7,
    "storyline": "The pick of the young trialists in April: rated highest of the group. Signed on a free transfer in June 2027. Coach rating: 3.5 stars.",
    "bio": "18-year-old midfielder. Free transfer, June 2027.",
    "tag": "New signing",
@@ -921,10 +921,10 @@
    "position": "D/WB (RL)",
    "age": 21,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.4,
    "storyline": "Signed in July 2027 from relegated Holbæk on a free, as the new first-choice left-back. Reads the game well (positioning 12, decisions 10, anticipation 10) and is tidy on the ball (first touch 12, technique 11). Coach rating 3.5 stars, potential 4.5.",
    "bio": "21-year-old full-back, comfortable on either side. £9.25K a year to June 2028.",
    "tag": "New signing",
@@ -938,10 +938,10 @@
    "position": "D/M (R)",
    "age": 25,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.8,
    "storyline": "Signed on a free from Holbæk in July 2027. A right-back with the best crossing in the squad (14), positioning 12 and a big engine (natural fitness 16).",
    "bio": "Signed on a free from Holbæk in July 2027. A right-back with the best crossing in the squad (14), positioning 12 and a big engine (natural fitness 16).",
    "tag": "New signing",
@@ -989,10 +989,10 @@
    "position": "AM (RL), ST",
    "age": 21,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.6,
    "storyline": "Signed from ASA, Aarhus in July 2027. A natural left winger who works hard (work rate 12).",
    "bio": "Signed from ASA, Aarhus in July 2027. A natural left winger who works hard (work rate 12).",
    "tag": "New signing",
@@ -1023,10 +1023,10 @@
    "position": "D (C)",
    "age": 20,
    "nationality": "Denmark",
-   "apps": 0,
+   "apps": 1,
    "goals": 0,
    "assists": 0,
-   "avgRating": null,
+   "avgRating": 6.5,
    "storyline": "Signed from Hørsholm-Usserød in July 2027. A centre-back who reads the game (decisions 15, anticipation 12) and wins headers. Rated 4 stars. Physically light.",
    "bio": "Signed from Hørsholm-Usserød in July 2027. A centre-back who reads the game (decisions 15, anticipation 12) and wins headers. Rated 4 stars. Physically light.",
    "tag": "New signing",
@@ -4503,6 +4503,121 @@
     "attendance": 179
    },
    "potm": "hakim-sighaoui"
+  },
+  {
+   "id": "2027-07-31-frem",
+   "spell": "sundby",
+   "date": "2027-07-31",
+   "competition": "CampoBet 2. Division",
+   "opponent": "Frem",
+   "venue": "A",
+   "score": {
+    "for": 1,
+    "against": 2
+   },
+   "scorers": [
+    {
+     "player": "nicklas-halse",
+     "minute": 18,
+     "assist": "khalid-al-ali"
+    }
+   ],
+   "leaguePos": 11,
+   "summary": "An even game on xG (0.75 to 0.79), and Sundby made the only two clear chances. Halse equalised Knaack's early opener, but Wass won it for Frem on the counter after 64 minutes.",
+   "stats": {
+    "order": "[Sundby, opponent]",
+    "possession": [
+     39,
+     61
+    ],
+    "shots": [
+     8,
+     11
+    ],
+    "on_target": [
+     2,
+     5
+    ],
+    "xg": [
+     0.75,
+     0.79
+    ],
+    "clear_cut": [
+     2,
+     0
+    ],
+    "corners": [
+     5,
+     5
+    ],
+    "fouls": [
+     10,
+     6
+    ],
+    "yellow": [
+     0,
+     1
+    ],
+    "progressive_passes": [
+     32,
+     47
+    ],
+    "pass_pct": [
+     80,
+     86
+    ],
+    "cross_pct": [
+     2,
+     9
+    ],
+    "distance_km": [
+     122,
+     124
+    ],
+    "avg_rating": [
+     6.6,
+     6.9
+    ],
+    "oppda": [
+     24.91,
+     12.43
+    ],
+    "weather": "Calm"
+   },
+   "lineup": {
+    "note": "Positions as shown at full time",
+    "XI": [
+     "lucas-poulsen",
+     "rasmus-steuch",
+     "simeon-jovanovski",
+     "oliver-wettergren",
+     "huseyin-tumturk",
+     "johan-becker",
+     "nicklas-halse",
+     "oliver-koertz",
+     "asger-stengaard",
+     "bastian-andersen",
+     "giran-pyne-cole"
+    ],
+    "subs_on": [
+     "noah-kjer"
+    ]
+   },
+   "ratings": {
+    "lucas-poulsen": 6.3,
+    "rasmus-steuch": 6.8,
+    "simeon-jovanovski": 6.9,
+    "oliver-wettergren": 6.5,
+    "huseyin-tumturk": 6.4,
+    "johan-becker": 6.6,
+    "nicklas-halse": 7.3,
+    "oliver-koertz": 6.5,
+    "asger-stengaard": 6.6,
+    "bastian-andersen": 6.5,
+    "giran-pyne-cole": 6.5,
+    "noah-kjer": 6.7
+   },
+   "image": "img/2027-07-31-frem.jpg"
   }
  ],
  "story": [
@@ -5522,6 +5637,24 @@
     "img/2027-07-31-squad-2.jpg",
     "img/2027-07-31-squad-1.jpg"
    ]
+  },
+  {
+   "id": "2027-week-31",
+   "spell": "sundby",
+   "month": "2027-07",
+   "date": "2027-07-31",
+   "label": "Week 31 · 31 July",
+   "title": "Week 31: Unlucky at Valby",
+   "body": "The 2. Division opener, away at Frem. Knaack put the champions ahead after six minutes, but Sundby hit back quickly. Halse finished Al-Ali's pass to make it 1–1 after 18 minutes.\n\nIt was far closer than May's 4–1 at the same ground. Frem had 61% of the ball, but the expected goals were almost level (0.79 to 0.75), and Sundby made the only two clear-cut chances of the game. The difference came after 64 minutes, when Frem broke behind the Sundby defence and Wass scored from Simonsen's pass.\n\nHalse (7.3) was Sundby's best player. Sundby's crossing was poor: only 2% of crosses found a teammate.",
+   "match": "2027-07-31-frem",
+   "players": [
+    "nicklas-halse",
+    "khalid-al-ali",
+    "noah-kjer"
+   ],
+   "images": [
+    "img/2027-07-31-frem.jpg"
+   ]
   }
  ],
  "fixtures": [
@@ -5823,7 +5956,7 @@
    }
   ]
  },
- "currentDate": "2027-07-10",
+ "currentDate": "2027-07-31",
  "spells": [
   {
    "id": "sundby",
