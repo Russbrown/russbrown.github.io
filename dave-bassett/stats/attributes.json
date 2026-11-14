@@ -1781,6 +1781,60 @@
      "strength": 6
     }
    }
+  },
+  {
+   "date": "2027-07-20",
+   "source": "Player profile (pre-season)",
+   "players": {
+    "simeon-jovanovski": {
+     "crossing": 5,
+     "dribbling": 5,
+     "finishing": 4,
+     "first_touch": 10,
+     "heading": 9,
+     "long_shots": 8,
+     "marking": 11,
+     "passing": 9,
+     "tackling": 12,
+     "technique": 9,
+     "corners": 5,
+     "free_kicks": 6,
+     "long_throws": 6,
+     "penalties": 6,
+     "aggression": 9,
+     "anticipation": 9,
+     "bravery": 9,
+     "composure": 8,
+     "concentration": 9,
+     "decisions": 9,
+     "determination": 16,
+     "flair": 5,
+     "leadership": 9,
+     "off_the_ball": 6,
+     "positioning": 11,
+     "teamwork": 11,
+     "vision": 8,
+     "work_rate": 11,
+     "acceleration": 11,
+     "agility": 8,
+     "balance": 10,
+     "jumping_reach": 13,
+     "natural_fitness": 12,
+     "pace": 11,
+     "stamina": 8,
+     "strength": 12,
+     "name": "Simeon Jovanovski",
+     "age": 21,
+     "position": "D (C)",
+     "ca_stars": 4,
+     "pa_stars": 5,
+     "height": "6'0\"",
+     "reputation": "National",
+     "personality": "Spirited",
+     "wage": "£3.3K p/a to 30/6/2028",
+     "squad_status": "Star Player"
+    }
+   }
   }
  ]
 }
