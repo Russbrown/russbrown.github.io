@@ -913,6 +913,23 @@
    "tag": "New signing",
    "status": "active",
    "spell": "sundby"
+  },
+  {
+   "id": "huseyin-tumturk",
+   "name": "Hüseyin Tümtürk",
+   "role": "DEF",
+   "position": "D/WB (RL)",
+   "age": 21,
+   "nationality": "Denmark",
+   "apps": 0,
+   "goals": 0,
+   "assists": 0,
+   "avgRating": null,
+   "storyline": "Signed in July 2027 from relegated Holbæk on a free, as the new first-choice left-back. Reads the game well (positioning 12, decisions 10, anticipation 10) and is tidy on the ball (first touch 12, technique 11). Coach rating 3.5 stars, potential 4.5.",
+   "bio": "21-year-old full-back, comfortable on either side. £9.25K a year to June 2028.",
+   "tag": "New signing",
+   "status": "active",
+   "spell": "sundby"
   }
  ],
  "matches": [
@@ -5367,8 +5384,10 @@
    "date": "2027-07-10",
    "label": "Week 28 · 10 July",
    "title": "Week 28: Staying put",
-   "body": "Promotion made Bassett's name, and he tested the market. He applied for several jobs over the summer, hoping a bigger club would offer a better contract. Every application was turned down.\n\nSo it's another season at Sundby, now in the 2. Division. Pre-season is under way, and the trial process has turned up two highly rated teenage wingers, Gabriel Santos and David Manata, along with Ishøj goalkeeper Marius Kruse.",
-   "players": []
+   "body": "Promotion made Bassett's name, and he tested the market. He applied for several jobs over the summer, hoping a bigger club would offer a better contract. Every application was turned down.\n\nSo it's another season at Sundby, now in the 2. Division. Pre-season is under way, and the trial process has turned up two highly rated teenage wingers, Gabriel Santos and David Manata, along with Ishøj goalkeeper Marius Kruse.\n\nThe first summer signing went through: left-back Hüseyin Tümtürk, 21, joined on a free from relegated Holbæk on £9.25K a year until 2028. That's more than double what his manager earns.",
+   "players": [
+    "huseyin-tumturk"
+   ]
   }
  ],
  "fixtures": [
