@@ -415,7 +415,7 @@ function route() {
     LAST_MONTH = mm[1]; renderMonthPage(mm[1]);
     if (changedMonth) window.scrollTo(0, 0);
   } else {
-    const t = ["story", "results", "squad", "awards"].includes(h) ? h : "story";
+    const t = ["story", "results", "squad", "alumni", "awards"].includes(h) ? h : "story";
     showTab(t);
     if (LAST_MONTH) { const c = document.getElementById("m-" + LAST_MONTH); LAST_MONTH = null; if (c) c.scrollIntoView({ block: "center" }); }
   }
@@ -540,7 +540,6 @@ function renderSquad(el) {
   const groups = {};
   const ROLE = { GK: "Goalkeepers", DEF: "Defenders", MID: "Midfielders", FWD: "Forwards" };
   DATA.players.filter(p => p.status !== "left").forEach(p => (groups[p.group || ROLE[p.role] || posGroup(p)] ||= []).push(p));
-  const left = DATA.players.filter(p => p.status === "left");
   const card = p => `<button class="pcard" data-player="${esc(p.id)}">
       <div class="top"><span class="name">${esc(p.name)}</span><span class="num">${esc(p.number ?? "")}</span></div>
       <div class="info">${esc([p.position, p.age ? p.age + " yrs" : "", p.nationality].filter(Boolean).join(" · "))}</div>
@@ -549,7 +548,21 @@ function renderSquad(el) {
       <div class="nums"><div><b>${p.apps ?? 0}</b><span>Apps</span></div><div><b>${p.goals ?? 0}</b><span>Goals</span></div><div><b>${p.assists ?? 0}</b><span>Assists</span></div><div><b>${p.avgRating ?? "–"}</b><span>Rating</span></div></div>
     </button>`;
   el.innerHTML = '<div class="squad-wrap">' + POS_ORDER.filter(g => groups[g]).map(g => `<div class="posgroup">${g}</div><div class="squad">${groups[g].map(card).join("")}</div>`).join("")
-    + (left.length ? `<div class="posgroup">Moved on</div><div class="squad">${left.map(card).join("")}</div>` : "") + "</div>";
+    + "</div>";
+}
+function pcard(p) {
+  return `<button class="pcard" data-player="${esc(p.id)}">
+      <div class="top"><span class="name">${esc(p.name)}</span><span class="num">${esc(p.number ?? "")}</span></div>
+      <div class="info">${esc([p.position, p.nationality].filter(Boolean).join(" · "))}</div>
+      ${p.storyline ? `<div class="line">${esc(p.storyline)}</div>` : ""}
+      <div class="nums"><div><b>${p.apps ?? 0}</b><span>Apps</span></div><div><b>${p.goals ?? 0}</b><span>Goals</span></div><div><b>${p.assists ?? 0}</b><span>Assists</span></div><div><b>${p.avgRating ?? "–"}</b><span>Rating</span></div></div>
+    </button>`;
+}
+function renderAlumni(el) {
+  const gone = DATA.players.filter(p => p.status === "left" && (p.apps || 0) > 0).sort((a, b) => (b.apps || 0) - (a.apps || 0));
+  el.innerHTML = gone.length
+    ? `<div class="squad-wrap"><p class="muted">Players who have played for Bassett and have since left the club, most appearances first.</p><div class="squad">${gone.map(pcard).join("")}</div></div>`
+    : '<p class="muted">No former players yet.</p>';
 }
 
 let ATTR = null, PSTATS = null;
@@ -683,11 +696,11 @@ function openImage(src, entryId) {
 }
 
 function renderTabs() {
-  const tabs = ["story", "results", "squad", "awards"];
+  const tabs = ["story", "results", "squad", "alumni", "awards"];
   const want = tabs.includes(location.hash.slice(1)) ? location.hash.slice(1) : "story";
   $("#main").innerHTML = `<nav class="tabs" role="tablist">${tabs.map(t => `<button role="tab" id="tab-${t}" aria-selected="${t === want}" data-tab="${t}">${t[0].toUpperCase() + t.slice(1)}</button>`).join("")}</nav>
     ${tabs.map(t => `<section id="${t}-panel" role="tabpanel" ${t === want ? "" : "hidden"}></section>`).join("")}`;
-  renderStory($("#story-panel")); renderResults($("#results-panel")); renderSquad($("#squad-panel")); renderAwards($("#awards-panel"));
+  renderStory($("#story-panel")); renderResults($("#results-panel")); renderSquad($("#squad-panel")); renderAlumni($("#alumni-panel")); renderAwards($("#awards-panel"));
 }
 function showTab(t) {
   document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
