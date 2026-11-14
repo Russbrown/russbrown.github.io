@@ -69,12 +69,12 @@
    "apps": 15,
    "goals": 0,
    "assists": 1,
-   "status": "active",
+   "status": "left",
    "number": 4,
    "position": "D (L)",
    "avgRating": 6.75,
    "spell": "sundby",
-   "tag": "New first choice",
+   "tag": "Left",
    "storyline": "Back from injury at left-back for the draw at ASA, Aarhus.",
    "role": "DEF",
    "injured": true
@@ -842,8 +842,8 @@
    "avgRating": 6.67,
    "storyline": "Signed in February as a stay-at-home left-back. Strong in the air (6'1\", heading 10) and defensively reliable, with concentration 10 and teamwork 13. Slow (pace 8), so not one for quick wingers.",
    "bio": "32-year-old left-footed defender. Plays left-back or centre-back. 9 previous clubs.",
-   "tag": "New signing",
-   "status": "active",
+   "tag": "Left",
+   "status": "left",
    "spell": "sundby"
   },
   {
@@ -5384,7 +5384,7 @@
    "date": "2027-07-10",
    "label": "Week 28 · 10 July",
    "title": "Week 28: Staying put",
-   "body": "Promotion made Bassett's name, and he tested the market. He applied for several jobs over the summer, hoping a bigger club would offer a better contract. Every application was turned down.\n\nSo it's another season at Sundby, now in the 2. Division. Pre-season is under way, and the trial process has turned up two highly rated teenage wingers, Gabriel Santos and David Manata, along with Ishøj goalkeeper Marius Kruse.\n\nThe first summer signing went through: left-back Hüseyin Tümtürk, 21, joined on a free from relegated Holbæk on £9.25K a year until 2028. That's more than double what his manager earns.",
+   "body": "Promotion made Bassett's name, and he tested the market. He applied for several jobs over the summer, hoping a bigger club would offer a better contract. Every application was turned down.\n\nSo it's another season at Sundby, now in the 2. Division. Pre-season is under way, and the trial process has turned up two highly rated teenage wingers, Gabriel Santos and David Manata, along with Ishøj goalkeeper Marius Kruse.\n\nThe first summer signing went through: left-back Hüseyin Tümtürk, 21, joined on a free from relegated Holbæk on £9.25K a year until 2028. That's more than double what his manager earns. To make room, two left-backs left the club: Magnus Vandal and the 33-year-old Nicolai Johannessen.",
    "players": [
     "huseyin-tumturk"
    ]
